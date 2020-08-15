@@ -58,7 +58,7 @@ lessons:
         file: Вежба 2 - Заштита приватности личних података.rst
         description: #opciono
         guid: 2b025902-d3b2-4b27-b326-fc2df03a0fe7
-      -  type: quiz 
+      - type: quiz 
         title: Квиз прве лекције
         folder: Час 2.1. Заштита личних података. Права детета у дигиталном добу
         file: Квиз прве лекције.rst
