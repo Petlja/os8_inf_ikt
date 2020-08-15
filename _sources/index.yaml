@@ -1,67 +1,67 @@
-courseId: kurs-primer
+courseId: 8_razred_IKT_DigitalnaPismenost
 lang: sr-Cyrl
-title: Пример курса
+title: Информационо-комуникациона технологија и дигитална писменост
 description:
   willLearn: # list
-    - Научићете 1
-    - Научићете 2
+    - научиш шта су лични подаци;
+    - разумеш на које све начине делимо личне податке приликом коришћења интернета;
+    - разумш потенцијалне ризике дељења личних података путем интернета, поготову личних података деце;
+    - разумеш везу између ризика на интернету и кршења права;
+    - научиш шта су „отворени подаци”; 
+    - успоставиш везу између отварања података и стварања услова за развој иновација и привредних грана за које су доступни отворени подаци.
   requirements:
-    - Имаш инсталиран Пајтон
-    - Имаш инсталиран Петљадок
+    - Имаш инсталиран програм за табеларне прорачуне
+    - Рачунар са приступом интернету
   toc:
-    - Пример_лекције
-    - Пример_лекције2
+    - Заштита личних података. Права детета у дигиталном добу
+    - Отворени подаци.
+
   externalLinks: # opciono 
-    - text: Синтакса restructuredText
-      href: https://docutils.sourceforge.io/docs/user/rst/quickref.html
-    - text: Синтакса restructuredText 2
-      href: https://www.sphinx-doc.org/en/master/usage/restructuredtext/index.html
-
+    - text: Паметно и безбедно
+      href: https://pametnoibezbedno.gov.rs/
+    - text: Нет патрола
+      href: http://www.netpatrola.rs/
+    - text: Кликни безбедно
+      href: https://kliknibezbedno.wordpress.com/opsta-bezbednst-na-internetu/
+    - text: Шта је дигитално насиље и како да га зауставимо
+      href: https://www.unicef.org/serbia/zaustavimo-digitalno-nasilje
+    - text: Све боје интернета
+      href: https://www.youtube.com/playlist?list=PLG6HMr6sRAxk5fYkFHmTrZEFoY4dkhE_V
+      
 lessons:
-  - title: Naslov_1
-    folder: Пример_лекција1
-    guid: c2c651cd-53d9-4a3d-ba4f-650b8422f0bc
-    description: Прва лекција
+  - title: Час 2.1. Заштита личних података. Права детета у дигиталном добу
+    folder: Час 2.1. Заштита личних података. Права детета у дигиталном добу
+    guid: 315d898c-ec52-48bc-acdf-8524b774611e
+    description: Прва лекција 
     activities:
       - type: reading
-        title: Пример фајла
-        file: primer_1.rst
+        title: Заштита личних података
+        folder: Час 2.1. Заштита личних података. Права детета у дигиталном добу
+        file: Заштита личних података.rst
         description: #opciono
-        guid: 71c00155-f7f3-410d-8019-e88d22cb7f01
+        guid: 65418556-0344-47b3-a555-58e77ef2dcd1
       - type: reading
-        title: Пример pdf фајла
-        file: primer_dokument.pdf
-        description: ...
-        guid: d90350ae-84e4-4e49-bac8-2d4849e3c409
-      - type: video
-        title: Пример видеа
-        url: https://www.youtube.com/watch?v=flu3-ntQIlE # može da se navede i ceo YT url, a može i samo ID (id u bilo kom yt linku predstavlja 11 karatkera nakon v=)
-        description: ...
-        guid: 61657689-aa6b-46c9-87da-51869d6477ee
-      - type: quiz 
-        title: Пример теста
-        file: primer_test_1.rst
-        description: ...
-        guid: a725f29a-b323-4a1a-b52d-6eae141bc243
-    archived-activities: # ne smeta ni ako se ostave drugi atribudi iz aktivnosti, ali se gleda samo guid
-      - guid: de4d8ced-7457-4257-a156-250bdb711d65
-      - guid: 22752682-f23f-4df7-b590-e22780fda0a3
-  - title: Naslov_2
-    folder: Пример_лекција2
-    guid: c79a8591-ad06-4e46-9d4d-8ecb5361cf8c
-    description:  Друга лекција
-    activities:
-      - type: reading
-        title: Primer rst fajla
-        file: primer_2.rst
+        title: Права детета у дигиталном добу
+        folder: Час 2.1. Заштита личних података. Права детета у дигиталном добу
+        file: Права детета у дигиталном добу.rst
         description: #opciono
-        guid: 4576c9a4-2071-4a21-b221-a646477e05be   
-archived-lessons: # ne smeta ni ako se ostave drugi atribudi iz aktivnosti, ali se gleda samo guid
-  - guid: 3ced8ac6-8be7-4921-bea7-dccf89a7cc79
-  - guid: 29a3a23a-0cdb-4a2b-ad6b-611d36c39db5
-
-
-
-
-
-
+        guid: f38318c5-a9bd-4381-9c30-bb070f07c896
+      - type: reading
+        title: Вежба 1 - Дељење и контрола личних података
+        folder: Час 2.1. Заштита личних података. Права детета у дигиталном добу
+        file: Вежба 1 - Дељење и контрола личних података.rst
+        description: #opciono
+        guid: d2c51875-7040-4bc5-9c01-1612fa731415
+      - type: reading
+        title: Вежба 2 - Заштита приватности личних података
+        folder: Час 2.1. Заштита личних података. Права детета у дигиталном добу
+        file: Вежба 2 - Заштита приватности личних података.rst
+        description: #opciono
+        guid: 2b025902-d3b2-4b27-b326-fc2df03a0fe7
+      -  type: quiz 
+        title: Квиз прве лекције
+        folder: Час 2.1. Заштита личних података. Права детета у дигиталном добу
+        file: Квиз прве лекције.rst
+        description: #opciono
+        guid: 0a625cf8-2208-433a-b9ec-b11f48d3e969
+  
