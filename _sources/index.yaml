@@ -57,7 +57,7 @@ lessons:
     folder: E00
     guid: d0425350-c866-4df8-9d3d-9a44d6cc4884
     activities:
-      - type: section
+      - type: reading
         title: ИКТ
         file: E00.rst
         guid: d799d350-0937-43bf-b24e-d4312aee6e8e
@@ -164,7 +164,7 @@ lessons:
     folder: DP00
     guid: 1a77560b-51ec-488b-83f7-4acb25a5e2b1
     activities:
-      - type: section
+      - type: reading
         title: ИКТ
         file: DP00.rst
         guid: 96b17bc5-8a1f-4a50-9543-13f7c9fcc6b1
