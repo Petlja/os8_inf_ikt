@@ -35,7 +35,7 @@ description:
     - ИКТ.8. Рад са дељеним табелама
     - ДИГИТАЛНА ПИСМЕНОСТ (ДП)
     - ДП.1. Заштита личних података. Права детета у дигиталном добу
-    - ДП.2. Отворени подаци.
+    - ДП.2. Отворени подаци
 
   externalLinks: # opciono 
     - text: Паметно и безбедно
@@ -58,10 +58,10 @@ lessons:
     guid: d0425350-c866-4df8-9d3d-9a44d6cc4884
     activities:
       - type: reading
-        title: ИКТ
+        title: Исходи
         file: E00.rst
         guid: d799d350-0937-43bf-b24e-d4312aee6e8e
-  - title: ИКТ.1.
+  - title: ИКТ.1. Увод у рад са програмима за табеларна израчунавања
     folder: E01
     guid: f77c8f05-b8d8-4190-8432-deb8f2bb7d13
     activities:
@@ -73,7 +73,7 @@ lessons:
         title: Тест
         file: testE01.rst
         guid: d6d48387-1fda-4483-ae01-9f15114963bd
-  - title: ИКТ.2.
+  - title: ИКТ.2. Аутоматска рекалкулација
     folder: E02
     guid: 78721466-c43e-411a-bd0b-cf8af3261f8e
     activities:
@@ -85,7 +85,7 @@ lessons:
         title: Тест
         file: testE02.rst
         guid: 522ef612-ffde-4b75-9e27-0f712542dd75
-  - title: ИКТ.3.
+  - title: ИКТ.3. Селектовање групе ћелија и уређивање табеле
     folder: E03
     guid: ff4d9b25-0553-431e-8353-a451da635c1d
     activities:
@@ -97,7 +97,7 @@ lessons:
         title: Тест
         file: testE03.rst
         guid: 4c88c1c0-fe19-43b5-a4d6-22715d1a5fe4
-  - title: ИКТ.4.
+  - title: ИКТ.4. Разне врсте података у табели
     folder: E04
     guid: 93e7639e-a018-4de7-9505-27272dfd6bba
     activities:
@@ -109,7 +109,7 @@ lessons:
         title: Тест
         file: testE04.rst
         guid: 5c029f15-e7aa-4ec4-85ca-53f624045595
-  - title: ИКТ.5.
+  - title: ИКТ.5. Штампање и генерисање ПДФ документа
     folder: E05
     guid: 41eb23b9-c0b7-4fc9-8f5c-96fa2293fb74
     activities:
@@ -121,7 +121,7 @@ lessons:
         title: Тест
         file: testE05.rst
         guid: c587a2e3-79ef-49c2-a8bc-f1270b41cb91
-  - title: ИКТ.6.
+  - title: ИКТ.6. Визуелизација података
     folder: E07
     guid: 62a696f2-3baf-4f45-b791-376039395436
     activities:
@@ -133,7 +133,7 @@ lessons:
         title: Тест
         file: testE07.rst
         guid: f8625dbe-1a47-498c-8198-643397002298
-  - title: ИКТ.7.
+  - title: ИКТ.7. Сортирање, филтрирање и фреквенцијска анализа
     folder: E08
     guid: 91227beb-1a72-406f-8ba5-e74aaac21eb4
     activities:
@@ -145,7 +145,7 @@ lessons:
         title: Тест
         file: testE08.rst
         guid: 54fc969f-fe03-4d65-81ad-40c8a07650c1
-  - title: ИКТ.8.
+  - title: ИКТ.8. Рад са дељеним табелама
     folder: E10
     guid: bdd702fa-7fca-44fe-b95b-47530eb5efb4
     activities:
@@ -165,10 +165,10 @@ lessons:
     guid: 1a77560b-51ec-488b-83f7-4acb25a5e2b1
     activities:
       - type: reading
-        title: ИКТ
+        title: Исходи
         file: DP00.rst
         guid: 96b17bc5-8a1f-4a50-9543-13f7c9fcc6b1
-  - title: ДП.1.
+  - title: ДП.1. Заштита личних података. Права детета у дигиталном добу
     folder: Час 2.1. Заштита личних података. Права детета у дигиталном добу
     guid: 315d898c-ec52-48bc-acdf-8524b774611e
     description: Прва лекција 
@@ -203,7 +203,7 @@ lessons:
         file: Квиз прве лекције.rst
         description: #opciono
         guid: 0a625cf8-2208-433a-b9ec-b11f48d3e969
-  - title: ДП.2.
+  - title: ДП.2. Отворени подаци
     folder: Час 2.2. Отворени подаци
     guid: e9c64f8a-3993-4214-b132-4b0e29cdbc4c
     description: Друга лекција 
