@@ -178,13 +178,8 @@ lessons:
         title: Исходи
         file: DP00.rst
         guid: 96b17bc5-8a1f-4a50-9543-13f7c9fcc6b1
-<<<<<<< HEAD
   - title: ДП.1. Заштита личних података. Права детета у дигиталном добу
     folder: Час 2.1. Заштита личних података. Права детета у дигиталном добу
-=======
-  - title: ДП.1.
-    folder: 2.1. Заштита личних података. Права детета у дигиталном добу
->>>>>>> b503dad2eb608380ee1eea048626e4ebc779e419
     guid: 315d898c-ec52-48bc-acdf-8524b774611e
     description: Прва лекција 
     activities:
@@ -218,13 +213,8 @@ lessons:
         file: Квиз прве лекције.rst
         description: #opciono
         guid: 0a625cf8-2208-433a-b9ec-b11f48d3e969
-<<<<<<< HEAD
   - title: ДП.2. Отворени подаци
     folder: Час 2.2. Отворени подаци
-=======
-  - title: ДП.2.
-    folder: 2.2. Отворени подаци
->>>>>>> b503dad2eb608380ee1eea048626e4ebc779e419
     guid: e9c64f8a-3993-4214-b132-4b0e29cdbc4c
     description: Друга лекција 
     activities:
