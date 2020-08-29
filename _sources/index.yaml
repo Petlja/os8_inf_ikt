@@ -80,7 +80,7 @@ lessons:
         file: E01.rst
         guid: 6e09f3e9-24ae-4cf6-9773-7f514756c139
       - type: quiz 
-        title: Тест
+        title: Квиз
         file: testE01.rst
         guid: d6d48387-1fda-4483-ae01-9f15114963bd
   - title: ИКТ.2. Аутоматска рекалкулација
@@ -92,7 +92,7 @@ lessons:
         file: E02.rst
         guid: 52f81b05-f499-429a-8089-4a27c38cd6cc
       - type: quiz 
-        title: Тест
+        title: Квиз
         file: testE02.rst
         guid: 522ef612-ffde-4b75-9e27-0f712542dd75
   - title: ИКТ.3. Селектовање групе ћелија и уређивање табеле
@@ -104,7 +104,7 @@ lessons:
         file: E03.rst
         guid: f8400a28-db53-4a3e-b537-3a9d0514e465
       - type: quiz 
-        title: Тест
+        title: Квиз
         file: testE03.rst
         guid: 4c88c1c0-fe19-43b5-a4d6-22715d1a5fe4
   - title: ИКТ.4. Разне врсте података у табели
@@ -116,7 +116,7 @@ lessons:
         file: E04.rst
         guid: 70b1d499-6205-4990-888d-13f1409b6a92
       - type: quiz 
-        title: Тест
+        title: Квиз
         file: testE04.rst
         guid: 5c029f15-e7aa-4ec4-85ca-53f624045595
   - title: ИКТ.5. Штампање и генерисање ПДФ документа
@@ -128,7 +128,7 @@ lessons:
         file: E05.rst
         guid: 6b7ffed1-94a2-497d-8fd2-2e7938502faf
       - type: quiz 
-        title: Тест
+        title: Квиз
         file: testE05.rst
         guid: c587a2e3-79ef-49c2-a8bc-f1270b41cb91
   - title: ИКТ.6. Визуелизација података
@@ -140,7 +140,7 @@ lessons:
         file: E07.rst
         guid: 823dc087-b5b4-4194-91e2-a499f7c03692
       - type: quiz 
-        title: Тест
+        title: Квиз
         file: testE07.rst
         guid: f8625dbe-1a47-498c-8198-643397002298
   - title: ИКТ.7. Сортирање, филтрирање и фреквенцијска анализа
@@ -152,7 +152,7 @@ lessons:
         file: E08.rst
         guid: d171f716-f17e-429e-a531-206a81010389
       - type: quiz 
-        title: Тест
+        title: Квиз
         file: testE08.rst
         guid: 54fc969f-fe03-4d65-81ad-40c8a07650c1
   - title: ИКТ.8. Рад са дељеним табелама
@@ -164,7 +164,7 @@ lessons:
         file: E10.rst
         guid: 1e346279-ce88-48e0-bc04-068d27400a9b
       - type: quiz 
-        title: Тест
+        title: Квиз
         file: testE10.rst
         guid: 6d5f32c9-8d8f-4907-8849-d453e254e906
   #########################################################################
