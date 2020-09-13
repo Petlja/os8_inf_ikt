@@ -60,11 +60,11 @@
    :align: left 
 
 .. image:: ../../_images/STEMsaglasnost2.png
-   :width: 350 px
+   :width: 450 px
    :align: right 
 
 .. image:: ../../_images/STEMsaglasnost3.png
-   :width: 350 px
+   :width: 450 px
    :align: right 
 
 Због свега наведеног је потребно да разумете улогу одраслих, родитеља, наставника, креатора интернет садржаја и јавних политика у заштити ваших права у дигиталном окружењу. 
