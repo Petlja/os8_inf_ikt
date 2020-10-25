@@ -72,6 +72,13 @@
    :width: 600px
    :align: center
 
+Ево и кратког видеа:
+
+.. ytpopup:: f6Z-OHR3PlU
+   :width: 735
+   :height: 415
+   :align: center
+
 
 Приказивање бројева  у облику процента
 ---------------------------------------
@@ -143,6 +150,12 @@
    :width: 600px
    :align: center
 
+Ево и кратког видеа:
+
+.. ytpopup:: u0rJyzPwLOA
+   :width: 735
+   :height: 415
+   :align: center
 
 Спајање ћелија и промена величине слова
 ----------------------------------------
@@ -197,6 +210,12 @@
    :width: 600px
    :align: center
 
+Ево и кратког видеа:
+
+.. ytpopup:: DI9jYQNYPzI
+   :width: 735
+   :height: 415
+   :align: center
 
 **Корак 7.** Ћелије B2, C2, D2 поравнај по десној ивици:
 
@@ -231,6 +250,13 @@
 
 
 Сними је.
+
+Ево и кратког видеа:
+
+.. ytpopup:: txGfFfqBvYw
+   :width: 735
+   :height: 415
+   :align: center
 
 Штампање документа
 -------------------
@@ -301,6 +327,13 @@
    :width: 600px
    :align: center
 
+Ево и кратког видеа:
+
+.. ytpopup:: rF6DlDnVTkI
+   :width: 735
+   :height: 415
+   :align: center
+
 
 Снимање документа у ПДФ формату
 --------------------------------
@@ -353,6 +386,12 @@
    :width: 600px
    :align: center
 
+Ево и кратког видеа:
+
+.. ytpopup:: Yu2hLG0wkLs
+   :width: 735
+   :height: 415
+   :align: center
 
 Задаци
 -------

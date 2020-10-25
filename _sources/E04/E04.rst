@@ -116,6 +116,13 @@
    :width: 600px
    :align: center
 
+Ево и кратког видеа који илуструје овај поступак:
+
+.. ytpopup:: -mwmmFrO1so
+   :width: 735
+   :height: 415
+   :align: center
+
 
 Табела сада изгледа овако:
 
@@ -207,6 +214,13 @@
 
 .. image:: ../../_images/DataTypes103.jpg
    :width: 600px
+   :align: center
+
+Ево и кратког видеа:
+
+.. ytpopup:: KbKIapv2gaE
+   :width: 735
+   :height: 415
    :align: center
 
 
@@ -356,6 +370,14 @@
 
 .. image:: ../../_images/DataTypes120.jpg
    :width: 600px
+   :align: center
+
+
+Ево и кратког видеа:
+
+.. ytpopup:: mN6BBRHD3CA
+   :width: 735
+   :height: 415
    :align: center
 
 
