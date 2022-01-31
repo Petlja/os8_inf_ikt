@@ -14,9 +14,11 @@
 
 Први електронски рачунар, ENIAC, прорадио је 12. јула 1946. године на универзитету Илиној у Чикагу, САД.
 
-.. figure:: https://images.computerhistory.org/revonline/images/102618640-03-01.jpg?w=500
+.. figure:: ../../_images/eniac.jpg
 
-   ENIAC (Слика је преузета и доступна на www.computerhistory.org)
+   ENIAC
+   
+   извор: (Science Photo Library, NTB scanpix), слика објављена под `Ауторство-Некомерцијално-Делити под истим условима 4.0 Међународном лиценцом (CC BY-NC-SA 4.0) <https://creativecommons.org/licenses/by-nc-sa/4.0/deed.sr_LATN>`_
 
 Иако су и пре ENIACа постојале разне рачунске машине, ENIAC је означио почетак потпуно нове ере у развоју
 савремене цивилизације: из данашње перспективе је јасно да су електронски рачунари потпуно променили начин
@@ -32,9 +34,12 @@
 типично људске активности као што је играње шаха. Један од пионира вештачке интелигенције, Алан Тјуринг (Alan Turing)
 је о томе писао још давне 1950. године у свом чланку `Computing machinery and intelligence <https://academic.oup.com/mind/article/LIX/236/433/986238>`_.
 
-.. figure:: https://images.computerhistory.org/revonline/images/102680038-03-01.jpg?w=400
+.. figure:: ../../_images/Alan_Turing.jpg
+   :height: 500px
 
-   Алан Тјуринг (Alan Turing, 1912-1954; Слика је преузета и доступна на www.computerhistory.org)
+   Алан Тјуринг (Alan Turing, 1912-1954)
+   
+   Непознат аутор, лиценца: Public Domain, извор: Wikimedia Commons
 
 Алан Тјуринг је аутор првог програма за играње шаха. Прва партија шаха између човека и рачунарског програма одиграна је 1952. године,
 а одиграли су је Алик Глени (Alick Glennie) и Алан Тјуринг, при чему је Тјуринг играо тако што је глумио рачунар и извршавао свој програм
@@ -62,9 +67,11 @@
     као што то раде људи.* (Џон Мекарти)
 
 
-.. figure:: https://media.wired.com/photos/59327c7752d99d6b984dee6e/master/w_1920,c_limit/john-mccarthy.png
+.. figure:: ../../_images/John_McCarthy.jpg
 
-   Џон Мекарти (John McCarthy, 1927-2011; Слика је преузета и доступна на www.wired.com)
+   Џон Мекарти (John McCarthy, 1927-2011)
+   
+   аутор фотографије: ``null0``, слика је објављена под `Ауторство-Делити под истим условима 2.0 Генеричком лиценцом (CC BY-SA 2.0) <https://creativecommons.org/licenses/by-sa/2.0>`_, извор: Wikimedia Commons
 
 
 
@@ -155,9 +162,12 @@
 Испитаник зна да је један од та два ентитета човек, а други рачунарски програм и његов задатак је да после неког времена
 проведеног у разговору утврди који ентитет је човек, а који рачунар.
 
-.. figure:: https://upload.wikimedia.org/wikipedia/commons/5/55/Turing_test_diagram.png
+.. figure:: ../../_images/TuringTest.jpg
 
-   Тјурингов тест (Слика је преузета и доступна на www.wikipedia.org)
+   Тјурингов тест
+
+   аутор слике: ``Juan Alberto Sánchez Margallo``, слика је објављена под `Ауторство 2.5 Генеричком лиценцом (CC BY 2.5) <https://creativecommons.org/licenses/by/2.5/deed.sr_LATN>`_, извор: Wikimedia Commons
+
 
 Према Тјуринговим ставовима рачунарски програм се сматра вештачки интелигентним ако победи у више од 50% случајева.
 
