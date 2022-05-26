@@ -1,10 +1,10 @@
-# Programiranje za prvi razred specijalizovanih IT odeljenja 
+# IKT i digitalna pismenost za osmi razred
 
-Ovaj repozitorijum posvećen je kursu za Programiranje za prvi razred specijalizovanih IT odeljenja. 
+Ovaj repozitorijum posvećen je kursu za IKT i digitalnu pismenost za osmi razred. 
 
-Kurs je na Petljom portalu dotupan ovde: [https://petlja.org/kurs/369/0](https://petlja.org/kurs/369/)
+Kurs je na Petljom portalu dotupan ovde: [https://petlja.org/kurs/482/0](https://petlja.org/kurs/482/)
 
-Kurs možete itegrisati u svoj LMS koristeći SCORM pakete koji se mogu preuzeti sa: https://github.com/Petlja/specit1_prog/releases
+Kurs možete itegrisati u svoj LMS koristeći SCORM pakete koji se mogu preuzeti sa: https://github.com/Petlja/os8_inf_ikt/releases
 
 ## Konverzija u *HTML*
 
