@@ -1,0 +1,712 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="sr-Cyrl">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Садашњост и будућност вештачке интелигенције - етичка питања</title>
+    <link rel="stylesheet" type="text/css" href="../_static/activecode.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/codemirror.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/clickable.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/pytutor.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/modal-basic.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/datafile.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/dragndrop.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/fitb.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/matrixeq.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/parsons.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/lib/prettify.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/poll.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/showEval.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/tabbedstuff.css" />
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/video.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/webgldemo.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/webglinteractive.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/karel.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/notes.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/simanim.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/pycode.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/p5js.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/gallery.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/dbDirective.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/associations.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/regex-check.css" />
+    <link rel="stylesheet" href="../_static/basic.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/user-highlights.css" type="text/css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" type="text/css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" type="text/css" />
+    <link rel="stylesheet" href="../_static/bootstrap-4.0.0-dist/css/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/flatly.min.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/petlja-course.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/nbstyle.css" type="text/css" />
+    <script id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+    <script type="text/javascript" src="../_static/runestonebase.js"></script>
+    <script type="text/javascript" src="../_static/skulpt.min.js"></script>
+    <script type="text/javascript" src="../_static/skulpt-stdlib.js"></script>
+    <script type="text/javascript" src="../_static/jquery.js"></script>
+    <script type="text/javascript" src="../_static/underscore.js"></script>
+    <script type="text/javascript" src="../_static/doctools.js"></script>
+    <script type="text/javascript" src="../_static/language_data.js"></script>
+    <script type="text/javascript" src="../_static/jquery.highlight.js"></script>
+    <script type="text/javascript" src="../_static/bookfuncs.js"></script>
+    <script type="text/javascript" src="../_static/codemirror.js"></script>
+    <script type="text/javascript" src="../_static/xml.js"></script>
+    <script type="text/javascript" src="../_static/css.js"></script>
+    <script type="text/javascript" src="../_static/python.js"></script>
+    <script type="text/javascript" src="../_static/htmlmixed.js"></script>
+    <script type="text/javascript" src="../_static/javascript.js"></script>
+    <script type="text/javascript" src="../_static/jquery_i18n/CLDRPluralRuleParser.js"></script>
+    <script type="text/javascript" src="../_static/jquery_i18n/jquery.i18n.js"></script>
+    <script type="text/javascript" src="../_static/jquery_i18n/jquery.i18n.messagestore.js"></script>
+    <script type="text/javascript" src="../_static/jquery_i18n/jquery.i18n.fallbacks.js"></script>
+    <script type="text/javascript" src="../_static/jquery_i18n/jquery.i18n.language.js"></script>
+    <script type="text/javascript" src="../_static/jquery_i18n/jquery.i18n.parser.js"></script>
+    <script type="text/javascript" src="../_static/jquery_i18n/jquery.i18n.emitter.js"></script>
+    <script type="text/javascript" src="../_static/jquery_i18n/jquery.i18n.emitter.bidi.js"></script>
+    <script type="text/javascript" src="../_static/activecode-i18n.en.js"></script>
+    <script type="text/javascript" src="../_static/activecode-i18n.sr-Cyrl.js"></script>
+    <script type="text/javascript" src="../_static/activecode.js"></script>
+    <script type="text/javascript" src="../_static/clike.js"></script>
+    <script type="text/javascript" src="../_static/timed_activecode.js"></script>
+    <script type="text/javascript" src="../_static/animationbase.js"></script>
+    <script type="text/javascript" src="../_static/mchoice.js"></script>
+    <script type="text/javascript" src="../_static/timedmc.js"></script>
+    <script type="text/javascript" src="../_static/timed.js"></script>
+    <script type="text/javascript" src="../_static/mchoice-i18n.en.js"></script>
+    <script type="text/javascript" src="../_static/mchoice-i18n.sr-Cyrl.js"></script>
+    <script type="text/javascript" src="../_static/clickable.js"></script>
+    <script type="text/javascript" src="../_static/timedclickable.js"></script>
+    <script type="text/javascript" src="../_static/d3.v2.min.js"></script>
+    <script type="text/javascript" src="../_static/jquery.ba-bbq.min.js"></script>
+    <script type="text/javascript" src="../_static/jquery.jsPlumb-1.3.10-all-min.js"></script>
+    <script type="text/javascript" src="../_static/pytutor.js"></script>
+    <script type="text/javascript" src="../_static/codelens.js"></script>
+    <script type="text/javascript" src="../_static/skulpt.min.js"></script>
+    <script type="text/javascript" src="../_static/skulpt-stdlib.js"></script>
+    <script type="text/javascript" src="../_static/datafile.js"></script>
+    <script type="text/javascript" src="../_static/dragndrop.js"></script>
+    <script type="text/javascript" src="../_static/timeddnd.js"></script>
+    <script type="text/javascript" src="../_static/dragndrop-i18n.en.js"></script>
+    <script type="text/javascript" src="../_static/dragndrop-i18n.sr-Cyrl.js"></script>
+    <script type="text/javascript" src="../_static/fitb.js"></script>
+    <script type="text/javascript" src="../_static/timedfitb.js"></script>
+    <script type="text/javascript" src="../_static/fitb-i18n.en.js"></script>
+    <script type="text/javascript" src="../_static/fitb-i18n.sr-Cyrl.js"></script>
+    <script type="text/javascript" src="../_static/matrixeq.js"></script>
+    <script type="text/javascript" src="../_static/lib/prettify.js"></script>
+    <script type="text/javascript" src="../_static/lib/hammer.min.js"></script>
+    <script type="text/javascript" src="../_static/parsons.js"></script>
+    <script type="text/javascript" src="../_static/parsons-i18n.en.js"></script>
+    <script type="text/javascript" src="../_static/parsons-i18n.sr-Cyrl.js"></script>
+    <script type="text/javascript" src="../_static/timedparsons.js"></script>
+    <script type="text/javascript" src="../_static/poll.js"></script>
+    <script type="text/javascript" src="../_static/reveal.js"></script>
+    <script type="text/javascript" src="../_static/shortanswer.js"></script>
+    <script type="text/javascript" src="../_static/timed_shortanswer.js"></script>
+    <script type="text/javascript" src="../_static/showEval.js"></script>
+    <script type="text/javascript" src="../_static/tabbedstuff.js"></script>
+    <script type="text/javascript" src="../_static/runestonevideo.js"></script>
+    <script type="text/javascript" src="../_static/webglinteractive.js"></script>
+    <script type="text/javascript" src="../_static/FileSaver.min.js"></script>
+    <script type="text/javascript" src="../_static/Blob.js"></script>
+    <script type="text/javascript" src="../_static/karelCorner.js"></script>
+    <script type="text/javascript" src="../_static/karelRobot.js"></script>
+    <script type="text/javascript" src="../_static/karelWorld.js"></script>
+    <script type="text/javascript" src="../_static/karelRobotDrawer.js"></script>
+    <script type="text/javascript" src="../_static/karelUI.js"></script>
+    <script type="text/javascript" src="../_static/karel.js"></script>
+    <script type="text/javascript" src="../_static/karel-i18n.en.js"></script>
+    <script type="text/javascript" src="../_static/karel-i18n.sr-Cyrl.js"></script>
+    <script type="text/javascript" src="../_static/notes.js"></script>
+    <script type="text/javascript" src="../_static/pygamelib-init.js"></script>
+    <script type="text/javascript" src="../_static/blockly/blockly_compressed.js"></script>
+    <script type="text/javascript" src="../_static/blockly/blocks_compressed.js"></script>
+    <script type="text/javascript" src="../_static/blockly/python_compressed.js"></script>
+    <script type="text/javascript" src="../_static/blockly/msg-sr.js"></script>
+    <script type="text/javascript" src="../_static/blockpy/utilities.js"></script>
+    <script type="text/javascript" src="../_static/blockpy/python_errors.js"></script>
+    <script type="text/javascript" src="../_static/blockpy/ast_node_visitor.js"></script>
+    <script type="text/javascript" src="../_static/blockpy/abstract_interpreter.js"></script>
+    <script type="text/javascript" src="../_static/blockpy/pytifa.js"></script>
+    <script type="text/javascript" src="../_static/blockpy/abstract_interpreter_definitions.js"></script>
+    <script type="text/javascript" src="../_static/blockpy/python_to_blockly.js"></script>
+    <script type="text/javascript" src="../_static/blockpy/imported.js"></script>
+    <script type="text/javascript" src="../_static/blockpy/blocks/class.js"></script>
+    <script type="text/javascript" src="../_static/blockpy/blocks/comment.js"></script>
+    <script type="text/javascript" src="../_static/blockpy/blocks/comprehensions.js"></script>
+    <script type="text/javascript" src="../_static/blockpy/blocks/dict.js"></script>
+    <script type="text/javascript" src="../_static/blockpy/blocks/if.js"></script>
+    <script type="text/javascript" src="../_static/blockpy/blocks/io.js"></script>
+    <script type="text/javascript" src="../_static/blockpy/blocks/lists.js"></script>
+    <script type="text/javascript" src="../_static/blockpy/blocks/sets.js"></script>
+    <script type="text/javascript" src="../_static/blockpy/blocks/loops.js"></script>
+    <script type="text/javascript" src="../_static/blockpy/blocks/parking.js"></script>
+    <script type="text/javascript" src="../_static/blockpy/blocks/tuple.js"></script>
+    <script type="text/javascript" src="../_static/blockpy/blocks/turtles.js"></script>
+    <script type="text/javascript" src="../_static/blockpy/blocks/text.js"></script>
+    <script type="text/javascript" src="../_static/blockpy-modal.js"></script>
+    <script type="text/javascript" src="../_static/simanim.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/pyodide/v0.16.1/full/pyodide.js"></script>
+    <script type="text/javascript" src="../_static/pycode.js"></script>
+    <script type="text/javascript" src="//toolness.github.io/p5.js-widget/p5-widget.js"></script>
+    <script type="text/javascript" src="../_static/p5js.js"></script>
+    <script type="text/javascript" src="../_static/gallery.js"></script>
+    <script type="text/javascript" src="../_static/dbDirective.js"></script>
+    <script type="text/javascript" src="../_static/sql.js"></script>
+    <script type="text/javascript" src="../_static/associations.js"></script>
+    <script type="text/javascript" src="../_static/associations-i18n.en.js"></script>
+    <script type="text/javascript" src="../_static/associations-i18n.sr-Cyrl.js"></script>
+    <script type="text/javascript" src="../_static/regex-check.js"></script>
+    <script type="text/javascript" src="../_static/regex-check-i18n.en.js"></script>
+    <script type="text/javascript" src="../_static/regex-check-i18n.sr-Cyrl.js"></script>
+    <script type="text/javascript" src="../_static/translations.js"></script>
+    <script async="async" type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <script type="text/javascript" src="../_static/jquery-ui-1.10.3.custom.min.js"></script>
+    <script type="text/javascript" src="../_static/jquery-fix.js"></script>
+    <script type="text/javascript" src="../_static/bootstrap-4.0.0-dist/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="../_static/bootstrap-4.0.0-dist/js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript" src="../_static/bootstrap-sphinx.js"></script>
+    <script type="text/javascript" src="../_static/waypoints.min.js"></script>
+    <script type="text/javascript" src="../_static/rangy-core.js"></script>
+    <script type="text/javascript" src="../_static/rangy-textrange.js"></script>
+    <script type="text/javascript" src="../_static/rangy-cssclassapplier.js"></script>
+    <script type="text/javascript" src="../_static/user-highlights.js"></script>
+    <script type="text/javascript" src="../_static/jquery.idle-timer.js"></script>
+    <script type="text/javascript" src="../_static/processing-1.4.1.min.js"></script>
+    <script type="text/javascript" src="../_static/jquery.hotkey.js"></script>
+    <script type="text/javascript" src="../_static/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="../_static/course-errors.js"></script>
+    <script type="text/javascript" src="../_static/petlja.js"></script>
+    <script type="text/javascript" src="../_static/require.js"></script>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'>
+    <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
+    <link rel="shortcut icon" href="../_static/favicon.ico" type="image/ico" />
+    <script type="text/javascript">
+      eBookConfig = {};
+      eBookConfig.host = 'http://127.0.0.1:8000' ? 'http://127.0.0.1:8000' : 'http://127.0.0.1:8000';
+      eBookConfig.app = eBookConfig.host + '/runestone';
+      eBookConfig.ajaxURL = eBookConfig.app + '/ajax/';
+      eBookConfig.course = '8_razred_IKT_DigitalnaPismenost';
+      eBookConfig.logLevel = '0';
+      eBookConfig.loginRequired = 'false';
+      eBookConfig.build_info = "";
+      eBookConfig.isLoggedIn = false;
+      eBookConfig.useRunestoneServices = false;
+      eBookConfig.python3 = true;
+      eBookConfig.basecourse = 'Primer_kurs';
+      eBookConfig.runestone_version = '';
+      eBookConfig.imagesDir = '../_images/';
+      eBookConfig.staticDir = '../_static/';
+      if (typeof (Sk) != "undefined")
+        Sk.imgPath = eBookConfig.imagesDir;
+    </script>
+
+  </head>
+
+  <body>
+
+
+
+<div id="navbar" class="content-header">
+  <div class="right-side-nav">
+    
+    <div id="usefulLinksToggle" class="useful-links-toggle">
+        <a class="dropdown-toggle dropdown-toggle-burger" role="button" href="#" id="usefulLinksDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <i class="fas fa-bars fa-2x"></i>
+        </a>
+        <div class="dropdown-menu dropdown-nav-links shadow-lg" aria-labelledby="usefulLinksDropdown" x-placement="bottom-start" style="position: absolute; transform: translate3d(-55px, 32px, 0px); top: 0px; left: 0px; will-change: transform;">
+          <div class="links-title"> Корисни линкови</div>
+          <div class="useful-link">
+            <a href="https://pametnoibezbedno.gov.rs/" target="_blank">Паметно и безбедно</a></div>
+          <div class="useful-link">
+            <a href="http://www.netpatrola.rs/" target="_blank">Нет патрола</a></div>
+          <div class="useful-link">
+            <a href="https://kliknibezbedno.wordpress.com/opsta-bezbednst-na-internetu/" target="_blank">Кликни безбедно</a></div>
+          <div class="useful-link">
+            <a href="https://www.unicef.org/serbia/zaustavimo-digitalno-nasilje" target="_blank">Шта је дигитално насиље и како да га зауставимо</a></div>
+          <div class="useful-link">
+            <a href="https://www.youtube.com/playlist?list=PLG6HMr6sRAxk5fYkFHmTrZEFoY4dkhE_V" target="_blank">Све боје интернета</a></div>
+          
+        </div>
+    </div>
+
+    
+</div>
+
+<div class="left-side-nav">
+  <div class="course-logo-nav">
+      <a target="_blank" href="https://petlja.org">
+          <img src="../_static/img/petlja-logo-wt.svg" alt="petlja.org" id="lightPetljaLogo">
+      </a>
+  </div>
+  <div class="course-logo-nav-kabinet">
+      <a target="_blank" href="https://petlja.org/net.kabinet">
+          <img src="../_static/img/netkabinet-logo-strelica-wt.svg" alt="petlja.org" id="lightNetKabinetLogo">
+      </a>
+  </div>
+</div>
+
+
+<div class="content-header-label" id = "content-header-label" href="../">ИКТ и Дигитална писменост</div>
+
+</div>
+
+
+
+
+<div class="petljaCourseContainer">
+
+<div class="petljaCourseContent">
+  
+           <div class="tableOfContent">
+            <h5> Садржај </h5>
+            </div>
+           <div>
+                <div class="courseContentsSection">
+                <div class="lecture-div courseContentsSectionHeadline" id=lecture-E00>
+                    <h5>Информационо-комуникационе технологије (ИКТ)</h5>
+                    <i class="fas fa-angle-down caret-position "> </i>
+                    <i class="fas fa-angle-up caret-position d-none"></i>
+                </div>
+                <div class="courseContentsSubSection d-none"><a href=../E00/E00.html><div class="studioLecture" id=activity-E00><i class="fas fa-file-alt activity-icon"></i>Исходи</div></a>
+                </div>
+            </div>
+                
+                <div class="courseContentsSection">
+                <div class="lecture-div courseContentsSectionHeadline" id=lecture-E01>
+                    <h5>ИКТ.1. Увод у рад са програмима за табеларна израчунавања</h5>
+                    <i class="fas fa-angle-down caret-position "> </i>
+                    <i class="fas fa-angle-up caret-position d-none"></i>
+                </div>
+                <div class="courseContentsSubSection d-none"><a href=../E01/E01.html><div class="studioLecture" id=activity-E01><i class="fas fa-file-alt activity-icon"></i>Лекција</div></a>
+                <a href=../E01/testE01.html><div class="studioLecture" id=activity-testE01><i class="far fa-question-circle activity-icon"></i>Квиз</div></a>
+                </div>
+            </div>
+                
+                <div class="courseContentsSection">
+                <div class="lecture-div courseContentsSectionHeadline" id=lecture-E02>
+                    <h5>ИКТ.2. Аутоматска рекалкулација</h5>
+                    <i class="fas fa-angle-down caret-position "> </i>
+                    <i class="fas fa-angle-up caret-position d-none"></i>
+                </div>
+                <div class="courseContentsSubSection d-none"><a href=../E02/E02.html><div class="studioLecture" id=activity-E02><i class="fas fa-file-alt activity-icon"></i>Лекција</div></a>
+                <a href=../E02/testE02.html><div class="studioLecture" id=activity-testE02><i class="far fa-question-circle activity-icon"></i>Квиз</div></a>
+                </div>
+            </div>
+                
+                <div class="courseContentsSection">
+                <div class="lecture-div courseContentsSectionHeadline" id=lecture-E03>
+                    <h5>ИКТ.3. Селектовање групе ћелија и уређивање табеле</h5>
+                    <i class="fas fa-angle-down caret-position "> </i>
+                    <i class="fas fa-angle-up caret-position d-none"></i>
+                </div>
+                <div class="courseContentsSubSection d-none"><a href=../E03/E03.html><div class="studioLecture" id=activity-E03><i class="fas fa-file-alt activity-icon"></i>Лекција</div></a>
+                <a href=../E03/testE03.html><div class="studioLecture" id=activity-testE03><i class="far fa-question-circle activity-icon"></i>Квиз</div></a>
+                </div>
+            </div>
+                
+                <div class="courseContentsSection">
+                <div class="lecture-div courseContentsSectionHeadline" id=lecture-E04>
+                    <h5>ИКТ.4. Разне врсте података у табели</h5>
+                    <i class="fas fa-angle-down caret-position "> </i>
+                    <i class="fas fa-angle-up caret-position d-none"></i>
+                </div>
+                <div class="courseContentsSubSection d-none"><a href=../E04/E04.html><div class="studioLecture" id=activity-E04><i class="fas fa-file-alt activity-icon"></i>Лекција</div></a>
+                <a href=../E04/testE04.html><div class="studioLecture" id=activity-testE04><i class="far fa-question-circle activity-icon"></i>Квиз</div></a>
+                </div>
+            </div>
+                
+                <div class="courseContentsSection">
+                <div class="lecture-div courseContentsSectionHeadline" id=lecture-E05>
+                    <h5>ИКТ.5. Штампање и генерисање ПДФ документа</h5>
+                    <i class="fas fa-angle-down caret-position "> </i>
+                    <i class="fas fa-angle-up caret-position d-none"></i>
+                </div>
+                <div class="courseContentsSubSection d-none"><a href=../E05/E05.html><div class="studioLecture" id=activity-E05><i class="fas fa-file-alt activity-icon"></i>Лекција</div></a>
+                <a href=../E05/testE05.html><div class="studioLecture" id=activity-testE05><i class="far fa-question-circle activity-icon"></i>Квиз</div></a>
+                </div>
+            </div>
+                
+                <div class="courseContentsSection">
+                <div class="lecture-div courseContentsSectionHeadline" id=lecture-E07>
+                    <h5>ИКТ.6. Визуелизација података</h5>
+                    <i class="fas fa-angle-down caret-position "> </i>
+                    <i class="fas fa-angle-up caret-position d-none"></i>
+                </div>
+                <div class="courseContentsSubSection d-none"><a href=../E07/E07.html><div class="studioLecture" id=activity-E07><i class="fas fa-file-alt activity-icon"></i>Лекција</div></a>
+                <a href=../E07/testE07.html><div class="studioLecture" id=activity-testE07><i class="far fa-question-circle activity-icon"></i>Квиз</div></a>
+                </div>
+            </div>
+                
+                <div class="courseContentsSection">
+                <div class="lecture-div courseContentsSectionHeadline" id=lecture-E08>
+                    <h5>ИКТ.7. Сортирање, филтрирање и фреквенцијска анализа</h5>
+                    <i class="fas fa-angle-down caret-position "> </i>
+                    <i class="fas fa-angle-up caret-position d-none"></i>
+                </div>
+                <div class="courseContentsSubSection d-none"><a href=../E08/E08.html><div class="studioLecture" id=activity-E08><i class="fas fa-file-alt activity-icon"></i>Лекција</div></a>
+                <a href=../E08/testE08.html><div class="studioLecture" id=activity-testE08><i class="far fa-question-circle activity-icon"></i>Квиз</div></a>
+                </div>
+            </div>
+                
+                <div class="courseContentsSection">
+                <div class="lecture-div courseContentsSectionHeadline" id=lecture-E10>
+                    <h5>ИКТ.8. Рад са дељеним табелама</h5>
+                    <i class="fas fa-angle-down caret-position "> </i>
+                    <i class="fas fa-angle-up caret-position d-none"></i>
+                </div>
+                <div class="courseContentsSubSection d-none"><a href=../E10/E10.html><div class="studioLecture" id=activity-E10><i class="fas fa-file-alt activity-icon"></i>Лекција</div></a>
+                <a href=../E10/testE10.html><div class="studioLecture" id=activity-testE10><i class="far fa-question-circle activity-icon"></i>Квиз</div></a>
+                </div>
+            </div>
+                
+                <div class="courseContentsSection">
+                <div class="lecture-div courseContentsSectionHeadline" id=lecture-DP00>
+                    <h5>Дигитална писменост (ДП)</h5>
+                    <i class="fas fa-angle-down caret-position "> </i>
+                    <i class="fas fa-angle-up caret-position d-none"></i>
+                </div>
+                <div class="courseContentsSubSection d-none"><a href=../DP00/DP00.html><div class="studioLecture" id=activity-DP00><i class="fas fa-file-alt activity-icon"></i>Исходи</div></a>
+                </div>
+            </div>
+                
+                <div class="courseContentsSection">
+                <div class="lecture-div courseContentsSectionHeadline" id=lecture-2.1.%20Заштита%20личних%20података.%20Права%20детета%20у%20дигиталном%20добу>
+                    <h5>ДП.1. Заштита личних података. Права детета у дигиталном добу</h5>
+                    <i class="fas fa-angle-down caret-position "> </i>
+                    <i class="fas fa-angle-up caret-position d-none"></i>
+                </div>
+                <div class="courseContentsSubSection d-none"><a href=../2.1.%20Заштита%20личних%20података.%20Права%20детета%20у%20дигиталном%20добу/Заштита%20личних%20података.html><div class="studioLecture" id=activity-Заштита%20личних%20података><i class="fas fa-file-alt activity-icon"></i>Заштита личних података</div></a>
+                <a href=../2.1.%20Заштита%20личних%20података.%20Права%20детета%20у%20дигиталном%20добу/Права%20детета%20у%20дигиталном%20добу.html><div class="studioLecture" id=activity-Права%20детета%20у%20дигиталном%20добу><i class="fas fa-file-alt activity-icon"></i>Права детета у дигиталном добу</div></a>
+                <a href=../2.1.%20Заштита%20личних%20података.%20Права%20детета%20у%20дигиталном%20добу/Вежба%201%20-%20Дељење%20и%20контрола%20личних%20података.html><div class="studioLecture" id=activity-Вежба%201%20-%20Дељење%20и%20контрола%20личних%20података><i class="fas fa-file-alt activity-icon"></i>Вежба 1 - Дељење и контрола личних података</div></a>
+                <a href=../2.1.%20Заштита%20личних%20података.%20Права%20детета%20у%20дигиталном%20добу/Вежба%202%20-%20Заштита%20приватности%20личних%20података.html><div class="studioLecture" id=activity-Вежба%202%20-%20Заштита%20приватности%20личних%20података><i class="fas fa-file-alt activity-icon"></i>Вежба 2 - Заштита приватности личних података</div></a>
+                <a href=../2.1.%20Заштита%20личних%20података.%20Права%20детета%20у%20дигиталном%20добу/Квиз%20прве%20лекције.html><div class="studioLecture" id=activity-Квиз%20прве%20лекције><i class="far fa-question-circle activity-icon"></i>Квиз прве лекције</div></a>
+                </div>
+            </div>
+                
+                <div class="courseContentsSection">
+                <div class="lecture-div courseContentsSectionHeadline" id=lecture-2.2.%20Отворени%20подаци>
+                    <h5>ДП.2. Отворени подаци</h5>
+                    <i class="fas fa-angle-down caret-position "> </i>
+                    <i class="fas fa-angle-up caret-position d-none"></i>
+                </div>
+                <div class="courseContentsSubSection d-none"><a href=../2.2.%20Отворени%20подаци/Отворени%20подаци.html><div class="studioLecture" id=activity-Отворени%20подаци><i class="fas fa-file-alt activity-icon"></i>2.2. Отворени подаци</div></a>
+                <a href=../2.2.%20Отворени%20подаци/Квиз%20друге%20лекције.html><div class="studioLecture" id=activity-Квиз%20друге%20лекције><i class="far fa-question-circle activity-icon"></i>Квиз друге лекције</div></a>
+                </div>
+            </div>
+                
+                <div class="courseContentsSection">
+                <div class="lecture-div courseContentsSectionHeadline" id=lecture-2.3.%20Појам%20вештачке%20интелигенције>
+                    <h5>ДП.3. Појам вештачке интелигенције</h5>
+                    <i class="fas fa-angle-down caret-position "> </i>
+                    <i class="fas fa-angle-up caret-position d-none"></i>
+                </div>
+                <div class="courseContentsSubSection d-none"><a href=../2.3.%20Појам%20вештачке%20интелигенције/AI.html><div class="studioLecture" id=activity-AI><i class="fas fa-file-alt activity-icon"></i>2.3. Појам вештачке интелигенције</div></a>
+                <a href=../2.3.%20Појам%20вештачке%20интелигенције/kviz.html><div class="studioLecture" id=activity-kviz><i class="far fa-question-circle activity-icon"></i>Квиз треће лекције</div></a>
+                </div>
+            </div>
+                
+                <div class="courseContentsSection">
+                <div class="lecture-div courseContentsSectionHeadline" id=lecture-2.4.%20Садашњост%20и%20будућност%20вештачке%20интелигенције>
+                    <h5>ДП.4. Садашњост и будућност вештачке интелигенције</h5>
+                    <i class="fas fa-angle-down caret-position "> </i>
+                    <i class="fas fa-angle-up caret-position d-none"></i>
+                </div>
+                <div class="courseContentsSubSection d-none"><a href=../2.4.%20Садашњост%20и%20будућност%20вештачке%20интелигенције/AI.html><div class="studioLecture" id=activity-AI><i class="fas fa-file-alt activity-icon"></i>2.4. Садашњост и будућност вештачке интелигенције - етичка питања</div></a>
+                <a href=../2.4.%20Садашњост%20и%20будућност%20вештачке%20интелигенције/kviz.html><div class="studioLecture" id=activity-kviz><i class="far fa-question-circle activity-icon"></i>Квиз четврте лекције</div></a>
+                </div>
+            </div>
+                </div>
+</div>
+
+
+
+<div class="lectureContent">
+
+  <div id="errors">
+  </div>
+  
+  <div class="lectureContentMaterial">
+  
+    <div id="main-content">
+    
+  <div class="section" id="id1">
+<h1>Садашњост и будућност вештачке интелигенције - етичка питања<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h1>
+
+    <div class="course-box course-box-info">
+        <div class="course-content">
+            <p>
+<dl class="simple">
+<dt>На овом часу ћемо говорити о:</dt><dd><ul class="simple">
+<li><p>новом погледу на вештачку интелигенцију кога је донео XXI век;</p></li>
+<li><p>применама савремене вештачке интелигенције;</p></li>
+<li><p>етичким питањима које са собом носи нерегулисан рад вештачки интелигентних система.</p></li>
+</ul>
+</dd>
+</dl>
+
+    </p></div></div>
+<div class="section" id="xxi">
+<h2>XXI век и слаба дефиниција вештачке интелигенције<a class="headerlink" href="#xxi" title="Permalink to this headline">¶</a></h2>
+<p>Крајем 1990их година, након четрдесет година сипања новца у пројекат вештачке интелигенције, државе, војне
+организације и велике корпорације су почеле да се питају: „Где су наше интелигентне машине? Где су наши роботски војници?
+Где су наши вештачки интелигентни роботски радници у фабрикама?”</p>
+<p>Крај деведесетих година прошлог века су обележила два супротна процеса: с једне стране рачунари постају све бржи, све моћнији и
+све присутнији у животима људи, док је с друге стране вештачка интелигенција заснована на јакој дефиницији
+(формални систем који представља математички модел свести човека)
+деловала све даље од идеала кога је 1950их осликавала тако живописним бојама.</p>
+<p>Из удобности заслужене пензије, пораз су признали и пионири јаке дефиниције вештачке интелигенције.
+Марвин Мински је 1992. написао:</p>
+<blockquote>
+<div><p>Изгледа да основни проблем лежи у томе што се наши „експертски системи” могу употребити само за
+поједине, уско специјализоване примене. Ниједан од њих није показао оно што ми се могло окарактерисати
+као општа интелигенција. Ниједан од њих није показао ни најмањи знак онога што зовемо
+здрав разум. (<em>Марвин Мински</em>, 1992)</p>
+</div></blockquote>
+<p>Џон Мекарти, човек који је смислио појам „вештачка интелигенција”, је 2006. године одржао предавање
+под насловом „Вештачку интелигенцију упоредиву са интелигнецијом човека је теже остварити него што се то чинило 1955”
+(енгл. <em>Human-Level AI Is Harder Than It Seemed in 1955</em>) у коме каже:</p>
+<blockquote>
+<div><p>Мој рад „Програми који имају здрав разум” из 1958. године је изложио неке пројекције (обећања?) која још увек нико
+није испунио. У том раду је предложено да програми који се баве доказивањем теорема и решавањем проблема треба сами
+да резинују о сопственим нетодама. Ја сам пробао и нисам успео. Унификација (једна од техника које се користе
+у вештачкој интелигенцији – прим. аутора) иде у погрешном правцу. Видимо значајан напредак у области вештачке
+интелигенције за логичке системе, али то није довољно. (<em>Џон Мекарти</em>, 2006)</p>
+</div></blockquote>
+<p>Тако је научна заједница дефинитивно одустала од јаке дефиниције вештачке интелигенције.</p>
+<p>Почетак XXI века је у поље вештачке интелигенције унео трезвеност технолошких компанија
+(Amazon, Microsoft, Google, Apple, …) које су настале 1990их година,
+отприлике у време када је научна заједница одустала од јаке дефиниције вештачке интелигенције,
+и које спадају међу компаније које најбоље разумеју могућности рачунарске технологије.
+Прагматичност ових компанија (у комбинацији са њиховим огромним капиталом)
+је вратила фокус интересовања научне и технолошке заједнице на тзв. <em>слабу дефиницију</em> вештачке интелигенције која,
+да се подсетимо, гласи:</p>
+
+    <div class="course-box course-box-info">
+        <div class="course-content">
+            <p>
+<p><strong>Слаба дефиниција вештачке интелигенције.</strong>
+Вештачка интелигенција ни на који начин не треба да представља <em>интелигентну машину</em>.
+То треба да буде збирка корисних алгоритама и техника који покушавају да <em>симулирају</em> неке когнитивне процесе
+како би решили свакодневне проблеме људи.</p>
+
+    </p></div></div>
+<p>Одбацивање јаке и усвајање слабе дефиниције вештачке интелигенције довело је до новог процвата ове области
+у тој мери да данас скоро свако од нас при себи има најмање један „паметни уређај”.</p>
+<p>Компанија IBM је 2011. године приказала свој вештачки интелигентни систем <em>IBM Watson</em> (чија специјалност је разумевање
+људског говора и претрага информација) тако што је Watson учествовао у чувеном америчком квизу <em>Jeopardy!</em> и победио
+своје противнике (људе). Кратак исечак се може видети <a class="reference external" href="https://www.youtube.com/watch?v=WFR3lOm_xhE">овде</a>.</p>
+<p>Врхунац достигнућа савремене вештачке интелигенције свакако представља програм AlphaGo компаније Alphabet (коју је основао
+Google и из пословних разлога поставио организационо изнад себе) који је у марту 2016 године одиграо пет партија игре го
+против тадашњег светског првака у го-у и победио 4:1. На <a class="reference external" href="https://www.youtube.com/watch?v=WXuK6gekU1Y">следећем линку</a> можете погледати цео документарни филм (у трајању
+од око 90 минута) о овој епској бици логичких титана!</p>
+<div class="section" id="id4">
+<h3>Задатак.<a class="headerlink" href="#id4" title="Permalink to this headline">¶</a></h3>
+<p>Пронађи на интернету када је рачунар први пут победио светског првака у шаху.</p>
+</div>
+<div class="section" id="id5">
+<h3>Задатак.<a class="headerlink" href="#id5" title="Permalink to this headline">¶</a></h3>
+<p>Да ли знаш за неку игру у којој још увек рачунар не може да победи људе? (Упутство: та игра се игра картама и није
+игра у којој срећа има пресудну улогу!)</p>
+</div>
+<div class="section" id="id6">
+<h3>Задатак.<a class="headerlink" href="#id6" title="Permalink to this headline">¶</a></h3>
+<p>По ком лику из британске књижевности је IBM Watson добио име?</p>
+</div>
+</div>
+<div class="section" id="id7">
+<h2>Примене савремене вештачке интелигенције<a class="headerlink" href="#id7" title="Permalink to this headline">¶</a></h2>
+<p>Прагматичан поглед на вештачку интелигенцију коју је са собом донела слаба дефиниција
+(која полази од става да рачунар <em>не може</em> да опонаша људски мозак у свој његовој комплексности,
+али <em>може</em> да репродукује неке когнитивне процесе са циљем решавања свакодневних проблема)
+довела је до експлозије нових технологија и до скоро неслућених примена вештачке интелигенције.</p>
+<ul class="simple">
+<li><p><strong>Оптичко препознавање знакова,</strong>
+(енгл. <em>Optical Character Recognition</em>, OCR) је софтверска технологија која претвара <em>слике</em> бројева, слова и
+знакова интерпункције са штампаних или писаних докумената у симболе које могу да читају други програми.
+Данас су већ развијени алгоритми који могу да нпр. потпуно разликују рукописе две различите особе.</p></li>
+<li><p><strong>Препознавање лица,</strong>
+(енгл. <em>facial recognition</em>) је технологија која подразумева утврђивањe идентитета особе на основу
+специфичних детаља њеног лица (размак очију, носа, јагодица, контуре усана, ушију, браде, итд).
+Препознавање лица може да се користи како би се људи идентификовали на фотографијама,
+видео записима или у реалном времену. Идентификација се обавља тако што се параметри добијени
+са дигиталне слике упоређује са параметрима особа у бази података. Овакви аутоматизовани системи за идентификацију
+врше проверу идентитета појединаца веома брзо (у само неколико секунди, па и брже). Напредне верзије ове технологије
+могу да се користе за још сложеније анализе израза лица како би се идентификовале <em>емоције</em> као што су гађење, радост, бес,
+изненађење, страх или туга.</p></li>
+<li><p><strong>Паметни системи за превођење</strong> аутоматизују процес превођења <em>текста</em> са једног језика на други.
+Обично на самом почетку ови системи раде веома лоше и често су предмет разних шала на интернету,
+али временом, како расте број корисника система који у њега уграђују своје знање,
+ови системи постају све бољи и бољи.</p></li>
+<li><p><strong>Препознавање говора</strong> (енгл. <em>speech recognition</em>) представља технологију која има за циљ да <em>изговорене</em> речи
+(низ звукова) преведе у низ симбола како би се он онда могао обрадити другим техникама.
+Ова технологија се, између осталог, користи за имплементацију
+<strong>гласовних асистената</strong>, што су технологије које анализирају комуникацију са корисником како би
+извршиле неке дање акције као што је слање СМС поруке, слање електронске поште, а у новије време
+и заказивање састанака.</p></li>
+<li><p><strong>Системи за препруке услуга/производа</strong> (енгл. <em>recommendation systems</em>)
+представљају системе који на основу анализе претходног понашања корисника
+бирају (<em>препоручују</em>) садржај који се приказује корисницима на интернету и на друштвеним мрежама.
+Такви системи, на пример, одређују које рекламне поруке ће бити приказане кориснику,
+које објаве пријатеља на друшвеним мрежама
+ће бити истакнуте, дају препоруке за филмове које треба да погледа и слично.
+Ови алгоритми се користе и у системима за филтрирање нежељене поште.</p></li>
+<li><p><strong>Вештачка интелигенција у видео играма</strong> се користи да се моделује понашање противничког играча
+како би игра против рачунара била интересантнија. Највећа препрека за примену вештачке интелегенције у овом домену
+је потреба да рачунар одреагује у веома кратком времену. У ту сврху се користе разне врсте алгоритама:
+налажење оптималне путање, доношење одлука, као и тактичка и стратешка интелигенција.</p></li>
+<li><p><strong>Аутономно управљање возилима</strong> је технологија у настанку која окупља скоро све претходно наведене технологије
+са циљем да се направе аутомобили који ће сами моћи да довезу путника до жељеног места, уз минималне интервенције
+возача. Поред алгоритама вештачке интелигенције, системи за аутономно управљање возилима користе и низ технологија
+за лоцирање и комуникацију као што су радари, лидари, камере, сателитска комуникација и коришћење сервиса у „облаку”.</p></li>
+</ul>
+<p>У скоро свим наведеним примерима кључни елемент представља <em>обучавање система</em> употребом
+алгоритама <strong>машинског учења</strong> који се заснива на анализи <em>огромног броја</em> случајева како би систем
+профинио своје критеријуме и тако повећао тачност.</p>
+<p>Обично је потребно анализирати милионе, ако не и милијарде, случајева да би систем
+достигао ниво употребљивости који је прихватљив за комерцијалну употребу.
+Један од начина да се обезбеди довољно велики узорак је оснивање друштвене мреже на којима је
+коришћење ових алгоритама врло изражено од самог почетка. Кориници мреже (таговањем пријатеља на сликама
+или коментарима на постојећи садржај) добровољно постају бесплатна радна снага која се користи за тренинг алгоритама
+вештачке интелигенције, док системи који су на тај начин обучени припадају приватним компанијама
+које онда продају ове услуге, рецимо, маркетиншким комапнијама.</p>
+<div class="section" id="id8">
+<h3>Задатак.<a class="headerlink" href="#id8" title="Permalink to this headline">¶</a></h3>
+<p><em>Google Translate Game</em> је игра која се игра овако:</p>
+<ol class="arabic simple">
+<li><p>Одабери неку реченицу или краћи текст на српском.</p></li>
+<li><p>Користећи <em>Google Translate</em> преведи тај текст са спрског на енглески.</p></li>
+<li><p>Користећи <em>Google Translate</em> преведи тај текст са енглеског на руски.</p></li>
+<li><p>Користећи <em>Google Translate</em> преведи тај текст са руског на немачки.</p></li>
+<li><p>Користећи <em>Google Translate</em> преведи тај текст са немачког назад на српски.</p></li>
+</ol>
+<p>Наравно, можеш одабрати и било коју другу комбинацију страних језика; једино је важно да кренеш од текста на српском
+и да на крају поново добијеш текст на српском. Пробај ову игру па упореди полазни и крајњи текст.</p>
+</div>
+<div class="section" id="id9">
+<h3>Задатак.<a class="headerlink" href="#id9" title="Permalink to this headline">¶</a></h3>
+<p>Покушај да пошаљеш СМС другу или другарици користећи дигиталног асистента на свом телефону
+(<em>Google Assistant</em>, <em>Siri</em>, <em>Amazon Alexa</em>, <em>Bixby</em>, …).</p>
+</div>
+<div class="section" id="id10">
+<h3>Задатак.<a class="headerlink" href="#id10" title="Permalink to this headline">¶</a></h3>
+<p>Пронађи на интернету чланке о једној од следећих технологија и припреми кратак извештај:</p>
+<ul class="simple">
+<li><p><em>Image Processing</em></p></li>
+<li><p><em>Natural Language Processing (NLP)</em></p></li>
+<li><p><em>Internet of Things (IoT)</em></p></li>
+<li><p><em>Smart Cities</em></p></li>
+</ul>
+</div>
+<div class="section" id="id11">
+<h3>Задатак.<a class="headerlink" href="#id11" title="Permalink to this headline">¶</a></h3>
+<p>Опиши како се у аутономном управљању возилима користе технологије као што су:</p>
+<ul class="simple">
+<li><p>оптичко препознавање знакова</p></li>
+<li><p>препознавање лица</p></li>
+<li><p>препознавање говора</p></li>
+<li><p>системи за препоруке</p></li>
+<li><p><em>Image Processing</em></p></li>
+<li><p><em>Natural Language Processing (NLP)</em></p></li>
+<li><p><em>Smart Cities</em></p></li>
+</ul>
+</div>
+</div>
+<div class="section" id="id12">
+<h2>Будућност вештачке интелигенције и етичка питања<a class="headerlink" href="#id12" title="Permalink to this headline">¶</a></h2>
+<p>Иако се савремене технике вештачке интелигенције заснивају на тзв. <em>слабој дефиницији</em> вештачке интелигенције,
+ми данас поседујемо веома моћне алате који отварају могућности за машинску обраду информација
+у обиму и на начин који до сада није забележен у историји.</p>
+<p>Као последицу имамо ситуацију да ће нека радна места потпуно изумрети. Рецимо,
+неке банке у САД већ експериментишу са идејом да се шалтерски радници замене системом <em>IBM Watson</em>
+који може да реши 90% рутинских захтева клијената комуницирајући
+при томе са њима свакодневним, говорним језиком.
+Разматра се такође и могућност да здравствени систем у САД искористи <em>IBM Watson</em> као замену за
+лекаре опште праксе, јер се ионако 90% захтева лекарима опште праксе своди на рутинске акције.</p>
+<p>С друге стране, алгоритми вештачке интелигенције се све више и све бескрупулозине користе за
+активности које се у основи своде на <em>задирање у приватност</em>.
+У претходном одељку смо већ додирнули неке од таквих проблема:</p>
+<ul class="simple">
+<li><p>препознавање лица омогућује компанијама да на основу позитивних или негативних коментара виде праву слику неког бренда,
+политичке фигуре и од њих веома лепо наплате овакве анализе;</p></li>
+<li><p>препознавање говора може да се користи за аутоматски надзор телефонских комуникација;</p></li>
+<li><p>системи за препоруке и алгоритми за рангирање садржаја различитих претрага у претраживачима интернета могу да
+се користе за промоцију не само производа, већ и идеја, што за последицу може да има утицај на креирање јавног мњења.</p></li>
+</ul>
+<p>На пример, у неким градовима у Кини су постављене камере које непрестано снимају <em>и анализирају</em> ситуацију у саобраћају
+чиме је омогућено да саобраћајни прекршиоци буду кажњени <em>аутоматски</em>, без интервенције прекршајног судије.
+То значи да ако пређеш улицу на црвено и камера те сними, систем ће те препознати и ти (ако си пунолетан и имаш
+рачун у банци) или твој родитељ ћете само добити поруку о томе
+колико новца је на име прекршајне казне скинуто са рачуна и зашто је казна изречена. Погледај <a class="reference external" href="https://www.youtube.com/watch?v=CLo3e1Pak-Y">следећи кратак видео</a> на ту тему.</p>
+<p>Као што видимо, рачунарски алгоритми се интензивно користе за аутоматизовану обраду приватних података да би се проценили
+лични аспекти попут економског стања, здравља, склоности, интересовања, понашања, итд.
+Поред тога, неке државе су спремне на то да софтверу у чије функционисање обичан човек нема увид препусте да самостално,
+без људске интервенције, доносе одлуке које могу да утичу на живот људи, и то на основу анализе података
+који могу да буду пристрасни или некоректни.</p>
+<p>Управо зато је у мају 2018. године на снагу ступила <em>Општа регулатива Европске уније о заштити података</em>
+(<em>General Data Protection Regulation</em>, GDPR). Ова регулатива Европске уније је значајна јер забрањује,
+осим у изузетним случајевима, доношење одлука засновано само на аутоматизованој обради података,
+и истиче право на „људску интервенцију”. Забрана укључује и профилисање људи које доводи до дискриминације
+на основу специфичних категорија личних података.</p>
+<p><em>Општа регулатива Европске уније о заштити података</em>, дакле,
+регулише начине на које можемо да користимо моћне алгоритме вештачке интелигенције, и тиме
+у фокус политичког живота савременог света ставља управо етичка питања у вези са употребом
+вештачке интелигенције.</p>
+<div class="section" id="id14">
+<h3>Задатак.<a class="headerlink" href="#id14" title="Permalink to this headline">¶</a></h3>
+<p>Потражи на интернету чланке у којима се говори о сумњи да су управо технике вештачке интелигенције
+употребљене приликом председничке кампање 2016. године у САД како би се створила предност у корист
+једног председничког кандидата који је потом и победио на изборима.</p>
+</div>
+<div class="section" id="id15">
+<h3>Задатак.<a class="headerlink" href="#id15" title="Permalink to this headline">¶</a></h3>
+<p>Пронађи на интернету текст <em>Опште регулативе Европске уније о заштити података</em>
+(довољно је да у неки претраживач унесеш кључне речи GDPR EU) и покушај уз помоћ наставника
+или родитеља да је прочиташ.</p>
+</div>
+</div>
+</div>
+
+
+    </div>
+    
+    <div>
+<div class="lecture-prev-next-toggle">
+  <a  href="index.html" id="prevLectureLink" class="lecture-toggler-arrows"><i class="fas fa-arrow-left fa"></i> <span> Претходна лекција </span> </a>
+  
+  <a id="nextLectureLink" class="lecture-toggler-arrows"><span> Следећа лекција</span>  <i class="fas fa-arrow-right fa"></i> </a>
+</div>
+
+<script type="text/javascript">
+  $('#relations-prev').tooltip({'placement':'right', 'selector': '', 'delay': { show: 100, hide: 50}});
+  $('#relations-next').tooltip({'placement':'left', 'selector': '', 'delay': { show: 100, hide: 50}});
+</script>
+</div>
+
+    
+  </div>
+</div>
+
+<div class="petljadoc-resources">
+  <span class="pull-left">(Created using  <a href="https://pypi.org/project/Sphinx/">Swinx</a>, <a href="http://runestoneinteractive.org/">RunestoneComponents</a> and <a href="https://github.com/Petlja/PetljaDoc">PetljaDoc</a>) <br> © 2022 Petlja</span>
+</div>
+
+
+<div class="lectureToolbox">
+
+  <label class="font-size-toggle" id="fontSizeToggle">
+
+      <i class="fas fa-font"></i><label>Слова</label>
+  </label>
+  <div class="font-change d-none" id="fontChangeModal">
+      <span class="dec-letter-icon" id="decLetterIcon">A-</span>
+      <label id="currentFontSize">16</label>
+      <span class="inc-letter-icon" id="incLetterIcon">A+</span>
+  </div>
+</div>
+
+</div>
+
+  </body>
+</html>

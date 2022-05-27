@@ -1,0 +1,734 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="sr-Cyrl">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Отворени подаци</title>
+    <link rel="stylesheet" type="text/css" href="../_static/activecode.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/codemirror.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/clickable.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/pytutor.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/modal-basic.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/datafile.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/dragndrop.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/fitb.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/matrixeq.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/parsons.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/lib/prettify.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/poll.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/showEval.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/tabbedstuff.css" />
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/video.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/webgldemo.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/webglinteractive.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/karel.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/notes.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/simanim.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/pycode.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/p5js.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/gallery.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/dbDirective.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/associations.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/regex-check.css" />
+    <link rel="stylesheet" href="../_static/basic.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/user-highlights.css" type="text/css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" type="text/css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" type="text/css" />
+    <link rel="stylesheet" href="../_static/bootstrap-4.0.0-dist/css/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/flatly.min.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/petlja-course.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/nbstyle.css" type="text/css" />
+    <script id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+    <script type="text/javascript" src="../_static/runestonebase.js"></script>
+    <script type="text/javascript" src="../_static/skulpt.min.js"></script>
+    <script type="text/javascript" src="../_static/skulpt-stdlib.js"></script>
+    <script type="text/javascript" src="../_static/jquery.js"></script>
+    <script type="text/javascript" src="../_static/underscore.js"></script>
+    <script type="text/javascript" src="../_static/doctools.js"></script>
+    <script type="text/javascript" src="../_static/language_data.js"></script>
+    <script type="text/javascript" src="../_static/jquery.highlight.js"></script>
+    <script type="text/javascript" src="../_static/bookfuncs.js"></script>
+    <script type="text/javascript" src="../_static/codemirror.js"></script>
+    <script type="text/javascript" src="../_static/xml.js"></script>
+    <script type="text/javascript" src="../_static/css.js"></script>
+    <script type="text/javascript" src="../_static/python.js"></script>
+    <script type="text/javascript" src="../_static/htmlmixed.js"></script>
+    <script type="text/javascript" src="../_static/javascript.js"></script>
+    <script type="text/javascript" src="../_static/jquery_i18n/CLDRPluralRuleParser.js"></script>
+    <script type="text/javascript" src="../_static/jquery_i18n/jquery.i18n.js"></script>
+    <script type="text/javascript" src="../_static/jquery_i18n/jquery.i18n.messagestore.js"></script>
+    <script type="text/javascript" src="../_static/jquery_i18n/jquery.i18n.fallbacks.js"></script>
+    <script type="text/javascript" src="../_static/jquery_i18n/jquery.i18n.language.js"></script>
+    <script type="text/javascript" src="../_static/jquery_i18n/jquery.i18n.parser.js"></script>
+    <script type="text/javascript" src="../_static/jquery_i18n/jquery.i18n.emitter.js"></script>
+    <script type="text/javascript" src="../_static/jquery_i18n/jquery.i18n.emitter.bidi.js"></script>
+    <script type="text/javascript" src="../_static/activecode-i18n.en.js"></script>
+    <script type="text/javascript" src="../_static/activecode-i18n.sr-Cyrl.js"></script>
+    <script type="text/javascript" src="../_static/activecode.js"></script>
+    <script type="text/javascript" src="../_static/clike.js"></script>
+    <script type="text/javascript" src="../_static/timed_activecode.js"></script>
+    <script type="text/javascript" src="../_static/animationbase.js"></script>
+    <script type="text/javascript" src="../_static/mchoice.js"></script>
+    <script type="text/javascript" src="../_static/timedmc.js"></script>
+    <script type="text/javascript" src="../_static/timed.js"></script>
+    <script type="text/javascript" src="../_static/mchoice-i18n.en.js"></script>
+    <script type="text/javascript" src="../_static/mchoice-i18n.sr-Cyrl.js"></script>
+    <script type="text/javascript" src="../_static/clickable.js"></script>
+    <script type="text/javascript" src="../_static/timedclickable.js"></script>
+    <script type="text/javascript" src="../_static/d3.v2.min.js"></script>
+    <script type="text/javascript" src="../_static/jquery.ba-bbq.min.js"></script>
+    <script type="text/javascript" src="../_static/jquery.jsPlumb-1.3.10-all-min.js"></script>
+    <script type="text/javascript" src="../_static/pytutor.js"></script>
+    <script type="text/javascript" src="../_static/codelens.js"></script>
+    <script type="text/javascript" src="../_static/skulpt.min.js"></script>
+    <script type="text/javascript" src="../_static/skulpt-stdlib.js"></script>
+    <script type="text/javascript" src="../_static/datafile.js"></script>
+    <script type="text/javascript" src="../_static/dragndrop.js"></script>
+    <script type="text/javascript" src="../_static/timeddnd.js"></script>
+    <script type="text/javascript" src="../_static/dragndrop-i18n.en.js"></script>
+    <script type="text/javascript" src="../_static/dragndrop-i18n.sr-Cyrl.js"></script>
+    <script type="text/javascript" src="../_static/fitb.js"></script>
+    <script type="text/javascript" src="../_static/timedfitb.js"></script>
+    <script type="text/javascript" src="../_static/fitb-i18n.en.js"></script>
+    <script type="text/javascript" src="../_static/fitb-i18n.sr-Cyrl.js"></script>
+    <script type="text/javascript" src="../_static/matrixeq.js"></script>
+    <script type="text/javascript" src="../_static/lib/prettify.js"></script>
+    <script type="text/javascript" src="../_static/lib/hammer.min.js"></script>
+    <script type="text/javascript" src="../_static/parsons.js"></script>
+    <script type="text/javascript" src="../_static/parsons-i18n.en.js"></script>
+    <script type="text/javascript" src="../_static/parsons-i18n.sr-Cyrl.js"></script>
+    <script type="text/javascript" src="../_static/timedparsons.js"></script>
+    <script type="text/javascript" src="../_static/poll.js"></script>
+    <script type="text/javascript" src="../_static/reveal.js"></script>
+    <script type="text/javascript" src="../_static/shortanswer.js"></script>
+    <script type="text/javascript" src="../_static/timed_shortanswer.js"></script>
+    <script type="text/javascript" src="../_static/showEval.js"></script>
+    <script type="text/javascript" src="../_static/tabbedstuff.js"></script>
+    <script type="text/javascript" src="../_static/runestonevideo.js"></script>
+    <script type="text/javascript" src="../_static/webglinteractive.js"></script>
+    <script type="text/javascript" src="../_static/FileSaver.min.js"></script>
+    <script type="text/javascript" src="../_static/Blob.js"></script>
+    <script type="text/javascript" src="../_static/karelCorner.js"></script>
+    <script type="text/javascript" src="../_static/karelRobot.js"></script>
+    <script type="text/javascript" src="../_static/karelWorld.js"></script>
+    <script type="text/javascript" src="../_static/karelRobotDrawer.js"></script>
+    <script type="text/javascript" src="../_static/karelUI.js"></script>
+    <script type="text/javascript" src="../_static/karel.js"></script>
+    <script type="text/javascript" src="../_static/karel-i18n.en.js"></script>
+    <script type="text/javascript" src="../_static/karel-i18n.sr-Cyrl.js"></script>
+    <script type="text/javascript" src="../_static/notes.js"></script>
+    <script type="text/javascript" src="../_static/pygamelib-init.js"></script>
+    <script type="text/javascript" src="../_static/blockly/blockly_compressed.js"></script>
+    <script type="text/javascript" src="../_static/blockly/blocks_compressed.js"></script>
+    <script type="text/javascript" src="../_static/blockly/python_compressed.js"></script>
+    <script type="text/javascript" src="../_static/blockly/msg-sr.js"></script>
+    <script type="text/javascript" src="../_static/blockpy/utilities.js"></script>
+    <script type="text/javascript" src="../_static/blockpy/python_errors.js"></script>
+    <script type="text/javascript" src="../_static/blockpy/ast_node_visitor.js"></script>
+    <script type="text/javascript" src="../_static/blockpy/abstract_interpreter.js"></script>
+    <script type="text/javascript" src="../_static/blockpy/pytifa.js"></script>
+    <script type="text/javascript" src="../_static/blockpy/abstract_interpreter_definitions.js"></script>
+    <script type="text/javascript" src="../_static/blockpy/python_to_blockly.js"></script>
+    <script type="text/javascript" src="../_static/blockpy/imported.js"></script>
+    <script type="text/javascript" src="../_static/blockpy/blocks/class.js"></script>
+    <script type="text/javascript" src="../_static/blockpy/blocks/comment.js"></script>
+    <script type="text/javascript" src="../_static/blockpy/blocks/comprehensions.js"></script>
+    <script type="text/javascript" src="../_static/blockpy/blocks/dict.js"></script>
+    <script type="text/javascript" src="../_static/blockpy/blocks/if.js"></script>
+    <script type="text/javascript" src="../_static/blockpy/blocks/io.js"></script>
+    <script type="text/javascript" src="../_static/blockpy/blocks/lists.js"></script>
+    <script type="text/javascript" src="../_static/blockpy/blocks/sets.js"></script>
+    <script type="text/javascript" src="../_static/blockpy/blocks/loops.js"></script>
+    <script type="text/javascript" src="../_static/blockpy/blocks/parking.js"></script>
+    <script type="text/javascript" src="../_static/blockpy/blocks/tuple.js"></script>
+    <script type="text/javascript" src="../_static/blockpy/blocks/turtles.js"></script>
+    <script type="text/javascript" src="../_static/blockpy/blocks/text.js"></script>
+    <script type="text/javascript" src="../_static/blockpy-modal.js"></script>
+    <script type="text/javascript" src="../_static/simanim.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/pyodide/v0.16.1/full/pyodide.js"></script>
+    <script type="text/javascript" src="../_static/pycode.js"></script>
+    <script type="text/javascript" src="//toolness.github.io/p5.js-widget/p5-widget.js"></script>
+    <script type="text/javascript" src="../_static/p5js.js"></script>
+    <script type="text/javascript" src="../_static/gallery.js"></script>
+    <script type="text/javascript" src="../_static/dbDirective.js"></script>
+    <script type="text/javascript" src="../_static/sql.js"></script>
+    <script type="text/javascript" src="../_static/associations.js"></script>
+    <script type="text/javascript" src="../_static/associations-i18n.en.js"></script>
+    <script type="text/javascript" src="../_static/associations-i18n.sr-Cyrl.js"></script>
+    <script type="text/javascript" src="../_static/regex-check.js"></script>
+    <script type="text/javascript" src="../_static/regex-check-i18n.en.js"></script>
+    <script type="text/javascript" src="../_static/regex-check-i18n.sr-Cyrl.js"></script>
+    <script type="text/javascript" src="../_static/translations.js"></script>
+    <script async="async" type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <script type="text/javascript" src="../_static/jquery-ui-1.10.3.custom.min.js"></script>
+    <script type="text/javascript" src="../_static/jquery-fix.js"></script>
+    <script type="text/javascript" src="../_static/bootstrap-4.0.0-dist/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="../_static/bootstrap-4.0.0-dist/js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript" src="../_static/bootstrap-sphinx.js"></script>
+    <script type="text/javascript" src="../_static/waypoints.min.js"></script>
+    <script type="text/javascript" src="../_static/rangy-core.js"></script>
+    <script type="text/javascript" src="../_static/rangy-textrange.js"></script>
+    <script type="text/javascript" src="../_static/rangy-cssclassapplier.js"></script>
+    <script type="text/javascript" src="../_static/user-highlights.js"></script>
+    <script type="text/javascript" src="../_static/jquery.idle-timer.js"></script>
+    <script type="text/javascript" src="../_static/processing-1.4.1.min.js"></script>
+    <script type="text/javascript" src="../_static/jquery.hotkey.js"></script>
+    <script type="text/javascript" src="../_static/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="../_static/course-errors.js"></script>
+    <script type="text/javascript" src="../_static/petlja.js"></script>
+    <script type="text/javascript" src="../_static/require.js"></script>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'>
+    <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
+    <link rel="shortcut icon" href="../_static/favicon.ico" type="image/ico" />
+    <script type="text/javascript">
+      eBookConfig = {};
+      eBookConfig.host = 'http://127.0.0.1:8000' ? 'http://127.0.0.1:8000' : 'http://127.0.0.1:8000';
+      eBookConfig.app = eBookConfig.host + '/runestone';
+      eBookConfig.ajaxURL = eBookConfig.app + '/ajax/';
+      eBookConfig.course = '8_razred_IKT_DigitalnaPismenost';
+      eBookConfig.logLevel = '0';
+      eBookConfig.loginRequired = 'false';
+      eBookConfig.build_info = "";
+      eBookConfig.isLoggedIn = false;
+      eBookConfig.useRunestoneServices = false;
+      eBookConfig.python3 = true;
+      eBookConfig.basecourse = 'Primer_kurs';
+      eBookConfig.runestone_version = '';
+      eBookConfig.imagesDir = '../_images/';
+      eBookConfig.staticDir = '../_static/';
+      if (typeof (Sk) != "undefined")
+        Sk.imgPath = eBookConfig.imagesDir;
+    </script>
+
+  </head>
+
+  <body>
+
+
+
+<div id="navbar" class="content-header">
+  <div class="right-side-nav">
+    
+    <div id="usefulLinksToggle" class="useful-links-toggle">
+        <a class="dropdown-toggle dropdown-toggle-burger" role="button" href="#" id="usefulLinksDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <i class="fas fa-bars fa-2x"></i>
+        </a>
+        <div class="dropdown-menu dropdown-nav-links shadow-lg" aria-labelledby="usefulLinksDropdown" x-placement="bottom-start" style="position: absolute; transform: translate3d(-55px, 32px, 0px); top: 0px; left: 0px; will-change: transform;">
+          <div class="links-title"> Корисни линкови</div>
+          <div class="useful-link">
+            <a href="https://pametnoibezbedno.gov.rs/" target="_blank">Паметно и безбедно</a></div>
+          <div class="useful-link">
+            <a href="http://www.netpatrola.rs/" target="_blank">Нет патрола</a></div>
+          <div class="useful-link">
+            <a href="https://kliknibezbedno.wordpress.com/opsta-bezbednst-na-internetu/" target="_blank">Кликни безбедно</a></div>
+          <div class="useful-link">
+            <a href="https://www.unicef.org/serbia/zaustavimo-digitalno-nasilje" target="_blank">Шта је дигитално насиље и како да га зауставимо</a></div>
+          <div class="useful-link">
+            <a href="https://www.youtube.com/playlist?list=PLG6HMr6sRAxk5fYkFHmTrZEFoY4dkhE_V" target="_blank">Све боје интернета</a></div>
+          
+        </div>
+    </div>
+
+    
+</div>
+
+<div class="left-side-nav">
+  <div class="course-logo-nav">
+      <a target="_blank" href="https://petlja.org">
+          <img src="../_static/img/petlja-logo-wt.svg" alt="petlja.org" id="lightPetljaLogo">
+      </a>
+  </div>
+  <div class="course-logo-nav-kabinet">
+      <a target="_blank" href="https://petlja.org/net.kabinet">
+          <img src="../_static/img/netkabinet-logo-strelica-wt.svg" alt="petlja.org" id="lightNetKabinetLogo">
+      </a>
+  </div>
+</div>
+
+
+<div class="content-header-label" id = "content-header-label" href="../">ИКТ и Дигитална писменост</div>
+
+</div>
+
+
+
+
+<div class="petljaCourseContainer">
+
+<div class="petljaCourseContent">
+  
+           <div class="tableOfContent">
+            <h5> Садржај </h5>
+            </div>
+           <div>
+                <div class="courseContentsSection">
+                <div class="lecture-div courseContentsSectionHeadline" id=lecture-E00>
+                    <h5>Информационо-комуникационе технологије (ИКТ)</h5>
+                    <i class="fas fa-angle-down caret-position "> </i>
+                    <i class="fas fa-angle-up caret-position d-none"></i>
+                </div>
+                <div class="courseContentsSubSection d-none"><a href=../E00/E00.html><div class="studioLecture" id=activity-E00><i class="fas fa-file-alt activity-icon"></i>Исходи</div></a>
+                </div>
+            </div>
+                
+                <div class="courseContentsSection">
+                <div class="lecture-div courseContentsSectionHeadline" id=lecture-E01>
+                    <h5>ИКТ.1. Увод у рад са програмима за табеларна израчунавања</h5>
+                    <i class="fas fa-angle-down caret-position "> </i>
+                    <i class="fas fa-angle-up caret-position d-none"></i>
+                </div>
+                <div class="courseContentsSubSection d-none"><a href=../E01/E01.html><div class="studioLecture" id=activity-E01><i class="fas fa-file-alt activity-icon"></i>Лекција</div></a>
+                <a href=../E01/testE01.html><div class="studioLecture" id=activity-testE01><i class="far fa-question-circle activity-icon"></i>Квиз</div></a>
+                </div>
+            </div>
+                
+                <div class="courseContentsSection">
+                <div class="lecture-div courseContentsSectionHeadline" id=lecture-E02>
+                    <h5>ИКТ.2. Аутоматска рекалкулација</h5>
+                    <i class="fas fa-angle-down caret-position "> </i>
+                    <i class="fas fa-angle-up caret-position d-none"></i>
+                </div>
+                <div class="courseContentsSubSection d-none"><a href=../E02/E02.html><div class="studioLecture" id=activity-E02><i class="fas fa-file-alt activity-icon"></i>Лекција</div></a>
+                <a href=../E02/testE02.html><div class="studioLecture" id=activity-testE02><i class="far fa-question-circle activity-icon"></i>Квиз</div></a>
+                </div>
+            </div>
+                
+                <div class="courseContentsSection">
+                <div class="lecture-div courseContentsSectionHeadline" id=lecture-E03>
+                    <h5>ИКТ.3. Селектовање групе ћелија и уређивање табеле</h5>
+                    <i class="fas fa-angle-down caret-position "> </i>
+                    <i class="fas fa-angle-up caret-position d-none"></i>
+                </div>
+                <div class="courseContentsSubSection d-none"><a href=../E03/E03.html><div class="studioLecture" id=activity-E03><i class="fas fa-file-alt activity-icon"></i>Лекција</div></a>
+                <a href=../E03/testE03.html><div class="studioLecture" id=activity-testE03><i class="far fa-question-circle activity-icon"></i>Квиз</div></a>
+                </div>
+            </div>
+                
+                <div class="courseContentsSection">
+                <div class="lecture-div courseContentsSectionHeadline" id=lecture-E04>
+                    <h5>ИКТ.4. Разне врсте података у табели</h5>
+                    <i class="fas fa-angle-down caret-position "> </i>
+                    <i class="fas fa-angle-up caret-position d-none"></i>
+                </div>
+                <div class="courseContentsSubSection d-none"><a href=../E04/E04.html><div class="studioLecture" id=activity-E04><i class="fas fa-file-alt activity-icon"></i>Лекција</div></a>
+                <a href=../E04/testE04.html><div class="studioLecture" id=activity-testE04><i class="far fa-question-circle activity-icon"></i>Квиз</div></a>
+                </div>
+            </div>
+                
+                <div class="courseContentsSection">
+                <div class="lecture-div courseContentsSectionHeadline" id=lecture-E05>
+                    <h5>ИКТ.5. Штампање и генерисање ПДФ документа</h5>
+                    <i class="fas fa-angle-down caret-position "> </i>
+                    <i class="fas fa-angle-up caret-position d-none"></i>
+                </div>
+                <div class="courseContentsSubSection d-none"><a href=../E05/E05.html><div class="studioLecture" id=activity-E05><i class="fas fa-file-alt activity-icon"></i>Лекција</div></a>
+                <a href=../E05/testE05.html><div class="studioLecture" id=activity-testE05><i class="far fa-question-circle activity-icon"></i>Квиз</div></a>
+                </div>
+            </div>
+                
+                <div class="courseContentsSection">
+                <div class="lecture-div courseContentsSectionHeadline" id=lecture-E07>
+                    <h5>ИКТ.6. Визуелизација података</h5>
+                    <i class="fas fa-angle-down caret-position "> </i>
+                    <i class="fas fa-angle-up caret-position d-none"></i>
+                </div>
+                <div class="courseContentsSubSection d-none"><a href=../E07/E07.html><div class="studioLecture" id=activity-E07><i class="fas fa-file-alt activity-icon"></i>Лекција</div></a>
+                <a href=../E07/testE07.html><div class="studioLecture" id=activity-testE07><i class="far fa-question-circle activity-icon"></i>Квиз</div></a>
+                </div>
+            </div>
+                
+                <div class="courseContentsSection">
+                <div class="lecture-div courseContentsSectionHeadline" id=lecture-E08>
+                    <h5>ИКТ.7. Сортирање, филтрирање и фреквенцијска анализа</h5>
+                    <i class="fas fa-angle-down caret-position "> </i>
+                    <i class="fas fa-angle-up caret-position d-none"></i>
+                </div>
+                <div class="courseContentsSubSection d-none"><a href=../E08/E08.html><div class="studioLecture" id=activity-E08><i class="fas fa-file-alt activity-icon"></i>Лекција</div></a>
+                <a href=../E08/testE08.html><div class="studioLecture" id=activity-testE08><i class="far fa-question-circle activity-icon"></i>Квиз</div></a>
+                </div>
+            </div>
+                
+                <div class="courseContentsSection">
+                <div class="lecture-div courseContentsSectionHeadline" id=lecture-E10>
+                    <h5>ИКТ.8. Рад са дељеним табелама</h5>
+                    <i class="fas fa-angle-down caret-position "> </i>
+                    <i class="fas fa-angle-up caret-position d-none"></i>
+                </div>
+                <div class="courseContentsSubSection d-none"><a href=../E10/E10.html><div class="studioLecture" id=activity-E10><i class="fas fa-file-alt activity-icon"></i>Лекција</div></a>
+                <a href=../E10/testE10.html><div class="studioLecture" id=activity-testE10><i class="far fa-question-circle activity-icon"></i>Квиз</div></a>
+                </div>
+            </div>
+                
+                <div class="courseContentsSection">
+                <div class="lecture-div courseContentsSectionHeadline" id=lecture-DP00>
+                    <h5>Дигитална писменост (ДП)</h5>
+                    <i class="fas fa-angle-down caret-position "> </i>
+                    <i class="fas fa-angle-up caret-position d-none"></i>
+                </div>
+                <div class="courseContentsSubSection d-none"><a href=../DP00/DP00.html><div class="studioLecture" id=activity-DP00><i class="fas fa-file-alt activity-icon"></i>Исходи</div></a>
+                </div>
+            </div>
+                
+                <div class="courseContentsSection">
+                <div class="lecture-div courseContentsSectionHeadline" id=lecture-2.1.%20Заштита%20личних%20података.%20Права%20детета%20у%20дигиталном%20добу>
+                    <h5>ДП.1. Заштита личних података. Права детета у дигиталном добу</h5>
+                    <i class="fas fa-angle-down caret-position "> </i>
+                    <i class="fas fa-angle-up caret-position d-none"></i>
+                </div>
+                <div class="courseContentsSubSection d-none"><a href=../2.1.%20Заштита%20личних%20података.%20Права%20детета%20у%20дигиталном%20добу/Заштита%20личних%20података.html><div class="studioLecture" id=activity-Заштита%20личних%20података><i class="fas fa-file-alt activity-icon"></i>Заштита личних података</div></a>
+                <a href=../2.1.%20Заштита%20личних%20података.%20Права%20детета%20у%20дигиталном%20добу/Права%20детета%20у%20дигиталном%20добу.html><div class="studioLecture" id=activity-Права%20детета%20у%20дигиталном%20добу><i class="fas fa-file-alt activity-icon"></i>Права детета у дигиталном добу</div></a>
+                <a href=../2.1.%20Заштита%20личних%20података.%20Права%20детета%20у%20дигиталном%20добу/Вежба%201%20-%20Дељење%20и%20контрола%20личних%20података.html><div class="studioLecture" id=activity-Вежба%201%20-%20Дељење%20и%20контрола%20личних%20података><i class="fas fa-file-alt activity-icon"></i>Вежба 1 - Дељење и контрола личних података</div></a>
+                <a href=../2.1.%20Заштита%20личних%20података.%20Права%20детета%20у%20дигиталном%20добу/Вежба%202%20-%20Заштита%20приватности%20личних%20података.html><div class="studioLecture" id=activity-Вежба%202%20-%20Заштита%20приватности%20личних%20података><i class="fas fa-file-alt activity-icon"></i>Вежба 2 - Заштита приватности личних података</div></a>
+                <a href=../2.1.%20Заштита%20личних%20података.%20Права%20детета%20у%20дигиталном%20добу/Квиз%20прве%20лекције.html><div class="studioLecture" id=activity-Квиз%20прве%20лекције><i class="far fa-question-circle activity-icon"></i>Квиз прве лекције</div></a>
+                </div>
+            </div>
+                
+                <div class="courseContentsSection">
+                <div class="lecture-div courseContentsSectionHeadline" id=lecture-2.2.%20Отворени%20подаци>
+                    <h5>ДП.2. Отворени подаци</h5>
+                    <i class="fas fa-angle-down caret-position "> </i>
+                    <i class="fas fa-angle-up caret-position d-none"></i>
+                </div>
+                <div class="courseContentsSubSection d-none"><a href=../2.2.%20Отворени%20подаци/Отворени%20подаци.html><div class="studioLecture" id=activity-Отворени%20подаци><i class="fas fa-file-alt activity-icon"></i>2.2. Отворени подаци</div></a>
+                <a href=../2.2.%20Отворени%20подаци/Квиз%20друге%20лекције.html><div class="studioLecture" id=activity-Квиз%20друге%20лекције><i class="far fa-question-circle activity-icon"></i>Квиз друге лекције</div></a>
+                </div>
+            </div>
+                
+                <div class="courseContentsSection">
+                <div class="lecture-div courseContentsSectionHeadline" id=lecture-2.3.%20Појам%20вештачке%20интелигенције>
+                    <h5>ДП.3. Појам вештачке интелигенције</h5>
+                    <i class="fas fa-angle-down caret-position "> </i>
+                    <i class="fas fa-angle-up caret-position d-none"></i>
+                </div>
+                <div class="courseContentsSubSection d-none"><a href=../2.3.%20Појам%20вештачке%20интелигенције/AI.html><div class="studioLecture" id=activity-AI><i class="fas fa-file-alt activity-icon"></i>2.3. Појам вештачке интелигенције</div></a>
+                <a href=../2.3.%20Појам%20вештачке%20интелигенције/kviz.html><div class="studioLecture" id=activity-kviz><i class="far fa-question-circle activity-icon"></i>Квиз треће лекције</div></a>
+                </div>
+            </div>
+                
+                <div class="courseContentsSection">
+                <div class="lecture-div courseContentsSectionHeadline" id=lecture-2.4.%20Садашњост%20и%20будућност%20вештачке%20интелигенције>
+                    <h5>ДП.4. Садашњост и будућност вештачке интелигенције</h5>
+                    <i class="fas fa-angle-down caret-position "> </i>
+                    <i class="fas fa-angle-up caret-position d-none"></i>
+                </div>
+                <div class="courseContentsSubSection d-none"><a href=../2.4.%20Садашњост%20и%20будућност%20вештачке%20интелигенције/AI.html><div class="studioLecture" id=activity-AI><i class="fas fa-file-alt activity-icon"></i>2.4. Садашњост и будућност вештачке интелигенције - етичка питања</div></a>
+                <a href=../2.4.%20Садашњост%20и%20будућност%20вештачке%20интелигенције/kviz.html><div class="studioLecture" id=activity-kviz><i class="far fa-question-circle activity-icon"></i>Квиз четврте лекције</div></a>
+                </div>
+            </div>
+                </div>
+</div>
+
+
+
+<div class="lectureContent">
+
+  <div id="errors">
+  </div>
+  
+  <div class="lectureContentMaterial">
+  
+    <div id="main-content">
+    
+  <div class="section" id="id1">
+<h1>Отворени подаци<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h1>
+
+    <div class="course-box course-box-info">
+        <div class="course-content">
+            <p>
+<dl class="simple">
+<dt>На овом часу ћемо говорити о:</dt><dd><ul class="simple">
+<li><p>подацима и информацијама;</p></li>
+<li><p>базама података и информационим системима;</p></li>
+<li><p>појму „отворени подаци”;</p></li>
+<li><p>концепту „отворености” података;</p></li>
+<li><p>порталима отворених података;</p></li>
+<li><p>томе шта јесу а шта нису отворени подаци;</p></li>
+<li><p>сакупљању и обради података,</p></li>
+<li><p>професијама у вези са подацима;</p></li>
+<li><p>вези између отварања података и стварања услова за развој иновација и привредних грана за које су доступни отворени подаци.</p></li>
+</ul>
+</dd>
+</dl>
+
+    </p></div></div>
+<div class="section" id="id2">
+<h2>Подаци<a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h2>
+<p>У претходним лекцијама о раду у програмима за табеларне прорачуне, било је речи о појмовима податак и информација.</p>
+<dl class="simple">
+<dt>Потсети се ових појмова, па размисли и одговори на следећа питања:</dt><dd><ul class="simple">
+<li><p>Какви су нам све подаци и информaције на располагању?</p></li>
+<li><p>Који су све изазови у вези информација у савременом дигиталном добу?</p></li>
+<li><p>Колики је број резултата које добијаш када претражујеш неки појам на интернету?</p></li>
+<li><p>Да ли има превише информација?</p></li>
+<li><p>Да ли је до свих информација лако доћи?</p></li>
+<li><p>Да ли су неке мање или више транспарентне у односу на остале?</p></li>
+<li><p>Да ли су све информације до које дођемо тачне?</p></li>
+<li><p>Шта су то лажне вести (fake news)?</p></li>
+<li><p>Колико и да ли људи данас верују свакој информацији?</p></li>
+<li><p>Потсети се начинима на које критички вреднујемо информације провером веродостојности и извора информације.</p></li>
+</ul>
+</dd>
+</dl>
+<a class="reference internal image-reference" href="../_images/opendata.jpg"><img alt="../_images/opendata.jpg" class="align-center" src="../_images/opendata.jpg" style="width: 500px;" /></a>
+<p><strong>Сет података</strong> или <strong>скуп података</strong> је скуп чињеница које су добијене систематским мерењем, посматрањем или на неки други начин.
+На пример Сет података могу представљати све просечне температуре мерене сваког дана на некој метеоролошкој станици у току године. Да би оне могле да се употребе у различите сврхе, податку о свакој измереној температури треба да буду придуржени подаци о времену и датуму мерења. У случају губитка ових других података, сет података о просечним температурама нема употребну вредност.
+Сет података могу представљати нпр. слике које сними вештачки сателит кружећи изнад Земље. Анализа ових слика нема смисла ако се не сачувају подаци о тачним географским локацијама, времену када је снимано и др. Ови сетови података се могу нпр. анализирати по врсти и кретању облака и користити при временској прогнози.</p>
+<p><strong>„Big Data“</strong> је појам који настаје са наглим напретком у развоју рачунарске технологије када се стекла могућност да се циљано или успутно прикупљају изузетно велики сетови података (енг „big data“).
+Обрада ових огромних сетова података представља већи изазов него њихово скупљање јер тражи велике рачунарске ресурсе. Зато је обрада великих сетова података нови изазов за науку која се бави обрадом података.</p>
+<dl class="simple">
+<dt>Примери:</dt><dd><ul class="simple">
+<li><p>Државе скупљају велике сетове података о грађанима (идентитет, образовање, пребивалиште, порези и др.);</p></li>
+<li><p>Фирме скупљaју податке о производњи и продаји својих производа, приходима, запосленима и слично;</p></li>
+<li><p>Модерне ИКТ технологије генеришу велике сетове података: на Гугл претраживачу се обави око 40.000 претрага сваке секунде, што генерише податке о претраживању од 1.2 трилиона годишње (колачићи код корисника и слично);</p></li>
+<li><p>Сетови података који се генеришу нпр. за заузета и слободна места у јавној гаражи за све гараже у великом граду, када се за сваки минут времена чува податак о заузетости је пример за велики сет података.</p></li>
+<li><p>Модерна наука је базирана на провери претпоставки што се најчешће изводи експериментима у току којих се скупљају велики сетови података, па се нпр. при анализи ДНК скупљају сетови података који спадају у велике податке за велики број људских или животињских ДНК.</p></li>
+</ul>
+</dd>
+</dl>
+<p>Подаци се <strong>физички складиште на серверима</strong> који представљају рачунаре који имају велике дискове за чување података и боље процесоре за извршавање програма учитавања или ишчитавања података.
+Сервер је физички медијум за чување података који су на њима смештени у форми база података. <strong>Базе података</strong> су организоване колекције података на начин који омогућава њихово
+прецизно и брзо уписивање, ишчитавање и ажурирање. Појединац може своје податке да организује на различите начине на свом рачунару, на пример, своје фотографије и филмове као фајлове да чува у одређеним фолдерима који се физички чувају на хард-диску рачунара.
+Међутим, разне организације и компаније, као што су банке, државне институције, авио-компаније, ланци продавница итд. раде се далеко већим количинама података па су им неопходне базе података.
+Сервери на које се те базе физички складиште налазе се у посебним просторијама (рачунским центрима) компанија које их користе. Да би се избегао губитак података, базе се праве тако што се дуплирају копије и смештају на различитим локацијама.
+За мање системе праве се копије на различитим хард дисковима тако да ако дође до отказивања једног хард диска остаје друга копија података. За веће системе рачунарски ресурси за чување података су „у облаку“, тј. на удаљеној локацији код провајдера рачунарских ресурса доступног на интернету.
+За јако велике базе података, тј. за простор у облаку где се чувају подаци многих компанија и појединаца, потребна су и велики рачунарски ресурси, који се простиру на великој површини и троше много електричне енергије.
+Зато се <strong>велики центри за чувања података</strong> (енг. „data center“) све више граде тако да се обезбеђују еколошки извори енергије за њихово напајање и хлађење.
+На пример, највећи светски провајдери за рачунарство у облаку су „Amazon“, „Google“, „Microsoft“, „IBM“, „Alibaba“.
+Услуге чувања података у облаку могу да користе и појединци за које је та услуга најчешће бесплатна и подразумева чување мањих количина података у односу на количине података које су потребне компанијама.
+На пример, сваки корисник Gmail адресе има и свој диск у облаку на којем може да чува своје податке (тзв. „GDrive“).</p>
+<a class="reference internal image-reference" href="../_images/server.jpg"><img alt="../_images/server.jpg" class="align-right" src="../_images/server.jpg" style="width: 450px;" /></a>
+<p><strong>Скупљање и обрада података</strong>
+Цео систем за скупљање и обраду података се прави да би се из скупљених података извукле корисне информације и употребљиви закључци. Подаци су „нафта 21. века“, имају своју велику вредност, јер се у 21. веку сматра да је одлучивање на бази података најбољи поступак за доношење пословних или државних одлука.
+Раније су се ове одлуке доносиле на основу мишљења особа формираних искуством у одређеној области. Обрадом података и њиховом анализом се долази до закључака који имају смисла за онога који је наручио обраду.
+Обрада података и анализа су процеси у којем се прво спроводи “чишћење” података од грешака насталих при скупљању и одвајања важних од неважних података, а затим њихова математичка анализа.
+Ове обраде могу бити једноставне али и врло сложене па се све више говори о анализи сложених и богатих сетова података подигнутој на ниво „науке података“ (енг. „data science“).
+Ако се направе грешке при скупљању или анализи података, овај скуп процес није само обесмишљен него се доносе закључци и пословне одлуке које су погрешне, што може донети велике пословне губитке или одлуке које могу имати тешке последице по онога ко одлучује.
+Анализа и обрада података се може радити на више начина у зависности како су подаци организовани: у програмима за рад са табеларним подацима, језиком SQL у релационим базама података, а појавом изузетно великих сетова података (енг. „Big Data“) се уводе и нови специјализовани програми од којих је најпознатији програм „R“.</p>
+<p>Примери: <strong>Обрадом велике количине података</strong> који су прикупљени на основу продаје производа у продавницама, могу да се добију <strong>разне информације</strong>, на пример који је производ највише пута купљен у последњих 6 месеци, а који се најлошије продавао.
+Управници продавнице могу да донесу одлуке на основу ових информација, могу најпродаванији производ да ставе у рекламу зато што знају да он привлачи купце, а могу најслабиде продавани производ да ставе на акцију да би повећали његову продају.
+Прикупљене дневне температуре на сваких сат времена, могу да буду обрађене у сет података о средњој дневној температури која ће послужити за одговор на питање да ли постоји глобално отопљавање,ако се довољно дуго скупљају.</p>
+<p>Пример: У једној школи се израчунају просечне оцене по предметима за све разреде. Те просечне оцене су очекивано сличне. Међутим, уколико код неког предмета долази до посебног одступања, то може да буде сигнал за школу да испита о чему се ради.
+Након обрађених података и добијања иформација за сваку школу о просечном броју изостанака ученика током школске године (укупан број изостанака свих ученика подељен са бројем ученика), уколико се види да нека школа има превелики број, може да се посвети пажња тој школи и да се установи узрок великог изостајања ученика.</p>
+<a class="reference internal image-reference" href="../_images/vizuelizacija.jpg"><img alt="../_images/vizuelizacija.jpg" class="align-right" src="../_images/vizuelizacija.jpg" style="width: 400px;" /></a>
+</div>
+<div class="section" id="id3">
+<h2>Отворени подаци<a class="headerlink" href="#id3" title="Permalink to this headline">¶</a></h2>
+<p><strong>Отворени подаци</strong> (енг. open data) су <strong>јавно доступни</strong> подаци (објављени јавно на интернету) који могу бити <strong>слободно доступни свима</strong> и којима може <strong>свако да приступи</strong>, да их <strong>обрађује</strong> и да их <strong>користи без надокнаде</strong> на било који начин, за било које сврхе, <strong>без ауторских ограничења</strong> и механизама контроле, чак и да их даље објављује. Довољно је само да се наведе извор.
+Под појмом отворених података најчешће се мисли на табеларне и текстуалне податке које стварају јавне институције, али се појам подједнако користи и за информације које се односе на мапе, хемијска једињења, математичке и научне формуле, медицинске податке и друго.
+Са обзиром на то да су по својој природи ово подаци веома разноврсни и да се могу обрађивати и примењивати на различите начине, тешко их је класификовати, али их је могуће груписати према областима на које се односе.</p>
+<dl class="simple">
+<dt>Могу се разврстати на:</dt><dd><ul class="simple">
+<li><p><strong>Гео-подаци</strong>: помажу у стварању мапа које узимају у обзир околне грађевине и путеве, топографије и границе.</p></li>
+<li><p><strong>Подаци о култури</strong>: омогућавају преглед културних добара и баштине једне земље и најчешће су у поседу галерија, библиотека, музеја и архива.</p></li>
+<li><p><strong>Научни подаци</strong>: настали су током истраживања у свим областима науке.</p></li>
+<li><p><strong>Финансијски подаци</strong>: трошкови и приходи владе, подаци са берзе о акцијама и деоницама.</p></li>
+<li><p><strong>Статистички подаци</strong>: произведени су у статистичким центрима, током пописа становништва према различитим социо-економским индикаторима и слично.</p></li>
+<li><p><strong>Метеоролошки подаци</strong>: доступни су уз помоћ сателита и других извора за праћење климатских услова и прогнозирање временских прилика.</p></li>
+<li><p><strong>Подаци о животној средини</strong>: тичу се природних добара попут река, мора или планина, заштићених зона природе, као и њиховог загађења.</p></li>
+<li><p><strong>Подаци јавне управе</strong>: подаци о раду органа државне управе.</p></li>
+</ul>
+</dd>
+<dt><strong>Шта нису отворени подаци?</strong></dt><dd><ul class="simple">
+<li><p>лични подаци, информације које се односе на конкретне особе,</p></li>
+<li><p>подаци чија је употреба под оправданим рестрикцијама заштите ауторских права, из безбедносних или комерцијалних разлога, и слично.</p></li>
+</ul>
+</dd>
+</dl>
+<p>Отворени подаци имају различите карактеристике а најважније су да су <strong>слободно доступни</strong> свима, <strong>приступачни</strong>, а да би у време рачунарских технологија били искористиви важно је да буду <strong>машински читљиви</strong> у отвореним дигиталним форматима и да се њиховом даљом употребом, у комерцијалне или некомерцијалне сврхе, може створити додатна <strong>друштвена вредност</strong> или економска корист.
+Подаци који су примарно прикупљени за неку сврху могу се искористити и у неке друге сврхе. Отворени подаци су јавно објављени подаци који су скупљени у неке сврхе и за исте коришћени од стране организације или особе која их је прикупила. Када се јавно објављују тада неко ко је заинтересован може да их обради у сврхе за које нису прикупљени и тиме повећа корист од њиховог прикупљања.
+На пример: Базе података Републичког завода за статистику (које је могуће преузети у ексел фајловима) дају многе податке о привреди и друштву у Србији, уз доступне визуелизације већину сетова података. Један сет података који се може прузети са ових база су подаци о томе колико грађани Србије учествују у интернет трговини.</p>
+<p><strong>Потреба за отвореним подацима</strong>
+Због велике предности и вредности које доноси, иницијативе за отворене податке се покрећу у све већем броју земаља. Употребна вредност и потенцијалне примене отворених података повећавају се даљим развојем технологија које омогућавају озбиљнију анализу података и њихово лакше коришћење.</p>
+<dl class="simple">
+<dt><strong>Концепт ‘отворености’</strong> је посебно важан из више разлога:</dt><dd><ul class="simple">
+<li><p>доноси увећање могућности за сарадњу различитих система и организација, комбиновање различитих скупова података, а тиме и могућности за развој више производа и бољих услуга,</p></li>
+<li><p>отворени подаци јачају транспарентност рада државних органа, подстичу ефикасност у влади и ван ње,</p></li>
+<li><p>омогућава грађанима, предузећима и организацијама да користе јавне податке више пута у различите сврхе,</p></li>
+<li><p>јача се предузетништво јер се утиче на развој иновативних производа и услуга, обезбеђују се алати за алтернативно доношење одлука у области менаџмента, планирања и науке, и доприноси успостављању привреде засноване на знању,</p></li>
+<li><p>ствара се додатна вредност за органе власти, укључујући боље јавне сервисе, смањује оптерећење државне управе и поспешује сарадња са грађанима, предузећима и организацијама,</p></li>
+<li><p>омогућује препознавање неједнакости у друштву јер се отворени подаци могу користити као алат за праћење успешности политика које треба да реше те неједнакости,</p></li>
+<li><p>доносиоци одлука могу да креирају боље јавне политике које се тичу родне равноправности и да пажљивије прате њихове ефекте,</p></li>
+<li><p>отварање података је логичан процес јер су подаци које јавне институције сакупљају управо подаци грађана који свакодневно учествују у њиховом стварању.</p></li>
+</ul>
+</dd>
+</dl>
+<p><strong>„Отварање података“</strong> је јавно објављивање података у машински читљивом облику (који омогућава електронску обраду). Врши се да би се обезбедило њихово вишеструко коришћење.
+Државе отварају податке и из још једног важног разлога: да обезбеде „транспарентност јавне управе“ тј. да обезбеде да се грађани информишу о функционисању државе на систематски начин.
+Процењено је да се отварањем података може остварити и економска добит јер се доступношћу отворених података стварају додатни услови за развој иновација и привредних грана за које су доступни отворени подаци.</p>
+<p>Република Србија има велики напредак у отварању податак јер је њен индекс отворених података на првом месту у региону и 41. на листи свих чланица Уједињених нација.
+Јавно објављени подаци се најчешће дају на коришћење без икакве накнаде, али онај ко их користи може наплаћивати нпр. инсталацију веб или телефонске апликације која користи отворене податке или резултате истраживања на основу података за неког приватног клијента.
+Ипак, већина примена је отворена и много их је бесплатних за крајњег корисника. У отварању података се мора пазити да не дође до објаве тајних или личних података као што су нпр. војне тајне или лични подаци, јер се тиме могу угрозити сигурност државе или неких особа.</p>
+<p>Пример: Отварање података у Србији – државни портал отворених података: <a class="reference external" href="https://data.gov.rs/sr/discover/">https://data.gov.rs/sr/discover/</a></p>
+</div>
+<div class="section" id="id4">
+<h2>Портали отворених података<a class="headerlink" href="#id4" title="Permalink to this headline">¶</a></h2>
+<p>Државе и државне институције широм света су велики прикупљивачи података који могу бити вишекратно искоришћени. Државе су зарад добробити својих грађана заинтересоване да се подаци које су прикупиле што више искористе, за разлику од неких фирми које своје податке чувају да би себи обезбедиле предност на тржишту (иако има и фирми које налазе интерес у отварању података).
+Зато су највећи портали на којима се објављују отворени подаци <strong>државни портали, портали међународних организација и портали великих државних институција</strong>.
+<strong>Национални Портал отворених података (data.gov.rs)</strong> представља место на коме се објављују информације о скуповима отворених података државних органа Републике Србије, али и свих осталих субјеката са подацима који задовољавају услове да буду отворени.
+То обухвата органе државне управе, аутономних покрајина и локалних самоуправа, као и организације којима је поверено вршење јавних овлашћења – влада, министарства, општине, агенције, регулаторна тела, установе, комунална предузећа и други. Успостављање оваквих портала је стандардна пракса широм света.</p>
+<dl class="simple">
+<dt>Примери државних портала отворених података:</dt><dd><ul class="simple">
+<li><p>Портал отворених података Сједињене Америчке Државе (енг) - <a class="reference external" href="https://www.data.gov/">https://www.data.gov/</a></p></li>
+<li><p>Портал отворених података Европске уније (вишејезичан)- <a class="reference external" href="https://data.europa.eu/">https://data.europa.eu/</a></p></li>
+<li><p>Портал отворених података Уједињеног Краљевства - (енг) <a class="reference external" href="https://data.gov.uk">https://data.gov.uk</a> -</p></li>
+<li><p>Портал отворених података Индије (енг) - <a class="reference external" href="https://data.gov.in/">https://data.gov.in/</a></p></li>
+<li><p>Портал отворених података Града Њујорка - (енг)  <a class="reference external" href="https://opendata.cityofnewyork.us">https://opendata.cityofnewyork.us</a></p></li>
+<li><p>Портал отворених података Уницефа - <a class="reference external" href="https://data.unicef.org">https://data.unicef.org</a></p></li>
+<li><p>Портал отворених података Националне свемирске агенције САД НАСА (енг.) - <a class="reference external" href="https://go.nasa.gov/2NEk1e8">https://go.nasa.gov/2NEk1e8</a></p></li>
+</ul>
+</dd>
+</dl>
+<p>Примарна намена Портала јесте да буде репозиторијум отворених података, али је он и простор интеракције са заједницом која те податке користи. Поред претраге објављених скупова података, корисници Портала могу да прате активности организација које објављују податке, као и да дискутују о објављеним подацима. Садржаји су доступни програмерима путем <strong>апликативног програмског интерфејса (АПИ)</strong>.
+Такође, корисници овде могу да представе свој рад на примени података – било да се ради о мобилним или веб апликацијама које употребљавају отворене податке, различитим визуализацијама, мапама и другим облицима поновне употребе.
+<strong>Канцеларија за ИТ и еУправу</strong> одржава национални Портал отворених података и представља први контакт за све организације које желе да објављују податке. Уобичајено је да портали ове намене буду једноставни за навигацију.</p>
+<dl class="simple">
+<dt>Портал отворених података за државне органе у Србији има неколико целина:</dt><dd><ul class="simple">
+<li><p>Отворени подаци - Основне информације о отвореним подацима и Порталу, као и одговори на питања о процесима отварања података на националном и међународном нивоу.</p></li>
+<li><p>Теме - Категоризација скупова и ресурса на основу најактуелнијих тема: јавна безбедност, образовање, енергетика, управа, здравље, животна средина, итд.</p></li>
+<li><p>Организације - Регистровани чланови Портала који отварају податке или објављују примере употребе отворених података. За регистрацију је задужена Канцеларија за ИТ и е-Управу.</p></li>
+<li><p>Скупови података - Репозиторијум отворених података. Скупове података објављују администратори организација који дефинишу и начин на који ће подаци бити структурисани. Сваки скуп података садржи један или више ресурса, који представљају појединачне датотеке са подацима. Осим постављања података на Портал, постоји могућност да се на Порталу само објави линк ка скупу података који се налази на другој локацији. Постављање фајлова је могуће ручно или аутоматски путем АПИ-ја. Уз податке је потребно објавити и метаподатке, податке о подацима, као што су: опис, формат, датум креирања, фреквенција ажурирања, лиценца, простор на који се подаци односе.</p></li>
+<li><p>Примери употребе - Важна функција Портала је промоција и подстицање употребе отворених података. Да би корисник додао пример употребе, потребно је да уз скуп података за који жели да дода случај употребе, изабере опцију у дну екрана Случајеви коришћења -&gt; Додај случај употребе. Тиме се покреће прегледна и јасна процедура за опис случаја употребе.</p></li>
+<li><p>Блог - Вести које се тичу Портала, нове иницијативе у домаћим оквирима и глобални трендови отварања података.</p></li>
+<li><p>Пријава/регистрација - Секција Портала која садржи формуларе за пријаву раније регистрованих корисника и организација, као и регистрацију нових корисника.</p></li>
+</ul>
+</dd>
+</dl>
+</div>
+<div class="section" id="id5">
+<h2>Формати отворених података<a class="headerlink" href="#id5" title="Permalink to this headline">¶</a></h2>
+<p>Формати отворених података су исти као и формати података, али је важно је да се омогући да ове податке користе и апликације и да их за обраду може искористити што више људи, без ограничења набавке скупих програма који имају ексклузивне лиценце за неке формате.
+Подсетимо се: назив сваке датотеке је тачком раздвојен од скраћенице за назив формата у којем су подаци датотеке. Датотека “ja.doc“ има назив „ја“ и формат „doc“ који лаику само указује на то у којем програму може да се „отвори“ или направи датотека, али стручњаку казује да је то датотека која је направљена по строго прописаним стандардима који за овај тип датотеке и стручњак на основу познавања ових стандарда може чак да направи програм за читање ове датотеке.</p>
+<dl class="simple">
+<dt>Формати датотека:</dt><dd><ul class="simple">
+<li><p>за чување нумеричких и текстуалних података најчешће заступљени на порталима отворених података су формат компаније Microsoft <strong>„Xlsx“</strong> и отворени <strong>„ods“</strong> – оба су базирана на XML стандарду и оба се могу читати и обрађивати алатима <strong>MS Excel</strong> или <strong>Apache OpenOffice Calc</strong> (и многим другим).</p></li>
+<li><p>за чување података о географској локацији користи се XML варијанта <strong>„КML“</strong> која је оригинално направљена за „Google Earth“.</p></li>
+<li><p>за чување сликовних података користе се формати слика.</p></li>
+</ul>
+</dd>
+</dl>
+<p>Све чешће се на отвореним порталима могу наћи и нумерички и текстуални подаци у <strong>„JSON”</strong> формату који је такође отворени формат који је и машински и људски читљив, који се често користи за пренос података од клијента до сервера у веб апликацијама.
+За гео податке постоји „geoJSON”.</p>
+<a class="reference internal image-reference" href="../_images/masinskicitljivipodaci.png"><img alt="../_images/masinskicitljivipodaci.png" class="align-right" src="../_images/masinskicitljivipodaci.png" style="width: 350px;" /></a>
+<p>Задатак:
+На Порталу отворених података Ирске на страни <a class="reference external" href="https://data.gov.ie/dataset">https://data.gov.ie/dataset</a> са леве стране се може видети у којим су све форматима подаци.
+Наведи бар 5 формата на које си наишао када си проучавао овај портал отворених података.
+(Заступљени су формати JSON, PX (формат за слике тј. податке који се састоје од слика), CSV, TXT (обични текстуални формат), KML и други.)</p>
+<p><strong>Машински читљиви подаци</strong>
+Подаци могу бити тако форматирани да могу бити само људима читљиви и разумљиви или да буду машински читљиви и разумљиви. За рачунарску обраду података неопходно је да буду машински читљиви тј. да буду јасно дефинисани и добро форматирани да би могао да их чита и обрађује рачунар.
+Машински читљиви подаци су део неких већих сетова података смештених у базе података. Неки машински читљиви подаци се одмах, на извору, генеришу као такви – нпр. када се аутоматски очитава температура ваздуха на неком дигиталном мерном уређају и шаље посредством интернета податак о измереној вредности да се упише у базу података која је удаљена и километрима од места мерења.
+Други машински подаци морају да се претворе у машинске, јер на извору нису били у таквом облику или добро форматирани.</p>
+<p>Пример податка који није машински читљив:
+„Удаљеност Београда до Краљева је 190km, Чачак је удаљен 136km од Београда, а Ниш 236km.“ Ове податке човек лако чита и разуме, али смештени у реченицу су нечитљиви за рачунар (иако се може очекивати да се са напретком рачунарских технологија превазиђе ово ограничење).</p>
+<a class="reference internal image-reference" href="../_images/tabela.png"><img alt="../_images/tabela.png" class="align-center" src="../_images/tabela.png" style="width: 550px;" /></a>
+<p>На основу података у табели удаљености је лако написати програм који ће увести податке из табеле и обрадити их како желимо нпр. наћи који је од наведених градова најближи Београду, док за сет података исказаних реченицом не можемо рећи да су „машински читљиви“ и самим тим их није могуће искористити да се обрађују рачунарем, осим ако се не припреме тј.ако се од реченице ови подаци претворе у већ приказану табелу.</p>
+<p><strong>Квалитет и значај отворених података</strong></p>
+<p>Шта су квалитетни и корисни отворени подаци? Да би отворени подаци били корисни онима који желе да их употребе у различите сврхе, сетови података морају да задовољавају одређене квалитативне норме.</p>
+<dl class="simple">
+<dt>Постоје два основна критеријума њихове отворености:</dt><dd><ul class="simple">
+<li><p>Сви подаци су правно отворени - налазе се у јавном домену и носе минималне рестрикције за употребу.</p></li>
+<li><p>Технички су отворени - машински су читљиви, јавно су доступни путем интернета и записани су у форматима које читају софтвери у најширој употреби.</p></li>
+</ul>
+</dd>
+</dl>
+<p>„Отворено“ је правни и технички концепт који се дефинише <strong>слободом приступа, употребе, измене и дељења</strong> за било које сврхе. Поред самих података, отворен може бити и <strong>садржај</strong> (текстови, слике, филмови, програмски код) као и <strong>формат</strong> у ком се подаци или садржај налазе. Такође, отворене могу бити и <strong>лиценце</strong> којим се регулише право на коришћење садржаја.
+Квалитетни и корисни отворени подаци такође подразумевају <strong>изворност</strong> (објављивање података у облику у коме су прикупљени, без накнадних промена), <strong>комплетност</strong> (уз податке су приложени опис њихове структуре, пратећи шифрарници и слично) и <strong>ажурност</strong> (која се постиже директним преузимањем података из базе у којој се изворно обрађују).</p>
+</div>
+<div class="section" id="a">
+<h2>Визуaлизација отворених података и Инфографик<a class="headerlink" href="#a" title="Permalink to this headline">¶</a></h2>
+<p><strong>Визуализација података</strong> помаже човеку да разуме податке који су представљени сликом. Циљ визуализације података (било да су то отворени подаци или не) јесте да једноставно и ефектно преносе корисницима сложене информације.
+Са поступком и начином визуализације података, као и могућностима за графички приказ података упознаћеш се у оквиру следеће наставне теме.</p>
+<dl class="simple">
+<dt>Примери</dt><dd><ul class="simple">
+<li><p>Видео Визуaлизација ваздушног саобраћаја у Европи (енг.) <a class="reference external" href="https://bit.ly/2IJ67Zh">https://bit.ly/2IJ67Zh</a></p></li>
+<li><p>Визуaлизација предвиђања броја година живота за становнике ЕУ држава (мапа, енг.) <a class="reference external" href="https://bit.ly/2EnRHbs">https://bit.ly/2EnRHbs</a></p></li>
+<li><p>Визуализација пораста производње нуклеарне енергије у Индији од 2010.до 2016. године (график, енг.) <a class="reference external" href="https://bit.ly/2EkmuGa">https://bit.ly/2EkmuGa</a></p></li>
+<li><p>Интерактивни алат о потрошњи јавног буџета по ставкама у земљама ЕУ (вишејезично) <a class="reference external" href="https://bit.ly/2wxti05">https://bit.ly/2wxti05</a></p></li>
+</ul>
+</dd>
+</dl>
+<a class="reference internal image-reference" href="../_images/vizuelizacija2.png"><img alt="../_images/vizuelizacija2.png" class="align-center" src="../_images/vizuelizacija2.png" style="width: 500px;" /></a>
+<p><strong>Инфографик</strong> је комбинација слике и текста који у форми „сликовнице“ преноси информацију гледаоцу, као причу која својим дизајном и текстом треба да га заинтересује. Инфографик може бити у форми постера, бенера за веб (једне JPG слике или анимиране GIF слике нпр.), видеа или неког другог облика за приказ покретних и непокретних слика са текстом.
+Инфографик је врло погодан за приказ обрађених сетова података људима који нису експерти за ту област, јер поједостављено, и на интересантан начин за дату циљну групу, приказује закључке и резултате обраде података . Инфографик се може направити у било ком алату за приказ слика са текстом нпр. у алату Adobe Photoshop при чему се може припремити постер добарог квалитета.
+За постере који не морају бити високог квалитета се могу користити Microsoft PowerPoint у који се увозе слике направљене у програмима за обраду података као што су „Tableau“ или „R“, Microsoft Excell или Apache Open Office. Постоје и специјализовани веб базирани алати који омогућавају и делимичну обраду података и дизајн.</p>
+<dl class="simple">
+<dt>Примери</dt><dd><ul class="simple">
+<li><p>Инфографик о сиромаштву у Србији <a class="reference external" href="https://bit.ly/2GTZ1iF">https://bit.ly/2GTZ1iF</a></p></li>
+<li><p>Инфографик у виду мапе о минималним зарадама у Србији у поређењу са неким земљама у Европи <a class="reference external" href="https://bit.ly/2SxOwTO">https://bit.ly/2SxOwTO</a></p></li>
+<li><p>Инфографик о коришћењу платних картица у Србији <a class="reference external" href="https://bit.ly/2XsubTD">https://bit.ly/2XsubTD</a></p></li>
+<li><p>Инфографик о статусу породичних фирми у Србији <a class="reference external" href="https://bit.ly/2TrqP3S">https://bit.ly/2TrqP3S</a></p></li>
+<li><p>инфографик о навикама грађана Србије у исхрани и физичкој активности,</p></li>
+</ul>
+</dd>
+</dl>
+</div>
+<div class="section" id="id6">
+<h2>Професије у вези са подацима<a class="headerlink" href="#id6" title="Permalink to this headline">¶</a></h2>
+<p>Данас су врло тражене и плаћене професије везане за скупљање података, администрацију база података, анализу података и др. Неке од ових професија су постојале и пре двадесетак година али су доживеле експанзију, а неке тек сада настају и нове ће настајати.
+Постоји велика потреба за овим кадровима на светском нивоу, и недостатак квалификоване радне снаге, па су и плате за ове стручњаке високе. Oсобе које намеравају да раде или раде у овим професијама треба да имају позитиван став према целоживотном учењу и буду спремне на континурирани професионални развој јер знања у облaсти информациниoх технологија брзо застаревају.
+Додатно, дешава се да високошколске институције које образују овај кадар недовољно брзо осавремењују своје студијске програме па је ради боље интеграције на тржиште рада потребно стећи висок степен самосталности у учењу. Са обзиром да се трендови у развоју технологије прво појављују у земљама енглеског говорног подручја, неопходно је познавање овог језика како би се учило у онлајн окружењу.
+Нпр. светски познати универзитети нуде онлајн курсеве и сертификате за њих преко „Coursera“ или „EdX“ платформи за електронско учење. Неке ИКТ фирме нуде и предавања и индустријске сертификате из ове области („Oracle“, „Microsoft“, Мајкрософт и др.).</p>
+<dl class="simple">
+<dt>Примери ових професија су:</dt><dd><ul class="simple">
+<li><p><strong>Конструктор базе података</strong> је задужен/задужена да у сарадњи са стручним лицима за област података који се чувају у бази осмишљава које све податке треба да чува база и у ком облику (текст, цифра, аудио запис, слика и др.), и какве све везе треба да постоје између података.</p></li>
+<li><p><strong>Администратор базе података</strong> је задужен/задужена да редовно одржава базе (ажурира софтвер, даје или укида приступ бази за лица која раде у фирми и др.) и врши извлачење података.</p></li>
+<li><p><strong>Обрађивач података</strong> је задужен/задужена да на основу извода података из базе изврши анализу</p></li>
+</ul>
+</dd>
+</dl>
+<p>Како су базе података део информациних система којима се и скупљају подаци, програмери и администратори сервера су особе потребне да би се одржавале базе података као део система.</p>
+<a class="reference internal image-reference" href="../_images/dp4.jpg"><img alt="../_images/dp4.jpg" class="align-center" src="../_images/dp4.jpg" style="width: 500px;" /></a>
+<p><strong>Задатак:</strong> Пронађите актуелне огласе за посао за професије у вези са подацима.
+Која је позиција? Која се знања траже? Ако се тражи познавање језика SQL, или језика R или другом софтверском алату чије се познавање тражи огласом за посао, пронађи нешто о томе на интернету.</p>
+<p><strong>Закључак</strong>
+Осигуравањем доступности отворених података за коришћење у комерцијалне или некомерцијалне сврхе, на пример путем развоја апликација, обраде и прераде података за научна и друга истраживања, повезивања различитих база података, ствара се знатна додатна друштвена и економска вредност, искоришћавају се постојећи потенцијали и јача транспарентност јавног сектора и смањује ризик од корупције.
+Отворени подаци омогућују стварање компетитивних предности, развој иновација и нових радних места и отворити могућност новог запошљавања 25.000 људи.
+Европски портал отворених података тврди да су отворени подаци предуслов за било какву употребу вештачке интелигенције у јавном сектору, било да је у питању коришћење вештачке интелигенције за предикцију догађаја, мониторинг различитих феномена, истраживања везана за јавне политике, и друго.
+Имајући ово у виду, очекује се да ће отварање података различитих институција ослободити потенцијал за коришћење технологија заснованих на вештачкој интелигенцији у оквиру јавних политика, на пример кроз предвиђање и спречавање саобраћајних несрећа, унапређење јавног превоза, интеракцију јавних услуга са особама са посебним потребама, итд.</p>
+<p>Литература: “Приручник за наставу о отвореним подацима”, пројекат „Отворено образовање у Србији” Центар за образовне технологије Западни Балкан</p>
+</div>
+</div>
+
+
+    </div>
+    
+    <div>
+<div class="lecture-prev-next-toggle">
+  <a  href="index.html" id="prevLectureLink" class="lecture-toggler-arrows"><i class="fas fa-arrow-left fa"></i> <span> Претходна лекција </span> </a>
+  
+  <a id="nextLectureLink" class="lecture-toggler-arrows"><span> Следећа лекција</span>  <i class="fas fa-arrow-right fa"></i> </a>
+</div>
+
+<script type="text/javascript">
+  $('#relations-prev').tooltip({'placement':'right', 'selector': '', 'delay': { show: 100, hide: 50}});
+  $('#relations-next').tooltip({'placement':'left', 'selector': '', 'delay': { show: 100, hide: 50}});
+</script>
+</div>
+
+    
+  </div>
+</div>
+
+<div class="petljadoc-resources">
+  <span class="pull-left">(Created using  <a href="https://pypi.org/project/Sphinx/">Swinx</a>, <a href="http://runestoneinteractive.org/">RunestoneComponents</a> and <a href="https://github.com/Petlja/PetljaDoc">PetljaDoc</a>) <br> © 2022 Petlja</span>
+</div>
+
+
+<div class="lectureToolbox">
+
+  <label class="font-size-toggle" id="fontSizeToggle">
+
+      <i class="fas fa-font"></i><label>Слова</label>
+  </label>
+  <div class="font-change d-none" id="fontChangeModal">
+      <span class="dec-letter-icon" id="decLetterIcon">A-</span>
+      <label id="currentFontSize">16</label>
+      <span class="inc-letter-icon" id="incLetterIcon">A+</span>
+  </div>
+</div>
+
+</div>
+
+  </body>
+</html>

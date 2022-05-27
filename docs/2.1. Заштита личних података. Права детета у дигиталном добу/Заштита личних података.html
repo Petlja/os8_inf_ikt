@@ -1,0 +1,666 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="sr-Cyrl">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Заштита личних података.</title>
+    <link rel="stylesheet" type="text/css" href="../_static/activecode.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/codemirror.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/clickable.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/pytutor.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/modal-basic.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/datafile.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/dragndrop.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/fitb.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/matrixeq.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/parsons.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/lib/prettify.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/poll.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/showEval.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/tabbedstuff.css" />
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/video.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/webgldemo.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/webglinteractive.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/karel.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/notes.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/simanim.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/pycode.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/p5js.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/gallery.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/dbDirective.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/associations.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/regex-check.css" />
+    <link rel="stylesheet" href="../_static/basic.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/user-highlights.css" type="text/css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" type="text/css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" type="text/css" />
+    <link rel="stylesheet" href="../_static/bootstrap-4.0.0-dist/css/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/flatly.min.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/petlja-course.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/nbstyle.css" type="text/css" />
+    <script id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+    <script type="text/javascript" src="../_static/runestonebase.js"></script>
+    <script type="text/javascript" src="../_static/skulpt.min.js"></script>
+    <script type="text/javascript" src="../_static/skulpt-stdlib.js"></script>
+    <script type="text/javascript" src="../_static/jquery.js"></script>
+    <script type="text/javascript" src="../_static/underscore.js"></script>
+    <script type="text/javascript" src="../_static/doctools.js"></script>
+    <script type="text/javascript" src="../_static/language_data.js"></script>
+    <script type="text/javascript" src="../_static/jquery.highlight.js"></script>
+    <script type="text/javascript" src="../_static/bookfuncs.js"></script>
+    <script type="text/javascript" src="../_static/codemirror.js"></script>
+    <script type="text/javascript" src="../_static/xml.js"></script>
+    <script type="text/javascript" src="../_static/css.js"></script>
+    <script type="text/javascript" src="../_static/python.js"></script>
+    <script type="text/javascript" src="../_static/htmlmixed.js"></script>
+    <script type="text/javascript" src="../_static/javascript.js"></script>
+    <script type="text/javascript" src="../_static/jquery_i18n/CLDRPluralRuleParser.js"></script>
+    <script type="text/javascript" src="../_static/jquery_i18n/jquery.i18n.js"></script>
+    <script type="text/javascript" src="../_static/jquery_i18n/jquery.i18n.messagestore.js"></script>
+    <script type="text/javascript" src="../_static/jquery_i18n/jquery.i18n.fallbacks.js"></script>
+    <script type="text/javascript" src="../_static/jquery_i18n/jquery.i18n.language.js"></script>
+    <script type="text/javascript" src="../_static/jquery_i18n/jquery.i18n.parser.js"></script>
+    <script type="text/javascript" src="../_static/jquery_i18n/jquery.i18n.emitter.js"></script>
+    <script type="text/javascript" src="../_static/jquery_i18n/jquery.i18n.emitter.bidi.js"></script>
+    <script type="text/javascript" src="../_static/activecode-i18n.en.js"></script>
+    <script type="text/javascript" src="../_static/activecode-i18n.sr-Cyrl.js"></script>
+    <script type="text/javascript" src="../_static/activecode.js"></script>
+    <script type="text/javascript" src="../_static/clike.js"></script>
+    <script type="text/javascript" src="../_static/timed_activecode.js"></script>
+    <script type="text/javascript" src="../_static/animationbase.js"></script>
+    <script type="text/javascript" src="../_static/mchoice.js"></script>
+    <script type="text/javascript" src="../_static/timedmc.js"></script>
+    <script type="text/javascript" src="../_static/timed.js"></script>
+    <script type="text/javascript" src="../_static/mchoice-i18n.en.js"></script>
+    <script type="text/javascript" src="../_static/mchoice-i18n.sr-Cyrl.js"></script>
+    <script type="text/javascript" src="../_static/clickable.js"></script>
+    <script type="text/javascript" src="../_static/timedclickable.js"></script>
+    <script type="text/javascript" src="../_static/d3.v2.min.js"></script>
+    <script type="text/javascript" src="../_static/jquery.ba-bbq.min.js"></script>
+    <script type="text/javascript" src="../_static/jquery.jsPlumb-1.3.10-all-min.js"></script>
+    <script type="text/javascript" src="../_static/pytutor.js"></script>
+    <script type="text/javascript" src="../_static/codelens.js"></script>
+    <script type="text/javascript" src="../_static/skulpt.min.js"></script>
+    <script type="text/javascript" src="../_static/skulpt-stdlib.js"></script>
+    <script type="text/javascript" src="../_static/datafile.js"></script>
+    <script type="text/javascript" src="../_static/dragndrop.js"></script>
+    <script type="text/javascript" src="../_static/timeddnd.js"></script>
+    <script type="text/javascript" src="../_static/dragndrop-i18n.en.js"></script>
+    <script type="text/javascript" src="../_static/dragndrop-i18n.sr-Cyrl.js"></script>
+    <script type="text/javascript" src="../_static/fitb.js"></script>
+    <script type="text/javascript" src="../_static/timedfitb.js"></script>
+    <script type="text/javascript" src="../_static/fitb-i18n.en.js"></script>
+    <script type="text/javascript" src="../_static/fitb-i18n.sr-Cyrl.js"></script>
+    <script type="text/javascript" src="../_static/matrixeq.js"></script>
+    <script type="text/javascript" src="../_static/lib/prettify.js"></script>
+    <script type="text/javascript" src="../_static/lib/hammer.min.js"></script>
+    <script type="text/javascript" src="../_static/parsons.js"></script>
+    <script type="text/javascript" src="../_static/parsons-i18n.en.js"></script>
+    <script type="text/javascript" src="../_static/parsons-i18n.sr-Cyrl.js"></script>
+    <script type="text/javascript" src="../_static/timedparsons.js"></script>
+    <script type="text/javascript" src="../_static/poll.js"></script>
+    <script type="text/javascript" src="../_static/reveal.js"></script>
+    <script type="text/javascript" src="../_static/shortanswer.js"></script>
+    <script type="text/javascript" src="../_static/timed_shortanswer.js"></script>
+    <script type="text/javascript" src="../_static/showEval.js"></script>
+    <script type="text/javascript" src="../_static/tabbedstuff.js"></script>
+    <script type="text/javascript" src="../_static/runestonevideo.js"></script>
+    <script type="text/javascript" src="../_static/webglinteractive.js"></script>
+    <script type="text/javascript" src="../_static/FileSaver.min.js"></script>
+    <script type="text/javascript" src="../_static/Blob.js"></script>
+    <script type="text/javascript" src="../_static/karelCorner.js"></script>
+    <script type="text/javascript" src="../_static/karelRobot.js"></script>
+    <script type="text/javascript" src="../_static/karelWorld.js"></script>
+    <script type="text/javascript" src="../_static/karelRobotDrawer.js"></script>
+    <script type="text/javascript" src="../_static/karelUI.js"></script>
+    <script type="text/javascript" src="../_static/karel.js"></script>
+    <script type="text/javascript" src="../_static/karel-i18n.en.js"></script>
+    <script type="text/javascript" src="../_static/karel-i18n.sr-Cyrl.js"></script>
+    <script type="text/javascript" src="../_static/notes.js"></script>
+    <script type="text/javascript" src="../_static/pygamelib-init.js"></script>
+    <script type="text/javascript" src="../_static/blockly/blockly_compressed.js"></script>
+    <script type="text/javascript" src="../_static/blockly/blocks_compressed.js"></script>
+    <script type="text/javascript" src="../_static/blockly/python_compressed.js"></script>
+    <script type="text/javascript" src="../_static/blockly/msg-sr.js"></script>
+    <script type="text/javascript" src="../_static/blockpy/utilities.js"></script>
+    <script type="text/javascript" src="../_static/blockpy/python_errors.js"></script>
+    <script type="text/javascript" src="../_static/blockpy/ast_node_visitor.js"></script>
+    <script type="text/javascript" src="../_static/blockpy/abstract_interpreter.js"></script>
+    <script type="text/javascript" src="../_static/blockpy/pytifa.js"></script>
+    <script type="text/javascript" src="../_static/blockpy/abstract_interpreter_definitions.js"></script>
+    <script type="text/javascript" src="../_static/blockpy/python_to_blockly.js"></script>
+    <script type="text/javascript" src="../_static/blockpy/imported.js"></script>
+    <script type="text/javascript" src="../_static/blockpy/blocks/class.js"></script>
+    <script type="text/javascript" src="../_static/blockpy/blocks/comment.js"></script>
+    <script type="text/javascript" src="../_static/blockpy/blocks/comprehensions.js"></script>
+    <script type="text/javascript" src="../_static/blockpy/blocks/dict.js"></script>
+    <script type="text/javascript" src="../_static/blockpy/blocks/if.js"></script>
+    <script type="text/javascript" src="../_static/blockpy/blocks/io.js"></script>
+    <script type="text/javascript" src="../_static/blockpy/blocks/lists.js"></script>
+    <script type="text/javascript" src="../_static/blockpy/blocks/sets.js"></script>
+    <script type="text/javascript" src="../_static/blockpy/blocks/loops.js"></script>
+    <script type="text/javascript" src="../_static/blockpy/blocks/parking.js"></script>
+    <script type="text/javascript" src="../_static/blockpy/blocks/tuple.js"></script>
+    <script type="text/javascript" src="../_static/blockpy/blocks/turtles.js"></script>
+    <script type="text/javascript" src="../_static/blockpy/blocks/text.js"></script>
+    <script type="text/javascript" src="../_static/blockpy-modal.js"></script>
+    <script type="text/javascript" src="../_static/simanim.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/pyodide/v0.16.1/full/pyodide.js"></script>
+    <script type="text/javascript" src="../_static/pycode.js"></script>
+    <script type="text/javascript" src="//toolness.github.io/p5.js-widget/p5-widget.js"></script>
+    <script type="text/javascript" src="../_static/p5js.js"></script>
+    <script type="text/javascript" src="../_static/gallery.js"></script>
+    <script type="text/javascript" src="../_static/dbDirective.js"></script>
+    <script type="text/javascript" src="../_static/sql.js"></script>
+    <script type="text/javascript" src="../_static/associations.js"></script>
+    <script type="text/javascript" src="../_static/associations-i18n.en.js"></script>
+    <script type="text/javascript" src="../_static/associations-i18n.sr-Cyrl.js"></script>
+    <script type="text/javascript" src="../_static/regex-check.js"></script>
+    <script type="text/javascript" src="../_static/regex-check-i18n.en.js"></script>
+    <script type="text/javascript" src="../_static/regex-check-i18n.sr-Cyrl.js"></script>
+    <script type="text/javascript" src="../_static/translations.js"></script>
+    <script async="async" type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <script type="text/javascript" src="../_static/jquery-ui-1.10.3.custom.min.js"></script>
+    <script type="text/javascript" src="../_static/jquery-fix.js"></script>
+    <script type="text/javascript" src="../_static/bootstrap-4.0.0-dist/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="../_static/bootstrap-4.0.0-dist/js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript" src="../_static/bootstrap-sphinx.js"></script>
+    <script type="text/javascript" src="../_static/waypoints.min.js"></script>
+    <script type="text/javascript" src="../_static/rangy-core.js"></script>
+    <script type="text/javascript" src="../_static/rangy-textrange.js"></script>
+    <script type="text/javascript" src="../_static/rangy-cssclassapplier.js"></script>
+    <script type="text/javascript" src="../_static/user-highlights.js"></script>
+    <script type="text/javascript" src="../_static/jquery.idle-timer.js"></script>
+    <script type="text/javascript" src="../_static/processing-1.4.1.min.js"></script>
+    <script type="text/javascript" src="../_static/jquery.hotkey.js"></script>
+    <script type="text/javascript" src="../_static/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="../_static/course-errors.js"></script>
+    <script type="text/javascript" src="../_static/petlja.js"></script>
+    <script type="text/javascript" src="../_static/require.js"></script>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'>
+    <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
+    <link rel="shortcut icon" href="../_static/favicon.ico" type="image/ico" />
+    <script type="text/javascript">
+      eBookConfig = {};
+      eBookConfig.host = 'http://127.0.0.1:8000' ? 'http://127.0.0.1:8000' : 'http://127.0.0.1:8000';
+      eBookConfig.app = eBookConfig.host + '/runestone';
+      eBookConfig.ajaxURL = eBookConfig.app + '/ajax/';
+      eBookConfig.course = '8_razred_IKT_DigitalnaPismenost';
+      eBookConfig.logLevel = '0';
+      eBookConfig.loginRequired = 'false';
+      eBookConfig.build_info = "";
+      eBookConfig.isLoggedIn = false;
+      eBookConfig.useRunestoneServices = false;
+      eBookConfig.python3 = true;
+      eBookConfig.basecourse = 'Primer_kurs';
+      eBookConfig.runestone_version = '';
+      eBookConfig.imagesDir = '../_images/';
+      eBookConfig.staticDir = '../_static/';
+      if (typeof (Sk) != "undefined")
+        Sk.imgPath = eBookConfig.imagesDir;
+    </script>
+
+  </head>
+
+  <body>
+
+
+
+<div id="navbar" class="content-header">
+  <div class="right-side-nav">
+    
+    <div id="usefulLinksToggle" class="useful-links-toggle">
+        <a class="dropdown-toggle dropdown-toggle-burger" role="button" href="#" id="usefulLinksDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <i class="fas fa-bars fa-2x"></i>
+        </a>
+        <div class="dropdown-menu dropdown-nav-links shadow-lg" aria-labelledby="usefulLinksDropdown" x-placement="bottom-start" style="position: absolute; transform: translate3d(-55px, 32px, 0px); top: 0px; left: 0px; will-change: transform;">
+          <div class="links-title"> Корисни линкови</div>
+          <div class="useful-link">
+            <a href="https://pametnoibezbedno.gov.rs/" target="_blank">Паметно и безбедно</a></div>
+          <div class="useful-link">
+            <a href="http://www.netpatrola.rs/" target="_blank">Нет патрола</a></div>
+          <div class="useful-link">
+            <a href="https://kliknibezbedno.wordpress.com/opsta-bezbednst-na-internetu/" target="_blank">Кликни безбедно</a></div>
+          <div class="useful-link">
+            <a href="https://www.unicef.org/serbia/zaustavimo-digitalno-nasilje" target="_blank">Шта је дигитално насиље и како да га зауставимо</a></div>
+          <div class="useful-link">
+            <a href="https://www.youtube.com/playlist?list=PLG6HMr6sRAxk5fYkFHmTrZEFoY4dkhE_V" target="_blank">Све боје интернета</a></div>
+          
+        </div>
+    </div>
+
+    
+</div>
+
+<div class="left-side-nav">
+  <div class="course-logo-nav">
+      <a target="_blank" href="https://petlja.org">
+          <img src="../_static/img/petlja-logo-wt.svg" alt="petlja.org" id="lightPetljaLogo">
+      </a>
+  </div>
+  <div class="course-logo-nav-kabinet">
+      <a target="_blank" href="https://petlja.org/net.kabinet">
+          <img src="../_static/img/netkabinet-logo-strelica-wt.svg" alt="petlja.org" id="lightNetKabinetLogo">
+      </a>
+  </div>
+</div>
+
+
+<div class="content-header-label" id = "content-header-label" href="../">ИКТ и Дигитална писменост</div>
+
+</div>
+
+
+
+
+<div class="petljaCourseContainer">
+
+<div class="petljaCourseContent">
+  
+           <div class="tableOfContent">
+            <h5> Садржај </h5>
+            </div>
+           <div>
+                <div class="courseContentsSection">
+                <div class="lecture-div courseContentsSectionHeadline" id=lecture-E00>
+                    <h5>Информационо-комуникационе технологије (ИКТ)</h5>
+                    <i class="fas fa-angle-down caret-position "> </i>
+                    <i class="fas fa-angle-up caret-position d-none"></i>
+                </div>
+                <div class="courseContentsSubSection d-none"><a href=../E00/E00.html><div class="studioLecture" id=activity-E00><i class="fas fa-file-alt activity-icon"></i>Исходи</div></a>
+                </div>
+            </div>
+                
+                <div class="courseContentsSection">
+                <div class="lecture-div courseContentsSectionHeadline" id=lecture-E01>
+                    <h5>ИКТ.1. Увод у рад са програмима за табеларна израчунавања</h5>
+                    <i class="fas fa-angle-down caret-position "> </i>
+                    <i class="fas fa-angle-up caret-position d-none"></i>
+                </div>
+                <div class="courseContentsSubSection d-none"><a href=../E01/E01.html><div class="studioLecture" id=activity-E01><i class="fas fa-file-alt activity-icon"></i>Лекција</div></a>
+                <a href=../E01/testE01.html><div class="studioLecture" id=activity-testE01><i class="far fa-question-circle activity-icon"></i>Квиз</div></a>
+                </div>
+            </div>
+                
+                <div class="courseContentsSection">
+                <div class="lecture-div courseContentsSectionHeadline" id=lecture-E02>
+                    <h5>ИКТ.2. Аутоматска рекалкулација</h5>
+                    <i class="fas fa-angle-down caret-position "> </i>
+                    <i class="fas fa-angle-up caret-position d-none"></i>
+                </div>
+                <div class="courseContentsSubSection d-none"><a href=../E02/E02.html><div class="studioLecture" id=activity-E02><i class="fas fa-file-alt activity-icon"></i>Лекција</div></a>
+                <a href=../E02/testE02.html><div class="studioLecture" id=activity-testE02><i class="far fa-question-circle activity-icon"></i>Квиз</div></a>
+                </div>
+            </div>
+                
+                <div class="courseContentsSection">
+                <div class="lecture-div courseContentsSectionHeadline" id=lecture-E03>
+                    <h5>ИКТ.3. Селектовање групе ћелија и уређивање табеле</h5>
+                    <i class="fas fa-angle-down caret-position "> </i>
+                    <i class="fas fa-angle-up caret-position d-none"></i>
+                </div>
+                <div class="courseContentsSubSection d-none"><a href=../E03/E03.html><div class="studioLecture" id=activity-E03><i class="fas fa-file-alt activity-icon"></i>Лекција</div></a>
+                <a href=../E03/testE03.html><div class="studioLecture" id=activity-testE03><i class="far fa-question-circle activity-icon"></i>Квиз</div></a>
+                </div>
+            </div>
+                
+                <div class="courseContentsSection">
+                <div class="lecture-div courseContentsSectionHeadline" id=lecture-E04>
+                    <h5>ИКТ.4. Разне врсте података у табели</h5>
+                    <i class="fas fa-angle-down caret-position "> </i>
+                    <i class="fas fa-angle-up caret-position d-none"></i>
+                </div>
+                <div class="courseContentsSubSection d-none"><a href=../E04/E04.html><div class="studioLecture" id=activity-E04><i class="fas fa-file-alt activity-icon"></i>Лекција</div></a>
+                <a href=../E04/testE04.html><div class="studioLecture" id=activity-testE04><i class="far fa-question-circle activity-icon"></i>Квиз</div></a>
+                </div>
+            </div>
+                
+                <div class="courseContentsSection">
+                <div class="lecture-div courseContentsSectionHeadline" id=lecture-E05>
+                    <h5>ИКТ.5. Штампање и генерисање ПДФ документа</h5>
+                    <i class="fas fa-angle-down caret-position "> </i>
+                    <i class="fas fa-angle-up caret-position d-none"></i>
+                </div>
+                <div class="courseContentsSubSection d-none"><a href=../E05/E05.html><div class="studioLecture" id=activity-E05><i class="fas fa-file-alt activity-icon"></i>Лекција</div></a>
+                <a href=../E05/testE05.html><div class="studioLecture" id=activity-testE05><i class="far fa-question-circle activity-icon"></i>Квиз</div></a>
+                </div>
+            </div>
+                
+                <div class="courseContentsSection">
+                <div class="lecture-div courseContentsSectionHeadline" id=lecture-E07>
+                    <h5>ИКТ.6. Визуелизација података</h5>
+                    <i class="fas fa-angle-down caret-position "> </i>
+                    <i class="fas fa-angle-up caret-position d-none"></i>
+                </div>
+                <div class="courseContentsSubSection d-none"><a href=../E07/E07.html><div class="studioLecture" id=activity-E07><i class="fas fa-file-alt activity-icon"></i>Лекција</div></a>
+                <a href=../E07/testE07.html><div class="studioLecture" id=activity-testE07><i class="far fa-question-circle activity-icon"></i>Квиз</div></a>
+                </div>
+            </div>
+                
+                <div class="courseContentsSection">
+                <div class="lecture-div courseContentsSectionHeadline" id=lecture-E08>
+                    <h5>ИКТ.7. Сортирање, филтрирање и фреквенцијска анализа</h5>
+                    <i class="fas fa-angle-down caret-position "> </i>
+                    <i class="fas fa-angle-up caret-position d-none"></i>
+                </div>
+                <div class="courseContentsSubSection d-none"><a href=../E08/E08.html><div class="studioLecture" id=activity-E08><i class="fas fa-file-alt activity-icon"></i>Лекција</div></a>
+                <a href=../E08/testE08.html><div class="studioLecture" id=activity-testE08><i class="far fa-question-circle activity-icon"></i>Квиз</div></a>
+                </div>
+            </div>
+                
+                <div class="courseContentsSection">
+                <div class="lecture-div courseContentsSectionHeadline" id=lecture-E10>
+                    <h5>ИКТ.8. Рад са дељеним табелама</h5>
+                    <i class="fas fa-angle-down caret-position "> </i>
+                    <i class="fas fa-angle-up caret-position d-none"></i>
+                </div>
+                <div class="courseContentsSubSection d-none"><a href=../E10/E10.html><div class="studioLecture" id=activity-E10><i class="fas fa-file-alt activity-icon"></i>Лекција</div></a>
+                <a href=../E10/testE10.html><div class="studioLecture" id=activity-testE10><i class="far fa-question-circle activity-icon"></i>Квиз</div></a>
+                </div>
+            </div>
+                
+                <div class="courseContentsSection">
+                <div class="lecture-div courseContentsSectionHeadline" id=lecture-DP00>
+                    <h5>Дигитална писменост (ДП)</h5>
+                    <i class="fas fa-angle-down caret-position "> </i>
+                    <i class="fas fa-angle-up caret-position d-none"></i>
+                </div>
+                <div class="courseContentsSubSection d-none"><a href=../DP00/DP00.html><div class="studioLecture" id=activity-DP00><i class="fas fa-file-alt activity-icon"></i>Исходи</div></a>
+                </div>
+            </div>
+                
+                <div class="courseContentsSection">
+                <div class="lecture-div courseContentsSectionHeadline" id=lecture-2.1.%20Заштита%20личних%20података.%20Права%20детета%20у%20дигиталном%20добу>
+                    <h5>ДП.1. Заштита личних података. Права детета у дигиталном добу</h5>
+                    <i class="fas fa-angle-down caret-position "> </i>
+                    <i class="fas fa-angle-up caret-position d-none"></i>
+                </div>
+                <div class="courseContentsSubSection d-none"><a href=../2.1.%20Заштита%20личних%20података.%20Права%20детета%20у%20дигиталном%20добу/Заштита%20личних%20података.html><div class="studioLecture" id=activity-Заштита%20личних%20података><i class="fas fa-file-alt activity-icon"></i>Заштита личних података</div></a>
+                <a href=../2.1.%20Заштита%20личних%20података.%20Права%20детета%20у%20дигиталном%20добу/Права%20детета%20у%20дигиталном%20добу.html><div class="studioLecture" id=activity-Права%20детета%20у%20дигиталном%20добу><i class="fas fa-file-alt activity-icon"></i>Права детета у дигиталном добу</div></a>
+                <a href=../2.1.%20Заштита%20личних%20података.%20Права%20детета%20у%20дигиталном%20добу/Вежба%201%20-%20Дељење%20и%20контрола%20личних%20података.html><div class="studioLecture" id=activity-Вежба%201%20-%20Дељење%20и%20контрола%20личних%20података><i class="fas fa-file-alt activity-icon"></i>Вежба 1 - Дељење и контрола личних података</div></a>
+                <a href=../2.1.%20Заштита%20личних%20података.%20Права%20детета%20у%20дигиталном%20добу/Вежба%202%20-%20Заштита%20приватности%20личних%20података.html><div class="studioLecture" id=activity-Вежба%202%20-%20Заштита%20приватности%20личних%20података><i class="fas fa-file-alt activity-icon"></i>Вежба 2 - Заштита приватности личних података</div></a>
+                <a href=../2.1.%20Заштита%20личних%20података.%20Права%20детета%20у%20дигиталном%20добу/Квиз%20прве%20лекције.html><div class="studioLecture" id=activity-Квиз%20прве%20лекције><i class="far fa-question-circle activity-icon"></i>Квиз прве лекције</div></a>
+                </div>
+            </div>
+                
+                <div class="courseContentsSection">
+                <div class="lecture-div courseContentsSectionHeadline" id=lecture-2.2.%20Отворени%20подаци>
+                    <h5>ДП.2. Отворени подаци</h5>
+                    <i class="fas fa-angle-down caret-position "> </i>
+                    <i class="fas fa-angle-up caret-position d-none"></i>
+                </div>
+                <div class="courseContentsSubSection d-none"><a href=../2.2.%20Отворени%20подаци/Отворени%20подаци.html><div class="studioLecture" id=activity-Отворени%20подаци><i class="fas fa-file-alt activity-icon"></i>2.2. Отворени подаци</div></a>
+                <a href=../2.2.%20Отворени%20подаци/Квиз%20друге%20лекције.html><div class="studioLecture" id=activity-Квиз%20друге%20лекције><i class="far fa-question-circle activity-icon"></i>Квиз друге лекције</div></a>
+                </div>
+            </div>
+                
+                <div class="courseContentsSection">
+                <div class="lecture-div courseContentsSectionHeadline" id=lecture-2.3.%20Појам%20вештачке%20интелигенције>
+                    <h5>ДП.3. Појам вештачке интелигенције</h5>
+                    <i class="fas fa-angle-down caret-position "> </i>
+                    <i class="fas fa-angle-up caret-position d-none"></i>
+                </div>
+                <div class="courseContentsSubSection d-none"><a href=../2.3.%20Појам%20вештачке%20интелигенције/AI.html><div class="studioLecture" id=activity-AI><i class="fas fa-file-alt activity-icon"></i>2.3. Појам вештачке интелигенције</div></a>
+                <a href=../2.3.%20Појам%20вештачке%20интелигенције/kviz.html><div class="studioLecture" id=activity-kviz><i class="far fa-question-circle activity-icon"></i>Квиз треће лекције</div></a>
+                </div>
+            </div>
+                
+                <div class="courseContentsSection">
+                <div class="lecture-div courseContentsSectionHeadline" id=lecture-2.4.%20Садашњост%20и%20будућност%20вештачке%20интелигенције>
+                    <h5>ДП.4. Садашњост и будућност вештачке интелигенције</h5>
+                    <i class="fas fa-angle-down caret-position "> </i>
+                    <i class="fas fa-angle-up caret-position d-none"></i>
+                </div>
+                <div class="courseContentsSubSection d-none"><a href=../2.4.%20Садашњост%20и%20будућност%20вештачке%20интелигенције/AI.html><div class="studioLecture" id=activity-AI><i class="fas fa-file-alt activity-icon"></i>2.4. Садашњост и будућност вештачке интелигенције - етичка питања</div></a>
+                <a href=../2.4.%20Садашњост%20и%20будућност%20вештачке%20интелигенције/kviz.html><div class="studioLecture" id=activity-kviz><i class="far fa-question-circle activity-icon"></i>Квиз четврте лекције</div></a>
+                </div>
+            </div>
+                </div>
+</div>
+
+
+
+<div class="lectureContent">
+
+  <div id="errors">
+  </div>
+  
+  <div class="lectureContentMaterial">
+  
+    <div id="main-content">
+    
+  <div class="section" id="id1">
+<h1>Заштита личних података.<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h1>
+
+    <div class="course-box course-box-info">
+        <div class="course-content">
+            <p>
+<dl class="simple">
+<dt>На овом часу ћемо говорити о:</dt><dd><ul class="simple">
+<li><p>личним подацима;</p></li>
+<li><p>начинима на које делимо личне податке приликом коришћења интернета;</p></li>
+<li><p>Закону о заштити података о личности;</p></li>
+<li><p>правима лица чији се подаци о личности обрађују;</p></li>
+<li><p>Конвенцији о правима детета и њеној примени у дигиталном окружењу;</p></li>
+<li><p>вези између ризика на интернету и кршења права.</p></li>
+</ul>
+</dd>
+</dl>
+
+    </p></div></div>
+<div class="section" id="id2">
+<h2>Шта су то лични подаци?<a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h2>
+<p>Лични подаци су сви подаци који се односе на особу чији се идентитет њиховим коришћењем може директно или индиректно утврдити.
+Обично се ради о подацима који се свакодневно користе у активностима на послу, у тровини, у банци, школи, на интернету и слично.</p>
+<dl class="simple">
+<dt>У личне податке спадају:</dt><dd><ul class="simple">
+<li><p>име и презиме,</p></li>
+<li><p>јединствени матични број грађана (ЈМБГ),</p></li>
+<li><p>адреса,</p></li>
+<li><p>имејл адреса,</p></li>
+<li><p>број телефона,</p></li>
+<li><p>број личне карте,</p></li>
+<li><p>број пасоша,</p></li>
+<li><p>број здравственог осигурања,</p></li>
+<li><p>подаци о здравственом стању,</p></li>
+<li><p>порески број,</p></li>
+<li><p>пореске пријаве,</p></li>
+<li><p>рачуни у банкама,</p></li>
+<li><p>кредитна задуженост,</p></li>
+<li><p>подаци о висини зараде,</p></li>
+<li><p>оцене у школи,</p></li>
+<li><p>подаци о образовању,</p></li>
+<li><p>подаци о чланствима у организацијама и удружењима,</p></li>
+<li><p>подаци о брачном статусу,</p></li>
+<li><p>слике,</p></li>
+<li><p>видео запис особе,</p></li>
+<li><p>тонски запис особе,</p></li>
+<li><p>биометријски подаци (скенирање зенице или отисци прстију),</p></li>
+<li><p>ДНК,</p></li>
+<li><p>историја прегледа на интернету,</p></li>
+<li><p>подаци о локацији и кретању, итд.</p></li>
+</ul>
+</dd>
+</dl>
+<p>Дакле, све информације којима се може утврдити идентитет једног лица, сматрају се подацима о личности.</p>
+<a class="reference internal image-reference" href="../_images/fingerprint.jpg"><img alt="../_images/fingerprint.jpg" class="align-center" src="../_images/fingerprint.jpg" style="width: 400px;" /></a>
+</div>
+<div class="section" id="id3">
+<h2>Примери свесног и несвесног остављања личних података<a class="headerlink" href="#id3" title="Permalink to this headline">¶</a></h2>
+<p>Постоје бројне свакодневне ситуације у којима остављамо личне податке који могу потенцијално бити ненаменски употребљени и злоупотребљени од стране трећих лица.
+На пример остављање личних података на огласним таблама, остављање штампаних биографија кандидата за посао на столу или бацање у корпу за смеће, представљају неке од честих неправилности на које обичнио нико не обраћа пажњу нити их сматра ризичним.
+Ситуације сличне овима у дигиталном свету у коме се такви подаци веома лако умножавају, деле и прослеђују вишеструко повећава ризик од њихове лаке доступности и злоупотребе. Због тога је неопходно имати развијену свест и разумети значај личних података и ризика од њихове потенцијалне злоупотребе.</p>
+</div>
+<div class="section" id="id4">
+<h2>Доступност и употреба личних података у дигиталном окружењу и онлине профилисање<a class="headerlink" href="#id4" title="Permalink to this headline">¶</a></h2>
+<p>Право на заштиту личних података и приватности јесте једно од <strong>основних људских права</strong> које је, наглим развојем дигиталне технологије и интернета, озбиљно доведено у питање. Живимо у 21. веку у коме су информације најважнији ресурс, те се наше друштво са правом назива информационо друштво.
+У овој ери “великих података” лични подаци се третирају као посебно драгоцен ресурс који ономе који их поседује даје надмоћ и контролу. Свака институција, организација или компанија, која је у законској обавези да нам утврди идентитет пре него што нам испоручи услугу – школа, банка, интернет провајдер – прикупља податке о нама.
+Такође, продавци разне робе на основу уговора или наше дозволе, имају податке о, рецимо, нашој адреси на коју ће нам испоручити производ или број нашег телефона. Користећи информационе и комуникационе технологије, свако од нас, свесно или несвесно, оставља прегршт личних података (такозвани „Big dataˮ, односно велики подаци) на интернету, који у 21. веку представљају „дигиталну нафтуˮ и заправо валуту којом плаћамо одређене услуге.
+Тако лични подаци заврше углавном у поседу корпорација и оглашивача који кроз прикупљање података прате понашања корисника интернета и персонализују претраге, огласе и медијске садржаје за сваког корисника.</p>
+<p>У претходном разреду је било речи о интернет сервисима и о томе како многи од тих сервиса да би нам омогућили коришћење услуга које нуде захтевају да прихватимо сагласност за коришћење личних инормација, при чему је обично само делимично наведено на који начин ће наши лични подаци бити употребљени. Те сагласности се често појављују у виду искачућих или “поп-ап” (енгл. pop-up) прозорчића на појединим сајтовима, а корисници најчешће нису склони да их прочитају у потпуности услед потребе за брзим притупом информацијама или услугама сервиса, па најчешће кликну и прихвате све услове и без читања обавештења.
+Ова обавештење садрже информације о томе у које сврхе се користе наши лични подаци и обавештавају да ће на нашем уређају бити инсталирани <strong>“колачићи” (енг. cookies)</strong> који могу да <strong>прате и бележе посете различитим сајтовима</strong>. Колачићи заправо представљају текстуалне фајлове који се чувају на веб-прегледачима када посетимо неку страницу. Помоћу колачића веб-страница може запамтити наше активности и аутоматски их применити следећи пут када посетимо исту веб-страницу. Могу се користити нпр. за памћење лозинки или форми које смо претходно попуњавали.
+Уопштено посматрано сврха колачића није злонамерна, нису штетни и не носе вирусе, али могу угрозити нашу приватност јер преко њих заинтересовани корисник може да има увид у веб-стране које смо посећивали, да тако бележи наша интересовања и навике и на тај начин прави профил корисника интернета а те информације о нама прода некој трећој страни која ће нам сервирати рекламе.</p>
+<p>На пример, уколико корисник интернета жели да купи аранжман за летовање и на интернету претражује понуде, он до тада није уписао ниједан лични податак, али су на већини страница инсталирани колачићи који прате његово понашање и самим тим раде његово профилисање. Понуђач на основу тих сазнања тачно зна шта тај корисник тражи, као на пример што јефтинији хотелски смештај за одређени датум. Понуђач затим прати колико често тај корисник тражи одређену дестинацију и који је број претрага и кад се одлучи за жељени датум и затражи онлине понуду, алгоритам који је профилисао његово понашање, даје оцену да постоји озбиљна намера куповине туристичког аранжмана и по уграђеном аутоматизму може приказати већу цену.
+Ово спада у примере непримерене обраде података која треба да се санкционише. Такође, на друштвеним мрежама као и бројним информативним порталима повећаће се присуство реклама за тражену дестинацију и термин који је корисник претраживао, па нудиће се рекламе различитих хотела на тој дестинацији, појавиће се рекламе авио-компанијама са летовима за претраживани датум ка тим дестинацијама са аеродрома најближег кориснику на основу његове IP адресе, понуде агенција за изнајмљивање аутомобила на тој локацији, понуде обиласка туристичких атракција у околини са посебним попустима, понуде и рекламе светских ланаца маркета и продавница за ту дестинацију и слично.
+Поред тога, како маркетинг често не познаје границе па тиме прелази границу наше приватности, често може доћи до слања персонализованих писама електронском поштом, контактирање путем телефона, путем електронске поште, СМС-ом, ММС-ом, искачућим прозорима и на други начин. Јасно је да у овом случају долази до злоупотребе личних података корисника.</p>
+</div>
+<div class="section" id="id5">
+<h2>Законске одредбе<a class="headerlink" href="#id5" title="Permalink to this headline">¶</a></h2>
+<p>Заштита података о личности је од изузетне важности, јер подразумева приватност, поштовање и заштиту од манипулација. Наши подаци, било да су приватни или јавно доступни, саставни су део наше личности па тако заштита личних података представља једно од темељних људских права.
+<strong>Закон о заштити података о личности</strong> је пропис који држава доноси да би уредила односе између грађана на које се подаци односе и приватних и јавних организација које те податке прикупљају и обрађују.
+У Србији је крајем 2018. године ступио на снагу нови закон који је у највећој мери усаглашен са европским правним оквиром, односно <strong>Општом уредбом о заштити података о личности (енгл. General Data Protection Regulation - GDPR)</strong>.
+Овај закон између осталог предвиђа да појединци од којих се информације прикупљају имају право да увек и у сваком тренутку знају ко и у какве сврхе сакупља њихове личне податке, као и да захтевају да се ти подаци избришу из базе података у којој се налазе.
+Лични подаци обухватају оне информације које могу помоћи да се идентификује особа или породица на посредан или непосредан начин. У школским евиденцијама то се односи на промене имена и презимена, ЈМБГ-а, адресе, контакт телефона, оцена. Ови подаци остају лични, чак и уколико особа одлучи да их објави.</p>
+<p>Шта је податак о личности?
+Пре свега, да се упознамо са дефиницијом личног податка коју нам даје Закон о заштити података о личности.</p>
+<dl class="simple">
+<dt>Податак о личности је свака информација која се односи на физичко лице, и то:</dt><dd><ul class="simple">
+<li><p>без обзира на облик у коме је изражена,</p></li>
+<li><p>без обзира на носач информације (папир, трака, филм, електронски медиј и сл.),</p></li>
+<li><p>без обзира по чијем налогу, у чије име, односно за чији рачун је информација похрањена,</p></li>
+<li><p>без обзира на датум настанка информације,</p></li>
+<li><p>без обзира на место похрањивања информације,</p></li>
+<li><p>без обзира на начин сазнавања информације (непосредно, путем слушања, гледања и сл., односно посредно, путем увида у документ у којем је информација садржана и сл.), и без обзира на друго својство информације.</p></li>
+</ul>
+</dd>
+</dl>
+<p>Дакле било који податак који се односи на физичко лице се, по Закону, сматра податком о личности.</p>
+<dl class="simple">
+<dt>Закон прави изузеће, и не примењује се на следеће:</dt><dd><ul class="simple">
+<li><p>податке који су доступни свакоме и објављени у јавним гласилима и публикацијама или приступачни у архивама, музејима и другим сличним организацијама;</p></li>
+<li><p>податке који се обрађују за породичне и друге личне потребе и нису доступни трећим лицима;</p></li>
+<li><p>податке који се о члановима политичких странака, удружења, синдиката, као и других облика удруживања обрађују од стране тих организација, под условом да члан дâ писану изјаву да одређене одредбе овог закона не важе за обраду података о њему за одређено време, али не дуже од времена трајања његовог чланства;</p></li>
+<li><p>податке које је лице, способно да се само стара о својим интересима, објавило о себи.</p></li>
+</ul>
+</dd>
+</dl>
+<p><strong>ГДПР термини које треба да знате</strong></p>
+
+    <div data-component="reveal" id="ГДПР термини које треба да знате"   data-showtitle="Кликните овде за приказ" data-hidetitle="Сакриј прозор">
+    
+    <div class="course-box course-box-info">
+        <div class="course-content">
+            <p>
+<p>ГДПР термини које треба да знате</p>
+<p><strong>Руковалац</strong> је физичко или правно лице, односно орган власти који самостално или заједно са другима одређује сврху и начин обраде података о личности. У пракси то значи да, у односу на податке о личности које обрађује, руковалац има свеобухватну контролу јер он одлучује да почне прикупљање и обраду података, те утврђује правни основ за такву обраду, односно зашто и како се такви подаци о личности обрађују.
+<strong>Обрађивач</strong> је физичко или правно лице, односно орган власти који обрађује податке о личности у име руковаоца. То значи да обрађивач не одређује сврху и средства за обраду личних података и представља одвојено правно лице од руковаоца. Обично је то организација са посебним знањима и вештинама коју руковалац ангажује како би извршила обраду података о личности (књиговодствене агенције, маркетинг и ХР агенције, служба обезбеђења…).
+<strong>Начела обраде</strong> - И руковалац и обрађивач су у обавези да обрађују податке о личности у складу са начелима обраде, али ће само руковалац имати обавезу да демонстрира усклађеност са начелима обраде, што не значи да обрађивач не мора да се придржава ових начела.
+Начела обраде података о личности представљају кључни део Закона о заштити података о личности односно ГДПР-а, чије кршење повлачи драконске казне.</p>
+<dl class="simple">
+<dt>Та начела су:</dt><dd><ul class="simple">
+<li><p>Законитост, правичност и транспарентност - подаци се не смеју обрађивати на други начин осим на јасној и ваљаној законској основи, на поштен и према лицу транспарентан начин.</p></li>
+<li><p>Ограниченост сврхом - обавезно је навођење свих сврха обраде у које се подаци прикупљају.</p></li>
+<li><p>Минимизација - смеју се прикупљати само подаци који су релевантни и потребни за испуњавање сврхе у коју се обрађују.</p></li>
+<li><p>Тачност - подаци требају бити ажурни и тачни.</p></li>
+<li><p>Ограничење чувања - подаци се не смеју чувати дуже од периода неопходног за испуњавање сврхе због које су прикупљени.</p></li>
+<li><p>Интегритет и поверљивост - лични подаци се морају чувати и заштитити од незаконите и недозвољене обраде, случајног губитка, уништења или отицања.</p></li>
+</ul>
+</dd>
+</dl>
+<p><strong>ДПО лице за заштиту података личности</strong> је овлашћено лице за заштиту података или „Data protection officer” (ДПО) и представља лице које је у компанији именовано да руководи подацима о личности у погледу креирања стратегија за заштиту података о личности и праћењу њихових усклађености са ГДПР регулативом.
+<strong>Пренос података ван Србије</strong> У случају изношења података о личности из Србије, и руковалац и обрађивач имају обавезу да испуне бројне услове које Закон о заштити података о личности пред њих поставља. Такође, и руковалац и обрађивач сарађују са повереником на испуњавању својих законских обавеза, те су дужни да се повинују захтевима повереника у овом смислу.</p>
+
+    </p></div></div>
+
+    </div>
+    </div>
+<div class="section" id="id6">
+<h2>Обрада података о личности<a class="headerlink" href="#id6" title="Permalink to this headline">¶</a></h2>
+<p>За <strong>поседовање и употребу података</strong> најчешће се користи термин <strong>обрада података о личности</strong>. Обрада је заправо свака радња која укључује личне податке – копирање, уступање, прикупљање. Чак и увид у здравствени картон представља обраду података о личности.
+За субјекте који обрађују податке о личности, најчешће употребљавамо термине руковалац и обрађивач који представљају физичко или правно лице, као и државни органи, који одређују сврху за коју се подаци прикупљају, обрађују их, и/или поверавају их неком другом субјекту на обраду.
+Обрада личних података о грађанима, није сама по себи незаконита, али је важно да постоји <strong>јасно одређена сврха обраде података</strong>, која није противна законима. Па тако послодавци прикупљају податке као што су: име и презиме, адреса, датум и место рођења, матични број, број личне карте, држављанство, број здравственог осигурања итд, у сврху обрачуна зарада, уплате пореза и осигурања, каснијег остваривања права на пензију и сл.
+Оваква обрада личних података у складу је са разним законима и прописима (Закон о раду, Закон о пореском поступку и пореској администрацији, Закон о здравственом осигурању…).
+Поред овакве врсте обраде податка, обрада података може се вршити и <strong>на основу пристанка лица на које се подаци односе</strong>. Таква обрада података односи се на ситуације у којој је лице неком својом радњом дало пристанак за прикупљање и обраду података. Нови Закон пристанком за обраду података о личности подразумева: свако добровољно, одређено, информисано недвосмислено изражавање воље лица, изјавом или јасном потврдном радњом.
+Пример таквог пристанка би био улазак у тржни центар на чијим вратима је наглашено да се унутрашњост објекта снима. Уласком унутра смо обавештени и да дали смо свој пристанак да будемо снимани. Још један пример дате сагласности је и већ чувено чекирање опције Accept (прихватам) приликом преузимања апликација са Play Store-а.
+Већина грађана не чита текст који је повезан са квадратићем где обележавамо да се слажемо са условима под којим компанија послује или апликација ради. Ту се заправо налазе информације које се односе и на употребу наших личних података. Па тако, неке од тих апликација захтевају приступ галерији са фотографијама, контактима у нашем телефонском именику итд.</p>
+<dl class="simple">
+<dt>Када се за обраду података захтева сагласност лица, <strong>руковалац је дужан да пружи основне информације о себи</strong>, и да лицу чији су подаци <strong>саопшти информације везане за обраду података</strong>:</dt><dd><ul class="simple">
+<li><p>о сврси обраде,</p></li>
+<li><p>правном основу обраде,</p></li>
+<li><p>легитимном интересу руковаоца да податке обрађује,</p></li>
+<li><p>информације да ли ће руковалац делити податке са неким другим субјектом у земљи или ван земље,</p></li>
+<li><p>о року у којем ће подаци о личности бити чувани,</p></li>
+<li><p>о правима лица поводом обраде података,</p></li>
+<li><p>као и о томе да ли обрада података подразумева аутоматизовану обраду података и профилисање.</p></li>
+</ul>
+</dd>
+</dl>
+<p>Ове информације руковалац је дужан да презентује особи на које се подаци односе <strong>пре тражења сагласности</strong> за обраду података.
+Закон о заштити података о личности прописује и обавезу да се подаци чувају у облику који омогућује идентификацију лица само у оној мери и онолико дуго колико је то потребно у остваривању саме сврхе обраде. То значи да се не могу обрађивати прикупљени подаци осим по основи по којој је лице дало пристанак на обраду.
+На пример, уколико сте купили усисивач у једној радњи и оставили личне податке приликом писања гарантног листа у сврху остваривања права на попуст или добијање лојалити картице, то руковаоцу не даје за право да вас позива за учешће у наградној игри или да вас обавештава о новим производима јер за то нема вашу сагласност.
+Такође, канал информација ка вама мора бити у складу са вашом сагласносшћу, значи ако је наведен имејл, забрањено је слање СМС-а који многи сматрају и агресивним и неприхватљивим маркетингом. Компаније морају свим лицима, чији се подаци обрађују, пружити све потребне информације о обради њихових личних података већ при самом прикупљању и пре саме обраде.</p>
+<a class="reference internal image-reference" href="../_images/GDPR.jpg"><img alt="../_images/GDPR.jpg" class="align-center" src="../_images/GDPR.jpg" style="width: 700px;" /></a>
+</div>
+<div class="section" id="id7">
+<h2>Права лица чији се подаци о личности обрађују<a class="headerlink" href="#id7" title="Permalink to this headline">¶</a></h2>
+<p>Без обзира на то да ли је правни основ за обраду података добијена сагласност, или неки правни пропис, лица на која се подаци односе остварују одређена права у погледу те обраде.
+Закон одређује читав низ права која имамо као лица чији се подаци обрађују, а обавеза руковаоца подацима је да обезбеди њихову примену.</p>
+<dl class="simple">
+<dt>Нека од наших права су:</dt><dd><ul class="simple">
+<li><p><strong>Остваривање права и транспарентност</strong>. Руковалац је дужан да лицу на које се подаци односе пружи све прописане информације на сажет, транспарентан, разумљив и лако доступан начин, коришћењем јасних и једноставних речи.</p></li>
+<li><p><strong>Право на информисање</strong>. Закон о заштити података о личности јасно регулише које нам све информације морају бити пружене пре него што започне обрада наших података, без обзира на то да ли смо те информације тражили или не.</p></li>
+<li><p><strong>Право на обавештење о обради, приступ, увид у податке и добијање копије</strong>. Сви грађани имају право да буду обавештени о томе да ли неки руковалац (неко физичко или правно лице или орган власти) врши обраду њихових личних података. Имамо право да од руковаоца тражимо потврду о томе да ли се уопште подаци о нама обрађују. Ако је одговор позитиван, имамо право да добијемо приступ тим подацима, као и информације у вези са њиховом обрадом. Уколико руковалац поседује Ваше личне податке, на Ваш захтев дужан је да Вам их стави на увид. Увид укључује преглед, читање, слушање података и сл. На Ваш захтев, руковалац који поседује личне податке о вама дужан је да вам сачини копију тих података које обрађује.</p></li>
+<li><p><strong>Права лица поводом извршеног увида</strong>. Након извршеног увида, или добијене копије личних података које руковалац поседује о Вама, можете захтевати исправку, допуну, ажурирање, брисање података, као и прекид и привремену обуставу обраде.</p></li>
+<li><p><strong>Право на исправку и допуну</strong>. Свако од нас има безусловно право на исправку нетачних и допуну непотпуних података о личности.</p></li>
+<li><p><strong>Право на брисање</strong>. Имамо право да тражимо брисање личних података у појединим случајевима: подаци више нису неопходни за остваривање сврхе због које су обрађивани, опозвали смо пристанак на основу којег се обрада вршила, поднели смо приговор на обраду, наши подаци су незаконито обрађивани, подаци су прикупљени од детета у вези са коришћењем услуга информационог друштва</p></li>
+<li><p><strong>Право на преносивост</strong>. Ово право подразумева да лице на које се подаци односе може захтевати од руковаоца преношење личних података другом руковаоцу, када је то технички изводљиво, односно када се лични подаци, који су предмет захтева за преношење, налазе у структурираном и машински читљивом формату. Пример за то би био да банка чији сте клијент, на Ваш захтев изврши пренос Ваших личних података у другу банку.</p></li>
+<li><p><strong>Право на повлачење сагласности</strong>. У ситуацијама када је правни основ за обраду личних података ваш пристанак, имате право да у било ком тренутку повучете дату сагласност. Ово значи да се увек можете обратити руковаоцу који обрађује ваше податке и захтевати од њега да прекине обраду ваших података.</p></li>
+<li><p><strong>Право на заборав</strong>. Постојеће право на брисање података прилагођава се стварности интернета у којима се наши подаци константно објављују и деле. Слично је и са правом на преносивост података (data portability) које подразумева да ће компаније које се баве аналитиком личних података својим корисницима на захтев морати да доставе све податке о њима у машински читљивом формату, како би ти подаци могли да се користе и за друге услуге.</p></li>
+</ul>
+</dd>
+</dl>
+<p><strong>Захтев за остварење права</strong></p>
+<p>Законом није предвиђено како треба да изгледа захтев којим се тражи увид у личне податке, издавање копије, исправка, допуна, ажурирање, брисање података итд, међутим Повереник за информације од јавног значаја и заштиту података о личности израдио је два формулара који треба да олакшају грађанима остваривање ових права.  Први се односи на ситуације у којима желите да проверите да ли неки руковалац поседује податке о Вама, желите увид у њих и/или копију.
+Другим захтевом од руковаоца можете тражити исправку, допуну, ажурирање, брисање података итд. Захтеви се могу упутити руковаоцима за које претпостављате или знате да располажу Вашим личним подацима.</p>
+<p><strong>Обраћање Поверенику и судска заштита</strong></p>
+<p>У случају да лице на које се подаци односе сматра да се обрада података о личности врши супротно одредбама Закона, оно има право да поднесе притужбу <strong>Поверенику за информације од јавног значаја и заштиту података о личности</strong>.
+Повереник је самосталан државни орган, независан у вршењу своје надлежности, који врши послове заштите података о личности. Поред обраћања Поверенику, лице на које се подаци односе може поднети <strong>тужбу за заштиту својих права</strong>, против руковаоца или обрађивача за ког сматра да је обрадом личних података повредио неко од права прописаних Законом о заштити података о личности.
+Поред ове врсте заштите могуће је покренути поступак и пред основним судом тужбом за накнаду штете због незаконитог руковања подацима о личности.
+У свим случајевима повреде права из ове области, лица на које се подаци односе најпре би требало да се обрате Поверенику, као органу у чијој директној надлежености је област заштите података о личности, и који има развијену праксу поступања у овој области.</p>
+</div>
+</div>
+
+
+    </div>
+    
+    <div>
+<div class="lecture-prev-next-toggle">
+  <a  href="index.html" id="prevLectureLink" class="lecture-toggler-arrows"><i class="fas fa-arrow-left fa"></i> <span> Претходна лекција </span> </a>
+  
+  <a id="nextLectureLink" class="lecture-toggler-arrows"><span> Следећа лекција</span>  <i class="fas fa-arrow-right fa"></i> </a>
+</div>
+
+<script type="text/javascript">
+  $('#relations-prev').tooltip({'placement':'right', 'selector': '', 'delay': { show: 100, hide: 50}});
+  $('#relations-next').tooltip({'placement':'left', 'selector': '', 'delay': { show: 100, hide: 50}});
+</script>
+</div>
+
+    
+  </div>
+</div>
+
+<div class="petljadoc-resources">
+  <span class="pull-left">(Created using  <a href="https://pypi.org/project/Sphinx/">Swinx</a>, <a href="http://runestoneinteractive.org/">RunestoneComponents</a> and <a href="https://github.com/Petlja/PetljaDoc">PetljaDoc</a>) <br> © 2022 Petlja</span>
+</div>
+
+
+<div class="lectureToolbox">
+
+  <label class="font-size-toggle" id="fontSizeToggle">
+
+      <i class="fas fa-font"></i><label>Слова</label>
+  </label>
+  <div class="font-change d-none" id="fontChangeModal">
+      <span class="dec-letter-icon" id="decLetterIcon">A-</span>
+      <label id="currentFontSize">16</label>
+      <span class="inc-letter-icon" id="incLetterIcon">A+</span>
+  </div>
+</div>
+
+</div>
+
+  </body>
+</html>

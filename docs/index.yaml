@@ -1,0 +1,365 @@
+courseId: 8_razred_IKT_DigitalnaPismenost
+description:
+  externalLinks:
+  - href: https://pametnoibezbedno.gov.rs/
+    text: Паметно и безбедно
+  - href: http://www.netpatrola.rs/
+    text: Нет патрола
+  - href: https://kliknibezbedno.wordpress.com/opsta-bezbednst-na-internetu/
+    text: Кликни безбедно
+  - href: https://www.unicef.org/serbia/zaustavimo-digitalno-nasilje
+    text: Шта је дигитално насиље и како да га зауставимо
+  - href: https://www.youtube.com/playlist?list=PLG6HMr6sRAxk5fYkFHmTrZEFoY4dkhE_V
+    text: Све боје интернета
+  longDescription: '<div class="document">
+
+    <p>Овај курс је намењен ученицима 8. разреда основне школе за предмет Информатика
+    и рачунарство у току првог полугодишта.
+
+    У оквиру курса детаљно су обрађене наставне теме Дигитална писменост и Информационо
+    комуникационе технологије и
+
+    у потпуности прати програм наставе и учења за овај предмет. Курс је подељен по
+    часовима.
+
+    Материјал намењен за један школски час се састоји од лекције, дела са питалицама,
+    којима се ученицима скреће пажња на
+
+    најбитније делове из садржаја лекције и кратких квизова, који имају за циљ проверу
+    усвојеног градива.</p>
+
+    <p>Поред рада у школи, курс се може пролазити и самостално.</p>
+
+    <p>&lt;p&gt;
+
+    &lt;a rel=&quot;license&quot; href=&quot;<a class="reference external" href="https://creativecommons.org/licenses/by/4.0/deed.sr_LATN">https://creativecommons.org/licenses/by/4.0/deed.sr_LATN</a>&quot;&gt;
+
+    &lt;img alt=&quot;Creative Commons License&quot; style=&quot;border-width:0&quot;
+    src=&quot;https://i.creativecommons.org/l/by/4.0/88x31.png&quot; /&gt;&lt;/a&gt;
+
+    &lt;br /&gt;Овај курс Фондација Петља објавила je под лиценцом &lt;a rel=&quot;license&quot;
+    href=&quot;https://creativecommons.org/licenses/by/4.0/deed.sr_LATN&quot;&gt;Creative
+    Commons Autorstvo 4.0 Međunarodna Licenca (CC BY 4.0)&lt;/a&gt;.
+
+    &lt;/p&gt;</p>
+
+    </div>
+
+    '
+  requirements:
+  - Имаш инсталиран програм за табеларне прорачуне
+  - Рачунар са приступом интернету
+  shortDescription: ИКТ и Дигитална писменост
+  toc:
+  - ИНФОРМАЦИОНО-КОМУНИКАЦИОНЕ ТЕХНОЛОГИЈЕ (ИКТ)
+  - ИКТ.1. Увод у рад са програмима за табеларна израчунавања
+  - ИКТ.2. Аутоматска рекалкулација
+  - ИКТ.3. Селектовање групе ћелија и уређивање табеле
+  - ИКТ.4. Разне врсте података у табели
+  - ИКТ.5. Штампање и генерисање ПДФ документа
+  - ИКТ.6. Визуелизација података
+  - ИКТ.7. Сортирање, филтрирање и фреквенцијска анализа
+  - ИКТ.8. Рад са дељеним табелама
+  - ДИГИТАЛНА ПИСМЕНОСТ (ДП)
+  - ДП.1. Заштита личних података. Права детета у дигиталном добу
+  - ДП.2. Отворени подаци
+  - ДП.3. Појам вештачке интелигенције
+  - ДП.4. Садашњост и будућност вештачке интелигенције - етичка питања
+  willLearn:
+  - УВОД У РАД СА ПРОГРАМИМА ЗА ТАБЕЛАРНА ИЗРАЧУНАВАЊА (ИКТ)
+  - Радно окружење програма за табеларне прорачуне
+  - Креирање радне табеле и унос података (нумерички, текстуални, датум, време....)
+  - Формуле и функције
+  - Примена формула за израчунавање статистика
+  - Сортирање и филтрирање података
+  - Груписање података и израчунавање статистика по групама
+  - Визуелизација података − израда графикона
+  - Форматирање табеле (вредности и ћелија) и припрема за штампу
+  - Рачунарство у облаку − дељене табеле (нивои приступа, измене и коментари)
+  - ДИГИТАЛНА ПИСМЕНОСТ (ДП)
+  - шта су лични подаци
+  - на које све начине делимо личне податке приликом коришћења интернета
+  - које су потенцијални ризици дељења личних података путем интернета, поготову личних
+    података деце
+  - каква је веза између ризика на интернету и кршења права
+  - шта су отворени подаци
+  - каква је веза између отварања података и стварања услова за развој иновација и
+    привредних грана за које су доступни отворени подаци
+  - објасни појам вештачке интелигенције својим речима
+  - наводи примере коришћења вештачке интелигенције у свакодневном животу
+  - разуме утицај вештачке интелигенције на живот савременог човека
+lang: sr-Cyrl
+lessons:
+- activities:
+  - description: ''
+    file: E00.html
+    guid: d799d350-0937-43bf-b24e-d4312aee6e8e
+    src: E00.rst
+    title: Исходи
+    type: reading
+  archived-activities: []
+  description: ''
+  folder: E00
+  guid: d0425350-c866-4df8-9d3d-9a44d6cc4884
+  normalized_title: Информационо-комуникационе технологије (ИКТ)
+  title: Информационо-комуникационе технологије (ИКТ)
+- activities:
+  - description: ''
+    file: E01.html
+    guid: 6e09f3e9-24ae-4cf6-9773-7f514756c139
+    src: E01.rst
+    title: Лекција
+    type: reading
+  - description: ''
+    file: testE01.html
+    guid: d6d48387-1fda-4483-ae01-9f15114963bd
+    src: testE01.rst
+    title: Квиз
+    type: quiz
+  archived-activities: []
+  description: ''
+  folder: E01
+  guid: f77c8f05-b8d8-4190-8432-deb8f2bb7d13
+  normalized_title: ИКТ.1. Увод у рад са програмима за табеларна израчунавања
+  title: ИКТ.1. Увод у рад са програмима за табеларна израчунавања
+- activities:
+  - description: ''
+    file: E02.html
+    guid: 52f81b05-f499-429a-8089-4a27c38cd6cc
+    src: E02.rst
+    title: Лекција
+    type: reading
+  - description: ''
+    file: testE02.html
+    guid: 522ef612-ffde-4b75-9e27-0f712542dd75
+    src: testE02.rst
+    title: Квиз
+    type: quiz
+  archived-activities: []
+  description: ''
+  folder: E02
+  guid: 78721466-c43e-411a-bd0b-cf8af3261f8e
+  normalized_title: ИКТ.2. Аутоматска рекалкулација
+  title: ИКТ.2. Аутоматска рекалкулација
+- activities:
+  - description: ''
+    file: E03.html
+    guid: f8400a28-db53-4a3e-b537-3a9d0514e465
+    src: E03.rst
+    title: Лекција
+    type: reading
+  - description: ''
+    file: testE03.html
+    guid: 4c88c1c0-fe19-43b5-a4d6-22715d1a5fe4
+    src: testE03.rst
+    title: Квиз
+    type: quiz
+  archived-activities: []
+  description: ''
+  folder: E03
+  guid: ff4d9b25-0553-431e-8353-a451da635c1d
+  normalized_title: ИКТ.3. Селектовање групе ћелија и уређивање табеле
+  title: ИКТ.3. Селектовање групе ћелија и уређивање табеле
+- activities:
+  - description: ''
+    file: E04.html
+    guid: 70b1d499-6205-4990-888d-13f1409b6a92
+    src: E04.rst
+    title: Лекција
+    type: reading
+  - description: ''
+    file: testE04.html
+    guid: 5c029f15-e7aa-4ec4-85ca-53f624045595
+    src: testE04.rst
+    title: Квиз
+    type: quiz
+  archived-activities: []
+  description: ''
+  folder: E04
+  guid: 93e7639e-a018-4de7-9505-27272dfd6bba
+  normalized_title: ИКТ.4. Разне врсте података у табели
+  title: ИКТ.4. Разне врсте података у табели
+- activities:
+  - description: ''
+    file: E05.html
+    guid: 6b7ffed1-94a2-497d-8fd2-2e7938502faf
+    src: E05.rst
+    title: Лекција
+    type: reading
+  - description: ''
+    file: testE05.html
+    guid: c587a2e3-79ef-49c2-a8bc-f1270b41cb91
+    src: testE05.rst
+    title: Квиз
+    type: quiz
+  archived-activities: []
+  description: ''
+  folder: E05
+  guid: 41eb23b9-c0b7-4fc9-8f5c-96fa2293fb74
+  normalized_title: ИКТ.5. Штампање и генерисање ПДФ документа
+  title: ИКТ.5. Штампање и генерисање ПДФ документа
+- activities:
+  - description: ''
+    file: E07.html
+    guid: 823dc087-b5b4-4194-91e2-a499f7c03692
+    src: E07.rst
+    title: Лекција
+    type: reading
+  - description: ''
+    file: testE07.html
+    guid: f8625dbe-1a47-498c-8198-643397002298
+    src: testE07.rst
+    title: Квиз
+    type: quiz
+  archived-activities: []
+  description: ''
+  folder: E07
+  guid: 62a696f2-3baf-4f45-b791-376039395436
+  normalized_title: ИКТ.6. Визуелизација података
+  title: ИКТ.6. Визуелизација података
+- activities:
+  - description: ''
+    file: E08.html
+    guid: d171f716-f17e-429e-a531-206a81010389
+    src: E08.rst
+    title: Лекција
+    type: reading
+  - description: ''
+    file: testE08.html
+    guid: 54fc969f-fe03-4d65-81ad-40c8a07650c1
+    src: testE08.rst
+    title: Квиз
+    type: quiz
+  archived-activities: []
+  description: ''
+  folder: E08
+  guid: 91227beb-1a72-406f-8ba5-e74aaac21eb4
+  normalized_title: ИКТ.7. Сортирање, филтрирање и фреквенцијска анализа
+  title: ИКТ.7. Сортирање, филтрирање и фреквенцијска анализа
+- activities:
+  - description: ''
+    file: E10.html
+    guid: 1e346279-ce88-48e0-bc04-068d27400a9b
+    src: E10.rst
+    title: Лекција
+    type: reading
+  - description: ''
+    file: testE10.html
+    guid: 6d5f32c9-8d8f-4907-8849-d453e254e906
+    src: testE10.rst
+    title: Квиз
+    type: quiz
+  archived-activities: []
+  description: ''
+  folder: E10
+  guid: bdd702fa-7fca-44fe-b95b-47530eb5efb4
+  normalized_title: ИКТ.8. Рад са дељеним табелама
+  title: ИКТ.8. Рад са дељеним табелама
+- activities:
+  - description: ''
+    file: DP00.html
+    guid: 96b17bc5-8a1f-4a50-9543-13f7c9fcc6b1
+    src: DP00.rst
+    title: Исходи
+    type: reading
+  archived-activities: []
+  description: ''
+  folder: DP00
+  guid: 1a77560b-51ec-488b-83f7-4acb25a5e2b1
+  normalized_title: Дигитална писменост (ДП)
+  title: Дигитална писменост (ДП)
+- activities:
+  - description: ''
+    file: Заштита личних података.html
+    guid: 65418556-0344-47b3-a555-58e77ef2dcd1
+    src: Заштита личних података.rst
+    title: Заштита личних података
+    type: reading
+  - description: ''
+    file: Права детета у дигиталном добу.html
+    guid: f38318c5-a9bd-4381-9c30-bb070f07c896
+    src: Права детета у дигиталном добу.rst
+    title: Права детета у дигиталном добу
+    type: reading
+  - description: ''
+    file: Вежба 1 - Дељење и контрола личних података.html
+    guid: d2c51875-7040-4bc5-9c01-1612fa731415
+    src: Вежба 1 - Дељење и контрола личних података.rst
+    title: Вежба 1 - Дељење и контрола личних података
+    type: reading
+  - description: ''
+    file: Вежба 2 - Заштита приватности личних података.html
+    guid: 2b025902-d3b2-4b27-b326-fc2df03a0fe7
+    src: Вежба 2 - Заштита приватности личних података.rst
+    title: Вежба 2 - Заштита приватности личних података
+    type: reading
+  - description: ''
+    file: Квиз прве лекције.html
+    guid: 0a625cf8-2208-433a-b9ec-b11f48d3e969
+    src: Квиз прве лекције.rst
+    title: Квиз прве лекције
+    type: quiz
+  archived-activities: []
+  description: Прва лекција
+  folder: 2.1. Заштита личних података. Права детета у дигиталном добу
+  guid: 315d898c-ec52-48bc-acdf-8524b774611e
+  normalized_title: ДП.1. Заштита личних података. Права детета у дигиталном добу
+  title: ДП.1. Заштита личних података. Права детета у дигиталном добу
+- activities:
+  - description: ''
+    file: Отворени подаци.html
+    guid: 27bcc777-a768-4b58-88ec-13cd1cde9e25
+    src: Отворени подаци.rst
+    title: 2.2. Отворени подаци
+    type: reading
+  - description: ''
+    file: Квиз друге лекције.html
+    guid: d8dd0599-b61f-482d-a80f-4feb7372ed8c
+    src: Квиз друге лекције.rst
+    title: Квиз друге лекције
+    type: quiz
+  archived-activities: []
+  description: Друга лекција
+  folder: 2.2. Отворени подаци
+  guid: e9c64f8a-3993-4214-b132-4b0e29cdbc4c
+  normalized_title: ДП.2. Отворени подаци
+  title: ДП.2. Отворени подаци
+- activities:
+  - description: ''
+    file: AI.html
+    guid: 03e25400-2c16-40a1-a652-28ef6ac7a690
+    src: AI.rst
+    title: 2.3. Појам вештачке интелигенције
+    type: reading
+  - description: ''
+    file: kviz.html
+    guid: 75ab1fd2-b455-49c9-b482-6ea1ab7b8963
+    src: kviz.rst
+    title: Квиз треће лекције
+    type: quiz
+  archived-activities: []
+  description: Трећа лекција
+  folder: 2.3. Појам вештачке интелигенције
+  guid: 1eb8ef7f-5c07-45a7-a5ef-e67be56bdd57
+  normalized_title: ДП.3. Појам вештачке интелигенције
+  title: ДП.3. Појам вештачке интелигенције
+- activities:
+  - description: ''
+    file: AI.html
+    guid: 99a43822-ca17-4832-a1d5-cf26c199d945
+    src: AI.rst
+    title: 2.4. Садашњост и будућност вештачке интелигенције - етичка питања
+    type: reading
+  - description: ''
+    file: kviz.html
+    guid: 9e1a9ddb-e277-4a95-be3c-e519841bce33
+    src: kviz.rst
+    title: Квиз четврте лекције
+    type: quiz
+  archived-activities: []
+  description: Четврта лекција
+  folder: 2.4. Садашњост и будућност вештачке интелигенције
+  guid: 0a933a67-c69a-4a04-8ae7-06e12867f7e2
+  normalized_title: ДП.4. Садашњост и будућност вештачке интелигенције
+  title: ДП.4. Садашњост и будућност вештачке интелигенције
+title: ИКТ и Дигитална писменост за осми разред
