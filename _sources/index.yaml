@@ -73,12 +73,12 @@ lessons:
   #########################################################################
   #  EKSEL
   #########################################################################
-  - title: Информационо-комуникационе технологије (ИКТ)
+  - title: Информационо-комуникационе технологије (ИКТ) -- Програми за табеларна израчунавања
     folder: E00
     guid: d0425350-c866-4df8-9d3d-9a44d6cc4884
     activities:
       - type: reading
-        title: Исходи
+        title: Мотивација
         file: E00.rst
         guid: d799d350-0937-43bf-b24e-d4312aee6e8e
   - title: ИКТ.1. Увод у рад са програмима за табеларна израчунавања
@@ -86,9 +86,21 @@ lessons:
     guid: f77c8f05-b8d8-4190-8432-deb8f2bb7d13
     activities:
       - type: reading
-        title: Лекција
+        title: Покретање Ексела
         file: E01.rst
         guid: 6e09f3e9-24ae-4cf6-9773-7f514756c139
+      - type: reading
+        title: Навигација и уношење података у табелу
+        file: E012.rst
+        guid: 2af0675f-e1de-4989-87e3-edbc937b802d
+      - type: reading
+        title: Једноставне формуле
+        file: E013.rst
+        guid: cd6ca4c3-a150-4715-bf00-68cad0d68341
+      - type: reading
+        title: Задаци за вежбу
+        file: E014.rst
+        guid: 0900f441-da5c-47d1-a917-aa05fc823f63
       - type: quiz 
         title: Квиз
         file: testE01.rst
@@ -98,9 +110,25 @@ lessons:
     guid: 78721466-c43e-411a-bd0b-cf8af3261f8e
     activities:
       - type: reading
-        title: Лекција
+        title: Аутоматска рекалкулација
         file: E02.rst
         guid: 52f81b05-f499-429a-8089-4a27c38cd6cc
+      - type: reading
+        title: Летњи послови -- формуле у ексел табели
+        file: E021.rst
+        guid: effb1fe0-02b5-46b9-b44b-2404441588f0
+      - type: reading
+        title: Унос података и формула у табелу
+        file: E022.rst
+        guid: 07960120-42de-483b-b6c9-fff25395ed50
+      - type: reading
+        title: Додавање врста и колона табели
+        file: E023.rst
+        guid: 0e5a8c0c-453f-4d62-b71b-b2622c25a8cb
+      - type: reading
+        title: Задаци за вежбу
+        file: E024.rst
+        guid: 007eeade-670b-477e-83d4-698174e7d44c
       - type: quiz 
         title: Квиз
         file: testE02.rst
@@ -110,9 +138,33 @@ lessons:
     guid: ff4d9b25-0553-431e-8353-a451da635c1d
     activities:
       - type: reading
-        title: Лекција
+        title: Селектовање групе ћелија и уређивање табеле
         file: E03.rst
         guid: f8400a28-db53-4a3e-b537-3a9d0514e465
+      - type: reading
+        title: Уношење формула и брзо копирање
+        file: E032.rst
+        guid: 1e4e28e9-d92d-4233-af2d-f5042f5ef2b2
+      - type: reading
+        title: Селектовање групе ћелија
+        file: E033.rst
+        guid: e4a43710-6cdf-4bc8-8159-86c4b2c88737
+      - type: reading
+        title: Форматирање децималних бројева
+        file: E034.rst
+        guid: 8ca892df-e57c-42c2-ab58-b7f12a8b6952
+      - type: reading
+        title: Рачунање минимума и максимума
+        file: E035.rst
+        guid: 77dadc99-9855-4eac-bca5-b562f43e3113
+      - type: reading
+        title: Уређивање табеле
+        file: E036.rst
+        guid: 3cb8a6d9-5218-45ee-a08d-57eae349fdf8
+      - type: reading
+        title: Задаци за вежбу
+        file: E037.rst
+        guid: 30c25ce7-7ee1-438b-b51c-ac15236dd6b9
       - type: quiz 
         title: Квиз
         file: testE03.rst
@@ -122,21 +174,61 @@ lessons:
     guid: 93e7639e-a018-4de7-9505-27272dfd6bba
     activities:
       - type: reading
-        title: Лекција
+        title: Разне врсте података у табели
         file: E04.rst
         guid: 70b1d499-6205-4990-888d-13f1409b6a92
+      - type: reading
+        title: Донације -- валуте у Ексел табели
+        file: E041.rst
+        guid: 879f6826-f9b3-4f9e-9329-5f5dba06ae72
+      - type: reading
+        title: Музички фестивали у Европи -- датуми у Ексел табели
+        file: E042.rst
+        guid: 6a9340aa-1fe6-43c6-a0a9-0eb486927981
+      - type: reading
+        title: Плеј-листа -- време у Ексел табели
+        file: E043.rst
+        guid: 90ee3dc3-25d9-4d18-a3fb-19becffec9a5
+      - type: reading
+        title: Задаци за вежбу
+        file: E044.rst
+        guid: d143bdb5-9db6-4be3-9f77-1cf0e936a60f
       - type: quiz 
         title: Квиз
         file: testE04.rst
         guid: 5c029f15-e7aa-4ec4-85ca-53f624045595
-  - title: ИКТ.5. Штампање и генерисање ПДФ документа
+  - title: ИКТ.5. Процени, штампање и генерисање ПДФ документа
     folder: E05
     guid: 41eb23b9-c0b7-4fc9-8f5c-96fa2293fb74
     activities:
       - type: reading
-        title: Лекција
+        title: Проценти, штампање и генерисање ПДФ документа
         file: E05.rst
         guid: 6b7ffed1-94a2-497d-8fd2-2e7938502faf
+      - type: reading
+        title: Проширивање врсте и приказивање садржаја ћелије у више редова
+        file: E051.rst
+        guid: 0c3f9f6e-f268-4148-8ca4-ef27cb243d95
+      - type: reading
+        title: Приказивање бројева  у облику процента
+        file: E052.rst
+        guid: 4edf9f35-a014-4909-abac-ed6d6a37539c
+      - type: reading
+        title: Спајање ћелија и промена величине слова
+        file: E053.rst
+        guid: 87908e4f-9e48-422d-a857-3c679123444f
+      - type: reading
+        title: Штампање документа
+        file: E054.rst
+        guid: 5d1779ae-779f-4450-b4bf-86804e5cbbe4
+      - type: reading
+        title: Снимање документа у ПДФ формату
+        file: E055.rst
+        guid: a0d4869b-3c6c-45b3-815d-b4cc2489c48e
+      - type: reading
+        title: Задаци за вежбу
+        file: E056.rst
+        guid: e442ac98-1490-4845-9755-0d2137c85e7b
       - type: quiz 
         title: Квиз
         file: testE05.rst
@@ -146,9 +238,29 @@ lessons:
     guid: 62a696f2-3baf-4f45-b791-376039395436
     activities:
       - type: reading
-        title: Лекција
+        title: Визуелизација података
         file: E07.rst
         guid: 823dc087-b5b4-4194-91e2-a499f7c03692
+      - type: reading
+        title: Промена величине у времену - Scatter дијаграм
+        file: E071.rst
+        guid: 53032979-4dd3-4ef9-82c0-85e1444accc4
+      - type: reading
+        title: Компаративна анализа -- Стубичасти дијаграми
+        file: E072.rst
+        guid: 53121acf-f5dc-4401-9479-e57420cd8935
+      - type: reading
+        title: Визуелизација удела у целини -- Секторски дијаграми
+        file: E073.rst
+        guid: 0299c06e-c383-49b6-bf1f-8bcf4f0d2bf2
+      - type: reading
+        title: Приказивање две групе података на истом дијаграму
+        file: E074.rst
+        guid: af508c7f-52e5-403e-8ae4-3d7c3ea2485e
+      - type: reading
+        title: Задаци за вежбу
+        file: E075.rst
+        guid: 7a6d3281-5d1e-471b-b7eb-ebf044f59aff
       - type: quiz 
         title: Квиз
         file: testE07.rst
@@ -158,9 +270,25 @@ lessons:
     guid: 91227beb-1a72-406f-8ba5-e74aaac21eb4
     activities:
       - type: reading
-        title: Лекција
+        title: Сортирање, филтрирање и фреквенцијска анализа
         file: E08.rst
         guid: d171f716-f17e-429e-a531-206a81010389
+      - type: reading
+        title: Сортирање података
+        file: E081.rst
+        guid: 26e4cb2c-56d3-4bd4-a440-3be9badc2a17
+      - type: reading
+        title: Филтрирање података
+        file: E082.rst
+        guid: 496dfc95-45d8-43dc-90c8-ac835fd134da
+      - type: reading
+        title: Фреквенцијска анализа
+        file: E083.rst
+        guid: 0a10289e-c1da-4fbe-a4f0-9d1c71beafa2
+      - type: reading
+        title: Задаци за вежбу
+        file: E084.rst
+        guid: 11e3a093-ca7d-450a-9c9f-eac4d406a6e5
       - type: quiz 
         title: Квиз
         file: testE08.rst
@@ -170,9 +298,25 @@ lessons:
     guid: bdd702fa-7fca-44fe-b95b-47530eb5efb4
     activities:
       - type: reading
-        title: Лекција
+        title: Сервиси "у облаку" (cloud services)
         file: E10.rst
         guid: 1e346279-ce88-48e0-bc04-068d27400a9b
+      - type: reading
+        title: Креирање документа "у облаку"
+        file: E101.rst
+        guid: 40a4a067-bcfa-4d1e-891c-b193f0d15ba7
+      - type: reading
+        title: Дељење документа "у облаку" и сарадња
+        file: E102.rst
+        guid: 0ec57ed6-49e7-437c-af64-b6fe6a542b67
+      - type: reading
+        title: Преузимање документа
+        file: E103.rst
+        guid: ce3e8668-9525-4b02-b037-aafcc8aea2fb
+      - type: reading
+        title: Задаци за вежбу
+        file: E104.rst
+        guid: d880e397-34a2-4938-b20f-eca15a611528
       - type: quiz 
         title: Квиз
         file: testE10.rst
@@ -185,7 +329,7 @@ lessons:
     guid: 1a77560b-51ec-488b-83f7-4acb25a5e2b1
     activities:
       - type: reading
-        title: Исходи
+        title: Увод
         file: DP00.rst
         guid: 96b17bc5-8a1f-4a50-9543-13f7c9fcc6b1
   - title: ДП.1. Заштита личних података. Права детета у дигиталном добу
@@ -194,15 +338,39 @@ lessons:
     description: Прва лекција 
     activities:
       - type: reading
-        title: Заштита личних података
+        title: Шта су лични подаци
         folder: 2.1. Заштита личних података. Права детета у дигиталном добу
-        file: Заштита личних података.rst
+        file: Шта су лични подаци.rst
         description: #opciono
-        guid: 65418556-0344-47b3-a555-58e77ef2dcd1
+        guid: b5e5751c-c61b-48a6-bd9b-6277489d7766
       - type: reading
-        title: Права детета у дигиталном добу
+        title: Од кога се штитимо
         folder: 2.1. Заштита личних података. Права детета у дигиталном добу
-        file: Права детета у дигиталном добу.rst
+        file: Од кога се штитимо.rst
+        description: #opciono
+        guid: e8afba90-cc11-4b82-9992-0b4bec5c7f8b
+      - type: reading
+        title: Како сејемо личне податке
+        folder: 2.1. Заштита личних података. Права детета у дигиталном добу
+        file: Како сејемо личне податке.rst
+        description: #opciono
+        guid: ac260ae3-a2be-4156-943e-fed19abb791a
+      - type: reading
+        title: Лични подаци деце
+        folder: 2.1. Заштита личних података. Права детета у дигиталном добу
+        file: Како одрасли сеју личне податке.rst
+        description: #opciono
+        guid: 4168ea58-4721-49be-836d-923ceef5d25c
+      - type: reading
+        title: Узрасна ограничења
+        folder: 2.1. Заштита личних података. Права детета у дигиталном добу
+        file: Узрасна ограничења.rst
+        description: #opciono
+        guid: eb20893b-aa0f-4784-a676-72e5c05484e5
+      - type: reading
+        title: Како да се заштитиш
+        folder: 2.1. Заштита личних података. Права детета у дигиталном добу
+        file: Како да се заштитиш.rst
         description: #opciono
         guid: f38318c5-a9bd-4381-9c30-bb070f07c896
       - type: reading
@@ -229,11 +397,59 @@ lessons:
     description: Друга лекција 
     activities:
       - type: reading
-        title: 2.2. Отворени подаци
+        title: Подаци, подаци, подаци
+        folder: 2.2. Отворени подаци
+        file: Подаци.rst
+        description: #opciono
+        guid: 201be038-d738-4d0f-a00a-c1fcc4245d85
+      - type: reading
+        title: Oтворени подаци -- појам
         folder: 2.2. Отворени подаци
         file: Отворени подаци.rst
         description: #opciono
-        guid: 27bcc777-a768-4b58-88ec-13cd1cde9e25
+        guid: 337f0d4c-a12a-49fa-bdce-e0f469d37ee1
+      - type: reading
+        title: Отварање података
+        folder: 2.2. Отворени подаци
+        file: Отварање података.rst
+        description: #opciono
+        guid: fd6d0611-b0a3-404a-87ec-2785ab18751c
+      - type: reading
+        title: Веееееелики подаци (Big data)
+        folder: 2.2. Отворени подаци
+        file: Big data.rst
+        description: #opciono
+        guid: 75dccbef-4b67-4e69-b69d-fbaf117b7bec
+      - type: reading
+        title: Портали отворених података
+        folder: 2.2. Отворени подаци
+        file: Портали.rst
+        description: #opciono
+        guid: 6cc418af-2b4c-4116-81fe-e39ee5db4112
+      - type: reading
+        title: Формати отворених података
+        folder: 2.2. Отворени подаци
+        file: Формати.rst
+        description: #opciono
+        guid: f2ab3a68-a04f-4906-af51-1dfa4f7fcebc
+      - type: reading
+        title: Визуaлизација отворених података и Инфографик
+        folder: 2.2. Отворени подаци
+        file: Визуелизација.rst
+        description: #opciono
+        guid: 4ecb516a-2303-483b-9768-aa81d12fb130
+      - type: reading
+        title: Професије у вези са подацима
+        folder: 2.2. Отворени подаци
+        file: Професије.rst
+        description: #opciono
+        guid: eae110e4-23ba-4eed-b5f4-545719124221
+      - type: reading
+        title: Резиме
+        folder: 2.2. Отворени подаци
+        file: Закључак.rst
+        description: #opciono
+        guid: c6c87239-2c5b-40e4-956a-71ac3a4d2d64
       - type: quiz 
         title: Квиз друге лекције
         folder: 2.2. Отворени подаци
@@ -246,11 +462,23 @@ lessons:
     description: Трећа лекција 
     activities:
       - type: reading
-        title: 2.3. Појам вештачке интелигенције
+        title: Појам вештачке интелигенције
         folder: 2.3. Појам вештачке интелигенције
         file: AI.rst
         description: #opciono
         guid: 03e25400-2c16-40a1-a652-28ef6ac7a690
+      - type: reading
+        title: Јака дефиниција вештачке интелигенције
+        folder: 2.3. Појам вештачке интелигенције
+        file: ЈакаДеф.rst
+        description: #opciono
+        guid: 578355fc-aab2-4eda-801d-4a2da465369b
+      - type: reading
+        title: Тјурингов тест
+        folder: 2.3. Појам вештачке интелигенције
+        file: ТТ.rst
+        description: #opciono
+        guid: 4be39967-0e8a-4bf7-bd8f-fc5964f9ebe8
       - type: quiz 
         title: Квиз треће лекције
         folder: 2.3. Појам вештачке интелигенције
@@ -263,11 +491,23 @@ lessons:
     description: Четврта лекција 
     activities:
       - type: reading
-        title: 2.4. Садашњост и будућност вештачке интелигенције - етичка питања
+        title: Вештачка интелигенција у XXI веку
         folder: 2.4. Садашњост и будућност вештачке интелигенције
         file: AI.rst
         description: #opciono
         guid: 99a43822-ca17-4832-a1d5-cf26c199d945
+      - type: reading
+        title: Примене вештачке интелигенције
+        folder: 2.4. Садашњост и будућност вештачке интелигенције
+        file: Примене.rst
+        description: #opciono
+        guid: fd9c658e-10f6-43ec-a65f-32eafac69cd0
+      - type: reading
+        title: Будућност вештачке интелигенције
+        folder: 2.4. Садашњост и будућност вештачке интелигенције
+        file: Будућност.rst
+        description: #opciono
+        guid: ecfa3825-901d-4034-8fc3-cac6cca17a2a
       - type: quiz 
         title: Квиз четврте лекције
         folder: 2.4. Садашњост и будућност вештачке интелигенције
