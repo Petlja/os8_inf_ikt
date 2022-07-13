@@ -114,10 +114,6 @@ lessons:
         file: E02.rst
         guid: 52f81b05-f499-429a-8089-4a27c38cd6cc
       - type: reading
-        title: Летњи послови -- формуле у ексел табели
-        file: E021.rst
-        guid: effb1fe0-02b5-46b9-b44b-2404441588f0
-      - type: reading
         title: Унос података и формула у табелу
         file: E022.rst
         guid: 07960120-42de-483b-b6c9-fff25395ed50
@@ -138,13 +134,9 @@ lessons:
     guid: ff4d9b25-0553-431e-8353-a451da635c1d
     activities:
       - type: reading
-        title: Селектовање групе ћелија и уређивање табеле
+        title: Уношење формула и брзо копирање
         file: E03.rst
         guid: f8400a28-db53-4a3e-b537-3a9d0514e465
-      - type: reading
-        title: Уношење формула и брзо копирање
-        file: E032.rst
-        guid: 1e4e28e9-d92d-4233-af2d-f5042f5ef2b2
       - type: reading
         title: Селектовање групе ћелија
         file: E033.rst
@@ -174,12 +166,8 @@ lessons:
     guid: 93e7639e-a018-4de7-9505-27272dfd6bba
     activities:
       - type: reading
-        title: Разне врсте података у табели
-        file: E04.rst
-        guid: 70b1d499-6205-4990-888d-13f1409b6a92
-      - type: reading
         title: Донације -- валуте у Ексел табели
-        file: E041.rst
+        file: E04.rst
         guid: 879f6826-f9b3-4f9e-9329-5f5dba06ae72
       - type: reading
         title: Музички фестивали у Европи -- датуми у Ексел табели
@@ -197,7 +185,7 @@ lessons:
         title: Квиз
         file: testE04.rst
         guid: 5c029f15-e7aa-4ec4-85ca-53f624045595
-  - title: ИКТ.5. Процени, штампање и генерисање ПДФ документа
+  - title: ИКТ.5. Проценти, штампање и генерисање ПДФ документа
     folder: E05
     guid: 41eb23b9-c0b7-4fc9-8f5c-96fa2293fb74
     activities:
