@@ -24,13 +24,9 @@
     <link rel="stylesheet" type="text/css" href="../_static/webglinteractive.css" />
     <link rel="stylesheet" type="text/css" href="../_static/karel.css" />
     <link rel="stylesheet" type="text/css" href="../_static/notes.css" />
-    <link rel="stylesheet" type="text/css" href="../_static/simanim.css" />
-    <link rel="stylesheet" type="text/css" href="../_static/pycode.css" />
-    <link rel="stylesheet" type="text/css" href="../_static/p5js.css" />
     <link rel="stylesheet" type="text/css" href="../_static/gallery.css" />
-    <link rel="stylesheet" type="text/css" href="../_static/dbDirective.css" />
     <link rel="stylesheet" type="text/css" href="../_static/associations.css" />
-    <link rel="stylesheet" type="text/css" href="../_static/regex-check.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/editor.css" />
     <link rel="stylesheet" href="../_static/basic.css" type="text/css" />
     <link rel="stylesheet" href="../_static/user-highlights.css" type="text/css" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" type="text/css" />
@@ -119,46 +115,12 @@
     <script type="text/javascript" src="../_static/karel-i18n.sr-Cyrl.js"></script>
     <script type="text/javascript" src="../_static/notes.js"></script>
     <script type="text/javascript" src="../_static/pygamelib-init.js"></script>
-    <script type="text/javascript" src="../_static/blockly/blockly_compressed.js"></script>
-    <script type="text/javascript" src="../_static/blockly/blocks_compressed.js"></script>
-    <script type="text/javascript" src="../_static/blockly/python_compressed.js"></script>
-    <script type="text/javascript" src="../_static/blockly/msg-sr.js"></script>
-    <script type="text/javascript" src="../_static/blockpy/utilities.js"></script>
-    <script type="text/javascript" src="../_static/blockpy/python_errors.js"></script>
-    <script type="text/javascript" src="../_static/blockpy/ast_node_visitor.js"></script>
-    <script type="text/javascript" src="../_static/blockpy/abstract_interpreter.js"></script>
-    <script type="text/javascript" src="../_static/blockpy/pytifa.js"></script>
-    <script type="text/javascript" src="../_static/blockpy/abstract_interpreter_definitions.js"></script>
-    <script type="text/javascript" src="../_static/blockpy/python_to_blockly.js"></script>
-    <script type="text/javascript" src="../_static/blockpy/imported.js"></script>
-    <script type="text/javascript" src="../_static/blockpy/blocks/class.js"></script>
-    <script type="text/javascript" src="../_static/blockpy/blocks/comment.js"></script>
-    <script type="text/javascript" src="../_static/blockpy/blocks/comprehensions.js"></script>
-    <script type="text/javascript" src="../_static/blockpy/blocks/dict.js"></script>
-    <script type="text/javascript" src="../_static/blockpy/blocks/if.js"></script>
-    <script type="text/javascript" src="../_static/blockpy/blocks/io.js"></script>
-    <script type="text/javascript" src="../_static/blockpy/blocks/lists.js"></script>
-    <script type="text/javascript" src="../_static/blockpy/blocks/sets.js"></script>
-    <script type="text/javascript" src="../_static/blockpy/blocks/loops.js"></script>
-    <script type="text/javascript" src="../_static/blockpy/blocks/parking.js"></script>
-    <script type="text/javascript" src="../_static/blockpy/blocks/tuple.js"></script>
-    <script type="text/javascript" src="../_static/blockpy/blocks/turtles.js"></script>
-    <script type="text/javascript" src="../_static/blockpy/blocks/text.js"></script>
-    <script type="text/javascript" src="../_static/blockpy-modal.js"></script>
-    <script type="text/javascript" src="../_static/simanim.js"></script>
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/pyodide/v0.16.1/full/pyodide.js"></script>
-    <script type="text/javascript" src="../_static/pycode.js"></script>
-    <script type="text/javascript" src="//toolness.github.io/p5.js-widget/p5-widget.js"></script>
-    <script type="text/javascript" src="../_static/p5js.js"></script>
     <script type="text/javascript" src="../_static/gallery.js"></script>
-    <script type="text/javascript" src="../_static/dbDirective.js"></script>
-    <script type="text/javascript" src="../_static/sql.js"></script>
     <script type="text/javascript" src="../_static/associations.js"></script>
     <script type="text/javascript" src="../_static/associations-i18n.en.js"></script>
     <script type="text/javascript" src="../_static/associations-i18n.sr-Cyrl.js"></script>
-    <script type="text/javascript" src="../_static/regex-check.js"></script>
-    <script type="text/javascript" src="../_static/regex-check-i18n.en.js"></script>
-    <script type="text/javascript" src="../_static/regex-check-i18n.sr-Cyrl.js"></script>
+    <script type="text/javascript" src="../_static/editor.js"></script>
+    <script type="text/javascript" src="../_static/jszip.js"></script>
     <script type="text/javascript" src="../_static/translations.js"></script>
     <script async="async" type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
     <script type="text/javascript" src="../_static/jquery-ui-1.10.3.custom.min.js"></script>
@@ -265,11 +227,11 @@
            <div>
                 <div class="courseContentsSection">
                 <div class="lecture-div courseContentsSectionHeadline" id=lecture-E00>
-                    <h5>Информационо-комуникационе технологије (ИКТ)</h5>
+                    <h5>Информационо-комуникационе технологије (ИКТ) -- Програми за табеларна израчунавања</h5>
                     <i class="fas fa-angle-down caret-position "> </i>
                     <i class="fas fa-angle-up caret-position d-none"></i>
                 </div>
-                <div class="courseContentsSubSection d-none"><a href=../E00/E00.html><div class="studioLecture" id=activity-E00><i class="fas fa-file-alt activity-icon"></i>Исходи</div></a>
+                <div class="courseContentsSubSection d-none"><a href=../E00/E00.html><div class="studioLecture" id=activity-E00><i class="fas fa-file-alt activity-icon"></i>Мотивација</div></a>
                 </div>
             </div>
                 
@@ -279,7 +241,10 @@
                     <i class="fas fa-angle-down caret-position "> </i>
                     <i class="fas fa-angle-up caret-position d-none"></i>
                 </div>
-                <div class="courseContentsSubSection d-none"><a href=../E01/E01.html><div class="studioLecture" id=activity-E01><i class="fas fa-file-alt activity-icon"></i>Лекција</div></a>
+                <div class="courseContentsSubSection d-none"><a href=../E01/E01.html><div class="studioLecture" id=activity-E01><i class="fas fa-file-alt activity-icon"></i>Покретање Ексела</div></a>
+                <a href=../E01/E012.html><div class="studioLecture" id=activity-E012><i class="fas fa-file-alt activity-icon"></i>Навигација и уношење података у табелу</div></a>
+                <a href=../E01/E013.html><div class="studioLecture" id=activity-E013><i class="fas fa-file-alt activity-icon"></i>Једноставне формуле</div></a>
+                <a href=../E01/E014.html><div class="studioLecture" id=activity-E014><i class="fas fa-file-alt activity-icon"></i>Задаци за вежбу</div></a>
                 <a href=../E01/testE01.html><div class="studioLecture" id=activity-testE01><i class="far fa-question-circle activity-icon"></i>Квиз</div></a>
                 </div>
             </div>
@@ -290,7 +255,11 @@
                     <i class="fas fa-angle-down caret-position "> </i>
                     <i class="fas fa-angle-up caret-position d-none"></i>
                 </div>
-                <div class="courseContentsSubSection d-none"><a href=../E02/E02.html><div class="studioLecture" id=activity-E02><i class="fas fa-file-alt activity-icon"></i>Лекција</div></a>
+                <div class="courseContentsSubSection d-none"><a href=../E02/E02.html><div class="studioLecture" id=activity-E02><i class="fas fa-file-alt activity-icon"></i>Аутоматска рекалкулација</div></a>
+                <a href=../E02/E021.html><div class="studioLecture" id=activity-E021><i class="fas fa-file-alt activity-icon"></i>Летњи послови -- формуле у ексел табели</div></a>
+                <a href=../E02/E022.html><div class="studioLecture" id=activity-E022><i class="fas fa-file-alt activity-icon"></i>Унос података и формула у табелу</div></a>
+                <a href=../E02/E023.html><div class="studioLecture" id=activity-E023><i class="fas fa-file-alt activity-icon"></i>Додавање врста и колона табели</div></a>
+                <a href=../E02/E024.html><div class="studioLecture" id=activity-E024><i class="fas fa-file-alt activity-icon"></i>Задаци за вежбу</div></a>
                 <a href=../E02/testE02.html><div class="studioLecture" id=activity-testE02><i class="far fa-question-circle activity-icon"></i>Квиз</div></a>
                 </div>
             </div>
@@ -301,7 +270,13 @@
                     <i class="fas fa-angle-down caret-position "> </i>
                     <i class="fas fa-angle-up caret-position d-none"></i>
                 </div>
-                <div class="courseContentsSubSection d-none"><a href=../E03/E03.html><div class="studioLecture" id=activity-E03><i class="fas fa-file-alt activity-icon"></i>Лекција</div></a>
+                <div class="courseContentsSubSection d-none"><a href=../E03/E03.html><div class="studioLecture" id=activity-E03><i class="fas fa-file-alt activity-icon"></i>Селектовање групе ћелија и уређивање табеле</div></a>
+                <a href=../E03/E032.html><div class="studioLecture" id=activity-E032><i class="fas fa-file-alt activity-icon"></i>Уношење формула и брзо копирање</div></a>
+                <a href=../E03/E033.html><div class="studioLecture" id=activity-E033><i class="fas fa-file-alt activity-icon"></i>Селектовање групе ћелија</div></a>
+                <a href=../E03/E034.html><div class="studioLecture" id=activity-E034><i class="fas fa-file-alt activity-icon"></i>Форматирање децималних бројева</div></a>
+                <a href=../E03/E035.html><div class="studioLecture" id=activity-E035><i class="fas fa-file-alt activity-icon"></i>Рачунање минимума и максимума</div></a>
+                <a href=../E03/E036.html><div class="studioLecture" id=activity-E036><i class="fas fa-file-alt activity-icon"></i>Уређивање табеле</div></a>
+                <a href=../E03/E037.html><div class="studioLecture" id=activity-E037><i class="fas fa-file-alt activity-icon"></i>Задаци за вежбу</div></a>
                 <a href=../E03/testE03.html><div class="studioLecture" id=activity-testE03><i class="far fa-question-circle activity-icon"></i>Квиз</div></a>
                 </div>
             </div>
@@ -312,18 +287,28 @@
                     <i class="fas fa-angle-down caret-position "> </i>
                     <i class="fas fa-angle-up caret-position d-none"></i>
                 </div>
-                <div class="courseContentsSubSection d-none"><a href=../E04/E04.html><div class="studioLecture" id=activity-E04><i class="fas fa-file-alt activity-icon"></i>Лекција</div></a>
+                <div class="courseContentsSubSection d-none"><a href=../E04/E04.html><div class="studioLecture" id=activity-E04><i class="fas fa-file-alt activity-icon"></i>Разне врсте података у табели</div></a>
+                <a href=../E04/E041.html><div class="studioLecture" id=activity-E041><i class="fas fa-file-alt activity-icon"></i>Донације -- валуте у Ексел табели</div></a>
+                <a href=../E04/E042.html><div class="studioLecture" id=activity-E042><i class="fas fa-file-alt activity-icon"></i>Музички фестивали у Европи -- датуми у Ексел табели</div></a>
+                <a href=../E04/E043.html><div class="studioLecture" id=activity-E043><i class="fas fa-file-alt activity-icon"></i>Плеј-листа -- време у Ексел табели</div></a>
+                <a href=../E04/E044.html><div class="studioLecture" id=activity-E044><i class="fas fa-file-alt activity-icon"></i>Задаци за вежбу</div></a>
                 <a href=../E04/testE04.html><div class="studioLecture" id=activity-testE04><i class="far fa-question-circle activity-icon"></i>Квиз</div></a>
                 </div>
             </div>
                 
                 <div class="courseContentsSection">
                 <div class="lecture-div courseContentsSectionHeadline" id=lecture-E05>
-                    <h5>ИКТ.5. Штампање и генерисање ПДФ документа</h5>
+                    <h5>ИКТ.5. Процени, штампање и генерисање ПДФ документа</h5>
                     <i class="fas fa-angle-down caret-position "> </i>
                     <i class="fas fa-angle-up caret-position d-none"></i>
                 </div>
-                <div class="courseContentsSubSection d-none"><a href=../E05/E05.html><div class="studioLecture" id=activity-E05><i class="fas fa-file-alt activity-icon"></i>Лекција</div></a>
+                <div class="courseContentsSubSection d-none"><a href=../E05/E05.html><div class="studioLecture" id=activity-E05><i class="fas fa-file-alt activity-icon"></i>Проценти, штампање и генерисање ПДФ документа</div></a>
+                <a href=../E05/E051.html><div class="studioLecture" id=activity-E051><i class="fas fa-file-alt activity-icon"></i>Проширивање врсте и приказивање садржаја ћелије у више редова</div></a>
+                <a href=../E05/E052.html><div class="studioLecture" id=activity-E052><i class="fas fa-file-alt activity-icon"></i>Приказивање бројева  у облику процента</div></a>
+                <a href=../E05/E053.html><div class="studioLecture" id=activity-E053><i class="fas fa-file-alt activity-icon"></i>Спајање ћелија и промена величине слова</div></a>
+                <a href=../E05/E054.html><div class="studioLecture" id=activity-E054><i class="fas fa-file-alt activity-icon"></i>Штампање документа</div></a>
+                <a href=../E05/E055.html><div class="studioLecture" id=activity-E055><i class="fas fa-file-alt activity-icon"></i>Снимање документа у ПДФ формату</div></a>
+                <a href=../E05/E056.html><div class="studioLecture" id=activity-E056><i class="fas fa-file-alt activity-icon"></i>Задаци за вежбу</div></a>
                 <a href=../E05/testE05.html><div class="studioLecture" id=activity-testE05><i class="far fa-question-circle activity-icon"></i>Квиз</div></a>
                 </div>
             </div>
@@ -334,7 +319,12 @@
                     <i class="fas fa-angle-down caret-position "> </i>
                     <i class="fas fa-angle-up caret-position d-none"></i>
                 </div>
-                <div class="courseContentsSubSection d-none"><a href=../E07/E07.html><div class="studioLecture" id=activity-E07><i class="fas fa-file-alt activity-icon"></i>Лекција</div></a>
+                <div class="courseContentsSubSection d-none"><a href=../E07/E07.html><div class="studioLecture" id=activity-E07><i class="fas fa-file-alt activity-icon"></i>Визуелизација података</div></a>
+                <a href=../E07/E071.html><div class="studioLecture" id=activity-E071><i class="fas fa-file-alt activity-icon"></i>Промена величине у времену - Scatter дијаграм</div></a>
+                <a href=../E07/E072.html><div class="studioLecture" id=activity-E072><i class="fas fa-file-alt activity-icon"></i>Компаративна анализа -- Стубичасти дијаграми</div></a>
+                <a href=../E07/E073.html><div class="studioLecture" id=activity-E073><i class="fas fa-file-alt activity-icon"></i>Визуелизација удела у целини -- Секторски дијаграми</div></a>
+                <a href=../E07/E074.html><div class="studioLecture" id=activity-E074><i class="fas fa-file-alt activity-icon"></i>Приказивање две групе података на истом дијаграму</div></a>
+                <a href=../E07/E075.html><div class="studioLecture" id=activity-E075><i class="fas fa-file-alt activity-icon"></i>Задаци за вежбу</div></a>
                 <a href=../E07/testE07.html><div class="studioLecture" id=activity-testE07><i class="far fa-question-circle activity-icon"></i>Квиз</div></a>
                 </div>
             </div>
@@ -345,7 +335,11 @@
                     <i class="fas fa-angle-down caret-position "> </i>
                     <i class="fas fa-angle-up caret-position d-none"></i>
                 </div>
-                <div class="courseContentsSubSection d-none"><a href=../E08/E08.html><div class="studioLecture" id=activity-E08><i class="fas fa-file-alt activity-icon"></i>Лекција</div></a>
+                <div class="courseContentsSubSection d-none"><a href=../E08/E08.html><div class="studioLecture" id=activity-E08><i class="fas fa-file-alt activity-icon"></i>Сортирање, филтрирање и фреквенцијска анализа</div></a>
+                <a href=../E08/E081.html><div class="studioLecture" id=activity-E081><i class="fas fa-file-alt activity-icon"></i>Сортирање података</div></a>
+                <a href=../E08/E082.html><div class="studioLecture" id=activity-E082><i class="fas fa-file-alt activity-icon"></i>Филтрирање података</div></a>
+                <a href=../E08/E083.html><div class="studioLecture" id=activity-E083><i class="fas fa-file-alt activity-icon"></i>Фреквенцијска анализа</div></a>
+                <a href=../E08/E084.html><div class="studioLecture" id=activity-E084><i class="fas fa-file-alt activity-icon"></i>Задаци за вежбу</div></a>
                 <a href=../E08/testE08.html><div class="studioLecture" id=activity-testE08><i class="far fa-question-circle activity-icon"></i>Квиз</div></a>
                 </div>
             </div>
@@ -356,7 +350,11 @@
                     <i class="fas fa-angle-down caret-position "> </i>
                     <i class="fas fa-angle-up caret-position d-none"></i>
                 </div>
-                <div class="courseContentsSubSection d-none"><a href=../E10/E10.html><div class="studioLecture" id=activity-E10><i class="fas fa-file-alt activity-icon"></i>Лекција</div></a>
+                <div class="courseContentsSubSection d-none"><a href=../E10/E10.html><div class="studioLecture" id=activity-E10><i class="fas fa-file-alt activity-icon"></i>Сервиси "у облаку" (cloud services)</div></a>
+                <a href=../E10/E101.html><div class="studioLecture" id=activity-E101><i class="fas fa-file-alt activity-icon"></i>Креирање документа "у облаку"</div></a>
+                <a href=../E10/E102.html><div class="studioLecture" id=activity-E102><i class="fas fa-file-alt activity-icon"></i>Дељење документа "у облаку" и сарадња</div></a>
+                <a href=../E10/E103.html><div class="studioLecture" id=activity-E103><i class="fas fa-file-alt activity-icon"></i>Преузимање документа</div></a>
+                <a href=../E10/E104.html><div class="studioLecture" id=activity-E104><i class="fas fa-file-alt activity-icon"></i>Задаци за вежбу</div></a>
                 <a href=../E10/testE10.html><div class="studioLecture" id=activity-testE10><i class="far fa-question-circle activity-icon"></i>Квиз</div></a>
                 </div>
             </div>
@@ -367,7 +365,7 @@
                     <i class="fas fa-angle-down caret-position "> </i>
                     <i class="fas fa-angle-up caret-position d-none"></i>
                 </div>
-                <div class="courseContentsSubSection d-none"><a href=../DP00/DP00.html><div class="studioLecture" id=activity-DP00><i class="fas fa-file-alt activity-icon"></i>Исходи</div></a>
+                <div class="courseContentsSubSection d-none"><a href=../DP00/DP00.html><div class="studioLecture" id=activity-DP00><i class="fas fa-file-alt activity-icon"></i>Увод</div></a>
                 </div>
             </div>
                 
@@ -377,8 +375,12 @@
                     <i class="fas fa-angle-down caret-position "> </i>
                     <i class="fas fa-angle-up caret-position d-none"></i>
                 </div>
-                <div class="courseContentsSubSection d-none"><a href=../2.1.%20Заштита%20личних%20података.%20Права%20детета%20у%20дигиталном%20добу/Заштита%20личних%20података.html><div class="studioLecture" id=activity-Заштита%20личних%20података><i class="fas fa-file-alt activity-icon"></i>Заштита личних података</div></a>
-                <a href=../2.1.%20Заштита%20личних%20података.%20Права%20детета%20у%20дигиталном%20добу/Права%20детета%20у%20дигиталном%20добу.html><div class="studioLecture" id=activity-Права%20детета%20у%20дигиталном%20добу><i class="fas fa-file-alt activity-icon"></i>Права детета у дигиталном добу</div></a>
+                <div class="courseContentsSubSection d-none"><a href=../2.1.%20Заштита%20личних%20података.%20Права%20детета%20у%20дигиталном%20добу/Шта%20су%20лични%20подаци.html><div class="studioLecture" id=activity-Шта%20су%20лични%20подаци><i class="fas fa-file-alt activity-icon"></i>Шта су лични подаци</div></a>
+                <a href=../2.1.%20Заштита%20личних%20података.%20Права%20детета%20у%20дигиталном%20добу/Од%20кога%20се%20штитимо.html><div class="studioLecture" id=activity-Од%20кога%20се%20штитимо><i class="fas fa-file-alt activity-icon"></i>Од кога се штитимо</div></a>
+                <a href=../2.1.%20Заштита%20личних%20података.%20Права%20детета%20у%20дигиталном%20добу/Како%20сејемо%20личне%20податке.html><div class="studioLecture" id=activity-Како%20сејемо%20личне%20податке><i class="fas fa-file-alt activity-icon"></i>Како сејемо личне податке</div></a>
+                <a href=../2.1.%20Заштита%20личних%20података.%20Права%20детета%20у%20дигиталном%20добу/Како%20одрасли%20сеју%20личне%20податке.html><div class="studioLecture" id=activity-Како%20одрасли%20сеју%20личне%20податке><i class="fas fa-file-alt activity-icon"></i>Лични подаци деце</div></a>
+                <a href=../2.1.%20Заштита%20личних%20података.%20Права%20детета%20у%20дигиталном%20добу/Узрасна%20ограничења.html><div class="studioLecture" id=activity-Узрасна%20ограничења><i class="fas fa-file-alt activity-icon"></i>Узрасна ограничења</div></a>
+                <a href=../2.1.%20Заштита%20личних%20података.%20Права%20детета%20у%20дигиталном%20добу/Како%20да%20се%20заштитиш.html><div class="studioLecture" id=activity-Како%20да%20се%20заштитиш><i class="fas fa-file-alt activity-icon"></i>Како да се заштитиш</div></a>
                 <a href=../2.1.%20Заштита%20личних%20података.%20Права%20детета%20у%20дигиталном%20добу/Вежба%201%20-%20Дељење%20и%20контрола%20личних%20података.html><div class="studioLecture" id=activity-Вежба%201%20-%20Дељење%20и%20контрола%20личних%20података><i class="fas fa-file-alt activity-icon"></i>Вежба 1 - Дељење и контрола личних података</div></a>
                 <a href=../2.1.%20Заштита%20личних%20података.%20Права%20детета%20у%20дигиталном%20добу/Вежба%202%20-%20Заштита%20приватности%20личних%20података.html><div class="studioLecture" id=activity-Вежба%202%20-%20Заштита%20приватности%20личних%20података><i class="fas fa-file-alt activity-icon"></i>Вежба 2 - Заштита приватности личних података</div></a>
                 <a href=../2.1.%20Заштита%20личних%20података.%20Права%20детета%20у%20дигиталном%20добу/Квиз%20прве%20лекције.html><div class="studioLecture" id=activity-Квиз%20прве%20лекције><i class="far fa-question-circle activity-icon"></i>Квиз прве лекције</div></a>
@@ -391,7 +393,15 @@
                     <i class="fas fa-angle-down caret-position "> </i>
                     <i class="fas fa-angle-up caret-position d-none"></i>
                 </div>
-                <div class="courseContentsSubSection d-none"><a href=../2.2.%20Отворени%20подаци/Отворени%20подаци.html><div class="studioLecture" id=activity-Отворени%20подаци><i class="fas fa-file-alt activity-icon"></i>2.2. Отворени подаци</div></a>
+                <div class="courseContentsSubSection d-none"><a href=../2.2.%20Отворени%20подаци/Подаци.html><div class="studioLecture" id=activity-Подаци><i class="fas fa-file-alt activity-icon"></i>Подаци, подаци, подаци</div></a>
+                <a href=../2.2.%20Отворени%20подаци/Отворени%20подаци.html><div class="studioLecture" id=activity-Отворени%20подаци><i class="fas fa-file-alt activity-icon"></i>Oтворени подаци -- појам</div></a>
+                <a href=../2.2.%20Отворени%20подаци/Отварање%20података.html><div class="studioLecture" id=activity-Отварање%20података><i class="fas fa-file-alt activity-icon"></i>Отварање података</div></a>
+                <a href=../2.2.%20Отворени%20подаци/Big%20data.html><div class="studioLecture" id=activity-Big%20data><i class="fas fa-file-alt activity-icon"></i>Веееееелики подаци (Big data)</div></a>
+                <a href=../2.2.%20Отворени%20подаци/Портали.html><div class="studioLecture" id=activity-Портали><i class="fas fa-file-alt activity-icon"></i>Портали отворених података</div></a>
+                <a href=../2.2.%20Отворени%20подаци/Формати.html><div class="studioLecture" id=activity-Формати><i class="fas fa-file-alt activity-icon"></i>Формати отворених података</div></a>
+                <a href=../2.2.%20Отворени%20подаци/Визуелизација.html><div class="studioLecture" id=activity-Визуелизација><i class="fas fa-file-alt activity-icon"></i>Визуaлизација отворених података и Инфографик</div></a>
+                <a href=../2.2.%20Отворени%20подаци/Професије.html><div class="studioLecture" id=activity-Професије><i class="fas fa-file-alt activity-icon"></i>Професије у вези са подацима</div></a>
+                <a href=../2.2.%20Отворени%20подаци/Закључак.html><div class="studioLecture" id=activity-Закључак><i class="fas fa-file-alt activity-icon"></i>Резиме</div></a>
                 <a href=../2.2.%20Отворени%20подаци/Квиз%20друге%20лекције.html><div class="studioLecture" id=activity-Квиз%20друге%20лекције><i class="far fa-question-circle activity-icon"></i>Квиз друге лекције</div></a>
                 </div>
             </div>
@@ -402,7 +412,9 @@
                     <i class="fas fa-angle-down caret-position "> </i>
                     <i class="fas fa-angle-up caret-position d-none"></i>
                 </div>
-                <div class="courseContentsSubSection d-none"><a href=../2.3.%20Појам%20вештачке%20интелигенције/AI.html><div class="studioLecture" id=activity-AI><i class="fas fa-file-alt activity-icon"></i>2.3. Појам вештачке интелигенције</div></a>
+                <div class="courseContentsSubSection d-none"><a href=../2.3.%20Појам%20вештачке%20интелигенције/AI.html><div class="studioLecture" id=activity-AI><i class="fas fa-file-alt activity-icon"></i>Појам вештачке интелигенције</div></a>
+                <a href=../2.3.%20Појам%20вештачке%20интелигенције/ЈакаДеф.html><div class="studioLecture" id=activity-ЈакаДеф><i class="fas fa-file-alt activity-icon"></i>Јака дефиниција вештачке интелигенције</div></a>
+                <a href=../2.3.%20Појам%20вештачке%20интелигенције/ТТ.html><div class="studioLecture" id=activity-ТТ><i class="fas fa-file-alt activity-icon"></i>Тјурингов тест</div></a>
                 <a href=../2.3.%20Појам%20вештачке%20интелигенције/kviz.html><div class="studioLecture" id=activity-kviz><i class="far fa-question-circle activity-icon"></i>Квиз треће лекције</div></a>
                 </div>
             </div>
@@ -413,7 +425,9 @@
                     <i class="fas fa-angle-down caret-position "> </i>
                     <i class="fas fa-angle-up caret-position d-none"></i>
                 </div>
-                <div class="courseContentsSubSection d-none"><a href=../2.4.%20Садашњост%20и%20будућност%20вештачке%20интелигенције/AI.html><div class="studioLecture" id=activity-AI><i class="fas fa-file-alt activity-icon"></i>2.4. Садашњост и будућност вештачке интелигенције - етичка питања</div></a>
+                <div class="courseContentsSubSection d-none"><a href=../2.4.%20Садашњост%20и%20будућност%20вештачке%20интелигенције/AI.html><div class="studioLecture" id=activity-AI><i class="fas fa-file-alt activity-icon"></i>Вештачка интелигенција у XXI веку</div></a>
+                <a href=../2.4.%20Садашњост%20и%20будућност%20вештачке%20интелигенције/Примене.html><div class="studioLecture" id=activity-Примене><i class="fas fa-file-alt activity-icon"></i>Примене вештачке интелигенције</div></a>
+                <a href=../2.4.%20Садашњост%20и%20будућност%20вештачке%20интелигенције/Будућност.html><div class="studioLecture" id=activity-Будућност><i class="fas fa-file-alt activity-icon"></i>Будућност вештачке интелигенције</div></a>
                 <a href=../2.4.%20Садашњост%20и%20будућност%20вештачке%20интелигенције/kviz.html><div class="studioLecture" id=activity-kviz><i class="far fa-question-circle activity-icon"></i>Квиз четврте лекције</div></a>
                 </div>
             </div>
@@ -433,181 +447,38 @@
     
   <div class="section" id="id1">
 <h1>Сортирање, филтрирање и фреквенцијска анализа<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h1>
-<p>У овој лекцији ћемо показати:</p>
-<ol class="arabic simple">
-<li><p>како сортирати табелу,</p></li>
-<li><p>како из табеле издвојити само неке врсте (филтрирање) и како се користи опција „Autosum”, и</p></li>
-<li><p>како се ради фреквенцијска анализа података и како се користи функција COUNTIF</p></li>
-</ol>
-<div class="section" id="id2">
-<h2>Сортирање података<a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h2>
-<p>Сортирати податке значи поређати их по величини, од мањих ка већим или обрнуто. Показаћемо сада како се у Екселу могу сортирати табеле. Приликом сортирања табела Ексел преуређује врсте табеле тако да бројеви уписани у неку колону буду поређани по величини.</p>
-<p><strong>Корак 1.</strong> Са следећег линка преузми документ <em>Top25YouTubers.xlsx</em> и сними га на свој рачунар:</p>
-<p><a class="reference external" href="https://petljamediastorage.blob.core.windows.net/root/Media/Default/Kursevi/informatika_VIII/epodaci/Top25YouTubers.xlsx">YouTubers.xlsx</a></p>
-<p>Табела садржи податке о првих 25 YouTube канала према броју претплатника на дан 1. јул 2019:</p>
-<a class="reference internal image-reference" href="../_images/YT1.jpg"><img alt="../_images/YT1.jpg" class="align-center" src="../_images/YT1.jpg" style="width: 600px;" /></a>
-<p>За сваки канал је наведен његов YouTube ранг (GRADE), име канала (NAME), колико је видеа објављено на каналу (VIDEOS), колико има претплатника (SUBSRCIBERS) и колико има прегледа (VIEWS). Табела jе сортирана по броју претплатника.</p>
-<p><strong>Корак 2.</strong> Сортираћемо сада табелу по броју прегледа (VIEWS). Селектоваћемо целу табелу <em>заједно са првом врстом у којој су наведена имена колона</em>:</p>
-<a class="reference internal image-reference" href="../_images/YT2.jpg"><img alt="../_images/YT2.jpg" class="align-center" src="../_images/YT2.jpg" style="width: 600px;" /></a>
-<p>Прећи ћемо на командну траку „Data” и одабрати опцију „Sort”:</p>
-<a class="reference internal image-reference" href="../_images/YT3.jpg"><img alt="../_images/YT3.jpg" class="align-center" src="../_images/YT3.jpg" style="width: 600px;" /></a>
-<p>Појавиће се прозор у коме можемо да одаберемо колону по којој ће бити сортирана табела:</p>
-<a class="reference internal image-reference" href="../_images/YT4.jpg"><img alt="../_images/YT4.jpg" class="align-center" src="../_images/YT4.jpg" style="width: 600px;" /></a>
-<p>У одељку „Column” (енгл. „колона”) кликнемо на стрелицу, па у листи која се појавила одаберемо „VIEWS” јер желимо да сортирамо табелу по броју прегледа (колона „VIEWS”):</p>
-<a class="reference internal image-reference" href="../_images/YT5.jpg"><img alt="../_images/YT5.jpg" class="align-center" src="../_images/YT5.jpg" style="width: 600px;" /></a>
-<p>Потом у одељку „Order” (енгл. „редослед”) кликнемо на стрелицу, па у листи која се појавила одаберемо „Largest to Smallest” јер желимо да сортирамо табелу од већих ка мањим вредностима. (Да смо којим случајем правили „листу срама”, одабрали бисмо опцију „Smallest to Largest” која би наложила Екселу да сортира табелу од канала са најмање прегледа до канала са највише прегледа.)</p>
-<a class="reference internal image-reference" href="../_images/YT6.jpg"><img alt="../_images/YT6.jpg" class="align-center" src="../_images/YT6.jpg" style="width: 600px;" /></a>
-<p>Када кликнемо на „ОК” добијамо сортирану табелу (редови су испремештани тако да на првом месту буде канал са највише прегледа):</p>
-<a class="reference internal image-reference" href="../_images/YT7.jpg"><img alt="../_images/YT7.jpg" class="align-center" src="../_images/YT7.jpg" style="width: 600px;" /></a>
-<p>Ево и кратког видеа:</p>
+<p>Као што смо већ више пута истакли, до <em>информација</em> се долази анализом података.
+Најједноставнији облик анализе података је поређење по величини, што се
+постиже сортирањем података.</p>
 
-    <div  id="8LVLF73jbhE" class="ytvideo"  style="text-align: center; margin: 15px; cursor:pointer;">
-        <div style="background-image: url('https://img.youtube.com/vi/8LVLF73jbhE/mqdefault.jpg'); background-repeat: no-repeat;background-position: center; height: 210px; width: 310px; margin: 0 auto; border: 1px solid #20c997">
-            <img src="/_static/images/play_button.svg" style="margin-top: 78px;" /> 
-        </div>
-      
+    <div class="course-box course-box-info">
+        <div class="course-content">
+            <p>
+<p><em>Сортирати податке</em> значи поређати их по величини, од мањих ка већим или обрнуто.</p>
 
-        </div>
-    <div id="modal-8LVLF73jbhE" class="ytvideoclose" style="display: none; position: fixed; top: 0; left: 0; width: 100vw; height: 100vh; background-color: rgba(128, 182, 128, 0.3); z-index: 10000;">
-        <div style="background-color: white; position: fixed; top: 4vh; left: 5vw; width:  90vw; height:  90vh; z-index: 100;" id="YTmodal-8LVLF73jbhE">
-        </div>
-    </div>
-    
-    
-    <p><strong>Корак 3.</strong> Прикажимо број прегледа по каналима хистограмом. Означимо ћелије B1:B26 и онда <em>притиснемо тастер [CTRL] и држећи га притисутог</em> означимо још и ћелије E1:E26</p>
-<a class="reference internal image-reference" href="../_images/YT7b.jpg"><img alt="../_images/YT7b.jpg" class="align-center" src="../_images/YT7b.jpg" style="width: 600px;" /></a>
-<p>Онда одаберемо командну траку „Insert” и са ње опцију за креирање стубичастих дијаграма, па одаберемо стил који нам се највише свиђа. Ако је потребно, преместимо дијаграм да не прекрива податке:</p>
-<a class="reference internal image-reference" href="../_images/YT7d.jpg"><img alt="../_images/YT7d.jpg" class="align-center" src="../_images/YT7d.jpg" style="width: 600px;" /></a>
-</div>
-<div class="section" id="id3">
-<h2>Филтрирање података<a class="headerlink" href="#id3" title="Permalink to this headline">¶</a></h2>
-<p>Филтрирање података се састоји у томе да се размотре само неки подаци из табеле. Рецимо да нас занима колико укупно видеа су објавили канали чији ранг је А+ (не А-, А++ или А; само А+). Једна могућност је да сортирамо табелу по колони „GRADE” па да нађемо сегмент табеле у коме се налазе вредност А+. Ово може бити озбиљан проблем ако је табела велика. Зато Ексел има могућност <em>аутофилтер</em> која аутоматски генерише захтеве за филтрирање.</p>
-<p><strong>Корак 1.</strong> Селектоваћемо <em>само први ред табеле</em> у коме се налазе имена колона:</p>
-<a class="reference internal image-reference" href="../_images/YT8.jpg"><img alt="../_images/YT8.jpg" class="align-center" src="../_images/YT8.jpg" style="width: 600px;" /></a>
-<p>и онда на командној траци „Data” и кликнути на „Filter”:</p>
-<a class="reference internal image-reference" href="../_images/YT9.jpg"><img alt="../_images/YT9.jpg" class="align-center" src="../_images/YT9.jpg" style="width: 600px;" /></a>
-<p>Поред имена сваке колоне се појавила стрелица. Те стрелице нам дају приступ критеријумима за филтрирање табеле.</p>
-<p><strong>Корак 2.</strong> Ако кликнемо на стрелицу поред „GRADE” појавиће се мени на коме можемо да бирамо групе података које желимо да видимо:</p>
-<a class="reference internal image-reference" href="../_images/YT10.jpg"><img alt="../_images/YT10.jpg" class="align-center" src="../_images/YT10.jpg" style="width: 600px;" /></a>
-<p>„Откачићемо” све „квачице” осим оне код „А+” и потом кликнути на OK:</p>
-<a class="reference internal image-reference" href="../_images/YT11.jpg"><img alt="../_images/YT11.jpg" class="align-center" src="../_images/YT11.jpg" style="width: 600px;" /></a>
-<p>Тако смо „профилтрирали” табелу и приказали само оне редове који у колони „GRADE” садрже вредност А+:</p>
-<a class="reference internal image-reference" href="../_images/YT12.jpg"><img alt="../_images/YT12.jpg" class="align-center" src="../_images/YT12.jpg" style="width: 600px;" /></a>
-<p>Важно је напоменути да остали редови нису уклоњени из табеле. Они су и даље ту, само се не виде. То је лако закључити ако погледамо редне бројеве колона:</p>
-<a class="reference internal image-reference" href="../_images/YT13.jpg"><img alt="../_images/YT13.jpg" class="align-center" src="../_images/YT13.jpg" style="width: 600px;" /></a>
-<p>Осим тога, специјални знак поред имена колоне „GRADE” нам каже да је укључен аутофилтер на тој колони, а у дну прозора стоји порука „6 of 25 records found” што значи да је филтрирањем пронађено 6 редова табеле (од укупно 25) који задовољавају услове.</p>
-<p>Ево и кратког видеа:</p>
+    </p></div></div>
+<p>Други важан облик анализе података је издвајање мање групе података који имају
+неке заједничке вредности. То се зове <em>филтрирање података.</em></p>
 
-    <div  id="s4yc9FYrHDo" class="ytvideo"  style="text-align: center; margin: 15px; cursor:pointer;">
-        <div style="background-image: url('https://img.youtube.com/vi/s4yc9FYrHDo/mqdefault.jpg'); background-repeat: no-repeat;background-position: center; height: 210px; width: 310px; margin: 0 auto; border: 1px solid #20c997">
-            <img src="/_static/images/play_button.svg" style="margin-top: 78px;" /> 
-        </div>
-      
+    <div class="course-box course-box-info">
+        <div class="course-content">
+            <p>
+<p><em>Филтрирати податке</em> значи одабрати само оне податке из табеле који испуљавају неке
+посебне услове.</p>
 
-        </div>
-    <div id="modal-s4yc9FYrHDo" class="ytvideoclose" style="display: none; position: fixed; top: 0; left: 0; width: 100vw; height: 100vh; background-color: rgba(128, 182, 128, 0.3); z-index: 10000;">
-        <div style="background-color: white; position: fixed; top: 4vh; left: 5vw; width:  90vw; height:  90vh; z-index: 100;" id="YTmodal-s4yc9FYrHDo">
-        </div>
-    </div>
-    
-    
-    <p><strong>Корак 3.</strong> Сада можемо да утврдимо колико видеа су објавили канали чији ранг је А+ тако што ћемо сабрати бројеве у колони „VIDEOS” у профилтрираној табели.</p>
-<p>Ако пробамо да применимо функцију SUM распон ћелија који морамо да наведемо не одговара ситуацији:</p>
-<a class="reference internal image-reference" href="../_images/YT14.jpg"><img alt="../_images/YT14.jpg" class="align-center" src="../_images/YT14.jpg" style="width: 600px;" /></a>
-<p>јер ми <em>не желимо</em> да саберемо <em>све</em> ћелије од C4 до C13, већ <em>само оне ћелије распона C4:C13 које задовољавају услове филтера</em>. Зато ћемо сумирање морати да урадимо другачије.</p>
-<p>Кликнемо на ћелију C27 и са командне траке „Formulas” одаберемо „Autosum”:</p>
-<a class="reference internal image-reference" href="../_images/YT15.jpg"><img alt="../_images/YT15.jpg" class="align-center" src="../_images/YT15.jpg" style="width: 600px;" /></a>
-<p>„Autosum” је малчице вештачки интелигентна опција која уме да проанализира контекст у коме желимо да одредимо збир и на основу тога које друге опције су укључене може да одабере праву функцију за сумирање. У нашем случају добијамо:</p>
-<a class="reference internal image-reference" href="../_images/YT16.jpg"><img alt="../_images/YT16.jpg" class="align-center" src="../_images/YT16.jpg" style="width: 600px;" /></a>
-<p>Дакле, „Autosum” се определио за функцију „SUBTOTAL(9, C2:C26)” што значи да ће на цео распон C2:C26 бити примењена 9. могућност функције „SUBTOTAL”, а то је тачно рачунање збира уз примену филтера:</p>
-<a class="reference internal image-reference" href="../_images/YT17.jpg"><img alt="../_images/YT17.jpg" class="align-center" src="../_images/YT17.jpg" style="width: 600px;" /></a>
-<p>Ево и кратког видеа:</p>
+    </p></div></div>
+<p>Коначно, важно нам је да знамо и колико се пута који податак појавио у табели. Таква
+анализа се зове <em>фреквенцијска анализа</em> (фреквенција = учесталост).</p>
 
-    <div  id="afTS-kOA-uc" class="ytvideo"  style="text-align: center; margin: 15px; cursor:pointer;">
-        <div style="background-image: url('https://img.youtube.com/vi/afTS-kOA-uc/mqdefault.jpg'); background-repeat: no-repeat;background-position: center; height: 210px; width: 310px; margin: 0 auto; border: 1px solid #20c997">
-            <img src="/_static/images/play_button.svg" style="margin-top: 78px;" /> 
-        </div>
-      
+    <div class="course-box course-box-info">
+        <div class="course-content">
+            <p>
+<p><em>Фреквенцијска анализа</em> низа података се своди на то да се преброји колико се пута који податак
+појављује у низу.</p>
 
-        </div>
-    <div id="modal-afTS-kOA-uc" class="ytvideoclose" style="display: none; position: fixed; top: 0; left: 0; width: 100vw; height: 100vh; background-color: rgba(128, 182, 128, 0.3); z-index: 10000;">
-        <div style="background-color: white; position: fixed; top: 4vh; left: 5vw; width:  90vw; height:  90vh; z-index: 100;" id="YTmodal-afTS-kOA-uc">
-        </div>
-    </div>
-    
-    
-    </div>
-<div class="section" id="id4">
-<h2>Фреквенцијска анализа<a class="headerlink" href="#id4" title="Permalink to this headline">¶</a></h2>
-<p>Фреквенцијска анализа низа података се своди на то да се преброји колико се пута који податак појављује у низу (фреквенција = учесталост). Типичан пример фреквенцијске анализе би био да пребројимо колико канала у табели коју смо до сада анализирали има рејтинг А++, колико А+, колико А, итд.</p>
-<p><strong>Корак 1.</strong> Преузми поново документ <em>Top25YouTubers.xlsx</em> и сними га на свој рачунар да бисмо кренули од свежих података:</p>
-<p><a class="reference external" href="https://petljamediastorage.blob.core.windows.net/root/Media/Default/Kursevi/informatika_VIII/epodaci/Top25YouTubers.xlsx">YouTubers</a></p>
-<p>Табела изгледа овако:</p>
-<a class="reference internal image-reference" href="../_images/FA1.jpg"><img alt="../_images/FA1.jpg" class="align-center" src="../_images/FA1.jpg" style="width: 600px;" /></a>
-<p><strong>Корак 2.</strong> Фреквенцијска анализа у односу са рејтинг канала се састоји у томе да за сваки од рејтинга који се појављују у колони А (А++, А+, А, А-, B+, B и B-) утврдимо колико се пута јављају у колони А.</p>
-<p>У ћелију А28 унеси текст <em>GRADE</em>, а у ћелију B28 текст <em>FREQUENCY</em>; онда у ћелије А29, А30, А31, А32, А33, А34, A35 унеси рејтинге А++, А+, А, А-, B+, B и B-:</p>
-<a class="reference internal image-reference" href="../_images/FA2.jpg"><img alt="../_images/FA2.jpg" class="align-center" src="../_images/FA2.jpg" style="width: 600px;" /></a>
-<p><strong>Корак 3.</strong> Да бисмо утврдили, рецимо, колико пута се у колони А јавља рејтинг А++ треба да кренемо да <em>бројимо</em> ћелије колоне А, али само <em>ако</em> је њихов садржај једнак са А++. Екселова функција која <em>броји</em> (енгл. <em>count</em>) ћелије, али само <em>ако</em> (енгл. <em>if</em>) је њихова вредност једнака датој, зове се COUNTIF.</p>
-<p>У ћелију B29 унеси формулу:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="o">=</span><span class="n">COUNTIF</span><span class="p">(</span><span class="n">A2</span><span class="p">:</span><span class="n">A26</span><span class="p">,</span> <span class="s2">&quot;A++&quot;</span><span class="p">)</span>
-</pre></div>
-</div>
-<a class="reference internal image-reference" href="../_images/FA3.jpg"><img alt="../_images/FA3.jpg" class="align-center" src="../_images/FA3.jpg" style="width: 600px;" /></a>
-<p>Ова функција ће проћи кроз ћелије А2:А26, пребројати колико пута се појављује А++ и тај број уписати у ћелију B29:</p>
-<a class="reference internal image-reference" href="../_images/FA4.jpg"><img alt="../_images/FA4.jpg" class="align-center" src="../_images/FA4.jpg" style="width: 600px;" /></a>
-<p>Потом у ћелије B30, B31, B32, B33, B34 и B35 редом унеси формуле:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="o">=</span><span class="n">COUNTIF</span><span class="p">(</span><span class="n">A2</span><span class="p">:</span><span class="n">A26</span><span class="p">,</span> <span class="s2">&quot;A+&quot;</span><span class="p">)</span>
-<span class="o">=</span><span class="n">COUNTIF</span><span class="p">(</span><span class="n">A2</span><span class="p">:</span><span class="n">A26</span><span class="p">,</span> <span class="s2">&quot;A&quot;</span><span class="p">)</span>
-<span class="o">=</span><span class="n">COUNTIF</span><span class="p">(</span><span class="n">A2</span><span class="p">:</span><span class="n">A26</span><span class="p">,</span> <span class="s2">&quot;A-&quot;</span><span class="p">)</span>
-<span class="o">=</span><span class="n">COUNTIF</span><span class="p">(</span><span class="n">A2</span><span class="p">:</span><span class="n">A26</span><span class="p">,</span> <span class="s2">&quot;B+&quot;</span><span class="p">)</span>
-<span class="o">=</span><span class="n">COUNTIF</span><span class="p">(</span><span class="n">A2</span><span class="p">:</span><span class="n">A26</span><span class="p">,</span> <span class="s2">&quot;B&quot;</span><span class="p">)</span>
-<span class="o">=</span><span class="n">COUNTIF</span><span class="p">(</span><span class="n">A2</span><span class="p">:</span><span class="n">A26</span><span class="p">,</span> <span class="s2">&quot;B-&quot;</span><span class="p">)</span>
-</pre></div>
-</div>
-<p>Табела изгледа овако:</p>
-<a class="reference internal image-reference" href="../_images/FA5.jpg"><img alt="../_images/FA5.jpg" class="align-center" src="../_images/FA5.jpg" style="width: 600px;" /></a>
-<p>Фреквенцијска анализа завршена.</p>
-<p><strong>Корак 4.</strong> За крај ћемо утврдити колико канала у овој табели има милијарду прегледа или више. У ћелију Е28 упиши текст „BILLION+” (без наводника, наравно; примети да се милијарда на енглеском каже <em>billion</em>, мада може и <em>milliard</em>, али да не улазимо у детаље):</p>
-<a class="reference internal image-reference" href="../_images/FA11.jpg"><img alt="../_images/FA11.jpg" class="align-center" src="../_images/FA11.jpg" style="width: 600px;" /></a>
-<p>па у ћелију Е29 упиши формулу:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="o">=</span><span class="n">COUNTIF</span><span class="p">(</span><span class="n">E2</span><span class="p">:</span><span class="n">E26</span><span class="p">,</span> <span class="s2">&quot;&gt;= 1000000000&quot;</span><span class="p">)</span>
-</pre></div>
-</div>
-<a class="reference internal image-reference" href="../_images/FA12.jpg"><img alt="../_images/FA12.jpg" class="align-center" src="../_images/FA12.jpg" style="width: 600px;" /></a>
-<p>Ова формула каже Екселу да утврди колико ћелија из опсега E2:E26 задовољава услов наведен под наводницима. На крају добијамо:</p>
-<a class="reference internal image-reference" href="../_images/FA13.jpg"><img alt="../_images/FA13.jpg" class="align-center" src="../_images/FA13.jpg" style="width: 600px;" /></a>
-</div>
-<div class="section" id="id5">
-<h2>Задаци<a class="headerlink" href="#id5" title="Permalink to this headline">¶</a></h2>
-<p><strong>Задатак 1.</strong>  Са следећег линка преузми документ <em>Top25YouTubers.xlsx</em> и сними га на свој рачунар:</p>
-<p><a class="reference external" href="https://petljamediastorage.blob.core.windows.net/root/Media/Default/Kursevi/informatika_VIII/epodaci/Top25YouTubers.xlsx">YouTubers.xlsx</a></p>
-<p>Табела садржи податке о првих 25 YouTube канала према броју претплатника на дан 1. јул 2019. За сваки канал у табели израчунар просечан број прегледа по видеу (количник бројева VIEWS и VIDEOS). Сортирај табелу по том параметру и прикажи првих десет канала стубичастим дијаграмом.</p>
-<p><strong>Задатак 2.</strong>  Са следећег линка преузми документ <em>Cricket.xlsx</em> и сними га на свој рачунар:</p>
-<p><a class="reference external" href="https://petljamediastorage.blob.core.windows.net/root/Media/Default/Kursevi/informatika_VIII/epodaci/Cricket.xlsx">Cricket.xlsx</a></p>
-<p>Табела садржи податке о најбољим играчима крикета у историји крикета.</p>
-<p><em>Корак 1.</em> Прошири колоне табеле ако је потребно.</p>
-<p><em>Корак 2.</em> За сваког такмичара у табели израчунај параметар ARY (= Average Runs per Year) тако што ћеш поделити вредност у колони Runs разликом бројева у колонама From и To. То нам за сваког такмичара каже колико је просечно има ранова по години активног играња.</p>
-<p><em>Корак 3.</em> Сортирај табелу по колони ARY од већих вредности ка мањим.</p>
-<p><em>Корак 4.</em> Позадину ћелија за првих 25 играча у овако сортираној табели обој светло плавом.</p>
-<p><em>Корак 5.</em> Међу првих 25 играча у овако сортираној табели нађи оне који су завршили своју каријеру током XX века и позадину ћелија у којима су подаци о њима оној светло црвено.</p>
-<p>Шта уочаваш?</p>
-<p><strong>Задатак 3.</strong>  Са следећег линка преузми документ <em>Plivanje.xlsx</em> и сними га на свој рачунар:</p>
-<p><a class="reference external" href="https://petljamediastorage.blob.core.windows.net/root/Media/Default/Kursevi/informatika_VIII/epodaci/Plivanje.xlsx">Plivanje.xlsx</a></p>
-<p>Табела садржи податке о једном такмичењу упливању на 50 м слободним стилом. За сваког учесника дат је његов такмичарски број и резултати из две трке.</p>
-<p>Такмичар се квалификовао у А финале ако је испунио норму за А финале, односно, ако је просечно време које му је потребно да преплива 50 м мање или једнако од норме за А финале.</p>
-<p>Такмичар се квалификовао у Б финале ако је испунио норму за Б финале, односно, ако је просечно време које му је потребно да преплива 50 м мање или једнако од норме за Б финале, и при томе се <em>није квалификовао</em> у А финале.</p>
-<p><em>Корак 1.</em> Прошири колоне табеле ако је потребно.</p>
-<p><em>Корак 2.</em> За сваког такмичара у табели израчунај просечно време које му је било потребно да преплива 50 м.</p>
-<p><em>Корак 3.</em> Одредити колико такмичара се квалификовало за А финале, а колико за Б финале. Ове податке немој рачунати ручно већ користи функцију COUNTIF.</p>
-<p><strong>Задатак 4.</strong> Са следећег линка преузми датотеку која садржи податке о берачима воћа на једној плантажи:</p>
-<p><a class="reference external" href="https://petljamediastorage.blob.core.windows.net/root/Media/Default/Kursevi/informatika_VIII/epodaci/JabukeNorma.xlsx">JabukeNorma.xlsx</a></p>
-<ul class="simple">
-<li><p>Прошири колоне ако је потребно и улепшај табелу.</p></li>
-<li><p>Одреди укупну количину јабука, крушака и трешања које су убране.</p></li>
-<li><p>За сваког берача утврди колико је зарадио ако знаш да су износи убраног воћа дати у килограмима, а цена брања по килограму воћа је дата испод табеле са берачима.</p></li>
-<li><p>За сваког берача утврди колико је укупно килограма воћа убрао, па на основу тога утврди колико берача је испунило норму, а колико није. Добијене податке упиши у ћелије Е25, односно, Е26. (Берач је испунио норму ако је убрао барем ону количину воћа која је уписана у ћелију B23; податке о броју берача који су или нису испунили норму немој рачунати ручно већ користи функцију COUNTIF).</p></li>
-</ul>
-</div>
+    </p></div></div>
+<p>Већ применом ове три једноставне технике анализе података могуће је открити интересантне
+феномене!</p>
 </div>
 
 

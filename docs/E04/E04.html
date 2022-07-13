@@ -24,13 +24,9 @@
     <link rel="stylesheet" type="text/css" href="../_static/webglinteractive.css" />
     <link rel="stylesheet" type="text/css" href="../_static/karel.css" />
     <link rel="stylesheet" type="text/css" href="../_static/notes.css" />
-    <link rel="stylesheet" type="text/css" href="../_static/simanim.css" />
-    <link rel="stylesheet" type="text/css" href="../_static/pycode.css" />
-    <link rel="stylesheet" type="text/css" href="../_static/p5js.css" />
     <link rel="stylesheet" type="text/css" href="../_static/gallery.css" />
-    <link rel="stylesheet" type="text/css" href="../_static/dbDirective.css" />
     <link rel="stylesheet" type="text/css" href="../_static/associations.css" />
-    <link rel="stylesheet" type="text/css" href="../_static/regex-check.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/editor.css" />
     <link rel="stylesheet" href="../_static/basic.css" type="text/css" />
     <link rel="stylesheet" href="../_static/user-highlights.css" type="text/css" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" type="text/css" />
@@ -119,46 +115,12 @@
     <script type="text/javascript" src="../_static/karel-i18n.sr-Cyrl.js"></script>
     <script type="text/javascript" src="../_static/notes.js"></script>
     <script type="text/javascript" src="../_static/pygamelib-init.js"></script>
-    <script type="text/javascript" src="../_static/blockly/blockly_compressed.js"></script>
-    <script type="text/javascript" src="../_static/blockly/blocks_compressed.js"></script>
-    <script type="text/javascript" src="../_static/blockly/python_compressed.js"></script>
-    <script type="text/javascript" src="../_static/blockly/msg-sr.js"></script>
-    <script type="text/javascript" src="../_static/blockpy/utilities.js"></script>
-    <script type="text/javascript" src="../_static/blockpy/python_errors.js"></script>
-    <script type="text/javascript" src="../_static/blockpy/ast_node_visitor.js"></script>
-    <script type="text/javascript" src="../_static/blockpy/abstract_interpreter.js"></script>
-    <script type="text/javascript" src="../_static/blockpy/pytifa.js"></script>
-    <script type="text/javascript" src="../_static/blockpy/abstract_interpreter_definitions.js"></script>
-    <script type="text/javascript" src="../_static/blockpy/python_to_blockly.js"></script>
-    <script type="text/javascript" src="../_static/blockpy/imported.js"></script>
-    <script type="text/javascript" src="../_static/blockpy/blocks/class.js"></script>
-    <script type="text/javascript" src="../_static/blockpy/blocks/comment.js"></script>
-    <script type="text/javascript" src="../_static/blockpy/blocks/comprehensions.js"></script>
-    <script type="text/javascript" src="../_static/blockpy/blocks/dict.js"></script>
-    <script type="text/javascript" src="../_static/blockpy/blocks/if.js"></script>
-    <script type="text/javascript" src="../_static/blockpy/blocks/io.js"></script>
-    <script type="text/javascript" src="../_static/blockpy/blocks/lists.js"></script>
-    <script type="text/javascript" src="../_static/blockpy/blocks/sets.js"></script>
-    <script type="text/javascript" src="../_static/blockpy/blocks/loops.js"></script>
-    <script type="text/javascript" src="../_static/blockpy/blocks/parking.js"></script>
-    <script type="text/javascript" src="../_static/blockpy/blocks/tuple.js"></script>
-    <script type="text/javascript" src="../_static/blockpy/blocks/turtles.js"></script>
-    <script type="text/javascript" src="../_static/blockpy/blocks/text.js"></script>
-    <script type="text/javascript" src="../_static/blockpy-modal.js"></script>
-    <script type="text/javascript" src="../_static/simanim.js"></script>
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/pyodide/v0.16.1/full/pyodide.js"></script>
-    <script type="text/javascript" src="../_static/pycode.js"></script>
-    <script type="text/javascript" src="//toolness.github.io/p5.js-widget/p5-widget.js"></script>
-    <script type="text/javascript" src="../_static/p5js.js"></script>
     <script type="text/javascript" src="../_static/gallery.js"></script>
-    <script type="text/javascript" src="../_static/dbDirective.js"></script>
-    <script type="text/javascript" src="../_static/sql.js"></script>
     <script type="text/javascript" src="../_static/associations.js"></script>
     <script type="text/javascript" src="../_static/associations-i18n.en.js"></script>
     <script type="text/javascript" src="../_static/associations-i18n.sr-Cyrl.js"></script>
-    <script type="text/javascript" src="../_static/regex-check.js"></script>
-    <script type="text/javascript" src="../_static/regex-check-i18n.en.js"></script>
-    <script type="text/javascript" src="../_static/regex-check-i18n.sr-Cyrl.js"></script>
+    <script type="text/javascript" src="../_static/editor.js"></script>
+    <script type="text/javascript" src="../_static/jszip.js"></script>
     <script type="text/javascript" src="../_static/translations.js"></script>
     <script async="async" type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
     <script type="text/javascript" src="../_static/jquery-ui-1.10.3.custom.min.js"></script>
@@ -265,11 +227,11 @@
            <div>
                 <div class="courseContentsSection">
                 <div class="lecture-div courseContentsSectionHeadline" id=lecture-E00>
-                    <h5>Информационо-комуникационе технологије (ИКТ)</h5>
+                    <h5>Информационо-комуникационе технологије (ИКТ) -- Програми за табеларна израчунавања</h5>
                     <i class="fas fa-angle-down caret-position "> </i>
                     <i class="fas fa-angle-up caret-position d-none"></i>
                 </div>
-                <div class="courseContentsSubSection d-none"><a href=../E00/E00.html><div class="studioLecture" id=activity-E00><i class="fas fa-file-alt activity-icon"></i>Исходи</div></a>
+                <div class="courseContentsSubSection d-none"><a href=../E00/E00.html><div class="studioLecture" id=activity-E00><i class="fas fa-file-alt activity-icon"></i>Мотивација</div></a>
                 </div>
             </div>
                 
@@ -279,7 +241,10 @@
                     <i class="fas fa-angle-down caret-position "> </i>
                     <i class="fas fa-angle-up caret-position d-none"></i>
                 </div>
-                <div class="courseContentsSubSection d-none"><a href=../E01/E01.html><div class="studioLecture" id=activity-E01><i class="fas fa-file-alt activity-icon"></i>Лекција</div></a>
+                <div class="courseContentsSubSection d-none"><a href=../E01/E01.html><div class="studioLecture" id=activity-E01><i class="fas fa-file-alt activity-icon"></i>Покретање Ексела</div></a>
+                <a href=../E01/E012.html><div class="studioLecture" id=activity-E012><i class="fas fa-file-alt activity-icon"></i>Навигација и уношење података у табелу</div></a>
+                <a href=../E01/E013.html><div class="studioLecture" id=activity-E013><i class="fas fa-file-alt activity-icon"></i>Једноставне формуле</div></a>
+                <a href=../E01/E014.html><div class="studioLecture" id=activity-E014><i class="fas fa-file-alt activity-icon"></i>Задаци за вежбу</div></a>
                 <a href=../E01/testE01.html><div class="studioLecture" id=activity-testE01><i class="far fa-question-circle activity-icon"></i>Квиз</div></a>
                 </div>
             </div>
@@ -290,7 +255,11 @@
                     <i class="fas fa-angle-down caret-position "> </i>
                     <i class="fas fa-angle-up caret-position d-none"></i>
                 </div>
-                <div class="courseContentsSubSection d-none"><a href=../E02/E02.html><div class="studioLecture" id=activity-E02><i class="fas fa-file-alt activity-icon"></i>Лекција</div></a>
+                <div class="courseContentsSubSection d-none"><a href=../E02/E02.html><div class="studioLecture" id=activity-E02><i class="fas fa-file-alt activity-icon"></i>Аутоматска рекалкулација</div></a>
+                <a href=../E02/E021.html><div class="studioLecture" id=activity-E021><i class="fas fa-file-alt activity-icon"></i>Летњи послови -- формуле у ексел табели</div></a>
+                <a href=../E02/E022.html><div class="studioLecture" id=activity-E022><i class="fas fa-file-alt activity-icon"></i>Унос података и формула у табелу</div></a>
+                <a href=../E02/E023.html><div class="studioLecture" id=activity-E023><i class="fas fa-file-alt activity-icon"></i>Додавање врста и колона табели</div></a>
+                <a href=../E02/E024.html><div class="studioLecture" id=activity-E024><i class="fas fa-file-alt activity-icon"></i>Задаци за вежбу</div></a>
                 <a href=../E02/testE02.html><div class="studioLecture" id=activity-testE02><i class="far fa-question-circle activity-icon"></i>Квиз</div></a>
                 </div>
             </div>
@@ -301,7 +270,13 @@
                     <i class="fas fa-angle-down caret-position "> </i>
                     <i class="fas fa-angle-up caret-position d-none"></i>
                 </div>
-                <div class="courseContentsSubSection d-none"><a href=../E03/E03.html><div class="studioLecture" id=activity-E03><i class="fas fa-file-alt activity-icon"></i>Лекција</div></a>
+                <div class="courseContentsSubSection d-none"><a href=../E03/E03.html><div class="studioLecture" id=activity-E03><i class="fas fa-file-alt activity-icon"></i>Селектовање групе ћелија и уређивање табеле</div></a>
+                <a href=../E03/E032.html><div class="studioLecture" id=activity-E032><i class="fas fa-file-alt activity-icon"></i>Уношење формула и брзо копирање</div></a>
+                <a href=../E03/E033.html><div class="studioLecture" id=activity-E033><i class="fas fa-file-alt activity-icon"></i>Селектовање групе ћелија</div></a>
+                <a href=../E03/E034.html><div class="studioLecture" id=activity-E034><i class="fas fa-file-alt activity-icon"></i>Форматирање децималних бројева</div></a>
+                <a href=../E03/E035.html><div class="studioLecture" id=activity-E035><i class="fas fa-file-alt activity-icon"></i>Рачунање минимума и максимума</div></a>
+                <a href=../E03/E036.html><div class="studioLecture" id=activity-E036><i class="fas fa-file-alt activity-icon"></i>Уређивање табеле</div></a>
+                <a href=../E03/E037.html><div class="studioLecture" id=activity-E037><i class="fas fa-file-alt activity-icon"></i>Задаци за вежбу</div></a>
                 <a href=../E03/testE03.html><div class="studioLecture" id=activity-testE03><i class="far fa-question-circle activity-icon"></i>Квиз</div></a>
                 </div>
             </div>
@@ -312,18 +287,28 @@
                     <i class="fas fa-angle-down caret-position "> </i>
                     <i class="fas fa-angle-up caret-position d-none"></i>
                 </div>
-                <div class="courseContentsSubSection d-none"><a href=../E04/E04.html><div class="studioLecture" id=activity-E04><i class="fas fa-file-alt activity-icon"></i>Лекција</div></a>
+                <div class="courseContentsSubSection d-none"><a href=../E04/E04.html><div class="studioLecture" id=activity-E04><i class="fas fa-file-alt activity-icon"></i>Разне врсте података у табели</div></a>
+                <a href=../E04/E041.html><div class="studioLecture" id=activity-E041><i class="fas fa-file-alt activity-icon"></i>Донације -- валуте у Ексел табели</div></a>
+                <a href=../E04/E042.html><div class="studioLecture" id=activity-E042><i class="fas fa-file-alt activity-icon"></i>Музички фестивали у Европи -- датуми у Ексел табели</div></a>
+                <a href=../E04/E043.html><div class="studioLecture" id=activity-E043><i class="fas fa-file-alt activity-icon"></i>Плеј-листа -- време у Ексел табели</div></a>
+                <a href=../E04/E044.html><div class="studioLecture" id=activity-E044><i class="fas fa-file-alt activity-icon"></i>Задаци за вежбу</div></a>
                 <a href=../E04/testE04.html><div class="studioLecture" id=activity-testE04><i class="far fa-question-circle activity-icon"></i>Квиз</div></a>
                 </div>
             </div>
                 
                 <div class="courseContentsSection">
                 <div class="lecture-div courseContentsSectionHeadline" id=lecture-E05>
-                    <h5>ИКТ.5. Штампање и генерисање ПДФ документа</h5>
+                    <h5>ИКТ.5. Процени, штампање и генерисање ПДФ документа</h5>
                     <i class="fas fa-angle-down caret-position "> </i>
                     <i class="fas fa-angle-up caret-position d-none"></i>
                 </div>
-                <div class="courseContentsSubSection d-none"><a href=../E05/E05.html><div class="studioLecture" id=activity-E05><i class="fas fa-file-alt activity-icon"></i>Лекција</div></a>
+                <div class="courseContentsSubSection d-none"><a href=../E05/E05.html><div class="studioLecture" id=activity-E05><i class="fas fa-file-alt activity-icon"></i>Проценти, штампање и генерисање ПДФ документа</div></a>
+                <a href=../E05/E051.html><div class="studioLecture" id=activity-E051><i class="fas fa-file-alt activity-icon"></i>Проширивање врсте и приказивање садржаја ћелије у више редова</div></a>
+                <a href=../E05/E052.html><div class="studioLecture" id=activity-E052><i class="fas fa-file-alt activity-icon"></i>Приказивање бројева  у облику процента</div></a>
+                <a href=../E05/E053.html><div class="studioLecture" id=activity-E053><i class="fas fa-file-alt activity-icon"></i>Спајање ћелија и промена величине слова</div></a>
+                <a href=../E05/E054.html><div class="studioLecture" id=activity-E054><i class="fas fa-file-alt activity-icon"></i>Штампање документа</div></a>
+                <a href=../E05/E055.html><div class="studioLecture" id=activity-E055><i class="fas fa-file-alt activity-icon"></i>Снимање документа у ПДФ формату</div></a>
+                <a href=../E05/E056.html><div class="studioLecture" id=activity-E056><i class="fas fa-file-alt activity-icon"></i>Задаци за вежбу</div></a>
                 <a href=../E05/testE05.html><div class="studioLecture" id=activity-testE05><i class="far fa-question-circle activity-icon"></i>Квиз</div></a>
                 </div>
             </div>
@@ -334,7 +319,12 @@
                     <i class="fas fa-angle-down caret-position "> </i>
                     <i class="fas fa-angle-up caret-position d-none"></i>
                 </div>
-                <div class="courseContentsSubSection d-none"><a href=../E07/E07.html><div class="studioLecture" id=activity-E07><i class="fas fa-file-alt activity-icon"></i>Лекција</div></a>
+                <div class="courseContentsSubSection d-none"><a href=../E07/E07.html><div class="studioLecture" id=activity-E07><i class="fas fa-file-alt activity-icon"></i>Визуелизација података</div></a>
+                <a href=../E07/E071.html><div class="studioLecture" id=activity-E071><i class="fas fa-file-alt activity-icon"></i>Промена величине у времену - Scatter дијаграм</div></a>
+                <a href=../E07/E072.html><div class="studioLecture" id=activity-E072><i class="fas fa-file-alt activity-icon"></i>Компаративна анализа -- Стубичасти дијаграми</div></a>
+                <a href=../E07/E073.html><div class="studioLecture" id=activity-E073><i class="fas fa-file-alt activity-icon"></i>Визуелизација удела у целини -- Секторски дијаграми</div></a>
+                <a href=../E07/E074.html><div class="studioLecture" id=activity-E074><i class="fas fa-file-alt activity-icon"></i>Приказивање две групе података на истом дијаграму</div></a>
+                <a href=../E07/E075.html><div class="studioLecture" id=activity-E075><i class="fas fa-file-alt activity-icon"></i>Задаци за вежбу</div></a>
                 <a href=../E07/testE07.html><div class="studioLecture" id=activity-testE07><i class="far fa-question-circle activity-icon"></i>Квиз</div></a>
                 </div>
             </div>
@@ -345,7 +335,11 @@
                     <i class="fas fa-angle-down caret-position "> </i>
                     <i class="fas fa-angle-up caret-position d-none"></i>
                 </div>
-                <div class="courseContentsSubSection d-none"><a href=../E08/E08.html><div class="studioLecture" id=activity-E08><i class="fas fa-file-alt activity-icon"></i>Лекција</div></a>
+                <div class="courseContentsSubSection d-none"><a href=../E08/E08.html><div class="studioLecture" id=activity-E08><i class="fas fa-file-alt activity-icon"></i>Сортирање, филтрирање и фреквенцијска анализа</div></a>
+                <a href=../E08/E081.html><div class="studioLecture" id=activity-E081><i class="fas fa-file-alt activity-icon"></i>Сортирање података</div></a>
+                <a href=../E08/E082.html><div class="studioLecture" id=activity-E082><i class="fas fa-file-alt activity-icon"></i>Филтрирање података</div></a>
+                <a href=../E08/E083.html><div class="studioLecture" id=activity-E083><i class="fas fa-file-alt activity-icon"></i>Фреквенцијска анализа</div></a>
+                <a href=../E08/E084.html><div class="studioLecture" id=activity-E084><i class="fas fa-file-alt activity-icon"></i>Задаци за вежбу</div></a>
                 <a href=../E08/testE08.html><div class="studioLecture" id=activity-testE08><i class="far fa-question-circle activity-icon"></i>Квиз</div></a>
                 </div>
             </div>
@@ -356,7 +350,11 @@
                     <i class="fas fa-angle-down caret-position "> </i>
                     <i class="fas fa-angle-up caret-position d-none"></i>
                 </div>
-                <div class="courseContentsSubSection d-none"><a href=../E10/E10.html><div class="studioLecture" id=activity-E10><i class="fas fa-file-alt activity-icon"></i>Лекција</div></a>
+                <div class="courseContentsSubSection d-none"><a href=../E10/E10.html><div class="studioLecture" id=activity-E10><i class="fas fa-file-alt activity-icon"></i>Сервиси "у облаку" (cloud services)</div></a>
+                <a href=../E10/E101.html><div class="studioLecture" id=activity-E101><i class="fas fa-file-alt activity-icon"></i>Креирање документа "у облаку"</div></a>
+                <a href=../E10/E102.html><div class="studioLecture" id=activity-E102><i class="fas fa-file-alt activity-icon"></i>Дељење документа "у облаку" и сарадња</div></a>
+                <a href=../E10/E103.html><div class="studioLecture" id=activity-E103><i class="fas fa-file-alt activity-icon"></i>Преузимање документа</div></a>
+                <a href=../E10/E104.html><div class="studioLecture" id=activity-E104><i class="fas fa-file-alt activity-icon"></i>Задаци за вежбу</div></a>
                 <a href=../E10/testE10.html><div class="studioLecture" id=activity-testE10><i class="far fa-question-circle activity-icon"></i>Квиз</div></a>
                 </div>
             </div>
@@ -367,7 +365,7 @@
                     <i class="fas fa-angle-down caret-position "> </i>
                     <i class="fas fa-angle-up caret-position d-none"></i>
                 </div>
-                <div class="courseContentsSubSection d-none"><a href=../DP00/DP00.html><div class="studioLecture" id=activity-DP00><i class="fas fa-file-alt activity-icon"></i>Исходи</div></a>
+                <div class="courseContentsSubSection d-none"><a href=../DP00/DP00.html><div class="studioLecture" id=activity-DP00><i class="fas fa-file-alt activity-icon"></i>Увод</div></a>
                 </div>
             </div>
                 
@@ -377,8 +375,12 @@
                     <i class="fas fa-angle-down caret-position "> </i>
                     <i class="fas fa-angle-up caret-position d-none"></i>
                 </div>
-                <div class="courseContentsSubSection d-none"><a href=../2.1.%20Заштита%20личних%20података.%20Права%20детета%20у%20дигиталном%20добу/Заштита%20личних%20података.html><div class="studioLecture" id=activity-Заштита%20личних%20података><i class="fas fa-file-alt activity-icon"></i>Заштита личних података</div></a>
-                <a href=../2.1.%20Заштита%20личних%20података.%20Права%20детета%20у%20дигиталном%20добу/Права%20детета%20у%20дигиталном%20добу.html><div class="studioLecture" id=activity-Права%20детета%20у%20дигиталном%20добу><i class="fas fa-file-alt activity-icon"></i>Права детета у дигиталном добу</div></a>
+                <div class="courseContentsSubSection d-none"><a href=../2.1.%20Заштита%20личних%20података.%20Права%20детета%20у%20дигиталном%20добу/Шта%20су%20лични%20подаци.html><div class="studioLecture" id=activity-Шта%20су%20лични%20подаци><i class="fas fa-file-alt activity-icon"></i>Шта су лични подаци</div></a>
+                <a href=../2.1.%20Заштита%20личних%20података.%20Права%20детета%20у%20дигиталном%20добу/Од%20кога%20се%20штитимо.html><div class="studioLecture" id=activity-Од%20кога%20се%20штитимо><i class="fas fa-file-alt activity-icon"></i>Од кога се штитимо</div></a>
+                <a href=../2.1.%20Заштита%20личних%20података.%20Права%20детета%20у%20дигиталном%20добу/Како%20сејемо%20личне%20податке.html><div class="studioLecture" id=activity-Како%20сејемо%20личне%20податке><i class="fas fa-file-alt activity-icon"></i>Како сејемо личне податке</div></a>
+                <a href=../2.1.%20Заштита%20личних%20података.%20Права%20детета%20у%20дигиталном%20добу/Како%20одрасли%20сеју%20личне%20податке.html><div class="studioLecture" id=activity-Како%20одрасли%20сеју%20личне%20податке><i class="fas fa-file-alt activity-icon"></i>Лични подаци деце</div></a>
+                <a href=../2.1.%20Заштита%20личних%20података.%20Права%20детета%20у%20дигиталном%20добу/Узрасна%20ограничења.html><div class="studioLecture" id=activity-Узрасна%20ограничења><i class="fas fa-file-alt activity-icon"></i>Узрасна ограничења</div></a>
+                <a href=../2.1.%20Заштита%20личних%20података.%20Права%20детета%20у%20дигиталном%20добу/Како%20да%20се%20заштитиш.html><div class="studioLecture" id=activity-Како%20да%20се%20заштитиш><i class="fas fa-file-alt activity-icon"></i>Како да се заштитиш</div></a>
                 <a href=../2.1.%20Заштита%20личних%20података.%20Права%20детета%20у%20дигиталном%20добу/Вежба%201%20-%20Дељење%20и%20контрола%20личних%20података.html><div class="studioLecture" id=activity-Вежба%201%20-%20Дељење%20и%20контрола%20личних%20података><i class="fas fa-file-alt activity-icon"></i>Вежба 1 - Дељење и контрола личних података</div></a>
                 <a href=../2.1.%20Заштита%20личних%20података.%20Права%20детета%20у%20дигиталном%20добу/Вежба%202%20-%20Заштита%20приватности%20личних%20података.html><div class="studioLecture" id=activity-Вежба%202%20-%20Заштита%20приватности%20личних%20података><i class="fas fa-file-alt activity-icon"></i>Вежба 2 - Заштита приватности личних података</div></a>
                 <a href=../2.1.%20Заштита%20личних%20података.%20Права%20детета%20у%20дигиталном%20добу/Квиз%20прве%20лекције.html><div class="studioLecture" id=activity-Квиз%20прве%20лекције><i class="far fa-question-circle activity-icon"></i>Квиз прве лекције</div></a>
@@ -391,7 +393,15 @@
                     <i class="fas fa-angle-down caret-position "> </i>
                     <i class="fas fa-angle-up caret-position d-none"></i>
                 </div>
-                <div class="courseContentsSubSection d-none"><a href=../2.2.%20Отворени%20подаци/Отворени%20подаци.html><div class="studioLecture" id=activity-Отворени%20подаци><i class="fas fa-file-alt activity-icon"></i>2.2. Отворени подаци</div></a>
+                <div class="courseContentsSubSection d-none"><a href=../2.2.%20Отворени%20подаци/Подаци.html><div class="studioLecture" id=activity-Подаци><i class="fas fa-file-alt activity-icon"></i>Подаци, подаци, подаци</div></a>
+                <a href=../2.2.%20Отворени%20подаци/Отворени%20подаци.html><div class="studioLecture" id=activity-Отворени%20подаци><i class="fas fa-file-alt activity-icon"></i>Oтворени подаци -- појам</div></a>
+                <a href=../2.2.%20Отворени%20подаци/Отварање%20података.html><div class="studioLecture" id=activity-Отварање%20података><i class="fas fa-file-alt activity-icon"></i>Отварање података</div></a>
+                <a href=../2.2.%20Отворени%20подаци/Big%20data.html><div class="studioLecture" id=activity-Big%20data><i class="fas fa-file-alt activity-icon"></i>Веееееелики подаци (Big data)</div></a>
+                <a href=../2.2.%20Отворени%20подаци/Портали.html><div class="studioLecture" id=activity-Портали><i class="fas fa-file-alt activity-icon"></i>Портали отворених података</div></a>
+                <a href=../2.2.%20Отворени%20подаци/Формати.html><div class="studioLecture" id=activity-Формати><i class="fas fa-file-alt activity-icon"></i>Формати отворених података</div></a>
+                <a href=../2.2.%20Отворени%20подаци/Визуелизација.html><div class="studioLecture" id=activity-Визуелизација><i class="fas fa-file-alt activity-icon"></i>Визуaлизација отворених података и Инфографик</div></a>
+                <a href=../2.2.%20Отворени%20подаци/Професије.html><div class="studioLecture" id=activity-Професије><i class="fas fa-file-alt activity-icon"></i>Професије у вези са подацима</div></a>
+                <a href=../2.2.%20Отворени%20подаци/Закључак.html><div class="studioLecture" id=activity-Закључак><i class="fas fa-file-alt activity-icon"></i>Резиме</div></a>
                 <a href=../2.2.%20Отворени%20подаци/Квиз%20друге%20лекције.html><div class="studioLecture" id=activity-Квиз%20друге%20лекције><i class="far fa-question-circle activity-icon"></i>Квиз друге лекције</div></a>
                 </div>
             </div>
@@ -402,7 +412,9 @@
                     <i class="fas fa-angle-down caret-position "> </i>
                     <i class="fas fa-angle-up caret-position d-none"></i>
                 </div>
-                <div class="courseContentsSubSection d-none"><a href=../2.3.%20Појам%20вештачке%20интелигенције/AI.html><div class="studioLecture" id=activity-AI><i class="fas fa-file-alt activity-icon"></i>2.3. Појам вештачке интелигенције</div></a>
+                <div class="courseContentsSubSection d-none"><a href=../2.3.%20Појам%20вештачке%20интелигенције/AI.html><div class="studioLecture" id=activity-AI><i class="fas fa-file-alt activity-icon"></i>Појам вештачке интелигенције</div></a>
+                <a href=../2.3.%20Појам%20вештачке%20интелигенције/ЈакаДеф.html><div class="studioLecture" id=activity-ЈакаДеф><i class="fas fa-file-alt activity-icon"></i>Јака дефиниција вештачке интелигенције</div></a>
+                <a href=../2.3.%20Појам%20вештачке%20интелигенције/ТТ.html><div class="studioLecture" id=activity-ТТ><i class="fas fa-file-alt activity-icon"></i>Тјурингов тест</div></a>
                 <a href=../2.3.%20Појам%20вештачке%20интелигенције/kviz.html><div class="studioLecture" id=activity-kviz><i class="far fa-question-circle activity-icon"></i>Квиз треће лекције</div></a>
                 </div>
             </div>
@@ -413,7 +425,9 @@
                     <i class="fas fa-angle-down caret-position "> </i>
                     <i class="fas fa-angle-up caret-position d-none"></i>
                 </div>
-                <div class="courseContentsSubSection d-none"><a href=../2.4.%20Садашњост%20и%20будућност%20вештачке%20интелигенције/AI.html><div class="studioLecture" id=activity-AI><i class="fas fa-file-alt activity-icon"></i>2.4. Садашњост и будућност вештачке интелигенције - етичка питања</div></a>
+                <div class="courseContentsSubSection d-none"><a href=../2.4.%20Садашњост%20и%20будућност%20вештачке%20интелигенције/AI.html><div class="studioLecture" id=activity-AI><i class="fas fa-file-alt activity-icon"></i>Вештачка интелигенција у XXI веку</div></a>
+                <a href=../2.4.%20Садашњост%20и%20будућност%20вештачке%20интелигенције/Примене.html><div class="studioLecture" id=activity-Примене><i class="fas fa-file-alt activity-icon"></i>Примене вештачке интелигенције</div></a>
+                <a href=../2.4.%20Садашњост%20и%20будућност%20вештачке%20интелигенције/Будућност.html><div class="studioLecture" id=activity-Будућност><i class="fas fa-file-alt activity-icon"></i>Будућност вештачке интелигенције</div></a>
                 <a href=../2.4.%20Садашњост%20и%20будућност%20вештачке%20интелигенције/kviz.html><div class="studioLecture" id=activity-kviz><i class="far fa-question-circle activity-icon"></i>Квиз четврте лекције</div></a>
                 </div>
             </div>
@@ -433,417 +447,14 @@
     
   <div class="section" id="id1">
 <h1>Разне врсте података у табели<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h1>
-<p>Већ смо видели да једна ћелија Ексел табеле може да садржи неки текст или неки број. У пословним применама се често дешава да у табели треба представити датуме и времена одржавања неких догађаја. На овом часу ћемо видети:</p>
-<ol class="arabic simple">
-<li><p>планирање табеле,</p></li>
-<li><p>унос датума и времена у табелу,</p></li>
-<li><p>рачун са подацима који представљају датум и време,</p></li>
-<li><p>оквире око ћелије и поравнавање садржаја ћелије.</p></li>
-</ol>
-<div class="section" id="id2">
-<h2>Пример: Донације – валуте у Ексел табели<a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h2>
-<p>У овом примеру ћемо показати како се у Ексел табели приказују валуте (као што су еври или амерички долари).</p>
-<p><strong>Корак 1.</strong> Са следећег линка <a class="reference external" href="https://petljamediastorage.blob.core.windows.net/root/Media/Default/Kursevi/informatika_VIII/epodaci/Donacije.xlsx">Donacije.xlsx</a> преузми документ <em>Donacije.xlsx</em> и сними га на свој рачунар.</p>
-<p><strong>Корак 2.</strong> Покрени Ексел и отвори фајл. Видећеш да су у фајлу наведене донације које је једно спортско друштво примило. За сваку донацију је наведено име донатора (у колони „Name”), датум донације (у колони „Date”) и износ (у колони „Amount”):</p>
-<a class="reference internal image-reference" href="../_images/DataTypes301.jpg"><img alt="../_images/DataTypes301.jpg" class="align-center" src="../_images/DataTypes301.jpg" style="width: 600px;" /></a>
-<p><strong>Корак 3.</strong> Корестећи клизач:</p>
-<a class="reference internal image-reference" href="../_images/DataTypes302.jpg"><img alt="../_images/DataTypes302.jpg" class="align-center" src="../_images/DataTypes302.jpg" style="width: 600px;" /></a>
-<p>спусти се до дна табеле и додај три нове врсте:</p>
-<ul class="simple">
-<li><p>Total</p></li>
-<li><p>Min</p></li>
-<li><p>Max</p></li>
-</ul>
-<a class="reference internal image-reference" href="../_images/DataTypes303.jpg"><img alt="../_images/DataTypes303.jpg" class="align-center" src="../_images/DataTypes303.jpg" style="width: 600px;" /></a>
-<p><strong>Корак 4.</strong> У поље C136 унеси формулу</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="o">=</span><span class="n">SUM</span><span class="p">(</span><span class="n">C2</span><span class="p">:</span><span class="n">C135</span><span class="p">)</span>
-</pre></div>
-</div>
-<p>како би добио укупну вредност донација:</p>
-<a class="reference internal image-reference" href="../_images/DataTypes304.jpg"><img alt="../_images/DataTypes304.jpg" class="align-center" src="../_images/DataTypes304.jpg" style="width: 600px;" /></a>
-<p>Потом у поље C137 унеси формулу</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="o">=</span><span class="n">MIN</span><span class="p">(</span><span class="n">C2</span><span class="p">:</span><span class="n">C135</span><span class="p">)</span>
-</pre></div>
-</div>
-<p>а у поље C138 формулу</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="o">=</span><span class="n">MАX</span><span class="p">(</span><span class="n">C2</span><span class="p">:</span><span class="n">C135</span><span class="p">)</span>
-</pre></div>
-</div>
-<p>како би добио вредност најмање и највеће донације:</p>
-<a class="reference internal image-reference" href="../_images/DataTypes305.jpg"><img alt="../_images/DataTypes305.jpg" class="align-center" src="../_images/DataTypes305.jpg" style="width: 600px;" /></a>
-<p><strong>Корак 5.</strong> Пошто су све донације биле у еврима, форматираћемо све бројеве у колони C тако да се испред броја појави ознака за евро. Селектуј ћелије C2:C138</p>
-<a class="reference internal image-reference" href="../_images/DataTypes306.jpg"><img alt="../_images/DataTypes306.jpg" class="align-center" src="../_images/DataTypes306.jpg" style="width: 600px;" /></a>
-<p>Кликни на стрелицу поред ознаке формата ћелије и појавиће се мали мени:</p>
-<a class="reference internal image-reference" href="../_images/DataTypes307.jpg"><img alt="../_images/DataTypes307.jpg" class="align-center" src="../_images/DataTypes307.jpg" style="width: 600px;" /></a>
-<p>У њему постоји опција „Currency” (енгл. „валута”, трећа од врха), али ако је одаберемо Ексел ће износе означити симболом за амерички долар. Зато ћемо да одаберемо „More Number Formats…” како је на горњој слици и предложено.</p>
-<p>Добијамо нови дијалог:</p>
-<a class="reference internal image-reference" href="../_images/DataTypes308.jpg"><img alt="../_images/DataTypes308.jpg" class="align-center" src="../_images/DataTypes308.jpg" style="width: 600px;" /></a>
-<p>У одељку „Category” (енгл. „Категорија”) одаберемо „Currency” (енгл. „валута”). Ексел нам поново нуди симбол за амерички долар. Да бисмо променили симбол кликнемо на стрелицу која отвара избор расположивих симбола валута. Тако добијамо листу у којој потражимо симбол за евро (за ово треба стрпљења; симбол за евро уопште није близу врха):</p>
-<a class="reference internal image-reference" href="../_images/DataTypes309.jpg"><img alt="../_images/DataTypes309.jpg" class="align-center" src="../_images/DataTypes309.jpg" style="width: 600px;" /></a>
-<p>Одаберемо симбол за евро и кликнемо ОК:</p>
-<a class="reference internal image-reference" href="../_images/DataTypes310.jpg"><img alt="../_images/DataTypes310.jpg" class="align-center" src="../_images/DataTypes310.jpg" style="width: 600px;" /></a>
-<p>Ево и кратког видеа који илуструје овај поступак:</p>
-
-    <div  id="-mwmmFrO1so" class="ytvideo"  style="text-align: center; margin: 15px; cursor:pointer;">
-        <div style="background-image: url('https://img.youtube.com/vi/-mwmmFrO1so/mqdefault.jpg'); background-repeat: no-repeat;background-position: center; height: 210px; width: 310px; margin: 0 auto; border: 1px solid #20c997">
-            <img src="/_static/images/play_button.svg" style="margin-top: 78px;" /> 
-        </div>
-      
-
-        </div>
-    <div id="modal--mwmmFrO1so" class="ytvideoclose" style="display: none; position: fixed; top: 0; left: 0; width: 100vw; height: 100vh; background-color: rgba(128, 182, 128, 0.3); z-index: 10000;">
-        <div style="background-color: white; position: fixed; top: 4vh; left: 5vw; width:  90vw; height:  90vh; z-index: 100;" id="YTmodal--mwmmFrO1so">
-        </div>
-    </div>
-    
-    
-    <p>Табела сада изгледа овако:</p>
-<a class="reference internal image-reference" href="../_images/DataTypes311.jpg"><img alt="../_images/DataTypes311.jpg" class="align-center" src="../_images/DataTypes311.jpg" style="width: 600px;" /></a>
-<p><strong>ШТА ЈЕ САД? ГДЕ СУ НЕСТАЛИ ИЗНОСИ У ВРСТИ „Total” И „Max”?</strong></p>
-<p>Када у некој ћелији Ексел прикаже</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="c1">#############</span>
-</pre></div>
-</div>
-<p>то значи да се ту налази неки број, али је ћелија сувише уска да би тај број могао да буде приказан у целости. Само треба проширити колону C и све ће бити у реду:</p>
-<a class="reference internal image-reference" href="../_images/DataTypes312.jpg"><img alt="../_images/DataTypes312.jpg" class="align-center" src="../_images/DataTypes312.jpg" style="width: 600px;" /></a>
-<p><strong>Корак 6.</strong> Сними табелу за крај.</p>
-</div>
-<div class="section" id="id3">
-<h2>Пример: Музички фестивали у Европи – датуми у Ексел табели<a class="headerlink" href="#id3" title="Permalink to this headline">¶</a></h2>
-<p>У овом примеру ћемо направити табелу која представља списак неких музичких фестивала у Европи.</p>
-<p><strong>Корак 1.</strong> Покрени Ексел и направи празан документ:</p>
-<a class="reference internal image-reference" href="../_images/DataTypes101.jpg"><img alt="../_images/DataTypes101.jpg" class="align-center" src="../_images/DataTypes101.jpg" style="width: 600px;" /></a>
-<p><strong>Корак 2.</strong> Прва врста ће представљати <em>заглавље табеле</em> и у ћелије чемо унети имена колона:</p>
-<ul class="simple">
-<li><p>Име фестивала</p></li>
-<li><p>Место одржавања</p></li>
-<li><p>Од дана</p></li>
-<li><p>До дана</p></li>
-</ul>
-<p>Прошири колоне тако да имена колона буду видљива у целости:</p>
-<a class="reference internal image-reference" href="../_images/DataTypes102.jpg"><img alt="../_images/DataTypes102.jpg" class="align-center" src="../_images/DataTypes102.jpg" style="width: 600px;" /></a>
-<p><strong>Корак 3.</strong> У табелу унеси податке које желиш. Ми ћемо у табелу унети податке о следећим фестивалима:</p>
-<table class="docutils align-left" id="id6">
-<caption><span class="caption-text">Музички фестивали</span><a class="headerlink" href="#id6" title="Permalink to this table">¶</a></caption>
-<colgroup>
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
-</colgroup>
-<thead>
-<tr class="row-odd"><th class="head"><p>Ime festivala</p></th>
-<th class="head"><p>Mesto održavanja</p></th>
-<th class="head"><p>Od dana</p></th>
-<th class="head"><p>Do dana</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="row-even"><td><p>Rock am Ring &amp; Rock im Park</p></td>
-<td><p>Mendig i Nirnberg, Nemačka</p></td>
-<td><p>7.6.2019.</p></td>
-<td><p>9.6.2019.</p></td>
-</tr>
-<tr class="row-odd"><td><p>Hellfest Open Air</p></td>
-<td><p>Klison, Francuska</p></td>
-<td><p>21.6.2019.</p></td>
-<td><p>23.6.2019.</p></td>
-</tr>
-<tr class="row-even"><td><p>Glastonbury</p></td>
-<td><p>Pilton, Velika Britanija</p></td>
-<td><p>26.6.2019.</p></td>
-<td><p>30.6.2019.</p></td>
-</tr>
-<tr class="row-odd"><td><p>Defqon.1 Weekend Festival</p></td>
-<td><p>Bidinghujzen, Holandija</p></td>
-<td><p>28.6.2019.</p></td>
-<td><p>30.6.2019.</p></td>
-</tr>
-<tr class="row-even"><td><p>Roskilde</p></td>
-<td><p>Roskilde, Danska</p></td>
-<td><p>29.6.2019.</p></td>
-<td><p>6.7.2019.</p></td>
-</tr>
-<tr class="row-odd"><td><p>EXIT Festival</p></td>
-<td><p>Novi Sad, Srbija</p></td>
-<td><p>4.7.2019.</p></td>
-<td><p>8.7.2019.</p></td>
-</tr>
-<tr class="row-even"><td><p>Lovebox</p></td>
-<td><p>London, Velika Britanija</p></td>
-<td><p>12.7.2019.</p></td>
-<td><p>13.7.2019.</p></td>
-</tr>
-<tr class="row-odd"><td><p>Ultra Europe</p></td>
-<td><p>Split, Hrvatska</p></td>
-<td><p>12.7.2019.</p></td>
-<td><p>14.7.2019.</p></td>
-</tr>
-<tr class="row-even"><td><p>Super Bock Super Rock</p></td>
-<td><p>Lisabon, Portugal</p></td>
-<td><p>18.7.2019.</p></td>
-<td><p>20.7.2019.</p></td>
-</tr>
-<tr class="row-odd"><td><p>Sziget Festival</p></td>
-<td><p>Budimpešta, Mađarska</p></td>
-<td><p>7.8.2019.</p></td>
-<td><p>13.8.2019.</p></td>
-</tr>
-<tr class="row-even"><td><p>Creamfields</p></td>
-<td><p>Dersberi, Velika Britanija</p></td>
-<td><p>22.8.2019.</p></td>
-<td><p>25.8.2019.</p></td>
-</tr>
-</tbody>
-</table>
-<p>Име фестивала и место одржавања су обични текстови које лако уносимо. Датуме уносимо тако што у кућицу унесемо дан, месец и годину <em>раздвојене цртицама</em>. За први фестивал на нашем списку то су датуми:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="mi">7</span><span class="o">-</span><span class="mi">6</span><span class="o">-</span><span class="mi">2019</span>
-<span class="mi">9</span><span class="o">-</span><span class="mi">6</span><span class="o">-</span><span class="mi">2019</span>
-</pre></div>
-</div>
-<p>Ексел ће препознати да су то датуми (енгл. <em>Date</em> значи „датум”) и приказаће их као:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="mi">07</span><span class="o">-</span><span class="mi">06</span><span class="o">-</span><span class="mi">19</span>
-<span class="mi">09</span><span class="o">-</span><span class="mi">06</span><span class="o">-</span><span class="mi">19</span>
-</pre></div>
-</div>
-<a class="reference internal image-reference" href="../_images/DataTypes103.jpg"><img alt="../_images/DataTypes103.jpg" class="align-center" src="../_images/DataTypes103.jpg" style="width: 600px;" /></a>
-<p>Ево и кратког видеа:</p>
-
-    <div  id="KbKIapv2gaE" class="ytvideo"  style="text-align: center; margin: 15px; cursor:pointer;">
-        <div style="background-image: url('https://img.youtube.com/vi/KbKIapv2gaE/mqdefault.jpg'); background-repeat: no-repeat;background-position: center; height: 210px; width: 310px; margin: 0 auto; border: 1px solid #20c997">
-            <img src="/_static/images/play_button.svg" style="margin-top: 78px;" /> 
-        </div>
-      
-
-        </div>
-    <div id="modal-KbKIapv2gaE" class="ytvideoclose" style="display: none; position: fixed; top: 0; left: 0; width: 100vw; height: 100vh; background-color: rgba(128, 182, 128, 0.3); z-index: 10000;">
-        <div style="background-color: white; position: fixed; top: 4vh; left: 5vw; width:  90vw; height:  90vh; z-index: 100;" id="YTmodal-KbKIapv2gaE">
-        </div>
-    </div>
-    
-    
-    <p>Унесимо податке о осталим фестивалима. У нашем примеру табела изгледа овако:</p>
-<a class="reference internal image-reference" href="../_images/DataTypes104.jpg"><img alt="../_images/DataTypes104.jpg" class="align-center" src="../_images/DataTypes104.jpg" style="width: 600px;" /></a>
-<p><strong>Корак 4.</strong> Сада ћемо да израчунамо колико дана траје сваки фестивал. У кућицу E1 ћемо уписати „Trajanje” (то је име нове колоне коју формирамо) и онда ћемо у кућицу E2 уписати формулу</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="o">=</span><span class="n">D2</span><span class="o">-</span><span class="n">C2</span>
-</pre></div>
-</div>
-<a class="reference internal image-reference" href="../_images/DataTypes105.jpg"><img alt="../_images/DataTypes105.jpg" class="align-center" src="../_images/DataTypes105.jpg" style="width: 600px;" /></a>
-<p><strong>О, да! Ексел уме да рачуна са датумима!</strong> Када притиснемо [ENTER] добијамо следеће стање:</p>
-<a class="reference internal image-reference" href="../_images/DataTypes106.jpg"><img alt="../_images/DataTypes106.jpg" class="align-center" src="../_images/DataTypes106.jpg" style="width: 600px;" /></a>
-<p>Видимо да је за фестивал који се одржава 7.6, 8.6. и 9.6.2019. Ексел обрачунао да траје 2 дана. Разлог је у томе што се у пословном свету ова функција углавном користи за обрачун дневница (од 7.6. до 8.6. је једна дневница, и од 8.6. до 9.6. је друга дневница). Овај фестивал, с друге стране, траје три дана: цео 7.6, цео 8.6. и цео 9.6. Зато морамо да прилагодимо формулу нашој ситуацији и да унесемо:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="o">=</span><span class="n">D2</span><span class="o">-</span><span class="n">C2</span><span class="o">+</span><span class="mi">1</span>
-</pre></div>
-</div>
-<a class="reference internal image-reference" href="../_images/DataTypes107.jpg"><img alt="../_images/DataTypes107.jpg" class="align-center" src="../_images/DataTypes107.jpg" style="width: 600px;" /></a>
-<p>Ако сада формулу брзо ископирамо наниже (кликнемо на ћелију Е2, ухватимо за „бубуљицу” и развучемо наниже) добијамо:</p>
-<a class="reference internal image-reference" href="../_images/DataTypes108.jpg"><img alt="../_images/DataTypes108.jpg" class="align-center" src="../_images/DataTypes108.jpg" style="width: 600px;" /></a>
-<p><strong>Корак 5.</strong> Снимићемо табелу под именом „MuzickiFestivali.xlsx”
-Сада ћемо израчунати просечно трајање фестивала у табели, као и најкраће и најдуже фестивале у табели.</p>
-<p><strong>Корак 6.</strong> Додај табели три нова реда: „Prosek”, „Najkraći” и „Najduži”:</p>
-<a class="reference internal image-reference" href="../_images/DataTypes109.jpg"><img alt="../_images/DataTypes109.jpg" class="align-center" src="../_images/DataTypes109.jpg" style="width: 600px;" /></a>
-<p><strong>Корак 7.</strong> У одговарајућа поља колоне E унеси следеће формуле:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="o">=</span><span class="n">AVERAGE</span><span class="p">(</span><span class="n">E2</span><span class="p">:</span><span class="n">E12</span><span class="p">)</span>
-<span class="o">=</span><span class="n">MIN</span><span class="p">(</span><span class="n">E2</span><span class="p">:</span><span class="n">E12</span><span class="p">)</span>
-<span class="o">=</span><span class="n">MAX</span><span class="p">(</span><span class="n">E2</span><span class="p">:</span><span class="n">E12</span><span class="p">)</span>
-</pre></div>
-</div>
-<a class="reference internal image-reference" href="../_images/DataTypes110.jpg"><img alt="../_images/DataTypes110.jpg" class="align-center" src="../_images/DataTypes110.jpg" style="width: 600px;" /></a>
-<p><strong>Корак 8.</strong> Поље које одговара просеку прикажи са две децимале:</p>
-<a class="reference internal image-reference" href="../_images/DataTypes111.jpg"><img alt="../_images/DataTypes111.jpg" class="align-center" src="../_images/DataTypes111.jpg" style="width: 600px;" /></a>
-<p><strong>Корак 9.</strong> Једном бојом обој <em>све податке</em> о фестивалу који траје најкраће, а другом <em>све податке</em> о фестивалу који траје најдуже:</p>
-<a class="reference internal image-reference" href="../_images/DataTypes112.jpg"><img alt="../_images/DataTypes112.jpg" class="align-center" src="../_images/DataTypes112.jpg" style="width: 600px;" /></a>
-<p><strong>Корак 10.</strong> Постави стил слова у ћелијама A1:E1 на <strong>bold</strong> (кликни на <strong>B</strong>), а у ћелијама A13:E15 на <em>italic</em> (кликни на <em>I</em>):</p>
-<a class="reference internal image-reference" href="../_images/DataTypes113.jpg"><img alt="../_images/DataTypes113.jpg" class="align-center" src="../_images/DataTypes113.jpg" style="width: 600px;" /></a>
-<p><strong>Корак 11.</strong> Сада ћемо да подвучемо линију испод заглавља (прве врсте) и података о последњем фестивалу на списку (у нашем примеру то је дванаеста врста).</p>
-<p>Селектуј ћелије А1:Е1</p>
-<a class="reference internal image-reference" href="../_images/DataTypes114.jpg"><img alt="../_images/DataTypes114.jpg" class="align-center" src="../_images/DataTypes114.jpg" style="width: 600px;" /></a>
-<p>Онда кликни на стрелицу поред иконе за уоквиравање ћелија и одабери „Bottom Border”:</p>
-<a class="reference internal image-reference" href="../_images/DataTypes115.jpg"><img alt="../_images/DataTypes115.jpg" class="align-center" src="../_images/DataTypes115.jpg" style="width: 600px;" /></a>
-<p>Исто то уради заврсту која садржи податке о последњем фестивалу у табели. Добијамо:</p>
-<a class="reference internal image-reference" href="../_images/DataTypes116.jpg"><img alt="../_images/DataTypes116.jpg" class="align-center" src="../_images/DataTypes116.jpg" style="width: 600px;" /></a>
-<p><strong>Корак 12.</strong> Још само једна естетска ситница и готови смо! Датуми одржавања фестивала и трајање фестивала су поравнати по десној ивици, док су имена одговарајућих колона (C, D и E) поравната по левој ивици. Поравнаћемо и њих по десној ивици, да нам табела буде лепша. Томе служе команде из групе „Alignment” (енгл. „поравнавање”):</p>
-<a class="reference internal image-reference" href="../_images/DataTypes117.jpg"><img alt="../_images/DataTypes117.jpg" class="align-center" src="../_images/DataTypes117.jpg" style="width: 600px;" /></a>
-<p>Вертикално поравнавање садржаја ћелије може бити уз горњу ивицу, центрирано, или уз доњу ивицу. Хоризонтално поравнавање садржаја ћелије може бити уз леву ивицу, центрирано, или уз десну ивицу. (Команде „Wrap Text” и „Merge Cells” ћемо објаснити ускоро.)</p>
-<p>Желимо да поравнамо садржај уз десну ивицу. Зато селектуј ћелије C1:E1 и одабери поравнавање уз десну ивицу:</p>
-<a class="reference internal image-reference" href="../_images/DataTypes119.jpg"><img alt="../_images/DataTypes119.jpg" class="align-center" src="../_images/DataTypes119.jpg" style="width: 600px;" /></a>
-<p>Тако добијамо коначан изглед табеле:</p>
-<a class="reference internal image-reference" href="../_images/DataTypes120.jpg"><img alt="../_images/DataTypes120.jpg" class="align-center" src="../_images/DataTypes120.jpg" style="width: 600px;" /></a>
-<p>Ево и кратког видеа:</p>
-
-    <div  id="mN6BBRHD3CA" class="ytvideo"  style="text-align: center; margin: 15px; cursor:pointer;">
-        <div style="background-image: url('https://img.youtube.com/vi/mN6BBRHD3CA/mqdefault.jpg'); background-repeat: no-repeat;background-position: center; height: 210px; width: 310px; margin: 0 auto; border: 1px solid #20c997">
-            <img src="/_static/images/play_button.svg" style="margin-top: 78px;" /> 
-        </div>
-      
-
-        </div>
-    <div id="modal-mN6BBRHD3CA" class="ytvideoclose" style="display: none; position: fixed; top: 0; left: 0; width: 100vw; height: 100vh; background-color: rgba(128, 182, 128, 0.3); z-index: 10000;">
-        <div style="background-color: white; position: fixed; top: 4vh; left: 5vw; width:  90vw; height:  90vh; z-index: 100;" id="YTmodal-mN6BBRHD3CA">
-        </div>
-    </div>
-    
-    
-    <p><strong>Корак 13.</strong> Сними табелу.</p>
-</div>
-<div class="section" id="id4">
-<h2>Пример: Плеј-листа – време у Ексел табели<a class="headerlink" href="#id4" title="Permalink to this headline">¶</a></h2>
-<p>Овако изгледа плеј-листа албума „re:member” популарног исландског музичара Olafurа Arnaldsа:</p>
-<table class="docutils align-left" id="id7">
-<caption><span class="caption-text">Плеј-листа албума „re:member” Olafurа Arnaldsа</span><a class="headerlink" href="#id7" title="Permalink to this table">¶</a></caption>
-<colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
-</colgroup>
-<thead>
-<tr class="row-odd"><th class="head"><p>Rb</p></th>
-<th class="head"><p>Numera</p></th>
-<th class="head"><p>Trajanje</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="row-even"><td><p>1</p></td>
-<td><p>re:member</p></td>
-<td><p>6:04</p></td>
-</tr>
-<tr class="row-odd"><td><p>2</p></td>
-<td><p>unfold</p></td>
-<td><p>3:58</p></td>
-</tr>
-<tr class="row-even"><td><p>3</p></td>
-<td><p>saman</p></td>
-<td><p>2:11</p></td>
-</tr>
-<tr class="row-odd"><td><p>4</p></td>
-<td><p>brot</p></td>
-<td><p>2:54</p></td>
-</tr>
-<tr class="row-even"><td><p>5</p></td>
-<td><p>inconsist</p></td>
-<td><p>4:31</p></td>
-</tr>
-<tr class="row-odd"><td><p>6</p></td>
-<td><p>they sink</p></td>
-<td><p>2:35</p></td>
-</tr>
-<tr class="row-even"><td><p>7</p></td>
-<td><p>ypsilon</p></td>
-<td><p>3:55</p></td>
-</tr>
-<tr class="row-odd"><td><p>8</p></td>
-<td><p>partial</p></td>
-<td><p>3:16</p></td>
-</tr>
-<tr class="row-even"><td><p>9</p></td>
-<td><p>momentary</p></td>
-<td><p>2:05</p></td>
-</tr>
-<tr class="row-odd"><td><p>10</p></td>
-<td><p>undir</p></td>
-<td><p>6:30</p></td>
-</tr>
-<tr class="row-even"><td><p>11</p></td>
-<td><p>ekki hugsa</p></td>
-<td><p>4:41</p></td>
-</tr>
-<tr class="row-odd"><td><p>12</p></td>
-<td><p>nyepi</p></td>
-<td><p>4:14</p></td>
-</tr>
-</tbody>
-</table>
-<p>Унећемо ове податке у Ексел и израчунати колико је укупно трајање албума.</p>
-<p><strong>Корак 1.</strong> Са следећег линка <a class="reference external" href="https://petljamediastorage.blob.core.windows.net/root/Media/Default/Kursevi/informatika_VIII/epodaci/Remember.xlsx">Remember.xlsx</a> преузми датотеку која садржи имена нумера,
-покрени Ексел и учитај датотеку:</p>
-<a class="reference internal image-reference" href="../_images/DataTypes201.jpg"><img alt="../_images/DataTypes201.jpg" class="align-center" src="../_images/DataTypes201.jpg" style="width: 600px;" /></a>
-<p><strong>Корак 2.</strong> За сваку од нумера унеси трајање. Податке који се односе на трајање (време) треба у Ексел да унесемо у облику</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">hh</span><span class="p">:</span><span class="n">mm</span><span class="p">:</span><span class="n">ss</span>
-</pre></div>
-</div>
-<p>где <em>hh</em> означава сате, <em>mm</em> минуте, а <em>ss</em> секунде, раздвојено двотачкама. Увек морамо унети све три компоненте (и сате, и минуте и секунде), чак и ако је неки од њих 0. На пример, за прву нумеру ћемо унети</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="mi">0</span><span class="p">:</span><span class="mi">6</span><span class="p">:</span><span class="mi">4</span>
-</pre></div>
-</div>
-<p>што значи 0 сати, 6 минута и 4 секунде. Тако добијамо:</p>
-<a class="reference internal image-reference" href="../_images/DataTypes202.jpg"><img alt="../_images/DataTypes202.jpg" class="align-center" src="../_images/DataTypes202.jpg" style="width: 600px;" /></a>
-<p>Унесимо сада на исти начин и трајање свих осталих нумера:</p>
-<a class="reference internal image-reference" href="../_images/DataTypes203.jpg"><img alt="../_images/DataTypes203.jpg" class="align-center" src="../_images/DataTypes203.jpg" style="width: 600px;" /></a>
-<p>Ексел уме да рачуна са временима, па је лако одредити укупно трајање албума. У ћелију C2 ћемо уписати укупно трајање албума тако што ћемо унети формулу:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="o">=</span><span class="n">SUM</span><span class="p">(</span><span class="n">C5</span><span class="p">:</span><span class="n">C6</span><span class="p">)</span>
-</pre></div>
-</div>
-<a class="reference internal image-reference" href="../_images/DataTypes204.jpg"><img alt="../_images/DataTypes204.jpg" class="align-center" src="../_images/DataTypes204.jpg" style="width: 600px;" /></a>
-<p>Ексел је сабрао трајање свих нумера и у поље уписао трајање целог албума:</p>
-<a class="reference internal image-reference" href="../_images/DataTypes205.jpg"><img alt="../_images/DataTypes205.jpg" class="align-center" src="../_images/DataTypes205.jpg" style="width: 600px;" /></a>
-<p><strong>Корак 3.</strong> За крај ћемо мало улепшати табелу. Прво ћемо центрирати садржај у ћелијама A4:А16</p>
-<a class="reference internal image-reference" href="../_images/DataTypes206.jpg"><img alt="../_images/DataTypes206.jpg" class="align-center" src="../_images/DataTypes206.jpg" style="width: 600px;" /></a>
-<p>док ћемо ћелију C4 поравнати по десној ивици:</p>
-<a class="reference internal image-reference" href="../_images/DataTypes207.jpg"><img alt="../_images/DataTypes207.jpg" class="align-center" src="../_images/DataTypes207.jpg" style="width: 600px;" /></a>
-<p>Позадину ћелија A1:C2 ћемо обојити црно, а слова бело. Исто тако и ћелије A4:C4</p>
-<a class="reference internal image-reference" href="../_images/DataTypes208.jpg"><img alt="../_images/DataTypes208.jpg" class="align-center" src="../_images/DataTypes208.jpg" style="width: 600px;" /></a>
-<p>Стил слова у ћелији B1 (име аутора) ћемо поставити на <em>italic</em>, а у ћелијама B2:C2 (име албума и трајање) на <strong>bold</strong>. Коначно, ћелије A5:C16 ћемо обојити светло сиво:</p>
-<a class="reference internal image-reference" href="../_images/DataTypes209.jpg"><img alt="../_images/DataTypes209.jpg" class="align-center" src="../_images/DataTypes209.jpg" style="width: 600px;" /></a>
-<p><strong>Корак 4.</strong> Сними табелу.</p>
-</div>
-<div class="section" id="id5">
-<h2>Задаци.<a class="headerlink" href="#id5" title="Permalink to this headline">¶</a></h2>
-<p><strong>Задатак 1.</strong> Направи Ексел табелу која садржи одсуствовања са наставе неког ученика. Табела треба да има три колоне:</p>
-<ul class="simple">
-<li><p>Od</p></li>
-<li><p>Do</p></li>
-<li><p>Dana</p></li>
-</ul>
-<p>У колоне „Od” и „Do” унеси неколико података о одсуствима. Онда у колони „Dana” израчунај колико је трајало свако одсуство. Користи формулу као што је ова:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="o">=</span><span class="n">B2</span><span class="o">-</span><span class="n">A2</span><span class="o">+</span><span class="mi">1</span>
-</pre></div>
-</div>
-<p>У последњи ред табеле у колону „Od” упиши „Ukupno” и онда у колони „Dana” израчунај колико си укупно одсуствовање корисећи формулу сличну овој:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="o">=</span><span class="n">SUM</span><span class="p">(</span><span class="n">C2</span><span class="p">:</span><span class="n">C7</span><span class="p">)</span>
-</pre></div>
-</div>
-<p>Улепшај табелу и сними је. Табела на крају треба да изгледа отприлике овако:</p>
-<a class="reference internal image-reference" href="../_images/DataTypes210.jpg"><img alt="../_images/DataTypes210.jpg" class="align-center" src="../_images/DataTypes210.jpg" style="width: 600px;" /></a>
-<p><strong>Задатак 2.</strong> Направи Ексел табелу која садржи дневник рада једног ученика. Табела треба да има следеће колоне:</p>
-<ul class="simple">
-<li><p>Datum</p></li>
-<li><p>Početak učenja</p></li>
-<li><p>Kraj učenja</p></li>
-<li><p>Trajanje</p></li>
-</ul>
-<p>У табелу унеси податке о томе када је ученик почео да учи и када је завршио учење за неколико дана. Онда за сваки дан израчунај колико времена је провео учећи. На крају табеле додај табели редове који се зову</p>
-<ul class="simple">
-<li><p>Prosečno</p></li>
-<li><p>Min</p></li>
-<li><p>Max</p></li>
-</ul>
-<p>па израчунај колико је тај ученик учио у просеку, колико је најмање времена провео учећи, а колико највише. Улепшај табелу и сними је.</p>
-<p>Табела коју добијеш треба да изгледа отприлике овако:</p>
-<a class="reference internal image-reference" href="../_images/DataTypes214.jpg"><img alt="../_images/DataTypes214.jpg" class="align-center" src="../_images/DataTypes214.jpg" style="width: 600px;" /></a>
-<p><strong>Задатак 3*.</strong> Направи Ексел табелу која садржи распоред излагања презентација из неког предмета. Табела треба да има три колоне:</p>
-<ul class="simple">
-<li><p>Učenik</p></li>
-<li><p>Naslov prezentacije</p></li>
-<li><p>Od</p></li>
-<li><p>Do</p></li>
-</ul>
-<p>Први ученик креће са излагањем у 9:05. Сваки ученик има 12 минута за излагање презентације, и предвиђено је 4 минута паузе између два излагања. Ако знаш када је ученик почео са излагањем, крај излагања ћеш добити тако што ћеш, на пример у ћелију D2 унети формулу:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="o">=</span><span class="n">C2</span><span class="o">+</span><span class="n">TIME</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="mi">12</span><span class="p">,</span><span class="mi">0</span><span class="p">)</span>
-</pre></div>
-</div>
-<p>Ова формула на садржај ћелије C2 (почетак излагања) додаје <em>време</em> (енгл. TIME) у трајању од 0 сати, 12 минута и 0 секунди.</p>
-<p>Да би се аутоматски израчунао почетак наредног излагања на крај последњег излагања треба додати 4 минута. На пример, у ћелију C3 треба унети формулу:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="o">=</span><span class="n">D2</span><span class="o">+</span><span class="n">TIME</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="mi">4</span><span class="p">,</span><span class="mi">0</span><span class="p">)</span>
-</pre></div>
-</div>
-<p>(Можеш да „развучеш наниже” формуле у обе колоне како би брзо попунио табелу.)</p>
-<p>Пошто нам у овом примеру секунде нису битне, форматирај ћелије које садрже време тако да се приказују само сати и минути како следи. Селектуј ћелије које садрже време почетка и краја сваког излагања, кликни на стрелицу поред ћелије која описује формат, па одабери „More Number Formats”:</p>
-<a class="reference internal image-reference" href="../_images/DataTypes211.jpg"><img alt="../_images/DataTypes211.jpg" class="align-center" src="../_images/DataTypes211.jpg" style="width: 600px;" /></a>
-<p>У листи „Category” одабери „Time”, па онда у листи „Type” одабери „13:30”, што представља пример формата:</p>
-<a class="reference internal image-reference" href="../_images/DataTypes212.jpg"><img alt="../_images/DataTypes212.jpg" class="align-center" src="../_images/DataTypes212.jpg" style="width: 600px;" /></a>
-<p>Улепшај табелу и сними је. Табела на крају треба да изгледа отприлике овако:</p>
-<a class="reference internal image-reference" href="../_images/DataTypes213.jpg"><img alt="../_images/DataTypes213.jpg" class="align-center" src="../_images/DataTypes213.jpg" style="width: 600px;" /></a>
-</div>
+<p>Већ смо видели да једна ћелија Ексел табеле може да садржи неки текст или неки број.
+У пословним применама се често дешава да у табели треба представити новчане износе,
+датуме и времена одржавања неких догађаја.</p>
+<a class="reference internal image-reference" href="../_images/DataTypes000.png"><img alt="../_images/DataTypes000.png" class="align-center" src="../_images/DataTypes000.png" style="width: 500px;" /></a>
+<p>На овом часу ћемо проћи кроз три примера:
+у једном се бавимо донацијама (<em>money, money, money…</em>),
+у другом музичким фестивалима у Европи, а у трећем правимо плеј-листу.
+Уз пут ћемо научити како се планирају табеле.</p>
 </div>
 
 

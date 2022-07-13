@@ -24,13 +24,9 @@
     <link rel="stylesheet" type="text/css" href="../_static/webglinteractive.css" />
     <link rel="stylesheet" type="text/css" href="../_static/karel.css" />
     <link rel="stylesheet" type="text/css" href="../_static/notes.css" />
-    <link rel="stylesheet" type="text/css" href="../_static/simanim.css" />
-    <link rel="stylesheet" type="text/css" href="../_static/pycode.css" />
-    <link rel="stylesheet" type="text/css" href="../_static/p5js.css" />
     <link rel="stylesheet" type="text/css" href="../_static/gallery.css" />
-    <link rel="stylesheet" type="text/css" href="../_static/dbDirective.css" />
     <link rel="stylesheet" type="text/css" href="../_static/associations.css" />
-    <link rel="stylesheet" type="text/css" href="../_static/regex-check.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/editor.css" />
     <link rel="stylesheet" href="../_static/basic.css" type="text/css" />
     <link rel="stylesheet" href="../_static/user-highlights.css" type="text/css" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" type="text/css" />
@@ -119,46 +115,12 @@
     <script type="text/javascript" src="../_static/karel-i18n.sr-Cyrl.js"></script>
     <script type="text/javascript" src="../_static/notes.js"></script>
     <script type="text/javascript" src="../_static/pygamelib-init.js"></script>
-    <script type="text/javascript" src="../_static/blockly/blockly_compressed.js"></script>
-    <script type="text/javascript" src="../_static/blockly/blocks_compressed.js"></script>
-    <script type="text/javascript" src="../_static/blockly/python_compressed.js"></script>
-    <script type="text/javascript" src="../_static/blockly/msg-sr.js"></script>
-    <script type="text/javascript" src="../_static/blockpy/utilities.js"></script>
-    <script type="text/javascript" src="../_static/blockpy/python_errors.js"></script>
-    <script type="text/javascript" src="../_static/blockpy/ast_node_visitor.js"></script>
-    <script type="text/javascript" src="../_static/blockpy/abstract_interpreter.js"></script>
-    <script type="text/javascript" src="../_static/blockpy/pytifa.js"></script>
-    <script type="text/javascript" src="../_static/blockpy/abstract_interpreter_definitions.js"></script>
-    <script type="text/javascript" src="../_static/blockpy/python_to_blockly.js"></script>
-    <script type="text/javascript" src="../_static/blockpy/imported.js"></script>
-    <script type="text/javascript" src="../_static/blockpy/blocks/class.js"></script>
-    <script type="text/javascript" src="../_static/blockpy/blocks/comment.js"></script>
-    <script type="text/javascript" src="../_static/blockpy/blocks/comprehensions.js"></script>
-    <script type="text/javascript" src="../_static/blockpy/blocks/dict.js"></script>
-    <script type="text/javascript" src="../_static/blockpy/blocks/if.js"></script>
-    <script type="text/javascript" src="../_static/blockpy/blocks/io.js"></script>
-    <script type="text/javascript" src="../_static/blockpy/blocks/lists.js"></script>
-    <script type="text/javascript" src="../_static/blockpy/blocks/sets.js"></script>
-    <script type="text/javascript" src="../_static/blockpy/blocks/loops.js"></script>
-    <script type="text/javascript" src="../_static/blockpy/blocks/parking.js"></script>
-    <script type="text/javascript" src="../_static/blockpy/blocks/tuple.js"></script>
-    <script type="text/javascript" src="../_static/blockpy/blocks/turtles.js"></script>
-    <script type="text/javascript" src="../_static/blockpy/blocks/text.js"></script>
-    <script type="text/javascript" src="../_static/blockpy-modal.js"></script>
-    <script type="text/javascript" src="../_static/simanim.js"></script>
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/pyodide/v0.16.1/full/pyodide.js"></script>
-    <script type="text/javascript" src="../_static/pycode.js"></script>
-    <script type="text/javascript" src="//toolness.github.io/p5.js-widget/p5-widget.js"></script>
-    <script type="text/javascript" src="../_static/p5js.js"></script>
     <script type="text/javascript" src="../_static/gallery.js"></script>
-    <script type="text/javascript" src="../_static/dbDirective.js"></script>
-    <script type="text/javascript" src="../_static/sql.js"></script>
     <script type="text/javascript" src="../_static/associations.js"></script>
     <script type="text/javascript" src="../_static/associations-i18n.en.js"></script>
     <script type="text/javascript" src="../_static/associations-i18n.sr-Cyrl.js"></script>
-    <script type="text/javascript" src="../_static/regex-check.js"></script>
-    <script type="text/javascript" src="../_static/regex-check-i18n.en.js"></script>
-    <script type="text/javascript" src="../_static/regex-check-i18n.sr-Cyrl.js"></script>
+    <script type="text/javascript" src="../_static/editor.js"></script>
+    <script type="text/javascript" src="../_static/jszip.js"></script>
     <script type="text/javascript" src="../_static/translations.js"></script>
     <script async="async" type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
     <script type="text/javascript" src="../_static/jquery-ui-1.10.3.custom.min.js"></script>
@@ -265,11 +227,11 @@
            <div>
                 <div class="courseContentsSection">
                 <div class="lecture-div courseContentsSectionHeadline" id=lecture-E00>
-                    <h5>Информационо-комуникационе технологије (ИКТ)</h5>
+                    <h5>Информационо-комуникационе технологије (ИКТ) -- Програми за табеларна израчунавања</h5>
                     <i class="fas fa-angle-down caret-position "> </i>
                     <i class="fas fa-angle-up caret-position d-none"></i>
                 </div>
-                <div class="courseContentsSubSection d-none"><a href=../E00/E00.html><div class="studioLecture" id=activity-E00><i class="fas fa-file-alt activity-icon"></i>Исходи</div></a>
+                <div class="courseContentsSubSection d-none"><a href=../E00/E00.html><div class="studioLecture" id=activity-E00><i class="fas fa-file-alt activity-icon"></i>Мотивација</div></a>
                 </div>
             </div>
                 
@@ -279,7 +241,10 @@
                     <i class="fas fa-angle-down caret-position "> </i>
                     <i class="fas fa-angle-up caret-position d-none"></i>
                 </div>
-                <div class="courseContentsSubSection d-none"><a href=../E01/E01.html><div class="studioLecture" id=activity-E01><i class="fas fa-file-alt activity-icon"></i>Лекција</div></a>
+                <div class="courseContentsSubSection d-none"><a href=../E01/E01.html><div class="studioLecture" id=activity-E01><i class="fas fa-file-alt activity-icon"></i>Покретање Ексела</div></a>
+                <a href=../E01/E012.html><div class="studioLecture" id=activity-E012><i class="fas fa-file-alt activity-icon"></i>Навигација и уношење података у табелу</div></a>
+                <a href=../E01/E013.html><div class="studioLecture" id=activity-E013><i class="fas fa-file-alt activity-icon"></i>Једноставне формуле</div></a>
+                <a href=../E01/E014.html><div class="studioLecture" id=activity-E014><i class="fas fa-file-alt activity-icon"></i>Задаци за вежбу</div></a>
                 <a href=../E01/testE01.html><div class="studioLecture" id=activity-testE01><i class="far fa-question-circle activity-icon"></i>Квиз</div></a>
                 </div>
             </div>
@@ -290,7 +255,11 @@
                     <i class="fas fa-angle-down caret-position "> </i>
                     <i class="fas fa-angle-up caret-position d-none"></i>
                 </div>
-                <div class="courseContentsSubSection d-none"><a href=../E02/E02.html><div class="studioLecture" id=activity-E02><i class="fas fa-file-alt activity-icon"></i>Лекција</div></a>
+                <div class="courseContentsSubSection d-none"><a href=../E02/E02.html><div class="studioLecture" id=activity-E02><i class="fas fa-file-alt activity-icon"></i>Аутоматска рекалкулација</div></a>
+                <a href=../E02/E021.html><div class="studioLecture" id=activity-E021><i class="fas fa-file-alt activity-icon"></i>Летњи послови -- формуле у ексел табели</div></a>
+                <a href=../E02/E022.html><div class="studioLecture" id=activity-E022><i class="fas fa-file-alt activity-icon"></i>Унос података и формула у табелу</div></a>
+                <a href=../E02/E023.html><div class="studioLecture" id=activity-E023><i class="fas fa-file-alt activity-icon"></i>Додавање врста и колона табели</div></a>
+                <a href=../E02/E024.html><div class="studioLecture" id=activity-E024><i class="fas fa-file-alt activity-icon"></i>Задаци за вежбу</div></a>
                 <a href=../E02/testE02.html><div class="studioLecture" id=activity-testE02><i class="far fa-question-circle activity-icon"></i>Квиз</div></a>
                 </div>
             </div>
@@ -301,7 +270,13 @@
                     <i class="fas fa-angle-down caret-position "> </i>
                     <i class="fas fa-angle-up caret-position d-none"></i>
                 </div>
-                <div class="courseContentsSubSection d-none"><a href=../E03/E03.html><div class="studioLecture" id=activity-E03><i class="fas fa-file-alt activity-icon"></i>Лекција</div></a>
+                <div class="courseContentsSubSection d-none"><a href=../E03/E03.html><div class="studioLecture" id=activity-E03><i class="fas fa-file-alt activity-icon"></i>Селектовање групе ћелија и уређивање табеле</div></a>
+                <a href=../E03/E032.html><div class="studioLecture" id=activity-E032><i class="fas fa-file-alt activity-icon"></i>Уношење формула и брзо копирање</div></a>
+                <a href=../E03/E033.html><div class="studioLecture" id=activity-E033><i class="fas fa-file-alt activity-icon"></i>Селектовање групе ћелија</div></a>
+                <a href=../E03/E034.html><div class="studioLecture" id=activity-E034><i class="fas fa-file-alt activity-icon"></i>Форматирање децималних бројева</div></a>
+                <a href=../E03/E035.html><div class="studioLecture" id=activity-E035><i class="fas fa-file-alt activity-icon"></i>Рачунање минимума и максимума</div></a>
+                <a href=../E03/E036.html><div class="studioLecture" id=activity-E036><i class="fas fa-file-alt activity-icon"></i>Уређивање табеле</div></a>
+                <a href=../E03/E037.html><div class="studioLecture" id=activity-E037><i class="fas fa-file-alt activity-icon"></i>Задаци за вежбу</div></a>
                 <a href=../E03/testE03.html><div class="studioLecture" id=activity-testE03><i class="far fa-question-circle activity-icon"></i>Квиз</div></a>
                 </div>
             </div>
@@ -312,18 +287,28 @@
                     <i class="fas fa-angle-down caret-position "> </i>
                     <i class="fas fa-angle-up caret-position d-none"></i>
                 </div>
-                <div class="courseContentsSubSection d-none"><a href=../E04/E04.html><div class="studioLecture" id=activity-E04><i class="fas fa-file-alt activity-icon"></i>Лекција</div></a>
+                <div class="courseContentsSubSection d-none"><a href=../E04/E04.html><div class="studioLecture" id=activity-E04><i class="fas fa-file-alt activity-icon"></i>Разне врсте података у табели</div></a>
+                <a href=../E04/E041.html><div class="studioLecture" id=activity-E041><i class="fas fa-file-alt activity-icon"></i>Донације -- валуте у Ексел табели</div></a>
+                <a href=../E04/E042.html><div class="studioLecture" id=activity-E042><i class="fas fa-file-alt activity-icon"></i>Музички фестивали у Европи -- датуми у Ексел табели</div></a>
+                <a href=../E04/E043.html><div class="studioLecture" id=activity-E043><i class="fas fa-file-alt activity-icon"></i>Плеј-листа -- време у Ексел табели</div></a>
+                <a href=../E04/E044.html><div class="studioLecture" id=activity-E044><i class="fas fa-file-alt activity-icon"></i>Задаци за вежбу</div></a>
                 <a href=../E04/testE04.html><div class="studioLecture" id=activity-testE04><i class="far fa-question-circle activity-icon"></i>Квиз</div></a>
                 </div>
             </div>
                 
                 <div class="courseContentsSection">
                 <div class="lecture-div courseContentsSectionHeadline" id=lecture-E05>
-                    <h5>ИКТ.5. Штампање и генерисање ПДФ документа</h5>
+                    <h5>ИКТ.5. Процени, штампање и генерисање ПДФ документа</h5>
                     <i class="fas fa-angle-down caret-position "> </i>
                     <i class="fas fa-angle-up caret-position d-none"></i>
                 </div>
-                <div class="courseContentsSubSection d-none"><a href=../E05/E05.html><div class="studioLecture" id=activity-E05><i class="fas fa-file-alt activity-icon"></i>Лекција</div></a>
+                <div class="courseContentsSubSection d-none"><a href=../E05/E05.html><div class="studioLecture" id=activity-E05><i class="fas fa-file-alt activity-icon"></i>Проценти, штампање и генерисање ПДФ документа</div></a>
+                <a href=../E05/E051.html><div class="studioLecture" id=activity-E051><i class="fas fa-file-alt activity-icon"></i>Проширивање врсте и приказивање садржаја ћелије у више редова</div></a>
+                <a href=../E05/E052.html><div class="studioLecture" id=activity-E052><i class="fas fa-file-alt activity-icon"></i>Приказивање бројева  у облику процента</div></a>
+                <a href=../E05/E053.html><div class="studioLecture" id=activity-E053><i class="fas fa-file-alt activity-icon"></i>Спајање ћелија и промена величине слова</div></a>
+                <a href=../E05/E054.html><div class="studioLecture" id=activity-E054><i class="fas fa-file-alt activity-icon"></i>Штампање документа</div></a>
+                <a href=../E05/E055.html><div class="studioLecture" id=activity-E055><i class="fas fa-file-alt activity-icon"></i>Снимање документа у ПДФ формату</div></a>
+                <a href=../E05/E056.html><div class="studioLecture" id=activity-E056><i class="fas fa-file-alt activity-icon"></i>Задаци за вежбу</div></a>
                 <a href=../E05/testE05.html><div class="studioLecture" id=activity-testE05><i class="far fa-question-circle activity-icon"></i>Квиз</div></a>
                 </div>
             </div>
@@ -334,7 +319,12 @@
                     <i class="fas fa-angle-down caret-position "> </i>
                     <i class="fas fa-angle-up caret-position d-none"></i>
                 </div>
-                <div class="courseContentsSubSection d-none"><a href=../E07/E07.html><div class="studioLecture" id=activity-E07><i class="fas fa-file-alt activity-icon"></i>Лекција</div></a>
+                <div class="courseContentsSubSection d-none"><a href=../E07/E07.html><div class="studioLecture" id=activity-E07><i class="fas fa-file-alt activity-icon"></i>Визуелизација података</div></a>
+                <a href=../E07/E071.html><div class="studioLecture" id=activity-E071><i class="fas fa-file-alt activity-icon"></i>Промена величине у времену - Scatter дијаграм</div></a>
+                <a href=../E07/E072.html><div class="studioLecture" id=activity-E072><i class="fas fa-file-alt activity-icon"></i>Компаративна анализа -- Стубичасти дијаграми</div></a>
+                <a href=../E07/E073.html><div class="studioLecture" id=activity-E073><i class="fas fa-file-alt activity-icon"></i>Визуелизација удела у целини -- Секторски дијаграми</div></a>
+                <a href=../E07/E074.html><div class="studioLecture" id=activity-E074><i class="fas fa-file-alt activity-icon"></i>Приказивање две групе података на истом дијаграму</div></a>
+                <a href=../E07/E075.html><div class="studioLecture" id=activity-E075><i class="fas fa-file-alt activity-icon"></i>Задаци за вежбу</div></a>
                 <a href=../E07/testE07.html><div class="studioLecture" id=activity-testE07><i class="far fa-question-circle activity-icon"></i>Квиз</div></a>
                 </div>
             </div>
@@ -345,7 +335,11 @@
                     <i class="fas fa-angle-down caret-position "> </i>
                     <i class="fas fa-angle-up caret-position d-none"></i>
                 </div>
-                <div class="courseContentsSubSection d-none"><a href=../E08/E08.html><div class="studioLecture" id=activity-E08><i class="fas fa-file-alt activity-icon"></i>Лекција</div></a>
+                <div class="courseContentsSubSection d-none"><a href=../E08/E08.html><div class="studioLecture" id=activity-E08><i class="fas fa-file-alt activity-icon"></i>Сортирање, филтрирање и фреквенцијска анализа</div></a>
+                <a href=../E08/E081.html><div class="studioLecture" id=activity-E081><i class="fas fa-file-alt activity-icon"></i>Сортирање података</div></a>
+                <a href=../E08/E082.html><div class="studioLecture" id=activity-E082><i class="fas fa-file-alt activity-icon"></i>Филтрирање података</div></a>
+                <a href=../E08/E083.html><div class="studioLecture" id=activity-E083><i class="fas fa-file-alt activity-icon"></i>Фреквенцијска анализа</div></a>
+                <a href=../E08/E084.html><div class="studioLecture" id=activity-E084><i class="fas fa-file-alt activity-icon"></i>Задаци за вежбу</div></a>
                 <a href=../E08/testE08.html><div class="studioLecture" id=activity-testE08><i class="far fa-question-circle activity-icon"></i>Квиз</div></a>
                 </div>
             </div>
@@ -356,7 +350,11 @@
                     <i class="fas fa-angle-down caret-position "> </i>
                     <i class="fas fa-angle-up caret-position d-none"></i>
                 </div>
-                <div class="courseContentsSubSection d-none"><a href=../E10/E10.html><div class="studioLecture" id=activity-E10><i class="fas fa-file-alt activity-icon"></i>Лекција</div></a>
+                <div class="courseContentsSubSection d-none"><a href=../E10/E10.html><div class="studioLecture" id=activity-E10><i class="fas fa-file-alt activity-icon"></i>Сервиси "у облаку" (cloud services)</div></a>
+                <a href=../E10/E101.html><div class="studioLecture" id=activity-E101><i class="fas fa-file-alt activity-icon"></i>Креирање документа "у облаку"</div></a>
+                <a href=../E10/E102.html><div class="studioLecture" id=activity-E102><i class="fas fa-file-alt activity-icon"></i>Дељење документа "у облаку" и сарадња</div></a>
+                <a href=../E10/E103.html><div class="studioLecture" id=activity-E103><i class="fas fa-file-alt activity-icon"></i>Преузимање документа</div></a>
+                <a href=../E10/E104.html><div class="studioLecture" id=activity-E104><i class="fas fa-file-alt activity-icon"></i>Задаци за вежбу</div></a>
                 <a href=../E10/testE10.html><div class="studioLecture" id=activity-testE10><i class="far fa-question-circle activity-icon"></i>Квиз</div></a>
                 </div>
             </div>
@@ -367,7 +365,7 @@
                     <i class="fas fa-angle-down caret-position "> </i>
                     <i class="fas fa-angle-up caret-position d-none"></i>
                 </div>
-                <div class="courseContentsSubSection d-none"><a href=../DP00/DP00.html><div class="studioLecture" id=activity-DP00><i class="fas fa-file-alt activity-icon"></i>Исходи</div></a>
+                <div class="courseContentsSubSection d-none"><a href=../DP00/DP00.html><div class="studioLecture" id=activity-DP00><i class="fas fa-file-alt activity-icon"></i>Увод</div></a>
                 </div>
             </div>
                 
@@ -377,8 +375,12 @@
                     <i class="fas fa-angle-down caret-position "> </i>
                     <i class="fas fa-angle-up caret-position d-none"></i>
                 </div>
-                <div class="courseContentsSubSection d-none"><a href=../2.1.%20Заштита%20личних%20података.%20Права%20детета%20у%20дигиталном%20добу/Заштита%20личних%20података.html><div class="studioLecture" id=activity-Заштита%20личних%20података><i class="fas fa-file-alt activity-icon"></i>Заштита личних података</div></a>
-                <a href=../2.1.%20Заштита%20личних%20података.%20Права%20детета%20у%20дигиталном%20добу/Права%20детета%20у%20дигиталном%20добу.html><div class="studioLecture" id=activity-Права%20детета%20у%20дигиталном%20добу><i class="fas fa-file-alt activity-icon"></i>Права детета у дигиталном добу</div></a>
+                <div class="courseContentsSubSection d-none"><a href=../2.1.%20Заштита%20личних%20података.%20Права%20детета%20у%20дигиталном%20добу/Шта%20су%20лични%20подаци.html><div class="studioLecture" id=activity-Шта%20су%20лични%20подаци><i class="fas fa-file-alt activity-icon"></i>Шта су лични подаци</div></a>
+                <a href=../2.1.%20Заштита%20личних%20података.%20Права%20детета%20у%20дигиталном%20добу/Од%20кога%20се%20штитимо.html><div class="studioLecture" id=activity-Од%20кога%20се%20штитимо><i class="fas fa-file-alt activity-icon"></i>Од кога се штитимо</div></a>
+                <a href=../2.1.%20Заштита%20личних%20података.%20Права%20детета%20у%20дигиталном%20добу/Како%20сејемо%20личне%20податке.html><div class="studioLecture" id=activity-Како%20сејемо%20личне%20податке><i class="fas fa-file-alt activity-icon"></i>Како сејемо личне податке</div></a>
+                <a href=../2.1.%20Заштита%20личних%20података.%20Права%20детета%20у%20дигиталном%20добу/Како%20одрасли%20сеју%20личне%20податке.html><div class="studioLecture" id=activity-Како%20одрасли%20сеју%20личне%20податке><i class="fas fa-file-alt activity-icon"></i>Лични подаци деце</div></a>
+                <a href=../2.1.%20Заштита%20личних%20података.%20Права%20детета%20у%20дигиталном%20добу/Узрасна%20ограничења.html><div class="studioLecture" id=activity-Узрасна%20ограничења><i class="fas fa-file-alt activity-icon"></i>Узрасна ограничења</div></a>
+                <a href=../2.1.%20Заштита%20личних%20података.%20Права%20детета%20у%20дигиталном%20добу/Како%20да%20се%20заштитиш.html><div class="studioLecture" id=activity-Како%20да%20се%20заштитиш><i class="fas fa-file-alt activity-icon"></i>Како да се заштитиш</div></a>
                 <a href=../2.1.%20Заштита%20личних%20података.%20Права%20детета%20у%20дигиталном%20добу/Вежба%201%20-%20Дељење%20и%20контрола%20личних%20података.html><div class="studioLecture" id=activity-Вежба%201%20-%20Дељење%20и%20контрола%20личних%20података><i class="fas fa-file-alt activity-icon"></i>Вежба 1 - Дељење и контрола личних података</div></a>
                 <a href=../2.1.%20Заштита%20личних%20података.%20Права%20детета%20у%20дигиталном%20добу/Вежба%202%20-%20Заштита%20приватности%20личних%20података.html><div class="studioLecture" id=activity-Вежба%202%20-%20Заштита%20приватности%20личних%20података><i class="fas fa-file-alt activity-icon"></i>Вежба 2 - Заштита приватности личних података</div></a>
                 <a href=../2.1.%20Заштита%20личних%20података.%20Права%20детета%20у%20дигиталном%20добу/Квиз%20прве%20лекције.html><div class="studioLecture" id=activity-Квиз%20прве%20лекције><i class="far fa-question-circle activity-icon"></i>Квиз прве лекције</div></a>
@@ -391,7 +393,15 @@
                     <i class="fas fa-angle-down caret-position "> </i>
                     <i class="fas fa-angle-up caret-position d-none"></i>
                 </div>
-                <div class="courseContentsSubSection d-none"><a href=../2.2.%20Отворени%20подаци/Отворени%20подаци.html><div class="studioLecture" id=activity-Отворени%20подаци><i class="fas fa-file-alt activity-icon"></i>2.2. Отворени подаци</div></a>
+                <div class="courseContentsSubSection d-none"><a href=../2.2.%20Отворени%20подаци/Подаци.html><div class="studioLecture" id=activity-Подаци><i class="fas fa-file-alt activity-icon"></i>Подаци, подаци, подаци</div></a>
+                <a href=../2.2.%20Отворени%20подаци/Отворени%20подаци.html><div class="studioLecture" id=activity-Отворени%20подаци><i class="fas fa-file-alt activity-icon"></i>Oтворени подаци -- појам</div></a>
+                <a href=../2.2.%20Отворени%20подаци/Отварање%20података.html><div class="studioLecture" id=activity-Отварање%20података><i class="fas fa-file-alt activity-icon"></i>Отварање података</div></a>
+                <a href=../2.2.%20Отворени%20подаци/Big%20data.html><div class="studioLecture" id=activity-Big%20data><i class="fas fa-file-alt activity-icon"></i>Веееееелики подаци (Big data)</div></a>
+                <a href=../2.2.%20Отворени%20подаци/Портали.html><div class="studioLecture" id=activity-Портали><i class="fas fa-file-alt activity-icon"></i>Портали отворених података</div></a>
+                <a href=../2.2.%20Отворени%20подаци/Формати.html><div class="studioLecture" id=activity-Формати><i class="fas fa-file-alt activity-icon"></i>Формати отворених података</div></a>
+                <a href=../2.2.%20Отворени%20подаци/Визуелизација.html><div class="studioLecture" id=activity-Визуелизација><i class="fas fa-file-alt activity-icon"></i>Визуaлизација отворених података и Инфографик</div></a>
+                <a href=../2.2.%20Отворени%20подаци/Професије.html><div class="studioLecture" id=activity-Професије><i class="fas fa-file-alt activity-icon"></i>Професије у вези са подацима</div></a>
+                <a href=../2.2.%20Отворени%20подаци/Закључак.html><div class="studioLecture" id=activity-Закључак><i class="fas fa-file-alt activity-icon"></i>Резиме</div></a>
                 <a href=../2.2.%20Отворени%20подаци/Квиз%20друге%20лекције.html><div class="studioLecture" id=activity-Квиз%20друге%20лекције><i class="far fa-question-circle activity-icon"></i>Квиз друге лекције</div></a>
                 </div>
             </div>
@@ -402,7 +412,9 @@
                     <i class="fas fa-angle-down caret-position "> </i>
                     <i class="fas fa-angle-up caret-position d-none"></i>
                 </div>
-                <div class="courseContentsSubSection d-none"><a href=../2.3.%20Појам%20вештачке%20интелигенције/AI.html><div class="studioLecture" id=activity-AI><i class="fas fa-file-alt activity-icon"></i>2.3. Појам вештачке интелигенције</div></a>
+                <div class="courseContentsSubSection d-none"><a href=../2.3.%20Појам%20вештачке%20интелигенције/AI.html><div class="studioLecture" id=activity-AI><i class="fas fa-file-alt activity-icon"></i>Појам вештачке интелигенције</div></a>
+                <a href=../2.3.%20Појам%20вештачке%20интелигенције/ЈакаДеф.html><div class="studioLecture" id=activity-ЈакаДеф><i class="fas fa-file-alt activity-icon"></i>Јака дефиниција вештачке интелигенције</div></a>
+                <a href=../2.3.%20Појам%20вештачке%20интелигенције/ТТ.html><div class="studioLecture" id=activity-ТТ><i class="fas fa-file-alt activity-icon"></i>Тјурингов тест</div></a>
                 <a href=../2.3.%20Појам%20вештачке%20интелигенције/kviz.html><div class="studioLecture" id=activity-kviz><i class="far fa-question-circle activity-icon"></i>Квиз треће лекције</div></a>
                 </div>
             </div>
@@ -413,7 +425,9 @@
                     <i class="fas fa-angle-down caret-position "> </i>
                     <i class="fas fa-angle-up caret-position d-none"></i>
                 </div>
-                <div class="courseContentsSubSection d-none"><a href=../2.4.%20Садашњост%20и%20будућност%20вештачке%20интелигенције/AI.html><div class="studioLecture" id=activity-AI><i class="fas fa-file-alt activity-icon"></i>2.4. Садашњост и будућност вештачке интелигенције - етичка питања</div></a>
+                <div class="courseContentsSubSection d-none"><a href=../2.4.%20Садашњост%20и%20будућност%20вештачке%20интелигенције/AI.html><div class="studioLecture" id=activity-AI><i class="fas fa-file-alt activity-icon"></i>Вештачка интелигенција у XXI веку</div></a>
+                <a href=../2.4.%20Садашњост%20и%20будућност%20вештачке%20интелигенције/Примене.html><div class="studioLecture" id=activity-Примене><i class="fas fa-file-alt activity-icon"></i>Примене вештачке интелигенције</div></a>
+                <a href=../2.4.%20Садашњост%20и%20будућност%20вештачке%20интелигенције/Будућност.html><div class="studioLecture" id=activity-Будућност><i class="fas fa-file-alt activity-icon"></i>Будућност вештачке интелигенције</div></a>
                 <a href=../2.4.%20Садашњост%20и%20будућност%20вештачке%20интелигенције/kviz.html><div class="studioLecture" id=activity-kviz><i class="far fa-question-circle activity-icon"></i>Квиз четврте лекције</div></a>
                 </div>
             </div>
@@ -573,7 +587,7 @@
     
     <div>
 <div class="lecture-prev-next-toggle">
-  <a  href="E01.html" id="prevLectureLink" class="lecture-toggler-arrows"><i class="fas fa-arrow-left fa"></i> <span> Претходна лекција </span> </a>
+  <a  href="E014.html" id="prevLectureLink" class="lecture-toggler-arrows"><i class="fas fa-arrow-left fa"></i> <span> Претходна лекција </span> </a>
   
   <a id="nextLectureLink" class="lecture-toggler-arrows"><span> Следећа лекција</span>  <i class="fas fa-arrow-right fa"></i> </a>
 </div>
