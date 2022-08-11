@@ -453,7 +453,7 @@
 </div>
 <div class="section" id="id3">
 <h2>Корак 2.<a class="headerlink" href="#id3" title="Permalink to this headline">¶</a></h2>
-<p>Прва врста ће представљати <em>заглавље табеле</em> и у ћелије чемо унети имена колона:</p>
+<p>Прва врста ће представљати <em>заглавље табеле</em> и у ћелије ћемо унети имена колона:</p>
 <ul class="simple">
 <li><p>Име фестивала</p></li>
 <li><p>Место одржавања</p></li>
@@ -544,7 +544,7 @@
 <span class="mi">9</span><span class="o">-</span><span class="mi">6</span><span class="o">-</span><span class="mi">2019</span>
 </pre></div>
 </div>
-<p>Ексел ће препознати да су то датуми (енгл. <em>Date</em> значи „датум”) и приказаће их као:</p>
+<p>Ексел ће препознати да су то датуми (енгл. <em>Date</em> значи „датум“) и приказаће их као:</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="mi">07</span><span class="o">-</span><span class="mi">06</span><span class="o">-</span><span class="mi">19</span>
 <span class="mi">09</span><span class="o">-</span><span class="mi">06</span><span class="o">-</span><span class="mi">19</span>
 </pre></div>
@@ -570,13 +570,16 @@
 </div>
 <div class="section" id="id5">
 <h2>Корак 4.<a class="headerlink" href="#id5" title="Permalink to this headline">¶</a></h2>
-<p>Сада ћемо да израчунамо колико дана траје сваки фестивал. У кућицу E1 ћемо уписати „Trajanje” (то је име нове колоне коју формирамо) и онда ћемо у кућицу E2 уписати формулу</p>
+<p>Сада ћемо да израчунамо колико дана траје сваки фестивал. У кућицу E1 ћемо уписати „Trajanje“
+(то је име нове колоне коју формирамо) и онда ћемо у кућицу E2 уписати формулу:</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="o">=</span><span class="n">D2</span><span class="o">-</span><span class="n">C2</span>
 </pre></div>
 </div>
 <a class="reference internal image-reference" href="../_images/DataTypes105.jpg"><img alt="../_images/DataTypes105.jpg" class="align-center" src="../_images/DataTypes105.jpg" style="width: 600px;" /></a>
 
-    <div class="course-box course-box-info">
+    <div class="note-wrapper infonote-type">
+        <div class="note-icon-holder"> </div>
+        <img src="../_static/img/infonote-img.svg" class="note-image infonote-image" /> 
         <div class="course-content">
             <p>
 <p><strong>О, да! Ексел уме да рачуна са датумима!</strong></p>
@@ -584,22 +587,22 @@
     </p></div></div>
 <p>Када притиснемо [ENTER] добијамо следеће стање:</p>
 <a class="reference internal image-reference" href="../_images/DataTypes106.jpg"><img alt="../_images/DataTypes106.jpg" class="align-center" src="../_images/DataTypes106.jpg" style="width: 600px;" /></a>
-<p>Видимо да је за фестивал који се одржава 7.6, 8.6. и 9.6.2019. Ексел обрачунао да траје 2 дана. Разлог је у томе што се у пословном свету ова функција углавном користи за обрачун дневница (од 7.6. до 8.6. је једна дневница, и од 8.6. до 9.6. је друга дневница). Овај фестивал, с друге стране, траје три дана: цео 7.6, цео 8.6. и цео 9.6. Зато морамо да прилагодимо формулу нашој ситуацији и да унесемо:</p>
+<p>Видимо да је Ексел за фестивал који се одржава 7.6, 8.6. и 9.6.2019. обрачунао да траје 2 дана. Разлог је у томе што се у пословном свету ова функција углавном користи за обрачун дневница (од 7.6. до 8.6. је једна дневница, и од 8.6. до 9.6. је друга дневница). Овај фестивал, с друге стране, траје три дана: цео 7.6, цео 8.6. и цео 9.6. Зато морамо да прилагодимо формулу нашој ситуацији и да унесемо:</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="o">=</span><span class="n">D2</span><span class="o">-</span><span class="n">C2</span><span class="o">+</span><span class="mi">1</span>
 </pre></div>
 </div>
 <a class="reference internal image-reference" href="../_images/DataTypes107.jpg"><img alt="../_images/DataTypes107.jpg" class="align-center" src="../_images/DataTypes107.jpg" style="width: 600px;" /></a>
-<p>Ако сада формулу брзо ископирамо наниже (кликнемо на ћелију Е2, ухватимо за „бубуљицу” и развучемо наниже) добијамо:</p>
+<p>Ако сада формулу брзо ископирамо наниже (кликнемо на ћелију Е2, ухватимо за „бубуљицу“ и развучемо наниже) добијамо:</p>
 <a class="reference internal image-reference" href="../_images/DataTypes108.jpg"><img alt="../_images/DataTypes108.jpg" class="align-center" src="../_images/DataTypes108.jpg" style="width: 600px;" /></a>
 </div>
 <div class="section" id="id6">
 <h2>Корак 5.<a class="headerlink" href="#id6" title="Permalink to this headline">¶</a></h2>
-<p>Снимићемо табелу под именом „MuzickiFestivali.xlsx”
+<p>Снимићемо табелу под именом „MuzickiFestivali.xlsx“
 Сада ћемо израчунати просечно трајање фестивала у табели, као и најкраће и најдуже фестивале у табели.</p>
 </div>
 <div class="section" id="id7">
 <h2>Корак 6.<a class="headerlink" href="#id7" title="Permalink to this headline">¶</a></h2>
-<p>Додај табели три нова реда: „Prosek”, „Najkraći” и „Najduži”:</p>
+<p>Додај табели три нова реда: „Prosek“, „Najkraći“ и „Najduži“:</p>
 <a class="reference internal image-reference" href="../_images/DataTypes109.jpg"><img alt="../_images/DataTypes109.jpg" class="align-center" src="../_images/DataTypes109.jpg" style="width: 600px;" /></a>
 </div>
 <div class="section" id="id8">
@@ -630,18 +633,18 @@
 <div class="section" id="id12">
 <h2>Корак 11.<a class="headerlink" href="#id12" title="Permalink to this headline">¶</a></h2>
 <p>Сада ћемо да подвучемо линију испод заглавља (прве врсте) и података о последњем фестивалу на списку (у нашем примеру то је дванаеста врста).</p>
-<p>Селектуј ћелије А1:Е1</p>
+<p>Селектуј ћелије А1:Е1.</p>
 <a class="reference internal image-reference" href="../_images/DataTypes114.jpg"><img alt="../_images/DataTypes114.jpg" class="align-center" src="../_images/DataTypes114.jpg" style="width: 600px;" /></a>
-<p>Онда кликни на стрелицу поред иконе за уоквиравање ћелија и одабери „Bottom Border”:</p>
+<p>Онда кликни на стрелицу поред иконе за уоквиравање ћелија и одабери „Bottom Border“:</p>
 <a class="reference internal image-reference" href="../_images/DataTypes115.jpg"><img alt="../_images/DataTypes115.jpg" class="align-center" src="../_images/DataTypes115.jpg" style="width: 600px;" /></a>
 <p>Исто то уради заврсту која садржи податке о последњем фестивалу у табели. Добијамо:</p>
 <a class="reference internal image-reference" href="../_images/DataTypes116.jpg"><img alt="../_images/DataTypes116.jpg" class="align-center" src="../_images/DataTypes116.jpg" style="width: 600px;" /></a>
 </div>
 <div class="section" id="id13">
 <h2>Корак 12.<a class="headerlink" href="#id13" title="Permalink to this headline">¶</a></h2>
-<p>Још само једна естетска ситница и готови смо! Датуми одржавања фестивала и трајање фестивала су поравнати по десној ивици, док су имена одговарајућих колона (C, D и E) поравната по левој ивици. Поравнаћемо и њих по десној ивици, да нам табела буде лепша. Томе служе команде из групе „Alignment” (енгл. „поравнавање”):</p>
+<p>Још само једна естетска ситница и готови смо! Датуми одржавања фестивала и трајање фестивала су поравнати по десној ивици, док су имена одговарајућих колона (C, D и E) поравната по левој ивици. Поравнаћемо и њих по десној ивици, да нам табела буде лепша. Томе служе команде из групе „Alignment“ (енгл. „поравнавање“):</p>
 <a class="reference internal image-reference" href="../_images/DataTypes117.jpg"><img alt="../_images/DataTypes117.jpg" class="align-center" src="../_images/DataTypes117.jpg" style="width: 600px;" /></a>
-<p>Вертикално поравнавање садржаја ћелије може бити уз горњу ивицу, центрирано, или уз доњу ивицу. Хоризонтално поравнавање садржаја ћелије може бити уз леву ивицу, центрирано, или уз десну ивицу. (Команде „Wrap Text” и „Merge Cells” ћемо објаснити ускоро.)</p>
+<p>Вертикално поравнавање садржаја ћелије може бити уз горњу ивицу, центрирано, или уз доњу ивицу. Хоризонтално поравнавање садржаја ћелије може бити уз леву ивицу, центрирано, или уз десну ивицу. (Команде „Wrap Text“ и „Merge Cells“ ћемо објаснити ускоро.)</p>
 <p>Желимо да поравнамо садржај уз десну ивицу. Зато селектуј ћелије C1:E1 и одабери поравнавање уз десну ивицу:</p>
 <a class="reference internal image-reference" href="../_images/DataTypes119.jpg"><img alt="../_images/DataTypes119.jpg" class="align-center" src="../_images/DataTypes119.jpg" style="width: 600px;" /></a>
 <p>Тако добијамо коначан изглед табеле:</p>
@@ -673,7 +676,7 @@
     
     <div>
 <div class="lecture-prev-next-toggle">
-  <a  href="E041.html" id="prevLectureLink" class="lecture-toggler-arrows"><i class="fas fa-arrow-left fa"></i> <span> Претходна лекција </span> </a>
+  <a  href="E04.html" id="prevLectureLink" class="lecture-toggler-arrows"><i class="fas fa-arrow-left fa"></i> <span> Претходна лекција </span> </a>
   
   <a id="nextLectureLink" class="lecture-toggler-arrows"><span> Следећа лекција</span>  <i class="fas fa-arrow-right fa"></i> </a>
 </div>

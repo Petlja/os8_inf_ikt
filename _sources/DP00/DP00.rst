@@ -6,7 +6,7 @@
 кашичицом у устима“ -- распитај се шта то значи или провери на интернету).
 
 
-.. image:: ../../_images/digitalliteracy.png
+.. image:: ../../_images/Uvod-02.png
    :width: 600px
    :align: center
 

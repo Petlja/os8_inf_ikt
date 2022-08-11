@@ -455,24 +455,29 @@
 </div>
 <div class="section" id="id3">
 <h2>Корак 4.<a class="headerlink" href="#id3" title="Permalink to this headline">¶</a></h2>
-<p>За првог студента на списку коначна зарада се рачуна по формули</p>
+<p>За првог студента на списку коначна зарада се рачуна по формули:</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="o">=</span> <span class="n">B3</span><span class="o">*</span><span class="n">D3</span> <span class="o">+</span> <span class="n">C3</span><span class="o">*</span><span class="n">E3</span>
 </pre></div>
 </div>
 <a class="reference internal image-reference" href="../_images/Recalc4.jpg"><img alt="../_images/Recalc4.jpg" class="align-center" src="../_images/Recalc4.jpg" style="width: 600px;" /></a>
 <p>Како гласи формула за другог студента?</p>
 <a class="reference internal image-reference" href="../_images/Recalc5.jpg"><img alt="../_images/Recalc5.jpg" class="align-center" src="../_images/Recalc5.jpg" style="width: 600px;" /></a>
-<p>Вероватно ти се по глави већ мота она народна „И тако летњи дан до подне”. Да не бисмо исти досадни посао радили још сто пута (и при томе вероватно направили доста грешака) <em>сада ћемо показати користан трик који ће за нас урадити посао.</em> Кликни на ћелију F4 и примети да је доњи десни угао зеленог оквира око ћелије истакнут (оквир има „бубуљицу”):</p>
+<p>Вероватно ти се по глави већ мота она народна: „И тако летњи дан до подне.“
+Да не бисмо исти досадни посао радили још сто пута (и при томе вероватно направили доста грешака),
+<em>сада ћемо показати користан трик који ће за нас урадити посао.</em> Кликни на ћелију F4 и примети да је доњи десни угао
+зеленог оквира око ћелије истакнут (оквир има „бубуљицу“):</p>
 <a class="reference internal image-reference" href="../_images/Recalc6.jpg"><img alt="../_images/Recalc6.jpg" class="align-center" src="../_images/Recalc6.jpg" style="width: 600px;" /></a>
-<p>Ухвати мишем бубуљицу и „развуци оквир” до дна колоне. Ексел ће попунити ћелије неким вредностима:</p>
+<p>Ухвати мишем бубуљицу и „развуци оквир“ до дна колоне. Ексел ће попунити ћелије неким вредностима:</p>
 <a class="reference internal image-reference" href="../_images/Recalc7.jpg"><img alt="../_images/Recalc7.jpg" class="align-center" src="../_images/Recalc7.jpg" style="width: 600px;" /></a>
 <p>Кликни сада, рецимо, на ћелију F9 и погледај у оквиру за формуле (<em>formula bar</em>) која формула је уписана у ћелију.</p>
 <a class="reference internal image-reference" href="../_images/Recalc8.jpg"><img alt="../_images/Recalc8.jpg" class="align-center" src="../_images/Recalc8.jpg" style="width: 600px;" /></a>
 
-    <div class="course-box course-box-info">
+    <div class="note-wrapper infonote-type">
+        <div class="note-icon-holder"> </div>
+        <img src="../_static/img/infonote-img.svg" class="note-image infonote-image" /> 
         <div class="course-content">
             <p>
-<p><strong>Ооооо, да! Ексел је „погодио” коју формулу смо желели да упишемо у ћелију!</strong></p>
+<p><strong>Ооооо, да! Ексел је „погодио“ коју формулу смо желели да упишемо у ћелију!</strong></p>
 
     </p></div></div>
 <p>Ево и кратког видеа:</p>
@@ -490,7 +495,10 @@
     </div>
     
     
-    <p>Да буде одмах јасно, ово није никаква магија већ прост алгоритам. На основу формуле која је била уписана у ћелију F4 Ексел је простим алгоритмом генерисао формуле и уписао их редом у све ћелије кроз које смо „развукли оквир”. Идеја алгоритма је да се слова у адреси ћелије не мењају, а бројеви у адреси ћелије се редом повећавају. Ево и табеларног прегледа:</p>
+    <p>Да буде одмах јасно, ово није никаква магија већ прост алгоритам. На основу формуле која је била уписана у
+ћелију F4 Ексел је простим алгоритмом генерисао формуле и уписао их редом у све ћелије кроз које смо „развукли оквир“.
+Идеја алгоритма је да се слова у адреси ћелије не мењају, а бројеви у адреси ћелије се редом повећавају.
+Ево и табеларног прегледа:</p>
 <table class="docutils align-left" id="id5">
 <caption><span class="caption-text">Формуле у одговарајућим ћелијама табеле</span><a class="headerlink" href="#id5" title="Permalink to this table">¶</a></caption>
 <colgroup>
@@ -521,18 +529,21 @@
 </div>
 <div class="section" id="id4">
 <h2>Корак 5.<a class="headerlink" href="#id4" title="Permalink to this headline">¶</a></h2>
-<p>Израчунаћемо сада колико су просечно сати радили студенти радним данима и викендом, и колико су зарадили у просеку. Ексел уме аутоматски да израчуна просек низа бројева. Само треба позвати функцију AVERAGE (енгл. „просек”).</p>
-<p>У ћелију A12 упиши „Prosečno”. Сада желимо да у ћелији B12 прикажемо просечно време које су наведени студенти провели на послу. Дакле, желимо да израчунамо просек бројева који су уписани у ћелије B3, B4, …, B11. Један начин да то урадимо је да у ћелију унесемо формулу</p>
+<p>Израчунаћемо сада колико су просечно сати радили студенти радним данима и викендом, и колико су зарадили у просеку.
+Ексел може да аутоматски израчуна просек низа бројева, само треба позвати функцију AVERAGE (енгл. „просек“).</p>
+<p>У ћелију A12 упиши „Prosečno“. Сада желимо да у ћелији B12 прикажемо просечно време које су наведени студенти провели на послу.
+Дакле, желимо да израчунамо просек бројева који су уписани у ћелије B3, B4, …, B11. Један од
+начина да то урадимо је да у ћелију унесеш формулу:</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="o">=</span> <span class="p">(</span><span class="n">B3</span> <span class="o">+</span> <span class="n">B4</span> <span class="o">+</span> <span class="n">B5</span> <span class="o">+</span> <span class="n">B6</span> <span class="o">+</span> <span class="n">B7</span> <span class="o">+</span> <span class="n">B8</span> <span class="o">+</span> <span class="n">B9</span> <span class="o">+</span> <span class="n">B10</span> <span class="o">+</span> <span class="n">B11</span><span class="p">)</span><span class="o">/</span><span class="mi">9</span>
 </pre></div>
 </div>
-<p>али постоји бржи начин! У ћелију B12 ћемо унети формулу</p>
+<p>али постоји бржи начин! У ћелију B12 унеси формулу:</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="o">=</span><span class="n">AVERAGE</span><span class="p">(</span><span class="n">B3</span><span class="p">:</span><span class="n">B11</span><span class="p">)</span>
 </pre></div>
 </div>
-<p>која рачуна просек (AVERAGE) бројева у ћелијама B3, B4, …, B11 (B3:B11). „AVERAGE” је још једна функција коју Ексел познаје.</p>
+<p>која рачуна просек (AVERAGE) бројева у ћелијама B3, B4, …, B11 (B3:B11). „AVERAGE“ је још једна функција коју Ексел познаје.</p>
 <a class="reference internal image-reference" href="../_images/Recalc9.jpg"><img alt="../_images/Recalc9.jpg" class="align-center" src="../_images/Recalc9.jpg" style="width: 600px;" /></a>
-<p>На исти начин ћемо израчунати просек бројева у ћелијама C3:C11 и F3:F11</p>
+<p>На исти начин израчунај просек бројева у ћелијама C3:C11 и F3:F11:</p>
 <a class="reference internal image-reference" href="../_images/Recalc10.jpg"><img alt="../_images/Recalc10.jpg" class="align-center" src="../_images/Recalc10.jpg" style="width: 600px;" /></a>
 </div>
 </div>
@@ -542,7 +553,7 @@
     
     <div>
 <div class="lecture-prev-next-toggle">
-  <a  href="E021.html" id="prevLectureLink" class="lecture-toggler-arrows"><i class="fas fa-arrow-left fa"></i> <span> Претходна лекција </span> </a>
+  <a  href="E02.html" id="prevLectureLink" class="lecture-toggler-arrows"><i class="fas fa-arrow-left fa"></i> <span> Претходна лекција </span> </a>
   
   <a id="nextLectureLink" class="lecture-toggler-arrows"><span> Следећа лекција</span>  <i class="fas fa-arrow-right fa"></i> </a>
 </div>
