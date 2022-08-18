@@ -338,6 +338,12 @@ lessons:
     description: Прва лекција 
     activities:
       - type: reading
+        title: Увод
+        folder: 2.1. Заштита личних података. Права детета у дигиталном добу
+        file: Увод.rst
+        description: #opciono
+        guid: e268eec2-c4a1-4588-a779-011a1f1b7c15
+      - type: reading
         title: Шта су лични подаци
         folder: 2.1. Заштита личних података. Права детета у дигиталном добу
         file: Шта су лични подаци.rst
