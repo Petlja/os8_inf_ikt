@@ -6,12 +6,13 @@
 Да бисмо претходни документ снимили у ПДФ формату треба да кликнемо на „File“:
 
 
-.. image:: ../../_images/Print29.jpg
+.. image:: ../../_images/Print22.jpg
    :width: 600px
    :align: center
 
 
-Потом одаберемо „Save a copy“ (енгл. „сачувај копију“):
+Потом одаберемо „Export“ (1), па „Create PDF/XPS Document“ (2) и коначно кликнемо да дугме са
+истим именом (3):
 
 
 .. image:: ../../_images/Print30.jpg
@@ -19,15 +20,8 @@
    :align: center
 
 
-Онда кликнемо на стрелицу поред формата документа како бисмо добили (огромну!) листу свих расположивих формата које Ексел подржава, и одаберемо формат ПДФ:
-
-
-.. image:: ../../_images/Print31.jpg
-   :width: 600px
-   :align: center
-
-
-На крају кликнемо на „Save“:
+У прозору који се појави можемо да изменимо име документа ако то желимо (1),
+и на крају кликнемо на „Publish“:
 
 
 .. image:: ../../_images/Print32.jpg
@@ -42,10 +36,10 @@
    :width: 600px
    :align: center
 
-Ево и кратког видеа:
+.. Ево и кратког видеа:
 
-.. ytpopup:: Yu2hLG0wkLs
-   :width: 735
-   :height: 415
-   :align: center
+   .. ytpopup:: Yu2hLG0wkLs
+      :width: 735
+      :height: 415
+      :align: center
 

@@ -56,12 +56,12 @@
    :width: 600px
    :align: center
 
-Ево и кратког видеа:
+.. Ево и кратког видеа:
 
-.. ytpopup:: DI9jYQNYPzI
-   :width: 735
-   :height: 415
-   :align: center
+   .. ytpopup:: DI9jYQNYPzI
+      :width: 735
+      :height: 415
+      :align: center
 
 Корак 7.
 ------------------
@@ -106,10 +106,10 @@
 
 Сними је.
 
-Ево и кратког видеа:
+.. Ево и кратког видеа:
 
-.. ytpopup:: txGfFfqBvYw
-   :width: 735
-   :height: 415
-   :align: center
+   .. ytpopup:: txGfFfqBvYw
+      :width: 735
+      :height: 415
+      :align: center
 

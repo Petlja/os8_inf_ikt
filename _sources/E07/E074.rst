@@ -74,10 +74,10 @@
    :width: 600px
    :align: center
 
-Ево и кратког видеа:
+.. Ево и кратког видеа:
 
-.. ytpopup:: sOY23G9t1lE
-   :width: 735
-   :height: 415
-   :align: center
+   .. ytpopup:: sOY23G9t1lE
+      :width: 735
+      :height: 415
+      :align: center
 

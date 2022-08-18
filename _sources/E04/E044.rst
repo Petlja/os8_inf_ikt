@@ -92,7 +92,8 @@
    :align: center
 
 
-У листи „Category“ одабери „Time“, па онда у листи „Type“ одабери „13:30“, што представља пример формата:
+У листи „Category“ одабери „Time“, у листи „Locale“ одабери „English (United States)“,
+па онда у листи „Type“ одабери „13:30“, што представља пример формата:
 
 
 .. image:: ../../_images/DataTypes212.jpg

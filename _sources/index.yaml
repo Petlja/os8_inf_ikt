@@ -73,18 +73,14 @@ lessons:
   #########################################################################
   #  EKSEL
   #########################################################################
-  - title: Информационо-комуникационе технологије (ИКТ) -- Програми за табеларна израчунавања
-    folder: E00
-    guid: d0425350-c866-4df8-9d3d-9a44d6cc4884
-    activities:
-      - type: reading
-        title: Увод
-        file: E00.rst
-        guid: d799d350-0937-43bf-b24e-d4312aee6e8e
   - title: ИКТ.1. Увод у рад са програмима за табеларна израчунавања
     folder: E01
     guid: f77c8f05-b8d8-4190-8432-deb8f2bb7d13
     activities:
+      - type: reading
+        title: Програми за табеларна израчунавања
+        file: E00.rst
+        guid: d799d350-0937-43bf-b24e-d4312aee6e8e
       - type: reading
         title: Покретање Ексела
         file: E01.rst
@@ -129,14 +125,18 @@ lessons:
         title: Квиз
         file: testE02.rst
         guid: 522ef612-ffde-4b75-9e27-0f712542dd75
-  - title: ИКТ.3. Селектовање групе ћелија и уређивање табеле
+  - title: ИКТ.3. Рад са групама ћелија и и уређивање табеле
     folder: E03
     guid: ff4d9b25-0553-431e-8353-a451da635c1d
     activities:
       - type: reading
-        title: Уношење формула и брзо копирање
+        title: Рад са групама ћелија и и уређивање табеле
         file: E03.rst
         guid: f8400a28-db53-4a3e-b537-3a9d0514e465
+      - type: reading
+        title: Уношење формула и брзо копирање
+        file: E032.rst
+        guid: 4c8d6080-8651-4e0e-ba3f-a20307fbd47c
       - type: reading
         title: Селектовање групе ћелија
         file: E033.rst
@@ -166,13 +166,17 @@ lessons:
     guid: 93e7639e-a018-4de7-9505-27272dfd6bba
     activities:
       - type: reading
-        title: Донације -- валуте у Ексел табели
+        title: Разне врсте података у табели
         file: E04.rst
         guid: 879f6826-f9b3-4f9e-9329-5f5dba06ae72
       - type: reading
         title: Музички фестивали у Европи -- датуми у Ексел табели
         file: E042.rst
         guid: 6a9340aa-1fe6-43c6-a0a9-0eb486927981
+      - type: reading
+        title: Донације -- валуте у Ексел табели
+        file: E041.rst
+        guid: 98bbfc50-a83d-415d-9a11-c150f049731e
       - type: reading
         title: Плеј-листа -- време у Ексел табели
         file: E043.rst
@@ -262,9 +266,13 @@ lessons:
         file: E08.rst
         guid: d171f716-f17e-429e-a531-206a81010389
       - type: reading
-        title: Сортирање података
+        title: Сортирање нумеричких података
         file: E081.rst
         guid: 26e4cb2c-56d3-4bd4-a440-3be9badc2a17
+      - type: reading
+        title: Сортирање текстуалних података
+        file: E081b.rst
+        guid: 2336b67f-cdee-4090-9fa9-e8c253831170
       - type: reading
         title: Филтрирање података
         file: E082.rst
@@ -286,15 +294,19 @@ lessons:
     guid: bdd702fa-7fca-44fe-b95b-47530eb5efb4
     activities:
       - type: reading
-        title: Сервиси "у облаку" (cloud services)
+        title: Сервиси „у облаку“ (cloud services)
         file: E10.rst
         guid: 1e346279-ce88-48e0-bc04-068d27400a9b
       - type: reading
-        title: Креирање документа "у облаку"
+        title: Приступ сервисима „у облаку“
+        file: E100.rst
+        guid: 0f48bfc7-841c-452a-88be-d0f437d3fa5d
+      - type: reading
+        title: Креирање документа „у облаку“
         file: E101.rst
         guid: 40a4a067-bcfa-4d1e-891c-b193f0d15ba7
       - type: reading
-        title: Дељење документа "у облаку" и сарадња
+        title: Дељење документа „у облаку“ и сарадња
         file: E102.rst
         guid: 0ec57ed6-49e7-437c-af64-b6fe6a542b67
       - type: reading
