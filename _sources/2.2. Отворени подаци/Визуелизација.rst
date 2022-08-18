@@ -16,7 +16,7 @@
 банера за веб (једне JPG слике или анимиране GIF слике нпр.), видеа или неког другог облика
 за приказ покретних и непокретних слика са текстом. 
 
-.. image:: ../../_images/vizuelizacija2.png
+.. image:: ../../_images/Infografik.png
    :width: 500 px
    :align: center 
 
