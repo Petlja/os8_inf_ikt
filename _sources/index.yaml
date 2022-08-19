@@ -340,7 +340,7 @@ lessons:
       - type: reading
         title: Увод
         folder: 2.1. Заштита личних података. Права детета у дигиталном добу
-        file: Увод.rst
+        file: Увод1.rst
         description: #opciono
         guid: e268eec2-c4a1-4588-a779-011a1f1b7c15
       - type: reading
@@ -397,17 +397,23 @@ lessons:
     description: Друга лекција 
     activities:
       - type: reading
+        title: Увод
+        folder: 2.2. Отворени подаци
+        file: Увод2.rst
+        description: #opciono
+        guid: 337f0d4c-a12a-49fa-bdce-e0f469d37ee1
+      - type: reading
         title: Подаци, подаци, подаци
         folder: 2.2. Отворени подаци
         file: Подаци.rst
         description: #opciono
         guid: 201be038-d738-4d0f-a00a-c1fcc4245d85
       - type: reading
-        title: Oтворени подаци -- појам
+        title: Отворени подаци
         folder: 2.2. Отворени подаци
         file: Отворени подаци.rst
         description: #opciono
-        guid: 337f0d4c-a12a-49fa-bdce-e0f469d37ee1
+        guid: 0bbca7d6-3e56-4685-8759-08fe78f03623
       - type: reading
         title: Отварање података
         folder: 2.2. Отворени подаци
@@ -433,7 +439,7 @@ lessons:
         description: #opciono
         guid: f2ab3a68-a04f-4906-af51-1dfa4f7fcebc
       - type: reading
-        title: Визуaлизација отворених података и Инфографик
+        title: Визуaлизација отворених података и инфографик
         folder: 2.2. Отворени подаци
         file: Визуелизација.rst
         description: #opciono
@@ -444,12 +450,6 @@ lessons:
         file: Професије.rst
         description: #opciono
         guid: eae110e4-23ba-4eed-b5f4-545719124221
-      - type: reading
-        title: Резиме
-        folder: 2.2. Отворени подаци
-        file: Закључак.rst
-        description: #opciono
-        guid: c6c87239-2c5b-40e4-956a-71ac3a4d2d64
       - type: quiz 
         title: Квиз друге лекције
         folder: 2.2. Отворени подаци
@@ -462,9 +462,9 @@ lessons:
     description: Трећа лекција 
     activities:
       - type: reading
-        title: Појам вештачке интелигенције
+        title: Настанак вештачке интелигенције
         folder: 2.3. Појам вештачке интелигенције
-        file: AI.rst
+        file: AI1.rst
         description: #opciono
         guid: 03e25400-2c16-40a1-a652-28ef6ac7a690
       - type: reading
@@ -491,9 +491,9 @@ lessons:
     description: Четврта лекција 
     activities:
       - type: reading
-        title: Вештачка интелигенција у XXI веку
+        title: Вештачка интелигенција у XX и XXI веку
         folder: 2.4. Садашњост и будућност вештачке интелигенције
-        file: AI.rst
+        file: AI2.rst
         description: #opciono
         guid: 99a43822-ca17-4832-a1d5-cf26c199d945
       - type: reading
@@ -503,7 +503,7 @@ lessons:
         description: #opciono
         guid: fd9c658e-10f6-43ec-a65f-32eafac69cd0
       - type: reading
-        title: Будућност вештачке интелигенције
+        title: Будућност вештачке интелигенције и етичка питања
         folder: 2.4. Садашњост и будућност вештачке интелигенције
         file: Будућност.rst
         description: #opciono
