@@ -441,16 +441,32 @@
     
   <div class="section" id="id1">
 <h1>Унос података и формула у табелу<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h1>
-<p>Сада за сваког студента унеси бројеве који представљају сате проведене на послу радним даном и викендом
-и израчунај колико је сваки студент зарадио на свом летњем послу.</p>
+<p>Неколико студената је током лета радило преко Студентске задруге како би зарадили мало новца за летовање.
+Студентска задруга плаћа послове по сату, с тим да је накнада за сат рада током радног дана нижа од накнаде за сат
+рада преко викенда. Студенти су радили на различитим пословима, па су се и накнаде разликовале.
+У овој лекцији ћемо обрадити податке о студентским накнадама.</p>
 <div class="section" id="id2">
-<h2>Корак 3.<a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h2>
-<p>Унеси у табелу произвољне вредности.
-Када завршиш табела треба да изгледа овако (с тим да ћеш ти имати другачије вредности у колонама B и C):</p>
-<a class="reference internal image-reference" href="../_images/Recalc3.jpg"><img alt="../_images/Recalc3.jpg" class="align-center" src="../_images/Recalc3.jpg" style="width: 600px;" /></a>
+<h2>Корак 1.<a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h2>
+<p>Преузми табелу са следећег линка <a class="reference external" href="https://petljamediastorage.blob.core.windows.net/root/Media/Default/Kursevi/informatika_VIII/epodaci/LetnjiPoslovi.xlsx">LetnjiPoslovi.xlsx</a>
+тако што ћеш кликнути на линк <em>десним тастером миша („чудни клик“)</em> и онда у малом менију који се појави одабрати опцију
+„Save link as…“ како је то показано на следећој слици:</p>
+<a class="reference internal image-reference" href="../_images/Recalc2.jpg"><img alt="../_images/Recalc2.jpg" class="align-center" src="../_images/Recalc2.jpg" style="width: 600px;" /></a>
 </div>
 <div class="section" id="id3">
-<h2>Корак 4.<a class="headerlink" href="#id3" title="Permalink to this headline">¶</a></h2>
+<h2>Корак 2.<a class="headerlink" href="#id3" title="Permalink to this headline">¶</a></h2>
+<p>Пронађи табелу на свом рачунару (највероватније је завршила у <em>Downloads</em> фолдеру) и отвори је:</p>
+<a class="reference internal image-reference" href="../_images/Recalc1.jpg"><img alt="../_images/Recalc1.jpg" class="align-center" src="../_images/Recalc1.jpg" style="width: 600px;" /></a>
+<p>Сада за сваког студента унеси бројеве који представљају сате проведене на послу радним даном и викендом
+и израчунај колико је сваки студент зарадио на свом летњем послу.</p>
+</div>
+<div class="section" id="id4">
+<h2>Корак 3.<a class="headerlink" href="#id4" title="Permalink to this headline">¶</a></h2>
+<p>Унеси у табелу произвољне вредности.
+Када завршиш табела треба да изгледа овако (с тим да се може десити да добијеш другачије вредности у колонама B и C):</p>
+<a class="reference internal image-reference" href="../_images/Recalc3.jpg"><img alt="../_images/Recalc3.jpg" class="align-center" src="../_images/Recalc3.jpg" style="width: 600px;" /></a>
+</div>
+<div class="section" id="id5">
+<h2>Корак 4.<a class="headerlink" href="#id5" title="Permalink to this headline">¶</a></h2>
 <p>За првог студента на списку коначна зарада се рачуна по формули:</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="o">=</span> <span class="n">B3</span><span class="o">*</span><span class="n">D3</span> <span class="o">+</span> <span class="n">C3</span><span class="o">*</span><span class="n">E3</span>
 </pre></div>
@@ -476,27 +492,12 @@
 <p><strong>Ооооо, да! Ексел је „погодио“ коју формулу смо желели да упишемо у ћелију!</strong></p>
 
     </p></div></div>
-<p>Ево и кратког видеа:</p>
-
-    <div  id="2XiSIC0NU_A" class="ytvideo"  style="text-align: center; margin: 15px; cursor:pointer;">
-        <div style="background-image: url('https://img.youtube.com/vi/2XiSIC0NU_A/mqdefault.jpg'); background-repeat: no-repeat;background-position: center; height: 210px; width: 310px; margin: 0 auto; border: 1px solid #20c997">
-            <img src="/_static/images/play_button.svg" style="margin-top: 78px;" /> 
-        </div>
-      
-
-        </div>
-    <div id="modal-2XiSIC0NU_A" class="ytvideoclose" style="display: none; position: fixed; top: 0; left: 0; width: 100vw; height: 100vh; background-color: rgba(128, 182, 128, 0.3); z-index: 10000;">
-        <div style="background-color: white; position: fixed; top: 4vh; left: 5vw; width:  90vw; height:  90vh; z-index: 100;" id="YTmodal-2XiSIC0NU_A">
-        </div>
-    </div>
-    
-    
-    <p>Да буде одмах јасно, ово није никаква магија већ прост алгоритам. На основу формуле која је била уписана у
+<p>Да буде одмах јасно, ово није никаква магија већ прост алгоритам. На основу формуле која је била уписана у
 ћелију F4 Ексел је простим алгоритмом генерисао формуле и уписао их редом у све ћелије кроз које смо „развукли оквир“.
 Идеја алгоритма је да се слова у адреси ћелије не мењају, а бројеви у адреси ћелије се редом повећавају.
 Ево и табеларног прегледа:</p>
-<table class="docutils align-left" id="id5">
-<caption><span class="caption-text">Формуле у одговарајућим ћелијама табеле</span><a class="headerlink" href="#id5" title="Permalink to this table">¶</a></caption>
+<table class="docutils align-left" id="id7">
+<caption><span class="caption-text">Формуле у одговарајућим ћелијама табеле</span><a class="headerlink" href="#id7" title="Permalink to this table">¶</a></caption>
 <colgroup>
 <col style="width: 50%" />
 <col style="width: 50%" />
@@ -523,8 +524,8 @@
 </table>
 <p>и тако даље. Ова погодност се зове <em>брзо копирање формула</em> и често ћемо је користити.</p>
 </div>
-<div class="section" id="id4">
-<h2>Корак 5.<a class="headerlink" href="#id4" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="id6">
+<h2>Корак 5.<a class="headerlink" href="#id6" title="Permalink to this headline">¶</a></h2>
 <p>Израчунаћемо сада колико су просечно сати радили студенти радним данима и викендом, и колико су зарадили у просеку.
 Ексел може да аутоматски израчуна просек низа бројева, само треба позвати функцију AVERAGE (енгл. „просек“).</p>
 <p>У ћелију A12 упиши „Prosečno“. Сада желимо да у ћелији B12 прикажемо просечно време које су наведени студенти провели на послу.

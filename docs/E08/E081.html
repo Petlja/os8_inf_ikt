@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Сортирање података</title>
+    <title>Сортирање нумеричких података</title>
     <link rel="stylesheet" type="text/css" href="../_static/activecode.css" />
     <link rel="stylesheet" type="text/css" href="../_static/codemirror.css" />
     <link rel="stylesheet" type="text/css" href="../_static/clickable.css" />
@@ -440,10 +440,21 @@
     <div id="main-content">
     
   <div class="section" id="id1">
-<h1>Сортирање података<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h1>
+<h1>Сортирање нумеричких података<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h1>
 <p>Показаћемо сада како се у Екселу могу сортирати табеле.
 Приликом сортирања табеле Ексел преуређује врсте табеле
-тако да бројеви уписани у неку колону буду поређани по величини.</p>
+тако да вредности уписане у неку колону буду поређане по величини: од мањих ка већим,
+или од већих ка мањим.</p>
+
+    <div class="note-wrapper infonote-type">
+        <div class="note-icon-holder"> </div>
+        <img src="../_static/img/infonote-img.svg" class="note-image infonote-image" /> 
+        <div class="course-content">
+            <p>
+<p>Ексел може да сортира и нумеричке податке (бројеве) и текстуалне податке (рецимо, имена)!</p>
+
+    </p></div></div>
+<p>Прво ћемо показати сортирање нумеричких података.</p>
 <div class="section" id="id2">
 <h2>Корак 1.<a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h2>
 <p>Са следећег линка преузми документ <em>Top25YouTubers.xlsx</em> и сними га на свој рачунар:</p>
@@ -461,28 +472,20 @@
 <a class="reference internal image-reference" href="../_images/YT3.jpg"><img alt="../_images/YT3.jpg" class="align-center" src="../_images/YT3.jpg" style="width: 600px;" /></a>
 <p>Појавиће се прозор у коме можемо да одаберемо колону по којој ће бити сортирана табела:</p>
 <a class="reference internal image-reference" href="../_images/YT4.jpg"><img alt="../_images/YT4.jpg" class="align-center" src="../_images/YT4.jpg" style="width: 600px;" /></a>
-<p>У одељку „Column“ (енгл. „колона“) кликнемо на стрелицу, па у листи која се појавила одаберемо „VIEWS“ јер желимо да сортирамо табелу по броју прегледа (колона „VIEWS“):</p>
+<p>Кликни на стрелицу поред „Sort by“ (1),
+па у листи која се појавила (2) одабери „VIEWS“
+јер желимо да сортирамо табелу по броју прегледа (колона „VIEWS“):</p>
 <a class="reference internal image-reference" href="../_images/YT5.jpg"><img alt="../_images/YT5.jpg" class="align-center" src="../_images/YT5.jpg" style="width: 600px;" /></a>
-<p>Потом у одељку „Order“ (енгл. „редослед“) кликнемо на стрелицу, па у листи која се појавила одаберемо „Largest to Smallest“ јер желимо да сортирамо табелу од већих ка мањим вредностима. (Да смо којим случајем правили „листу срама“, одабрали бисмо опцију „Smallest to Largest“ која би наложила Екселу да сортира табелу од канала са најмање прегледа до канала са највише прегледа.)</p>
+<p>Потом у одељку „Order“ (енгл. „редослед“) кликни на стрелицу (1),
+па у листи која се појавила одабери „Largest to Smallest“ (2) јер желимо да сортирамо
+табелу од већих ка мањим вредностима.
+(Да смо којим случајем правили „листу срама“, одабрали бисмо опцију „Smallest to Largest“
+која би наложила Екселу да сортира табелу од канала са најмање прегледа до канала са највише прегледа.)
+Онда кликни на „OK“ (3):</p>
 <a class="reference internal image-reference" href="../_images/YT6.jpg"><img alt="../_images/YT6.jpg" class="align-center" src="../_images/YT6.jpg" style="width: 600px;" /></a>
 <p>Када кликнемо на „OK“ добијамо сортирану табелу (редови су испремештани тако да на првом месту буде канал са највише прегледа):</p>
 <a class="reference internal image-reference" href="../_images/YT7.jpg"><img alt="../_images/YT7.jpg" class="align-center" src="../_images/YT7.jpg" style="width: 600px;" /></a>
-<p>Ево и кратког видеа:</p>
-
-    <div  id="8LVLF73jbhE" class="ytvideo"  style="text-align: center; margin: 15px; cursor:pointer;">
-        <div style="background-image: url('https://img.youtube.com/vi/8LVLF73jbhE/mqdefault.jpg'); background-repeat: no-repeat;background-position: center; height: 210px; width: 310px; margin: 0 auto; border: 1px solid #20c997">
-            <img src="/_static/images/play_button.svg" style="margin-top: 78px;" /> 
-        </div>
-      
-
-        </div>
-    <div id="modal-8LVLF73jbhE" class="ytvideoclose" style="display: none; position: fixed; top: 0; left: 0; width: 100vw; height: 100vh; background-color: rgba(128, 182, 128, 0.3); z-index: 10000;">
-        <div style="background-color: white; position: fixed; top: 4vh; left: 5vw; width:  90vw; height:  90vh; z-index: 100;" id="YTmodal-8LVLF73jbhE">
-        </div>
-    </div>
-    
-    
-    </div>
+</div>
 <div class="section" id="id4">
 <h2>Корак 3.<a class="headerlink" href="#id4" title="Permalink to this headline">¶</a></h2>
 <p>Прикажимо број прегледа по каналима хистограмом. Означимо ћелије B1:B26 и онда <em>притиснемо тастер [CTRL] и држећи га притиснутог</em> означимо још и ћелије E1:E26.</p>
