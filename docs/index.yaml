@@ -95,16 +95,8 @@ lessons:
     file: E00.html
     guid: d799d350-0937-43bf-b24e-d4312aee6e8e
     src: E00.rst
-    title: Увод
+    title: Програми за табеларна израчунавања
     type: reading
-  archived-activities: []
-  description: ''
-  folder: E00
-  guid: d0425350-c866-4df8-9d3d-9a44d6cc4884
-  normalized_title: Информационо-комуникационе технологије (ИКТ) -- Програми за табеларна
-    израчунавања
-  title: Информационо-комуникационе технологије (ИКТ) -- Програми за табеларна израчунавања
-- activities:
   - description: ''
     file: E01.html
     guid: 6e09f3e9-24ae-4cf6-9773-7f514756c139
@@ -183,6 +175,12 @@ lessons:
     file: E03.html
     guid: f8400a28-db53-4a3e-b537-3a9d0514e465
     src: E03.rst
+    title: Рад са групама ћелија и и уређивање табеле
+    type: reading
+  - description: ''
+    file: E032.html
+    guid: 4c8d6080-8651-4e0e-ba3f-a20307fbd47c
+    src: E032.rst
     title: Уношење формула и брзо копирање
     type: reading
   - description: ''
@@ -225,20 +223,26 @@ lessons:
   description: ''
   folder: E03
   guid: ff4d9b25-0553-431e-8353-a451da635c1d
-  normalized_title: ИКТ.3. Селектовање групе ћелија и уређивање табеле
-  title: ИКТ.3. Селектовање групе ћелија и уређивање табеле
+  normalized_title: ИКТ.3. Рад са групама ћелија и и уређивање табеле
+  title: ИКТ.3. Рад са групама ћелија и и уређивање табеле
 - activities:
   - description: ''
     file: E04.html
     guid: 879f6826-f9b3-4f9e-9329-5f5dba06ae72
     src: E04.rst
-    title: Донације -- валуте у Ексел табели
+    title: Разне врсте података у табели
     type: reading
   - description: ''
     file: E042.html
     guid: 6a9340aa-1fe6-43c6-a0a9-0eb486927981
     src: E042.rst
     title: Музички фестивали у Европи -- датуми у Ексел табели
+    type: reading
+  - description: ''
+    file: E041.html
+    guid: 98bbfc50-a83d-415d-9a11-c150f049731e
+    src: E041.rst
+    title: Донације -- валуте у Ексел табели
     type: reading
   - description: ''
     file: E043.html
@@ -379,7 +383,13 @@ lessons:
     file: E081.html
     guid: 26e4cb2c-56d3-4bd4-a440-3be9badc2a17
     src: E081.rst
-    title: Сортирање података
+    title: Сортирање нумеричких података
+    type: reading
+  - description: ''
+    file: E081b.html
+    guid: 2336b67f-cdee-4090-9fa9-e8c253831170
+    src: E081b.rst
+    title: Сортирање текстуалних података
     type: reading
   - description: ''
     file: E082.html
@@ -416,19 +426,25 @@ lessons:
     file: E10.html
     guid: 1e346279-ce88-48e0-bc04-068d27400a9b
     src: E10.rst
-    title: Сервиси "у облаку" (cloud services)
+    title: Сервиси „у облаку“ (cloud services)
+    type: reading
+  - description: ''
+    file: E100.html
+    guid: 0f48bfc7-841c-452a-88be-d0f437d3fa5d
+    src: E100.rst
+    title: Приступ сервисима „у облаку“
     type: reading
   - description: ''
     file: E101.html
     guid: 40a4a067-bcfa-4d1e-891c-b193f0d15ba7
     src: E101.rst
-    title: Креирање документа "у облаку"
+    title: Креирање документа „у облаку“
     type: reading
   - description: ''
     file: E102.html
     guid: 0ec57ed6-49e7-437c-af64-b6fe6a542b67
     src: E102.rst
-    title: Дељење документа "у облаку" и сарадња
+    title: Дељење документа „у облаку“ и сарадња
     type: reading
   - description: ''
     file: E103.html
@@ -468,6 +484,12 @@ lessons:
   normalized_title: Дигитална писменост (ДП)
   title: Дигитална писменост (ДП)
 - activities:
+  - description: ''
+    file: Увод1.html
+    guid: e268eec2-c4a1-4588-a779-011a1f1b7c15
+    src: Увод1.rst
+    title: Увод
+    type: reading
   - description: ''
     file: Шта су лични подаци.html
     guid: b5e5751c-c61b-48a6-bd9b-6277489d7766
@@ -524,6 +546,12 @@ lessons:
   title: ДП.1. Заштита личних података. Права детета у дигиталном добу
 - activities:
   - description: ''
+    file: Увод2.html
+    guid: 337f0d4c-a12a-49fa-bdce-e0f469d37ee1
+    src: Увод2.rst
+    title: Увод
+    type: reading
+  - description: ''
     file: Подаци.html
     guid: 201be038-d738-4d0f-a00a-c1fcc4245d85
     src: Подаци.rst
@@ -531,9 +559,9 @@ lessons:
     type: reading
   - description: ''
     file: Отворени подаци.html
-    guid: 337f0d4c-a12a-49fa-bdce-e0f469d37ee1
+    guid: 0bbca7d6-3e56-4685-8759-08fe78f03623
     src: Отворени подаци.rst
-    title: Oтворени подаци -- појам
+    title: Отворени подаци
     type: reading
   - description: ''
     file: Отварање података.html
@@ -563,19 +591,13 @@ lessons:
     file: Визуелизација.html
     guid: 4ecb516a-2303-483b-9768-aa81d12fb130
     src: Визуелизација.rst
-    title: Визуaлизација отворених података и Инфографик
+    title: Визуaлизација отворених података и инфографик
     type: reading
   - description: ''
     file: Професије.html
     guid: eae110e4-23ba-4eed-b5f4-545719124221
     src: Професије.rst
     title: Професије у вези са подацима
-    type: reading
-  - description: ''
-    file: Закључак.html
-    guid: c6c87239-2c5b-40e4-956a-71ac3a4d2d64
-    src: Закључак.rst
-    title: Резиме
     type: reading
   - description: ''
     file: Квиз друге лекције.html
@@ -591,10 +613,10 @@ lessons:
   title: ДП.2. Отворени подаци
 - activities:
   - description: ''
-    file: AI.html
+    file: AI1.html
     guid: 03e25400-2c16-40a1-a652-28ef6ac7a690
-    src: AI.rst
-    title: Појам вештачке интелигенције
+    src: AI1.rst
+    title: Настанак вештачке интелигенције
     type: reading
   - description: ''
     file: ЈакаДеф.html
@@ -622,10 +644,10 @@ lessons:
   title: ДП.3. Појам вештачке интелигенције
 - activities:
   - description: ''
-    file: AI.html
+    file: AI2.html
     guid: 99a43822-ca17-4832-a1d5-cf26c199d945
-    src: AI.rst
-    title: Вештачка интелигенција у XXI веку
+    src: AI2.rst
+    title: Вештачка интелигенција у XX и XXI веку
     type: reading
   - description: ''
     file: Примене.html
@@ -637,7 +659,7 @@ lessons:
     file: Будућност.html
     guid: ecfa3825-901d-4034-8fc3-cac6cca17a2a
     src: Будућност.rst
-    title: Будућност вештачке интелигенције
+    title: Будућност вештачке интелигенције и етичка питања
     type: reading
   - description: ''
     file: kviz.html
