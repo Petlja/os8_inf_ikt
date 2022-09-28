@@ -6,6 +6,7 @@
     <title>Музички фестивали у Европи – датуми у Ексел табели</title>
     <link rel="stylesheet" type="text/css" href="../_static/activecode.css" />
     <link rel="stylesheet" type="text/css" href="../_static/codemirror.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/qchoice.css" />
     <link rel="stylesheet" type="text/css" href="../_static/clickable.css" />
     <link rel="stylesheet" type="text/css" href="../_static/pytutor.css" />
     <link rel="stylesheet" type="text/css" href="../_static/modal-basic.css" />
@@ -108,6 +109,7 @@
     <script type="text/javascript" src="../_static/karelCorner.js"></script>
     <script type="text/javascript" src="../_static/karelRobot.js"></script>
     <script type="text/javascript" src="../_static/karelWorld.js"></script>
+    <script type="text/javascript" src="../_static/karelChat.js"></script>
     <script type="text/javascript" src="../_static/karelRobotDrawer.js"></script>
     <script type="text/javascript" src="../_static/karelUI.js"></script>
     <script type="text/javascript" src="../_static/karel.js"></script>
@@ -542,14 +544,14 @@
 <span class="mf">9.6</span><span class="o">.</span><span class="mi">2019</span>
 </pre></div>
 </div>
-<p>Ексел ће препознати да су то датуми (енгл. <em>Date</em> значи „датум“):</p>
+<p>Ексел ће препознати да су то датуми (енг. <em>date</em> значи „датум“):</p>
 <a class="reference internal image-reference" href="../_images/DataTypes103.jpg"><img alt="../_images/DataTypes103.jpg" class="align-center" src="../_images/DataTypes103.jpg" style="width: 600px;" /></a>
 
     <div class="note-wrapper infonote-type">
         <div class="note-icon-holder"> </div>
         <img src="../_static/img/infonote-img.svg" class="note-image infonote-image" /> 
         <div class="course-content">
-            <p>
+            
 <p>Понекад, уз другачија регионална подешавања (<em>Regional settings</em>), може се десити да Ексел
 не препозна овако представљене датуме. Тада се датум може унети у облику DD-MM-GG где смо
 употребили по две цифре за дан, месец и годину и раздвојили их цртицама. На пример, овако:</p>
@@ -558,7 +560,7 @@
 </pre></div>
 </div>
 
-    </p></div></div>
+    </div></div>
 <p>Унесимо податке о осталим фестивалима. У нашем примеру табела изгледа овако:</p>
 <a class="reference internal image-reference" href="../_images/DataTypes104.jpg"><img alt="../_images/DataTypes104.jpg" class="align-center" src="../_images/DataTypes104.jpg" style="width: 600px;" /></a>
 </div>
@@ -575,13 +577,13 @@
         <div class="note-icon-holder"> </div>
         <img src="../_static/img/infonote-img.svg" class="note-image infonote-image" /> 
         <div class="course-content">
-            <p>
+            
 <p><strong>О, да! Ексел уме да рачуна са датумима!</strong></p>
 
-    </p></div></div>
+    </div></div>
 <p>Када притиснемо [ENTER] добијамо следеће стање:</p>
 <a class="reference internal image-reference" href="../_images/DataTypes106.jpg"><img alt="../_images/DataTypes106.jpg" class="align-center" src="../_images/DataTypes106.jpg" style="width: 600px;" /></a>
-<p>Видимо да је Ексел за фестивал који се одржава 7.6, 8.6. и 9.6.2019. обрачунао да траје 2 дана. Разлог је у томе што се у пословном свету ова функција углавном користи за обрачун дневница (од 7.6. до 8.6. је једна дневница, и од 8.6. до 9.6. је друга дневница). Овај фестивал, с друге стране, траје три дана: цео 7.6, цео 8.6. и цео 9.6. Зато морамо да прилагодимо формулу нашој ситуацији и да унесемо:</p>
+<p>Видимо да је Ексел за фестивал који се одржава 7.6, 8.6. и 9.6.2019. обрачунао да траје два дана. Разлог је у томе што се у пословном свету ова функција углавном користи за обрачун дневница (од 7.6. до 8.6. је једна дневница, и од 8.6. до 9.6. је друга дневница). Овај фестивал, с друге стране, траје три дана: цео 7.6, цео 8.6. и цео 9.6. Зато морамо да прилагодимо формулу нашој ситуацији и да унесемо:</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="o">=</span><span class="n">D2</span><span class="o">-</span><span class="n">C2</span><span class="o">+</span><span class="mi">1</span>
 </pre></div>
 </div>
@@ -636,13 +638,13 @@
 </div>
 <div class="section" id="id13">
 <h2>Корак 12.<a class="headerlink" href="#id13" title="Permalink to this headline">¶</a></h2>
-<p>Још само једна естетска ситница и готови смо! Датуми одржавања фестивала и трајање фестивала су поравнати по десној ивици, док су имена одговарајућих колона (C, D и E) поравната по левој ивици. Поравнаћемо и њих по десној ивици, да нам табела буде лепша. Томе служе команде из групе „Alignment“ (енгл. „поравнавање“):</p>
+<p>Још само једна естетска ситница и готови смо! Датуми одржавања фестивала и трајање фестивала су поравнати по десној ивици,
+док су имена одговарајућих колона (C, D и E) поравната по левој ивици. Поравнаћемо и њих по десној ивици, да нам табела буде лепша.
+Томе служе команде из групе „Alignment“ („поравнавање“):</p>
 <a class="reference internal image-reference" href="../_images/DataTypes117.jpg"><img alt="../_images/DataTypes117.jpg" class="align-center" src="../_images/DataTypes117.jpg" style="width: 600px;" /></a>
-<ol class="arabic simple">
-<li><p>Вертикално поравнавање садржаја ћелије може бити уз горњу ивицу, центрирано, или уз доњу ивицу.</p></li>
-<li><p>Хоризонтално поравнавање садржаја ћелије може бити уз леву ивицу, центрирано, или уз десну ивицу.</p></li>
-</ol>
-<p>Команде „Wrap Text“ (3) и „Merge Cells“ (4) ћемо објаснити ускоро.</p>
+<p>Вертикално поравнавање садржаја ћелије (1) може бити уз горњу ивицу, центрирано, или уз доњу ивицу.
+Хоризонтално поравнавање садржаја ћелије (2) може бити уз леву ивицу, центрирано, или уз десну ивицу.
+Команде „Wrap Text“ (3) и „Merge Cells“ (4) ћемо објаснити ускоро.</p>
 <p>Желимо да поравнамо садржај уз десну ивицу. Зато селектуј ћелије C1:E1 и одабери поравнавање уз десну ивицу:</p>
 <a class="reference internal image-reference" href="../_images/DataTypes119.jpg"><img alt="../_images/DataTypes119.jpg" class="align-center" src="../_images/DataTypes119.jpg" style="width: 600px;" /></a>
 <p>Тако добијамо коначан изглед табеле:</p>

@@ -6,6 +6,7 @@
     <title>Фреквенцијска анализа</title>
     <link rel="stylesheet" type="text/css" href="../_static/activecode.css" />
     <link rel="stylesheet" type="text/css" href="../_static/codemirror.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/qchoice.css" />
     <link rel="stylesheet" type="text/css" href="../_static/clickable.css" />
     <link rel="stylesheet" type="text/css" href="../_static/pytutor.css" />
     <link rel="stylesheet" type="text/css" href="../_static/modal-basic.css" />
@@ -108,6 +109,7 @@
     <script type="text/javascript" src="../_static/karelCorner.js"></script>
     <script type="text/javascript" src="../_static/karelRobot.js"></script>
     <script type="text/javascript" src="../_static/karelWorld.js"></script>
+    <script type="text/javascript" src="../_static/karelChat.js"></script>
     <script type="text/javascript" src="../_static/karelRobotDrawer.js"></script>
     <script type="text/javascript" src="../_static/karelUI.js"></script>
     <script type="text/javascript" src="../_static/karel.js"></script>
@@ -454,19 +456,18 @@
 <div class="section" id="id3">
 <h2>Корак 2.<a class="headerlink" href="#id3" title="Permalink to this headline">¶</a></h2>
 <p>Фреквенцијска анализа у односу са рејтинг канала се састоји у томе да за сваки од рејтинга који се појављују у колони А (А++, А+, А, А-, B+, B и B-) утврдимо колико се пута јављају у колони А.</p>
-<p>У ћелију А28 унеси текст <em>GRADE</em>, а у ћелију B28 текст <em>FREQUENCY</em>; онда у ћелије А29, А30, А31, А32, А33, А34, A35 унеси рејтинге А++, А+, А, А-, B+, B и B-:</p>
+<p>У ћелију А28 унеси текст „GRADE“, а у ћелију B28 текст „FREQUENCY“; онда у ћелије А29, А30, А31, А32, А33, А34, A35 унеси рејтинге А++, А+, А, А-, B+, B и B-:</p>
 <a class="reference internal image-reference" href="../_images/FA2.jpg"><img alt="../_images/FA2.jpg" class="align-center" src="../_images/FA2.jpg" style="width: 600px;" /></a>
 </div>
 <div class="section" id="id4">
 <h2>Корак 3.<a class="headerlink" href="#id4" title="Permalink to this headline">¶</a></h2>
-<p>Да бисмо утврдили, рецимо, колико пута се у колони А јавља рејтинг А++ треба да кренемо да <em>бројимо</em> ћелије колоне А, али само <em>ако</em> је њихов садржај једнак са А++. Екселова функција која <em>броји</em> (енгл. <em>count</em>) ћелије, али само <em>ако</em> (енгл. <em>if</em>) је њихова вредност једнака датој, зове се COUNTIF.</p>
+<p>Да бисмо утврдили, рецимо, колико пута се у колони А јавља рејтинг А++ треба да кренемо да <em>бројимо</em> ћелије колоне А, али само <em>ако</em> је њихов садржај једнак са А++. Екселова функција која <em>броји</em> (енг. <em>count</em>) ћелије, али само <em>ако</em> (енг. <em>if</em>) је њихова вредност једнака датој, зове се COUNTIF.</p>
 <p>У ћелију B29 унеси формулу:</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="o">=</span><span class="n">COUNTIF</span><span class="p">(</span><span class="n">A2</span><span class="p">:</span><span class="n">A26</span><span class="p">,</span> <span class="s2">&quot;A++&quot;</span><span class="p">)</span>
 </pre></div>
 </div>
 <a class="reference internal image-reference" href="../_images/FA3.jpg"><img alt="../_images/FA3.jpg" class="align-center" src="../_images/FA3.jpg" style="width: 600px;" /></a>
-<p>Ова функција ће проћи кроз ћелије А2:А26, пребројати колико пута се појављује А++ и тај број уписати у ћелију B29:</p>
-<a class="reference internal image-reference" href="../_images/FA4.jpg"><img alt="../_images/FA4.jpg" class="align-center" src="../_images/FA4.jpg" style="width: 600px;" /></a>
+<p>Ова функција ће проћи кроз ћелије А2:А26, пребројати колико пута се појављује А++ и тај број уписати у ћелију B29.</p>
 <p>Потом у ћелије B30, B31, B32, B33, B34 и B35 редом унеси формуле:</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="o">=</span><span class="n">COUNTIF</span><span class="p">(</span><span class="n">A2</span><span class="p">:</span><span class="n">A26</span><span class="p">,</span> <span class="s2">&quot;A+&quot;</span><span class="p">)</span>
 <span class="o">=</span><span class="n">COUNTIF</span><span class="p">(</span><span class="n">A2</span><span class="p">:</span><span class="n">A26</span><span class="p">,</span> <span class="s2">&quot;A&quot;</span><span class="p">)</span>
