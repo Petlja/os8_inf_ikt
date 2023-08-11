@@ -94,36 +94,42 @@ lessons:
   - description: ''
     file: E00.html
     guid: d799d350-0937-43bf-b24e-d4312aee6e8e
+    normalized_title: Програми за табеларна израчунавања
     src: E00.rst
     title: Програми за табеларна израчунавања
     type: reading
   - description: ''
     file: E01.html
     guid: 6e09f3e9-24ae-4cf6-9773-7f514756c139
+    normalized_title: Покретање Ексела
     src: E01.rst
     title: Покретање Ексела
     type: reading
   - description: ''
     file: E012.html
     guid: 2af0675f-e1de-4989-87e3-edbc937b802d
+    normalized_title: Навигација и уношење података у табелу
     src: E012.rst
     title: Навигација и уношење података у табелу
     type: reading
   - description: ''
     file: E013.html
     guid: cd6ca4c3-a150-4715-bf00-68cad0d68341
+    normalized_title: Једноставне формуле
     src: E013.rst
     title: Једноставне формуле
     type: reading
   - description: ''
     file: E014.html
     guid: 0900f441-da5c-47d1-a917-aa05fc823f63
+    normalized_title: Задаци за вежбу
     src: E014.rst
     title: Задаци за вежбу
     type: reading
   - description: ''
     file: testE01.html
     guid: d6d48387-1fda-4483-ae01-9f15114963bd
+    normalized_title: Квиз
     src: testE01.rst
     title: Квиз
     type: quiz
@@ -137,30 +143,35 @@ lessons:
   - description: ''
     file: E02.html
     guid: 52f81b05-f499-429a-8089-4a27c38cd6cc
+    normalized_title: Аутоматска рекалкулација
     src: E02.rst
     title: Аутоматска рекалкулација
     type: reading
   - description: ''
     file: E022.html
     guid: 07960120-42de-483b-b6c9-fff25395ed50
+    normalized_title: Унос података и формула у табелу
     src: E022.rst
     title: Унос података и формула у табелу
     type: reading
   - description: ''
     file: E023.html
     guid: 0e5a8c0c-453f-4d62-b71b-b2622c25a8cb
+    normalized_title: Додавање врста и колона табели
     src: E023.rst
     title: Додавање врста и колона табели
     type: reading
   - description: ''
     file: E024.html
     guid: 007eeade-670b-477e-83d4-698174e7d44c
+    normalized_title: Задаци за вежбу
     src: E024.rst
     title: Задаци за вежбу
     type: reading
   - description: ''
     file: testE02.html
     guid: 522ef612-ffde-4b75-9e27-0f712542dd75
+    normalized_title: Квиз
     src: testE02.rst
     title: Квиз
     type: quiz
@@ -174,48 +185,56 @@ lessons:
   - description: ''
     file: E03.html
     guid: f8400a28-db53-4a3e-b537-3a9d0514e465
+    normalized_title: Рад са групама ћелија и и уређивање табеле
     src: E03.rst
     title: Рад са групама ћелија и и уређивање табеле
     type: reading
   - description: ''
     file: E032.html
     guid: 4c8d6080-8651-4e0e-ba3f-a20307fbd47c
+    normalized_title: Уношење формула и брзо копирање
     src: E032.rst
     title: Уношење формула и брзо копирање
     type: reading
   - description: ''
     file: E033.html
     guid: e4a43710-6cdf-4bc8-8159-86c4b2c88737
+    normalized_title: Селектовање групе ћелија
     src: E033.rst
     title: Селектовање групе ћелија
     type: reading
   - description: ''
     file: E034.html
     guid: 8ca892df-e57c-42c2-ab58-b7f12a8b6952
+    normalized_title: Форматирање децималних бројева
     src: E034.rst
     title: Форматирање децималних бројева
     type: reading
   - description: ''
     file: E035.html
     guid: 77dadc99-9855-4eac-bca5-b562f43e3113
+    normalized_title: Рачунање минимума и максимума
     src: E035.rst
     title: Рачунање минимума и максимума
     type: reading
   - description: ''
     file: E036.html
     guid: 3cb8a6d9-5218-45ee-a08d-57eae349fdf8
+    normalized_title: Уређивање табеле
     src: E036.rst
     title: Уређивање табеле
     type: reading
   - description: ''
     file: E037.html
     guid: 30c25ce7-7ee1-438b-b51c-ac15236dd6b9
+    normalized_title: Задаци за вежбу
     src: E037.rst
     title: Задаци за вежбу
     type: reading
   - description: ''
     file: testE03.html
     guid: 4c88c1c0-fe19-43b5-a4d6-22715d1a5fe4
+    normalized_title: Квиз
     src: testE03.rst
     title: Квиз
     type: quiz
@@ -229,36 +248,42 @@ lessons:
   - description: ''
     file: E04.html
     guid: 879f6826-f9b3-4f9e-9329-5f5dba06ae72
+    normalized_title: Разне врсте података у табели
     src: E04.rst
     title: Разне врсте података у табели
     type: reading
   - description: ''
     file: E042.html
     guid: 6a9340aa-1fe6-43c6-a0a9-0eb486927981
+    normalized_title: Музички фестивали у Европи -- датуми у Ексел табели
     src: E042.rst
     title: Музички фестивали у Европи -- датуми у Ексел табели
     type: reading
   - description: ''
     file: E041.html
     guid: 98bbfc50-a83d-415d-9a11-c150f049731e
+    normalized_title: Донације -- валуте у Ексел табели
     src: E041.rst
     title: Донације -- валуте у Ексел табели
     type: reading
   - description: ''
     file: E043.html
     guid: 90ee3dc3-25d9-4d18-a3fb-19becffec9a5
+    normalized_title: Плеј-листа -- време у Ексел табели
     src: E043.rst
     title: Плеј-листа -- време у Ексел табели
     type: reading
   - description: ''
     file: E044.html
     guid: d143bdb5-9db6-4be3-9f77-1cf0e936a60f
+    normalized_title: Задаци за вежбу
     src: E044.rst
     title: Задаци за вежбу
     type: reading
   - description: ''
     file: testE04.html
     guid: 5c029f15-e7aa-4ec4-85ca-53f624045595
+    normalized_title: Квиз
     src: testE04.rst
     title: Квиз
     type: quiz
@@ -272,48 +297,56 @@ lessons:
   - description: ''
     file: E05.html
     guid: 6b7ffed1-94a2-497d-8fd2-2e7938502faf
+    normalized_title: Проценти, штампање и генерисање ПДФ документа
     src: E05.rst
     title: Проценти, штампање и генерисање ПДФ документа
     type: reading
   - description: ''
     file: E051.html
     guid: 0c3f9f6e-f268-4148-8ca4-ef27cb243d95
+    normalized_title: Проширивање врсте и приказивање садржаја ћелије у више редова
     src: E051.rst
     title: Проширивање врсте и приказивање садржаја ћелије у више редова
     type: reading
   - description: ''
     file: E052.html
     guid: 4edf9f35-a014-4909-abac-ed6d6a37539c
+    normalized_title: Приказивање бројева  у облику процента
     src: E052.rst
     title: Приказивање бројева  у облику процента
     type: reading
   - description: ''
     file: E053.html
     guid: 87908e4f-9e48-422d-a857-3c679123444f
+    normalized_title: Спајање ћелија и промена величине слова
     src: E053.rst
     title: Спајање ћелија и промена величине слова
     type: reading
   - description: ''
     file: E054.html
     guid: 5d1779ae-779f-4450-b4bf-86804e5cbbe4
+    normalized_title: Штампање документа
     src: E054.rst
     title: Штампање документа
     type: reading
   - description: ''
     file: E055.html
     guid: a0d4869b-3c6c-45b3-815d-b4cc2489c48e
+    normalized_title: Снимање документа у ПДФ формату
     src: E055.rst
     title: Снимање документа у ПДФ формату
     type: reading
   - description: ''
     file: E056.html
     guid: e442ac98-1490-4845-9755-0d2137c85e7b
+    normalized_title: Задаци за вежбу
     src: E056.rst
     title: Задаци за вежбу
     type: reading
   - description: ''
     file: testE05.html
     guid: c587a2e3-79ef-49c2-a8bc-f1270b41cb91
+    normalized_title: Квиз
     src: testE05.rst
     title: Квиз
     type: quiz
@@ -327,42 +360,49 @@ lessons:
   - description: ''
     file: E07.html
     guid: 823dc087-b5b4-4194-91e2-a499f7c03692
+    normalized_title: Визуелизација података
     src: E07.rst
     title: Визуелизација података
     type: reading
   - description: ''
     file: E071.html
     guid: 53032979-4dd3-4ef9-82c0-85e1444accc4
+    normalized_title: Промена величине у времену - Scatter дијаграм
     src: E071.rst
     title: Промена величине у времену - Scatter дијаграм
     type: reading
   - description: ''
     file: E072.html
     guid: 53121acf-f5dc-4401-9479-e57420cd8935
+    normalized_title: Компаративна анализа -- Стубичасти дијаграми
     src: E072.rst
     title: Компаративна анализа -- Стубичасти дијаграми
     type: reading
   - description: ''
     file: E073.html
     guid: 0299c06e-c383-49b6-bf1f-8bcf4f0d2bf2
+    normalized_title: Визуелизација удела у целини -- Секторски дијаграми
     src: E073.rst
     title: Визуелизација удела у целини -- Секторски дијаграми
     type: reading
   - description: ''
     file: E074.html
     guid: af508c7f-52e5-403e-8ae4-3d7c3ea2485e
+    normalized_title: Приказивање две групе података на истом дијаграму
     src: E074.rst
     title: Приказивање две групе података на истом дијаграму
     type: reading
   - description: ''
     file: E075.html
     guid: 7a6d3281-5d1e-471b-b7eb-ebf044f59aff
+    normalized_title: Задаци за вежбу
     src: E075.rst
     title: Задаци за вежбу
     type: reading
   - description: ''
     file: testE07.html
     guid: f8625dbe-1a47-498c-8198-643397002298
+    normalized_title: Квиз
     src: testE07.rst
     title: Квиз
     type: quiz
@@ -376,42 +416,49 @@ lessons:
   - description: ''
     file: E08.html
     guid: d171f716-f17e-429e-a531-206a81010389
+    normalized_title: Сортирање, филтрирање и фреквенцијска анализа
     src: E08.rst
     title: Сортирање, филтрирање и фреквенцијска анализа
     type: reading
   - description: ''
     file: E081.html
     guid: 26e4cb2c-56d3-4bd4-a440-3be9badc2a17
+    normalized_title: Сортирање нумеричких података
     src: E081.rst
     title: Сортирање нумеричких података
     type: reading
   - description: ''
     file: E081b.html
     guid: 2336b67f-cdee-4090-9fa9-e8c253831170
+    normalized_title: Сортирање текстуалних података
     src: E081b.rst
     title: Сортирање текстуалних података
     type: reading
   - description: ''
     file: E082.html
     guid: 496dfc95-45d8-43dc-90c8-ac835fd134da
+    normalized_title: Филтрирање података
     src: E082.rst
     title: Филтрирање података
     type: reading
   - description: ''
     file: E083.html
     guid: 0a10289e-c1da-4fbe-a4f0-9d1c71beafa2
+    normalized_title: Фреквенцијска анализа
     src: E083.rst
     title: Фреквенцијска анализа
     type: reading
   - description: ''
     file: E084.html
     guid: 11e3a093-ca7d-450a-9c9f-eac4d406a6e5
+    normalized_title: Задаци за вежбу
     src: E084.rst
     title: Задаци за вежбу
     type: reading
   - description: ''
     file: testE08.html
     guid: 54fc969f-fe03-4d65-81ad-40c8a07650c1
+    normalized_title: Квиз
     src: testE08.rst
     title: Квиз
     type: quiz
@@ -425,42 +472,49 @@ lessons:
   - description: ''
     file: E10.html
     guid: 1e346279-ce88-48e0-bc04-068d27400a9b
+    normalized_title: Сервиси „у облаку“ (cloud services)
     src: E10.rst
     title: Сервиси „у облаку“ (cloud services)
     type: reading
   - description: ''
     file: E100.html
     guid: 0f48bfc7-841c-452a-88be-d0f437d3fa5d
+    normalized_title: Приступ сервисима „у облаку“
     src: E100.rst
     title: Приступ сервисима „у облаку“
     type: reading
   - description: ''
     file: E101.html
     guid: 40a4a067-bcfa-4d1e-891c-b193f0d15ba7
+    normalized_title: Креирање документа „у облаку“
     src: E101.rst
     title: Креирање документа „у облаку“
     type: reading
   - description: ''
     file: E102.html
     guid: 0ec57ed6-49e7-437c-af64-b6fe6a542b67
+    normalized_title: Дељење документа „у облаку“ и сарадња
     src: E102.rst
     title: Дељење документа „у облаку“ и сарадња
     type: reading
   - description: ''
     file: E103.html
     guid: ce3e8668-9525-4b02-b037-aafcc8aea2fb
+    normalized_title: Преузимање документа
     src: E103.rst
     title: Преузимање документа
     type: reading
   - description: ''
     file: E104.html
     guid: d880e397-34a2-4938-b20f-eca15a611528
+    normalized_title: Задаци за вежбу
     src: E104.rst
     title: Задаци за вежбу
     type: reading
   - description: ''
     file: testE10.html
     guid: 6d5f32c9-8d8f-4907-8849-d453e254e906
+    normalized_title: Квиз
     src: testE10.rst
     title: Квиз
     type: quiz
@@ -474,6 +528,7 @@ lessons:
   - description: ''
     file: DP00.html
     guid: 96b17bc5-8a1f-4a50-9543-13f7c9fcc6b1
+    normalized_title: Увод
     src: DP00.rst
     title: Увод
     type: reading
@@ -487,54 +542,63 @@ lessons:
   - description: ''
     file: Увод1.html
     guid: e268eec2-c4a1-4588-a779-011a1f1b7c15
+    normalized_title: Увод
     src: Увод1.rst
     title: Увод
     type: reading
   - description: ''
     file: Шта су лични подаци.html
     guid: b5e5751c-c61b-48a6-bd9b-6277489d7766
+    normalized_title: Шта су лични подаци
     src: Шта су лични подаци.rst
     title: Шта су лични подаци
     type: reading
   - description: ''
     file: Од кога се штитимо.html
     guid: e8afba90-cc11-4b82-9992-0b4bec5c7f8b
+    normalized_title: Од кога се штитимо
     src: Од кога се штитимо.rst
     title: Од кога се штитимо
     type: reading
   - description: ''
     file: Како сејемо личне податке.html
     guid: ac260ae3-a2be-4156-943e-fed19abb791a
+    normalized_title: Како сејемо личне податке
     src: Како сејемо личне податке.rst
     title: Како сејемо личне податке
     type: reading
   - description: ''
     file: Како одрасли сеју личне податке.html
     guid: 4168ea58-4721-49be-836d-923ceef5d25c
+    normalized_title: Лични подаци деце
     src: Како одрасли сеју личне податке.rst
     title: Лични подаци деце
     type: reading
   - description: ''
     file: Како да се заштитиш.html
     guid: f38318c5-a9bd-4381-9c30-bb070f07c896
+    normalized_title: Како да се заштитиш
     src: Како да се заштитиш.rst
     title: Како да се заштитиш
     type: reading
   - description: ''
     file: Вежба 1 - Дељење и контрола личних података.html
     guid: d2c51875-7040-4bc5-9c01-1612fa731415
+    normalized_title: Вежба 1 - Дељење и контрола личних података
     src: Вежба 1 - Дељење и контрола личних података.rst
     title: Вежба 1 - Дељење и контрола личних података
     type: reading
   - description: ''
     file: Вежба 2 - Заштита приватности личних података.html
     guid: 2b025902-d3b2-4b27-b326-fc2df03a0fe7
+    normalized_title: Вежба 2 - Заштита приватности личних података
     src: Вежба 2 - Заштита приватности личних података.rst
     title: Вежба 2 - Заштита приватности личних података
     type: reading
   - description: ''
     file: Квиз прве лекције.html
     guid: 0a625cf8-2208-433a-b9ec-b11f48d3e969
+    normalized_title: Квиз прве лекције
     src: Квиз прве лекције.rst
     title: Квиз прве лекције
     type: quiz
@@ -548,60 +612,70 @@ lessons:
   - description: ''
     file: Увод2.html
     guid: 337f0d4c-a12a-49fa-bdce-e0f469d37ee1
+    normalized_title: Увод
     src: Увод2.rst
     title: Увод
     type: reading
   - description: ''
     file: Подаци.html
     guid: 201be038-d738-4d0f-a00a-c1fcc4245d85
+    normalized_title: Подаци, подаци, подаци
     src: Подаци.rst
     title: Подаци, подаци, подаци
     type: reading
   - description: ''
     file: Отворени подаци.html
     guid: 0bbca7d6-3e56-4685-8759-08fe78f03623
+    normalized_title: Отворени подаци
     src: Отворени подаци.rst
     title: Отворени подаци
     type: reading
   - description: ''
     file: Отварање података.html
     guid: fd6d0611-b0a3-404a-87ec-2785ab18751c
+    normalized_title: Отварање података
     src: Отварање података.rst
     title: Отварање података
     type: reading
   - description: ''
     file: Big data.html
     guid: 75dccbef-4b67-4e69-b69d-fbaf117b7bec
+    normalized_title: Веееееелики подаци (Big data)
     src: Big data.rst
     title: Веееееелики подаци (Big data)
     type: reading
   - description: ''
     file: Портали.html
     guid: 6cc418af-2b4c-4116-81fe-e39ee5db4112
+    normalized_title: Портали отворених података
     src: Портали.rst
     title: Портали отворених података
     type: reading
   - description: ''
     file: Формати.html
     guid: f2ab3a68-a04f-4906-af51-1dfa4f7fcebc
+    normalized_title: Формати отворених података
     src: Формати.rst
     title: Формати отворених података
     type: reading
   - description: ''
     file: Визуелизација.html
     guid: 4ecb516a-2303-483b-9768-aa81d12fb130
+    normalized_title: Визуaлизација отворених података и инфографик
     src: Визуелизација.rst
     title: Визуaлизација отворених података и инфографик
     type: reading
   - description: ''
     file: Професије.html
     guid: eae110e4-23ba-4eed-b5f4-545719124221
+    normalized_title: Професије у вези са подацима
     src: Професије.rst
     title: Професије у вези са подацима
     type: reading
   - description: ''
     file: Квиз друге лекције.html
     guid: d8dd0599-b61f-482d-a80f-4feb7372ed8c
+    normalized_title: Квиз друге лекције
     src: Квиз друге лекције.rst
     title: Квиз друге лекције
     type: quiz
@@ -615,24 +689,28 @@ lessons:
   - description: ''
     file: AI1.html
     guid: 03e25400-2c16-40a1-a652-28ef6ac7a690
+    normalized_title: Настанак вештачке интелигенције
     src: AI1.rst
     title: Настанак вештачке интелигенције
     type: reading
   - description: ''
     file: ЈакаДеф.html
     guid: 578355fc-aab2-4eda-801d-4a2da465369b
+    normalized_title: Рани оптимизам XX века
     src: ЈакаДеф.rst
     title: Рани оптимизам XX века
     type: reading
   - description: ''
     file: ТТ.html
     guid: 4be39967-0e8a-4bf7-bd8f-fc5964f9ebe8
+    normalized_title: Тјурингов тест
     src: ТТ.rst
     title: Тјурингов тест
     type: reading
   - description: ''
     file: kviz.html
     guid: 75ab1fd2-b455-49c9-b482-6ea1ab7b8963
+    normalized_title: Квиз треће лекције
     src: kviz.rst
     title: Квиз треће лекције
     type: quiz
@@ -646,24 +724,28 @@ lessons:
   - description: ''
     file: AI2.html
     guid: 99a43822-ca17-4832-a1d5-cf26c199d945
+    normalized_title: Вештачка интелигенција у XX и XXI веку
     src: AI2.rst
     title: Вештачка интелигенција у XX и XXI веку
     type: reading
   - description: ''
     file: Примене.html
     guid: fd9c658e-10f6-43ec-a65f-32eafac69cd0
+    normalized_title: Примене вештачке интелигенције
     src: Примене.rst
     title: Примене вештачке интелигенције
     type: reading
   - description: ''
     file: Будућност.html
     guid: ecfa3825-901d-4034-8fc3-cac6cca17a2a
+    normalized_title: Будућност вештачке интелигенције и етичка питања
     src: Будућност.rst
     title: Будућност вештачке интелигенције и етичка питања
     type: reading
   - description: ''
     file: kviz.html
     guid: 9e1a9ddb-e277-4a95-be3c-e519841bce33
+    normalized_title: Квиз четврте лекције
     src: kviz.rst
     title: Квиз четврте лекције
     type: quiz
