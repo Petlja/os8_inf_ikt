@@ -21,13 +21,13 @@
 
 **Пример 1.**
 
-.. image:: ../../_images/Saglasnost1.png
+.. image:: ../../_images/Saglasnost1.PNG
    :width: 600 px
    :align: center 
 
 **Пример 2.**
 
-.. image:: ../../_images/Saglasnost2.png
+.. image:: ../../_images/Saglasnost2.PNG
    :width: 600 px
    :align: center 
 
